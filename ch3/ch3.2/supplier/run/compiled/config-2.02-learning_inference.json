@@ -1,0 +1,2118 @@
+{
+  "deepdive": {
+    "calibration": {
+      "holdout_fraction": 0.25
+    },
+    "db": {
+      "default": {
+        "dbname": "supplier_db",
+        "driver": "org.postgresql.Driver",
+        "host": "192.168.1.110",
+        "incremental_mode": "ORIGINAL",
+        "password": "",
+        "port": "5432",
+        "url": "jdbc:postgresql://192.168.1.110:5432/supplier_db",
+        "user": "postgres"
+      }
+    },
+    "extraction": {
+      "extractors": {
+        "ext_company_mention_by_map_company_mention": {
+          "dependencies": [
+            "ext_sentences_by_nlp_markup"
+          ],
+          "input": " SELECT R0.doc_id AS \"sentences.R0.doc_id\", R0.sentence_index AS \"sentences.R0.sentence_index\", R0.tokens AS \"sentences.R0.tokens\", R0.ner_tags AS \"sentences.R0.ner_tags\"\nFROM sentences R0\n        \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "sentences"
+          ],
+          "output_relation": "company_mention",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/map_company_mention.py"
+        },
+        "ext_has_relation": {
+          "cmd": "\n\n\t# TODO use temporary table\n\tdeepdive create table \"has_relation\"\n\tdeepdive sql 'INSERT INTO has_relation SELECT DISTINCT R0.column_0, R0.column_1, 0 AS id, \nCASE WHEN R0.column_2 > 0 THEN true\n     WHEN R0.column_2 < 0 THEN false\n     ELSE NULL\nEND AS label\n          FROM relation_label_resolved R0\n        \n          '\n\t# TODO rename temporary table to replace output_relation\n\t\n        ",
+          "dependencies": [
+            "ext_relation_label_resolved"
+          ],
+          "input_relations": [
+            "relation_label_resolved"
+          ],
+          "output_relation": "has_relation",
+          "style": "cmd_extractor"
+        },
+        "ext_relation_label": {
+          "cmd": "\n\n\t# TODO use temporary table\n\tdeepdive create table \"relation_label\"\n\tdeepdive sql 'INSERT INTO relation_label SELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", 0 AS column_2, NULL AS column_3\nFROM supplier_candidate R0\n        \nUNION ALL\nSELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", 3 AS column_2, '\\''from_dbdata'\\'' AS column_3\nFROM supplier_candidate R0, supplier_dbdata R1\n        WHERE (lower(R1.company_a_name) = lower(R0.p1_name) AND lower(R1.company_b_name) = lower(R0.p2_name))\nUNION ALL\nSELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", -3 AS column_2, '\\''from_dbdata'\\'' AS column_3\nFROM supplier_candidate R0, supplier_dbdata_2 R1\n        WHERE (lower(R1.company_a_name) = lower(R0.p1_name) AND lower(R1.company_b_name) = lower(R0.p2_name))\nUNION ALL\nSELECT R0.p1_id AS \"relation_label__0.R0.p1_id\", R0.p2_id AS \"relation_label__0.R0.p2_id\", R0.label AS \"relation_label__0.R0.label\", R0.rule_id AS \"relation_label__0.R0.rule_id\"\nFROM relation_label__0 R0\n        '\n\t# TODO rename temporary table to replace output_relation\n\t\n        ",
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_relation_label__0_by_supervise"
+          ],
+          "input_relations": [
+            "supplier_candidate",
+            "supplier_dbdata",
+            "supplier_dbdata_2",
+            "relation_label__0"
+          ],
+          "output_relation": "relation_label",
+          "style": "cmd_extractor"
+        },
+        "ext_relation_label__0_by_supervise": {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_company_mention_by_map_company_mention",
+            "ext_sentences_by_nlp_markup"
+          ],
+          "input": " SELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R1.begin_index AS \"company_mention.R1.begin_index\", R1.end_index AS \"company_mention.R1.end_index\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", R2.begin_index AS \"company_mention.R2.begin_index\", R2.end_index AS \"company_mention.R2.end_index\", R1.doc_id AS \"company_mention.R1.doc_id\", R1.sentence_index AS \"company_mention.R1.sentence_index\", R3.sentence_text AS \"sentences.R3.sentence_text\", R3.tokens AS \"sentences.R3.tokens\", R3.lemmas AS \"sentences.R3.lemmas\", R3.pos_tags AS \"sentences.R3.pos_tags\", R3.ner_tags AS \"sentences.R3.ner_tags\", R3.dep_types AS \"sentences.R3.dep_types\", R3.dep_tokens AS \"sentences.R3.dep_tokens\"\nFROM supplier_candidate R0, company_mention R1, company_mention R2, sentences R3\n        WHERE R1.mention_id = R0.p1_id  AND R2.mention_id = R0.p2_id  AND R3.doc_id = R1.doc_id  AND R3.sentence_index = R1.sentence_index \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "supplier_candidate",
+            "company_mention",
+            "sentences"
+          ],
+          "output_relation": "relation_label__0",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/supervise_relation.py"
+        },
+        "ext_relation_label_resolved": {
+          "cmd": "\n\n\tdeepdive create view relation_label_resolved as 'SELECT R0.p1_id AS column_0, R0.p2_id AS column_1, SUM(R0.label) AS column_2\nFROM relation_label R0\n        \n        GROUP BY R0.p1_id, R0.p2_id'\n\t\n        ",
+          "dependencies": [
+            "ext_relation_label"
+          ],
+          "input_relations": [
+            "relation_label"
+          ],
+          "output_relation": "relation_label_resolved",
+          "style": "cmd_extractor"
+        },
+        "ext_sentences_by_nlp_markup": {
+          "input": " SELECT R0.id AS \"information.R0.id\", R0.content AS \"information.R0.content\"\nFROM information R0\n        \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "information"
+          ],
+          "output_relation": "sentences",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/nlp_markup.sh"
+        },
+        "ext_supplier_candidate_by_map_supplier_candidate": {
+          "dependencies": [
+            "ext_company_mention_by_map_company_mention"
+          ],
+          "input": " SELECT R0.mention_id AS \"company_mention.R0.mention_id\", R0.mention_text AS \"company_mention.R0.mention_text\", R1.mention_id AS \"company_mention.R1.mention_id\", R1.mention_text AS \"company_mention.R1.mention_text\"\nFROM company_mention R0, company_mention R1\n        WHERE R1.doc_id = R0.doc_id  AND R1.sentence_index = R0.sentence_index \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "company_mention"
+          ],
+          "output_relation": "supplier_candidate",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/map_supplier_candidate.py"
+        },
+        "ext_supplier_feature_by_extract_features": {
+          "dependencies": [
+            "ext_company_mention_by_map_company_mention",
+            "ext_sentences_by_nlp_markup"
+          ],
+          "input": " SELECT R0.mention_id AS \"company_mention.R0.mention_id\", R1.mention_id AS \"company_mention.R1.mention_id\", R0.begin_index AS \"company_mention.R0.begin_index\", R0.end_index AS \"company_mention.R0.end_index\", R1.begin_index AS \"company_mention.R1.begin_index\", R1.end_index AS \"company_mention.R1.end_index\", R0.doc_id AS \"company_mention.R0.doc_id\", R0.sentence_index AS \"company_mention.R0.sentence_index\", R2.tokens AS \"sentences.R2.tokens\", R2.lemmas AS \"sentences.R2.lemmas\", R2.pos_tags AS \"sentences.R2.pos_tags\", R2.ner_tags AS \"sentences.R2.ner_tags\", R2.dep_types AS \"sentences.R2.dep_types\", R2.dep_tokens AS \"sentences.R2.dep_tokens\"\nFROM company_mention R0, company_mention R1, sentences R2\n        WHERE R1.doc_id = R0.doc_id  AND R1.sentence_index = R0.sentence_index  AND R2.doc_id = R0.doc_id  AND R2.sentence_index = R0.sentence_index \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "company_mention",
+            "sentences"
+          ],
+          "output_relation": "supplier_feature",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/extract_features.py"
+        }
+      }
+    },
+    "inference": {
+      "factors": {
+        "inf_imply_has_relation_has_relation": {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate"
+          ],
+          "function": "Imply(has_relation.R0.label, has_relation.R1.label)",
+          "input_query": "\n          SELECT R0.id AS \"has_relation.R0.id\" , R1.id AS \"has_relation.R1.id\" \n          FROM has_relation R0, has_relation R1, supplier_candidate R2\n        WHERE R1.p1_id = R0.p2_id  AND R1.p2_id = R0.p1_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+          "input_relations": [
+            "has_relation",
+            "supplier_candidate"
+          ],
+          "weight": "3.0"
+        },
+        "inf_istrue_has_relation": {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_supplier_feature_by_extract_features"
+          ],
+          "function": "Imply(has_relation.R0.label)",
+          "input_query": "\n          SELECT R0.id AS \"has_relation.R0.id\" , R2.feature AS \"dd_weight_column_0\" \n          FROM has_relation R0, supplier_candidate R1, supplier_feature R2\n        WHERE R1.p1_id = R0.p1_id  AND R1.p2_id = R0.p2_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+          "input_relations": [
+            "has_relation",
+            "supplier_candidate",
+            "supplier_feature"
+          ],
+          "weight": "?(dd_weight_column_0)"
+        }
+      }
+    },
+    "pipeline": {
+      "pipelines": {
+        "endtoend": [
+          "ext_supplier_feature_by_extract_features",
+          "ext_relation_label",
+          "ext_relation_label_resolved",
+          "ext_company_mention_by_map_company_mention",
+          "ext_relation_label__0_by_supervise",
+          "ext_has_relation",
+          "ext_supplier_candidate_by_map_supplier_candidate",
+          "ext_sentences_by_nlp_markup",
+          "inf_istrue_has_relation",
+          "inf_imply_has_relation_has_relation"
+        ],
+        "extraction": [
+          "ext_supplier_feature_by_extract_features",
+          "ext_relation_label",
+          "ext_relation_label_resolved",
+          "ext_company_mention_by_map_company_mention",
+          "ext_relation_label__0_by_supervise",
+          "ext_has_relation",
+          "ext_supplier_candidate_by_map_supplier_candidate",
+          "ext_sentences_by_nlp_markup"
+        ],
+        "inference": [
+          "inf_istrue_has_relation",
+          "inf_imply_has_relation_has_relation"
+        ]
+      },
+      "run": ""
+    },
+    "sampler": {
+      "sampler_args": "-l 1000 -s 1 -i 1000 --alpha 0.01 --sample_evidence",
+      "sampler_cmd": "sampler-dw"
+    },
+    "schema": {
+      "relations": {
+        "company_mention": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "begin_index": {
+              "index": 4,
+              "type": "int"
+            },
+            "doc_id": {
+              "annotations": [
+                {
+                  "name": "distributed_by"
+                },
+                {
+                  "args": {
+                    "alias": "appears_in",
+                    "column": "doc_id",
+                    "relation": "sentences"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 2,
+              "type": "text"
+            },
+            "end_index": {
+              "index": 5,
+              "type": "int"
+            },
+            "mention_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "mention_text": {
+              "annotations": [
+                {
+                  "name": "searchable"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            },
+            "sentence_index": {
+              "annotations": [
+                {
+                  "args": {
+                    "alias": "appears_in",
+                    "column": "doc_id",
+                    "relation": "sentences"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 3,
+              "type": "int"
+            }
+          }
+        },
+        "has_relation": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "p1_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "p1",
+                    "column": "mention_id",
+                    "relation": "company_mention"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "p2_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "p2",
+                    "column": "mention_id",
+                    "relation": "company_mention"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            }
+          },
+          "variable_cardinality": 2,
+          "variable_type": "boolean"
+        },
+        "information": {
+          "annotations": [
+            {
+              "name": "source"
+            }
+          ],
+          "columns": {
+            "content": {
+              "annotations": [
+                {
+                  "name": "searchable"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            },
+            "id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "name": "distributed_by"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            }
+          }
+        },
+        "relation_label": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "label": {
+              "annotations": [
+                {
+                  "name": "navigable"
+                }
+              ],
+              "index": 2,
+              "type": "int"
+            },
+            "p1_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p1_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "p2_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p2_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            },
+            "rule_id": {
+              "annotations": [
+                {
+                  "name": "navigable"
+                }
+              ],
+              "index": 3,
+              "type": "text"
+            }
+          }
+        },
+        "relation_label__0": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "label": {
+              "annotations": [
+                {
+                  "name": "navigable"
+                }
+              ],
+              "index": 2,
+              "type": "int"
+            },
+            "p1_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p1_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "p2_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p2_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            },
+            "rule_id": {
+              "annotations": [
+                {
+                  "name": "navigable"
+                }
+              ],
+              "index": 3,
+              "type": "text"
+            }
+          }
+        },
+        "relation_label_resolved": {
+          "columns": {
+            "column_0": {
+              "index": 0,
+              "type": "UNKNOWN"
+            },
+            "column_1": {
+              "index": 1,
+              "type": "UNKNOWN"
+            },
+            "column_2": {
+              "index": 2,
+              "type": "UNKNOWN"
+            }
+          },
+          "type": "view"
+        },
+        "sentences": {
+          "annotations": [
+            {
+              "name": "source"
+            }
+          ],
+          "columns": {
+            "dep_tokens": {
+              "index": 9,
+              "type": "int[]"
+            },
+            "dep_types": {
+              "index": 8,
+              "type": "text[]"
+            },
+            "doc_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "name": "distributed_by"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "doc_offsets": {
+              "index": 7,
+              "type": "int[]"
+            },
+            "lemmas": {
+              "index": 4,
+              "type": "text[]"
+            },
+            "ner_tags": {
+              "index": 6,
+              "type": "text[]"
+            },
+            "pos_tags": {
+              "index": 5,
+              "type": "text[]"
+            },
+            "sentence_index": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 1,
+              "type": "int"
+            },
+            "sentence_text": {
+              "annotations": [
+                {
+                  "name": "searchable"
+                }
+              ],
+              "index": 2,
+              "type": "text"
+            },
+            "tokens": {
+              "index": 3,
+              "type": "text[]"
+            }
+          }
+        },
+        "supplier_candidate": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "p1_id": {
+              "index": 0,
+              "type": "text"
+            },
+            "p1_name": {
+              "index": 1,
+              "type": "text"
+            },
+            "p2_id": {
+              "index": 2,
+              "type": "text"
+            },
+            "p2_name": {
+              "index": 3,
+              "type": "text"
+            }
+          }
+        },
+        "supplier_dbdata": {
+          "annotations": [
+            {
+              "name": "source"
+            }
+          ],
+          "columns": {
+            "company_a_name": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "company_b_name": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            }
+          }
+        },
+        "supplier_dbdata_2": {
+          "annotations": [
+            {
+              "name": "source"
+            }
+          ],
+          "columns": {
+            "company_a_name": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "company_b_name": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            }
+          }
+        },
+        "supplier_feature": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "feature": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 2,
+              "type": "text"
+            },
+            "p1_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p1_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "p2_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p2_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            }
+          }
+        }
+      },
+      "variables": {
+        "has_relation": {
+          "label": "Boolean"
+        }
+      }
+    }
+  },
+  "deepdive_": {
+    "calibration": {
+      "holdout_fraction": 0.25
+    },
+    "db": {
+      "default": {
+        "dbname": "supplier_db",
+        "driver": "org.postgresql.Driver",
+        "host": "192.168.1.110",
+        "incremental_mode": "ORIGINAL",
+        "password": "",
+        "port": "5432",
+        "url": "jdbc:postgresql://192.168.1.110:5432/supplier_db",
+        "user": "postgres"
+      }
+    },
+    "extraction": {
+      "extractors": {
+        "process/ext_company_mention_by_map_company_mention": {
+          "dependencies": [
+            "ext_sentences_by_nlp_markup"
+          ],
+          "input": " SELECT R0.doc_id AS \"sentences.R0.doc_id\", R0.sentence_index AS \"sentences.R0.sentence_index\", R0.tokens AS \"sentences.R0.tokens\", R0.ner_tags AS \"sentences.R0.ner_tags\"\nFROM sentences R0\n        \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "sentences"
+          ],
+          "output_relation": "company_mention",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/map_company_mention.py",
+          "dependencies_": [
+            "process/ext_sentences_by_nlp_markup"
+          ],
+          "input_": [
+            "data/sentences"
+          ],
+          "output_": "data/company_mention"
+        },
+        "process/ext_has_relation": {
+          "cmd": "\n\n\t# TODO use temporary table\n\tdeepdive create table \"has_relation\"\n\tdeepdive sql 'INSERT INTO has_relation SELECT DISTINCT R0.column_0, R0.column_1, 0 AS id, \nCASE WHEN R0.column_2 > 0 THEN true\n     WHEN R0.column_2 < 0 THEN false\n     ELSE NULL\nEND AS label\n          FROM relation_label_resolved R0\n        \n          '\n\t# TODO rename temporary table to replace output_relation\n\t\n        ",
+          "dependencies": [
+            "ext_relation_label_resolved"
+          ],
+          "input_relations": [
+            "relation_label_resolved"
+          ],
+          "output_relation": "has_relation",
+          "style": "cmd_extractor",
+          "dependencies_": [
+            "process/ext_relation_label_resolved"
+          ],
+          "input_": [
+            "data/relation_label_resolved"
+          ],
+          "output_": "data/has_relation"
+        },
+        "process/ext_relation_label": {
+          "cmd": "\n\n\t# TODO use temporary table\n\tdeepdive create table \"relation_label\"\n\tdeepdive sql 'INSERT INTO relation_label SELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", 0 AS column_2, NULL AS column_3\nFROM supplier_candidate R0\n        \nUNION ALL\nSELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", 3 AS column_2, '\\''from_dbdata'\\'' AS column_3\nFROM supplier_candidate R0, supplier_dbdata R1\n        WHERE (lower(R1.company_a_name) = lower(R0.p1_name) AND lower(R1.company_b_name) = lower(R0.p2_name))\nUNION ALL\nSELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", -3 AS column_2, '\\''from_dbdata'\\'' AS column_3\nFROM supplier_candidate R0, supplier_dbdata_2 R1\n        WHERE (lower(R1.company_a_name) = lower(R0.p1_name) AND lower(R1.company_b_name) = lower(R0.p2_name))\nUNION ALL\nSELECT R0.p1_id AS \"relation_label__0.R0.p1_id\", R0.p2_id AS \"relation_label__0.R0.p2_id\", R0.label AS \"relation_label__0.R0.label\", R0.rule_id AS \"relation_label__0.R0.rule_id\"\nFROM relation_label__0 R0\n        '\n\t# TODO rename temporary table to replace output_relation\n\t\n        ",
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_relation_label__0_by_supervise"
+          ],
+          "input_relations": [
+            "supplier_candidate",
+            "supplier_dbdata",
+            "supplier_dbdata_2",
+            "relation_label__0"
+          ],
+          "output_relation": "relation_label",
+          "style": "cmd_extractor",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate",
+            "process/ext_relation_label__0_by_supervise"
+          ],
+          "input_": [
+            "data/supplier_candidate",
+            "data/supplier_dbdata",
+            "data/supplier_dbdata_2",
+            "data/relation_label__0"
+          ],
+          "output_": "data/relation_label"
+        },
+        "process/ext_relation_label__0_by_supervise": {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_company_mention_by_map_company_mention",
+            "ext_sentences_by_nlp_markup"
+          ],
+          "input": " SELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R1.begin_index AS \"company_mention.R1.begin_index\", R1.end_index AS \"company_mention.R1.end_index\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", R2.begin_index AS \"company_mention.R2.begin_index\", R2.end_index AS \"company_mention.R2.end_index\", R1.doc_id AS \"company_mention.R1.doc_id\", R1.sentence_index AS \"company_mention.R1.sentence_index\", R3.sentence_text AS \"sentences.R3.sentence_text\", R3.tokens AS \"sentences.R3.tokens\", R3.lemmas AS \"sentences.R3.lemmas\", R3.pos_tags AS \"sentences.R3.pos_tags\", R3.ner_tags AS \"sentences.R3.ner_tags\", R3.dep_types AS \"sentences.R3.dep_types\", R3.dep_tokens AS \"sentences.R3.dep_tokens\"\nFROM supplier_candidate R0, company_mention R1, company_mention R2, sentences R3\n        WHERE R1.mention_id = R0.p1_id  AND R2.mention_id = R0.p2_id  AND R3.doc_id = R1.doc_id  AND R3.sentence_index = R1.sentence_index \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "supplier_candidate",
+            "company_mention",
+            "sentences"
+          ],
+          "output_relation": "relation_label__0",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/supervise_relation.py",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate",
+            "process/ext_company_mention_by_map_company_mention",
+            "process/ext_sentences_by_nlp_markup"
+          ],
+          "input_": [
+            "data/supplier_candidate",
+            "data/company_mention",
+            "data/sentences"
+          ],
+          "output_": "data/relation_label__0"
+        },
+        "process/ext_relation_label_resolved": {
+          "cmd": "\n\n\tdeepdive create view relation_label_resolved as 'SELECT R0.p1_id AS column_0, R0.p2_id AS column_1, SUM(R0.label) AS column_2\nFROM relation_label R0\n        \n        GROUP BY R0.p1_id, R0.p2_id'\n\t\n        ",
+          "dependencies": [
+            "ext_relation_label"
+          ],
+          "input_relations": [
+            "relation_label"
+          ],
+          "output_relation": "relation_label_resolved",
+          "style": "cmd_extractor",
+          "dependencies_": [
+            "process/ext_relation_label"
+          ],
+          "input_": [
+            "data/relation_label"
+          ],
+          "output_": "data/relation_label_resolved"
+        },
+        "process/ext_sentences_by_nlp_markup": {
+          "input": " SELECT R0.id AS \"information.R0.id\", R0.content AS \"information.R0.content\"\nFROM information R0\n        \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "information"
+          ],
+          "output_relation": "sentences",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/nlp_markup.sh",
+          "dependencies_": [],
+          "input_": [
+            "data/information"
+          ],
+          "output_": "data/sentences"
+        },
+        "process/ext_supplier_candidate_by_map_supplier_candidate": {
+          "dependencies": [
+            "ext_company_mention_by_map_company_mention"
+          ],
+          "input": " SELECT R0.mention_id AS \"company_mention.R0.mention_id\", R0.mention_text AS \"company_mention.R0.mention_text\", R1.mention_id AS \"company_mention.R1.mention_id\", R1.mention_text AS \"company_mention.R1.mention_text\"\nFROM company_mention R0, company_mention R1\n        WHERE R1.doc_id = R0.doc_id  AND R1.sentence_index = R0.sentence_index \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "company_mention"
+          ],
+          "output_relation": "supplier_candidate",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/map_supplier_candidate.py",
+          "dependencies_": [
+            "process/ext_company_mention_by_map_company_mention"
+          ],
+          "input_": [
+            "data/company_mention"
+          ],
+          "output_": "data/supplier_candidate"
+        },
+        "process/ext_supplier_feature_by_extract_features": {
+          "dependencies": [
+            "ext_company_mention_by_map_company_mention",
+            "ext_sentences_by_nlp_markup"
+          ],
+          "input": " SELECT R0.mention_id AS \"company_mention.R0.mention_id\", R1.mention_id AS \"company_mention.R1.mention_id\", R0.begin_index AS \"company_mention.R0.begin_index\", R0.end_index AS \"company_mention.R0.end_index\", R1.begin_index AS \"company_mention.R1.begin_index\", R1.end_index AS \"company_mention.R1.end_index\", R0.doc_id AS \"company_mention.R0.doc_id\", R0.sentence_index AS \"company_mention.R0.sentence_index\", R2.tokens AS \"sentences.R2.tokens\", R2.lemmas AS \"sentences.R2.lemmas\", R2.pos_tags AS \"sentences.R2.pos_tags\", R2.ner_tags AS \"sentences.R2.ner_tags\", R2.dep_types AS \"sentences.R2.dep_types\", R2.dep_tokens AS \"sentences.R2.dep_tokens\"\nFROM company_mention R0, company_mention R1, sentences R2\n        WHERE R1.doc_id = R0.doc_id  AND R1.sentence_index = R0.sentence_index  AND R2.doc_id = R0.doc_id  AND R2.sentence_index = R0.sentence_index \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "company_mention",
+            "sentences"
+          ],
+          "output_relation": "supplier_feature",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/extract_features.py",
+          "dependencies_": [
+            "process/ext_company_mention_by_map_company_mention",
+            "process/ext_sentences_by_nlp_markup"
+          ],
+          "input_": [
+            "data/company_mention",
+            "data/sentences"
+          ],
+          "output_": "data/supplier_feature"
+        }
+      }
+    },
+    "inference": {
+      "factors": {
+        "factor/inf_imply_has_relation_has_relation": {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate"
+          ],
+          "function": "Imply(has_relation.R0.label, has_relation.R1.label)",
+          "input_query": "\n          SELECT R0.id AS \"has_relation.R0.id\" , R1.id AS \"has_relation.R1.id\" \n          FROM has_relation R0, has_relation R1, supplier_candidate R2\n        WHERE R1.p1_id = R0.p2_id  AND R1.p2_id = R0.p1_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+          "input_relations": [
+            "has_relation",
+            "supplier_candidate"
+          ],
+          "weight": "3.0",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate"
+          ],
+          "input_": [
+            "data/has_relation",
+            "data/supplier_candidate"
+          ],
+          "output_": null
+        },
+        "factor/inf_istrue_has_relation": {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_supplier_feature_by_extract_features"
+          ],
+          "function": "Imply(has_relation.R0.label)",
+          "input_query": "\n          SELECT R0.id AS \"has_relation.R0.id\" , R2.feature AS \"dd_weight_column_0\" \n          FROM has_relation R0, supplier_candidate R1, supplier_feature R2\n        WHERE R1.p1_id = R0.p1_id  AND R1.p2_id = R0.p2_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+          "input_relations": [
+            "has_relation",
+            "supplier_candidate",
+            "supplier_feature"
+          ],
+          "weight": "?(dd_weight_column_0)",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate",
+            "process/ext_supplier_feature_by_extract_features"
+          ],
+          "input_": [
+            "data/has_relation",
+            "data/supplier_candidate",
+            "data/supplier_feature"
+          ],
+          "output_": null
+        }
+      },
+      "factors_": [
+        {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate"
+          ],
+          "function": "Imply(has_relation.R0.label, has_relation.R1.label)",
+          "input_query": "\n          SELECT R0.id AS \"has_relation.R0.id\" , R1.id AS \"has_relation.R1.id\" \n          FROM has_relation R0, has_relation R1, supplier_candidate R2\n        WHERE R1.p1_id = R0.p2_id  AND R1.p2_id = R0.p1_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+          "input_relations": [
+            "has_relation",
+            "supplier_candidate"
+          ],
+          "weight": "3.0",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate"
+          ],
+          "input_": [
+            "data/has_relation",
+            "data/supplier_candidate"
+          ],
+          "output_": null,
+          "factorName": "inf_imply_has_relation_has_relation",
+          "factorsTable": "dd_factors_inf_imply_has_relation_has_relation",
+          "weightsTable": "dd_weights_inf_imply_has_relation_has_relation",
+          "weight_": {
+            "is_fixed": true,
+            "params": [],
+            "init_value": 3
+          },
+          "function_": {
+            "name": "imply",
+            "variables": [
+              {
+                "isNegated": false,
+                "columnLabel": "has_relation.R0.label",
+                "columnPrefix": "has_relation.R0.",
+                "name": "has_relation",
+                "columnLabelName": "label",
+                "isArray": false,
+                "equalsTo": null,
+                "columnId": "has_relation.R0.id",
+                "schema": {
+                  "variableName": "has_relation",
+                  "variablesTable": "has_relation",
+                  "variablesLabelColumn": "label",
+                  "variableCategoriesTable": "dd_categories_has_relation",
+                  "isBooleanType": true,
+                  "isCategoricalType": false,
+                  "variableCardinality": 2,
+                  "variableType": "boolean"
+                },
+                "ordinal": 0
+              },
+              {
+                "isNegated": false,
+                "columnLabel": "has_relation.R1.label",
+                "columnPrefix": "has_relation.R1.",
+                "name": "has_relation",
+                "columnLabelName": "label",
+                "isArray": false,
+                "equalsTo": null,
+                "columnId": "has_relation.R1.id",
+                "schema": {
+                  "variableName": "has_relation",
+                  "variablesTable": "has_relation",
+                  "variablesLabelColumn": "label",
+                  "variableCategoriesTable": "dd_categories_has_relation",
+                  "isBooleanType": true,
+                  "isCategoricalType": false,
+                  "variableCardinality": 2,
+                  "variableType": "boolean"
+                },
+                "ordinal": 1
+              }
+            ],
+            "id": 0
+          },
+          "weightsTableForDumping": "dd_weights_inf_imply_has_relation_has_relation"
+        },
+        {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_supplier_feature_by_extract_features"
+          ],
+          "function": "Imply(has_relation.R0.label)",
+          "input_query": "\n          SELECT R0.id AS \"has_relation.R0.id\" , R2.feature AS \"dd_weight_column_0\" \n          FROM has_relation R0, supplier_candidate R1, supplier_feature R2\n        WHERE R1.p1_id = R0.p1_id  AND R1.p2_id = R0.p2_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+          "input_relations": [
+            "has_relation",
+            "supplier_candidate",
+            "supplier_feature"
+          ],
+          "weight": "?(dd_weight_column_0)",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate",
+            "process/ext_supplier_feature_by_extract_features"
+          ],
+          "input_": [
+            "data/has_relation",
+            "data/supplier_candidate",
+            "data/supplier_feature"
+          ],
+          "output_": null,
+          "factorName": "inf_istrue_has_relation",
+          "factorsTable": "dd_factors_inf_istrue_has_relation",
+          "weightsTable": "dd_weights_inf_istrue_has_relation",
+          "weight_": {
+            "is_fixed": false,
+            "params": [
+              "dd_weight_column_0"
+            ],
+            "init_value": 0
+          },
+          "function_": {
+            "name": "imply",
+            "variables": [
+              {
+                "isNegated": false,
+                "columnLabel": "has_relation.R0.label",
+                "columnPrefix": "has_relation.R0.",
+                "name": "has_relation",
+                "columnLabelName": "label",
+                "isArray": false,
+                "equalsTo": null,
+                "columnId": "has_relation.R0.id",
+                "schema": {
+                  "variableName": "has_relation",
+                  "variablesTable": "has_relation",
+                  "variablesLabelColumn": "label",
+                  "variableCategoriesTable": "dd_categories_has_relation",
+                  "isBooleanType": true,
+                  "isCategoricalType": false,
+                  "variableCardinality": 2,
+                  "variableType": "boolean"
+                },
+                "ordinal": 0
+              }
+            ],
+            "id": 0
+          },
+          "weightsTableForDumping": "dd_weights_inf_istrue_has_relation"
+        }
+      ],
+      "factors_byName": {
+        "inf_imply_has_relation_has_relation": {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate"
+          ],
+          "function": "Imply(has_relation.R0.label, has_relation.R1.label)",
+          "input_query": "\n          SELECT R0.id AS \"has_relation.R0.id\" , R1.id AS \"has_relation.R1.id\" \n          FROM has_relation R0, has_relation R1, supplier_candidate R2\n        WHERE R1.p1_id = R0.p2_id  AND R1.p2_id = R0.p1_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+          "input_relations": [
+            "has_relation",
+            "supplier_candidate"
+          ],
+          "weight": "3.0",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate"
+          ],
+          "input_": [
+            "data/has_relation",
+            "data/supplier_candidate"
+          ],
+          "output_": null,
+          "factorName": "inf_imply_has_relation_has_relation",
+          "factorsTable": "dd_factors_inf_imply_has_relation_has_relation",
+          "weightsTable": "dd_weights_inf_imply_has_relation_has_relation",
+          "weight_": {
+            "is_fixed": true,
+            "params": [],
+            "init_value": 3
+          },
+          "function_": {
+            "name": "imply",
+            "variables": [
+              {
+                "isNegated": false,
+                "columnLabel": "has_relation.R0.label",
+                "columnPrefix": "has_relation.R0.",
+                "name": "has_relation",
+                "columnLabelName": "label",
+                "isArray": false,
+                "equalsTo": null,
+                "columnId": "has_relation.R0.id",
+                "schema": {
+                  "variableName": "has_relation",
+                  "variablesTable": "has_relation",
+                  "variablesLabelColumn": "label",
+                  "variableCategoriesTable": "dd_categories_has_relation",
+                  "isBooleanType": true,
+                  "isCategoricalType": false,
+                  "variableCardinality": 2,
+                  "variableType": "boolean"
+                },
+                "ordinal": 0
+              },
+              {
+                "isNegated": false,
+                "columnLabel": "has_relation.R1.label",
+                "columnPrefix": "has_relation.R1.",
+                "name": "has_relation",
+                "columnLabelName": "label",
+                "isArray": false,
+                "equalsTo": null,
+                "columnId": "has_relation.R1.id",
+                "schema": {
+                  "variableName": "has_relation",
+                  "variablesTable": "has_relation",
+                  "variablesLabelColumn": "label",
+                  "variableCategoriesTable": "dd_categories_has_relation",
+                  "isBooleanType": true,
+                  "isCategoricalType": false,
+                  "variableCardinality": 2,
+                  "variableType": "boolean"
+                },
+                "ordinal": 1
+              }
+            ],
+            "id": 0
+          },
+          "weightsTableForDumping": "dd_weights_inf_imply_has_relation_has_relation"
+        },
+        "inf_istrue_has_relation": {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_supplier_feature_by_extract_features"
+          ],
+          "function": "Imply(has_relation.R0.label)",
+          "input_query": "\n          SELECT R0.id AS \"has_relation.R0.id\" , R2.feature AS \"dd_weight_column_0\" \n          FROM has_relation R0, supplier_candidate R1, supplier_feature R2\n        WHERE R1.p1_id = R0.p1_id  AND R1.p2_id = R0.p2_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+          "input_relations": [
+            "has_relation",
+            "supplier_candidate",
+            "supplier_feature"
+          ],
+          "weight": "?(dd_weight_column_0)",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate",
+            "process/ext_supplier_feature_by_extract_features"
+          ],
+          "input_": [
+            "data/has_relation",
+            "data/supplier_candidate",
+            "data/supplier_feature"
+          ],
+          "output_": null,
+          "factorName": "inf_istrue_has_relation",
+          "factorsTable": "dd_factors_inf_istrue_has_relation",
+          "weightsTable": "dd_weights_inf_istrue_has_relation",
+          "weight_": {
+            "is_fixed": false,
+            "params": [
+              "dd_weight_column_0"
+            ],
+            "init_value": 0
+          },
+          "function_": {
+            "name": "imply",
+            "variables": [
+              {
+                "isNegated": false,
+                "columnLabel": "has_relation.R0.label",
+                "columnPrefix": "has_relation.R0.",
+                "name": "has_relation",
+                "columnLabelName": "label",
+                "isArray": false,
+                "equalsTo": null,
+                "columnId": "has_relation.R0.id",
+                "schema": {
+                  "variableName": "has_relation",
+                  "variablesTable": "has_relation",
+                  "variablesLabelColumn": "label",
+                  "variableCategoriesTable": "dd_categories_has_relation",
+                  "isBooleanType": true,
+                  "isCategoricalType": false,
+                  "variableCardinality": 2,
+                  "variableType": "boolean"
+                },
+                "ordinal": 0
+              }
+            ],
+            "id": 0
+          },
+          "weightsTableForDumping": "dd_weights_inf_istrue_has_relation"
+        }
+      }
+    },
+    "pipeline": {
+      "pipelines": {
+        "pipeline/endtoend": [
+          "process/ext_supplier_feature_by_extract_features",
+          "process/ext_relation_label",
+          "process/ext_relation_label_resolved",
+          "process/ext_company_mention_by_map_company_mention",
+          "process/ext_relation_label__0_by_supervise",
+          "process/ext_has_relation",
+          "process/ext_supplier_candidate_by_map_supplier_candidate",
+          "process/ext_sentences_by_nlp_markup",
+          "factor/inf_istrue_has_relation",
+          "factor/inf_imply_has_relation_has_relation"
+        ],
+        "pipeline/extraction": [
+          "process/ext_supplier_feature_by_extract_features",
+          "process/ext_relation_label",
+          "process/ext_relation_label_resolved",
+          "process/ext_company_mention_by_map_company_mention",
+          "process/ext_relation_label__0_by_supervise",
+          "process/ext_has_relation",
+          "process/ext_supplier_candidate_by_map_supplier_candidate",
+          "process/ext_sentences_by_nlp_markup"
+        ],
+        "pipeline/inference": [
+          "factor/inf_istrue_has_relation",
+          "factor/inf_imply_has_relation_has_relation"
+        ]
+      },
+      "run": ""
+    },
+    "sampler": {
+      "sampler_args": "-l 1000 -s 1 -i 1000 --alpha 0.01 --sample_evidence",
+      "sampler_cmd": "sampler-dw"
+    },
+    "schema": {
+      "relations": {
+        "company_mention": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "begin_index": {
+              "index": 4,
+              "type": "int"
+            },
+            "doc_id": {
+              "annotations": [
+                {
+                  "name": "distributed_by"
+                },
+                {
+                  "args": {
+                    "alias": "appears_in",
+                    "column": "doc_id",
+                    "relation": "sentences"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 2,
+              "type": "text"
+            },
+            "end_index": {
+              "index": 5,
+              "type": "int"
+            },
+            "mention_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "mention_text": {
+              "annotations": [
+                {
+                  "name": "searchable"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            },
+            "sentence_index": {
+              "annotations": [
+                {
+                  "args": {
+                    "alias": "appears_in",
+                    "column": "doc_id",
+                    "relation": "sentences"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 3,
+              "type": "int"
+            }
+          }
+        },
+        "has_relation": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "p1_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "p1",
+                    "column": "mention_id",
+                    "relation": "company_mention"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "p2_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "p2",
+                    "column": "mention_id",
+                    "relation": "company_mention"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            }
+          },
+          "variable_cardinality": 2,
+          "variable_type": "boolean"
+        },
+        "information": {
+          "annotations": [
+            {
+              "name": "source"
+            }
+          ],
+          "columns": {
+            "content": {
+              "annotations": [
+                {
+                  "name": "searchable"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            },
+            "id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "name": "distributed_by"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            }
+          }
+        },
+        "relation_label": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "label": {
+              "annotations": [
+                {
+                  "name": "navigable"
+                }
+              ],
+              "index": 2,
+              "type": "int"
+            },
+            "p1_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p1_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "p2_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p2_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            },
+            "rule_id": {
+              "annotations": [
+                {
+                  "name": "navigable"
+                }
+              ],
+              "index": 3,
+              "type": "text"
+            }
+          }
+        },
+        "relation_label__0": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "label": {
+              "annotations": [
+                {
+                  "name": "navigable"
+                }
+              ],
+              "index": 2,
+              "type": "int"
+            },
+            "p1_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p1_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "p2_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p2_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            },
+            "rule_id": {
+              "annotations": [
+                {
+                  "name": "navigable"
+                }
+              ],
+              "index": 3,
+              "type": "text"
+            }
+          }
+        },
+        "relation_label_resolved": {
+          "columns": {
+            "column_0": {
+              "index": 0,
+              "type": "UNKNOWN"
+            },
+            "column_1": {
+              "index": 1,
+              "type": "UNKNOWN"
+            },
+            "column_2": {
+              "index": 2,
+              "type": "UNKNOWN"
+            }
+          },
+          "type": "view"
+        },
+        "sentences": {
+          "annotations": [
+            {
+              "name": "source"
+            }
+          ],
+          "columns": {
+            "dep_tokens": {
+              "index": 9,
+              "type": "int[]"
+            },
+            "dep_types": {
+              "index": 8,
+              "type": "text[]"
+            },
+            "doc_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "name": "distributed_by"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "doc_offsets": {
+              "index": 7,
+              "type": "int[]"
+            },
+            "lemmas": {
+              "index": 4,
+              "type": "text[]"
+            },
+            "ner_tags": {
+              "index": 6,
+              "type": "text[]"
+            },
+            "pos_tags": {
+              "index": 5,
+              "type": "text[]"
+            },
+            "sentence_index": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 1,
+              "type": "int"
+            },
+            "sentence_text": {
+              "annotations": [
+                {
+                  "name": "searchable"
+                }
+              ],
+              "index": 2,
+              "type": "text"
+            },
+            "tokens": {
+              "index": 3,
+              "type": "text[]"
+            }
+          }
+        },
+        "supplier_candidate": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "p1_id": {
+              "index": 0,
+              "type": "text"
+            },
+            "p1_name": {
+              "index": 1,
+              "type": "text"
+            },
+            "p2_id": {
+              "index": 2,
+              "type": "text"
+            },
+            "p2_name": {
+              "index": 3,
+              "type": "text"
+            }
+          }
+        },
+        "supplier_dbdata": {
+          "annotations": [
+            {
+              "name": "source"
+            }
+          ],
+          "columns": {
+            "company_a_name": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "company_b_name": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            }
+          }
+        },
+        "supplier_dbdata_2": {
+          "annotations": [
+            {
+              "name": "source"
+            }
+          ],
+          "columns": {
+            "company_a_name": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "company_b_name": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            }
+          }
+        },
+        "supplier_feature": {
+          "annotations": [
+            {
+              "name": "extraction"
+            }
+          ],
+          "columns": {
+            "feature": {
+              "annotations": [
+                {
+                  "name": "key"
+                }
+              ],
+              "index": 2,
+              "type": "text"
+            },
+            "p1_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p1_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 0,
+              "type": "text"
+            },
+            "p2_id": {
+              "annotations": [
+                {
+                  "name": "key"
+                },
+                {
+                  "args": {
+                    "alias": "has_relation",
+                    "column": "p2_id",
+                    "relation": "has_relation"
+                  },
+                  "name": "references"
+                }
+              ],
+              "index": 1,
+              "type": "text"
+            }
+          }
+        }
+      },
+      "variables": {
+        "has_relation": {
+          "label": "Boolean"
+        }
+      },
+      "variables_": [
+        {
+          "variableName": "has_relation",
+          "variablesTable": "has_relation",
+          "variablesLabelColumn": "label",
+          "variableCategoriesTable": "dd_categories_has_relation",
+          "isBooleanType": true,
+          "isCategoricalType": false,
+          "variableCardinality": 2,
+          "variableType": "boolean"
+        }
+      ],
+      "variables_byName": {
+        "has_relation": {
+          "variableName": "has_relation",
+          "variablesTable": "has_relation",
+          "variablesLabelColumn": "label",
+          "variableCategoriesTable": "dd_categories_has_relation",
+          "isBooleanType": true,
+          "isCategoricalType": false,
+          "variableCardinality": 2,
+          "variableType": "boolean"
+        }
+      }
+    },
+    "execution": {
+      "processes": {
+        "process/init/app": {
+          "style": "cmd_extractor",
+          "cmd": "\n        deepdive db init\n\n        cd \"$DEEPDIVE_APP\"\n        # run legacy schema.sql\n        if [[ -r schema.sql ]]; then\n            deepdive db prompt <schema.sql\n        fi\n        # run legacy init script\n        if [[ -x input/init.sh ]]; then\n            input/init.sh\n        fi\n        "
+        },
+        "process/init/relation/information": {
+          "style": "cmd_extractor",
+          "cmd": "deepdive create table 'information' && deepdive load 'information'",
+          "dependencies_": [
+            "process/init/app"
+          ],
+          "output_relation": "information",
+          "output_": "data/information"
+        },
+        "process/init/relation/supplier_dbdata": {
+          "style": "cmd_extractor",
+          "cmd": "deepdive create table 'supplier_dbdata' && deepdive load 'supplier_dbdata'",
+          "dependencies_": [
+            "process/init/app"
+          ],
+          "output_relation": "supplier_dbdata",
+          "output_": "data/supplier_dbdata"
+        },
+        "process/init/relation/supplier_dbdata_2": {
+          "style": "cmd_extractor",
+          "cmd": "deepdive create table 'supplier_dbdata_2' && deepdive load 'supplier_dbdata_2'",
+          "dependencies_": [
+            "process/init/app"
+          ],
+          "output_relation": "supplier_dbdata_2",
+          "output_": "data/supplier_dbdata_2"
+        },
+        "process/ext_company_mention_by_map_company_mention": {
+          "dependencies": [
+            "ext_sentences_by_nlp_markup"
+          ],
+          "input": " SELECT R0.doc_id AS \"sentences.R0.doc_id\", R0.sentence_index AS \"sentences.R0.sentence_index\", R0.tokens AS \"sentences.R0.tokens\", R0.ner_tags AS \"sentences.R0.ner_tags\"\nFROM sentences R0\n        \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "sentences"
+          ],
+          "output_relation": "company_mention",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/map_company_mention.py",
+          "dependencies_": [
+            "process/ext_sentences_by_nlp_markup"
+          ],
+          "input_": [
+            "data/sentences"
+          ],
+          "output_": "data/company_mention"
+        },
+        "process/ext_has_relation": {
+          "cmd": "\n\n\t# TODO use temporary table\n\tdeepdive create table \"has_relation\"\n\tdeepdive sql 'INSERT INTO has_relation SELECT DISTINCT R0.column_0, R0.column_1, 0 AS id, \nCASE WHEN R0.column_2 > 0 THEN true\n     WHEN R0.column_2 < 0 THEN false\n     ELSE NULL\nEND AS label\n          FROM relation_label_resolved R0\n        \n          '\n\t# TODO rename temporary table to replace output_relation\n\t\n        ",
+          "dependencies": [
+            "ext_relation_label_resolved"
+          ],
+          "input_relations": [
+            "relation_label_resolved"
+          ],
+          "output_relation": "has_relation",
+          "style": "cmd_extractor",
+          "dependencies_": [
+            "process/ext_relation_label_resolved"
+          ],
+          "input_": [
+            "data/relation_label_resolved"
+          ],
+          "output_": "data/has_relation"
+        },
+        "process/ext_relation_label": {
+          "cmd": "\n\n\t# TODO use temporary table\n\tdeepdive create table \"relation_label\"\n\tdeepdive sql 'INSERT INTO relation_label SELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", 0 AS column_2, NULL AS column_3\nFROM supplier_candidate R0\n        \nUNION ALL\nSELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", 3 AS column_2, '\\''from_dbdata'\\'' AS column_3\nFROM supplier_candidate R0, supplier_dbdata R1\n        WHERE (lower(R1.company_a_name) = lower(R0.p1_name) AND lower(R1.company_b_name) = lower(R0.p2_name))\nUNION ALL\nSELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", -3 AS column_2, '\\''from_dbdata'\\'' AS column_3\nFROM supplier_candidate R0, supplier_dbdata_2 R1\n        WHERE (lower(R1.company_a_name) = lower(R0.p1_name) AND lower(R1.company_b_name) = lower(R0.p2_name))\nUNION ALL\nSELECT R0.p1_id AS \"relation_label__0.R0.p1_id\", R0.p2_id AS \"relation_label__0.R0.p2_id\", R0.label AS \"relation_label__0.R0.label\", R0.rule_id AS \"relation_label__0.R0.rule_id\"\nFROM relation_label__0 R0\n        '\n\t# TODO rename temporary table to replace output_relation\n\t\n        ",
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_relation_label__0_by_supervise"
+          ],
+          "input_relations": [
+            "supplier_candidate",
+            "supplier_dbdata",
+            "supplier_dbdata_2",
+            "relation_label__0"
+          ],
+          "output_relation": "relation_label",
+          "style": "cmd_extractor",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate",
+            "process/ext_relation_label__0_by_supervise"
+          ],
+          "input_": [
+            "data/supplier_candidate",
+            "data/supplier_dbdata",
+            "data/supplier_dbdata_2",
+            "data/relation_label__0"
+          ],
+          "output_": "data/relation_label"
+        },
+        "process/ext_relation_label__0_by_supervise": {
+          "dependencies": [
+            "ext_supplier_candidate_by_map_supplier_candidate",
+            "ext_company_mention_by_map_company_mention",
+            "ext_sentences_by_nlp_markup"
+          ],
+          "input": " SELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R1.begin_index AS \"company_mention.R1.begin_index\", R1.end_index AS \"company_mention.R1.end_index\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", R2.begin_index AS \"company_mention.R2.begin_index\", R2.end_index AS \"company_mention.R2.end_index\", R1.doc_id AS \"company_mention.R1.doc_id\", R1.sentence_index AS \"company_mention.R1.sentence_index\", R3.sentence_text AS \"sentences.R3.sentence_text\", R3.tokens AS \"sentences.R3.tokens\", R3.lemmas AS \"sentences.R3.lemmas\", R3.pos_tags AS \"sentences.R3.pos_tags\", R3.ner_tags AS \"sentences.R3.ner_tags\", R3.dep_types AS \"sentences.R3.dep_types\", R3.dep_tokens AS \"sentences.R3.dep_tokens\"\nFROM supplier_candidate R0, company_mention R1, company_mention R2, sentences R3\n        WHERE R1.mention_id = R0.p1_id  AND R2.mention_id = R0.p2_id  AND R3.doc_id = R1.doc_id  AND R3.sentence_index = R1.sentence_index \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "supplier_candidate",
+            "company_mention",
+            "sentences"
+          ],
+          "output_relation": "relation_label__0",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/supervise_relation.py",
+          "dependencies_": [
+            "process/ext_supplier_candidate_by_map_supplier_candidate",
+            "process/ext_company_mention_by_map_company_mention",
+            "process/ext_sentences_by_nlp_markup"
+          ],
+          "input_": [
+            "data/supplier_candidate",
+            "data/company_mention",
+            "data/sentences"
+          ],
+          "output_": "data/relation_label__0"
+        },
+        "process/ext_relation_label_resolved": {
+          "cmd": "\n\n\tdeepdive create view relation_label_resolved as 'SELECT R0.p1_id AS column_0, R0.p2_id AS column_1, SUM(R0.label) AS column_2\nFROM relation_label R0\n        \n        GROUP BY R0.p1_id, R0.p2_id'\n\t\n        ",
+          "dependencies": [
+            "ext_relation_label"
+          ],
+          "input_relations": [
+            "relation_label"
+          ],
+          "output_relation": "relation_label_resolved",
+          "style": "cmd_extractor",
+          "dependencies_": [
+            "process/ext_relation_label"
+          ],
+          "input_": [
+            "data/relation_label"
+          ],
+          "output_": "data/relation_label_resolved"
+        },
+        "process/ext_sentences_by_nlp_markup": {
+          "input": " SELECT R0.id AS \"information.R0.id\", R0.content AS \"information.R0.content\"\nFROM information R0\n        \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "information"
+          ],
+          "output_relation": "sentences",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/nlp_markup.sh",
+          "dependencies_": [],
+          "input_": [
+            "data/information"
+          ],
+          "output_": "data/sentences"
+        },
+        "process/ext_supplier_candidate_by_map_supplier_candidate": {
+          "dependencies": [
+            "ext_company_mention_by_map_company_mention"
+          ],
+          "input": " SELECT R0.mention_id AS \"company_mention.R0.mention_id\", R0.mention_text AS \"company_mention.R0.mention_text\", R1.mention_id AS \"company_mention.R1.mention_id\", R1.mention_text AS \"company_mention.R1.mention_text\"\nFROM company_mention R0, company_mention R1\n        WHERE R1.doc_id = R0.doc_id  AND R1.sentence_index = R0.sentence_index \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "company_mention"
+          ],
+          "output_relation": "supplier_candidate",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/map_supplier_candidate.py",
+          "dependencies_": [
+            "process/ext_company_mention_by_map_company_mention"
+          ],
+          "input_": [
+            "data/company_mention"
+          ],
+          "output_": "data/supplier_candidate"
+        },
+        "process/ext_supplier_feature_by_extract_features": {
+          "dependencies": [
+            "ext_company_mention_by_map_company_mention",
+            "ext_sentences_by_nlp_markup"
+          ],
+          "input": " SELECT R0.mention_id AS \"company_mention.R0.mention_id\", R1.mention_id AS \"company_mention.R1.mention_id\", R0.begin_index AS \"company_mention.R0.begin_index\", R0.end_index AS \"company_mention.R0.end_index\", R1.begin_index AS \"company_mention.R1.begin_index\", R1.end_index AS \"company_mention.R1.end_index\", R0.doc_id AS \"company_mention.R0.doc_id\", R0.sentence_index AS \"company_mention.R0.sentence_index\", R2.tokens AS \"sentences.R2.tokens\", R2.lemmas AS \"sentences.R2.lemmas\", R2.pos_tags AS \"sentences.R2.pos_tags\", R2.ner_tags AS \"sentences.R2.ner_tags\", R2.dep_types AS \"sentences.R2.dep_types\", R2.dep_tokens AS \"sentences.R2.dep_tokens\"\nFROM company_mention R0, company_mention R1, sentences R2\n        WHERE R1.doc_id = R0.doc_id  AND R1.sentence_index = R0.sentence_index  AND R2.doc_id = R0.doc_id  AND R2.sentence_index = R0.sentence_index \n          ",
+          "input_batch_size": "100000",
+          "input_relations": [
+            "company_mention",
+            "sentences"
+          ],
+          "output_relation": "supplier_feature",
+          "parallelism": "1",
+          "style": "tsv_extractor",
+          "udf": "\"$DEEPDIVE_APP\"/udf/extract_features.py",
+          "dependencies_": [
+            "process/ext_company_mention_by_map_company_mention",
+            "process/ext_sentences_by_nlp_markup"
+          ],
+          "input_": [
+            "data/company_mention",
+            "data/sentences"
+          ],
+          "output_": "data/supplier_feature"
+        },
+        "process/grounding/variable_id_partition": {
+          "dependencies_": [
+            "data/has_relation"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n        : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n\n        RANGE_BEGIN=0 \\\n        partition_id_range 'has_relation' | {\n            # record the base\n            variableCountTotal=0\n            while read table begin excludeEnd; do\n                varPath=\"$DEEPDIVE_GROUNDING_DIR\"/variable/${table}\n                mkdir -p \"$varPath\"\n                cd \"$varPath\"\n                echo $begin                      >id_begin\n                echo $excludeEnd                 >id_exclude_end\n                echo $(( $excludeEnd - $begin )) >count\n                variableCountTotal=$excludeEnd\n            done\n            # record the final count\n            echo $variableCountTotal >\"$DEEPDIVE_GROUNDING_DIR\"/variable_count\n        }\n        "
+        },
+        "process/grounding/variable/has_relation/assign_id": {
+          "dependencies_": [
+            "process/grounding/variable_id_partition"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n        : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n        table='has_relation'\n\n        cd \"$DEEPDIVE_GROUNDING_DIR\"/variable/${table}\n        baseId=$(cat id_begin)\n\n        # assign id to all rows according to the paritition\n        deepdive db assign_sequential_id $table 'id' $baseId\n\n        \n        "
+        },
+        "process/grounding/variable_holdout": {
+          "dependencies_": [
+            "process/grounding/variable/has_relation/assign_id"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n        : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n\n        deepdive create table 'dd_graph_variables_holdout' \\\n            variable_id:BIGINT:'PRIMARY KEY' \\\n            #\n        deepdive create table 'dd_graph_variables_observation' \\\n            variable_id:BIGINT:'PRIMARY KEY' \\\n            #\n        deepdive sql '\n                INSERT INTO \"dd_graph_variables_holdout\" SELECT \"id\"\nFROM \"has_relation\"\n\nWHERE \"label\" IS NOT NULL AND RANDOM() < 0.25;\n            '\n        "
+        },
+        "process/grounding/variable/has_relation/dump": {
+          "dependencies_": [
+            "process/grounding/variable_holdout"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n        : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n        table='has_relation'\n\n        varPath=\"$DEEPDIVE_GROUNDING_DIR\"/variable/'has_relation'\n        mkdir -p \"$varPath\"\n        cd \"$varPath\"\n        find . -name 'variables.part-*.bin.bz2' -exec rm -rf {} +\n        export DEEPDIVE_LOAD_FORMAT=tsv\n        export DEEPDIVE_UNLOAD_MATERIALIZED=false\n\n        # dump the variables, joining the holdout query to determine the type of each variable\n        deepdive compute execute \\\n            input_sql='SELECT \"id\"\n     , \"variable_role\"\n     , CASE WHEN variable_role = 0 THEN 0\n                          ELSE (CASE WHEN label THEN 1 ELSE 0 END) + 0.0\n                      END AS \"init_value\"\n     , \"variable_type\"\n     , \"cardinality\"\nFROM (SELECT \"id\" AS \"id\"\n     , CASE WHEN               observation.variable_id IS NOT NULL\n                                     AND variables.\"label\" IS NOT NULL THEN 2\n                                    WHEN               holdout.variable_id IS NOT NULL THEN 0\n                                    WHEN variables.\"label\" IS NOT NULL THEN 1\n                                                                                       ELSE 0\n                                END AS \"variable_role\"\n     , \"variables\".\"label\" AS \"label\"\n     , 0 AS \"variable_type\"\n     , 2 AS \"cardinality\"\nFROM \"has_relation\" \"variables\"\nLEFT OUTER JOIN \"dd_graph_variables_holdout\" \"holdout\" ON \"variables\".\"id\" = \"holdout\".\"variable_id\" LEFT OUTER JOIN \"dd_graph_variables_observation\" \"observation\" ON \"variables\".\"id\" = \"observation\".\"variable_id\") \"variables\"' \\\n            command='\n                format_converter variable /dev/stdin >(pbzip2 >variables.part-${DEEPDIVE_CURRENT_PROCESS_INDEX}.bin.bz2)\n            ' \\\n            output_relation=\n        "
+        },
+        "process/grounding/factor/inf_imply_has_relation_has_relation/materialize": {
+          "dependencies_": [
+            "process/grounding/variable/has_relation/assign_id"
+          ],
+          "input_": [
+            "data/supplier_candidate"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n            : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n\n            # materialize factors using user input_query that pulls in assigned ids to involved variables\n            deepdive create table 'dd_factors_inf_imply_has_relation_has_relation' as '\n          SELECT R0.id AS \"has_relation.R0.id\" , R1.id AS \"has_relation.R1.id\" \n          FROM has_relation R0, has_relation R1, supplier_candidate R2\n        WHERE R1.p1_id = R0.p2_id  AND R1.p2_id = R0.p1_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id '\n\n            # find distinct weights for the factors into a separate table\n            deepdive create table 'dd_weights_inf_imply_has_relation_has_relation' as 'SELECT true AS \"isfixed\"\n     , 3 AS \"initvalue\"\n     , -1 AS \"id\"'\n        "
+        },
+        "process/grounding/factor/inf_istrue_has_relation/materialize": {
+          "dependencies_": [
+            "process/grounding/variable/has_relation/assign_id"
+          ],
+          "input_": [
+            "data/supplier_candidate",
+            "data/supplier_feature"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n            : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n\n            # materialize factors using user input_query that pulls in assigned ids to involved variables\n            deepdive create table 'dd_factors_inf_istrue_has_relation' as '\n          SELECT R0.id AS \"has_relation.R0.id\" , R2.feature AS \"dd_weight_column_0\" \n          FROM has_relation R0, supplier_candidate R1, supplier_feature R2\n        WHERE R1.p1_id = R0.p1_id  AND R1.p2_id = R0.p2_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id '\n\n            # find distinct weights for the factors into a separate table\n            deepdive create table 'dd_weights_inf_istrue_has_relation' as 'SELECT \"dd_weight_column_0\"\n     , false AS \"isfixed\"\n     , 0 AS \"initvalue\"\n     , -1 AS \"id\"\nFROM \"dd_factors_inf_istrue_has_relation\"\n\n\nGROUP BY \"dd_weight_column_0\"'\n        "
+        },
+        "process/grounding/weight_id_partition": {
+          "dependencies_": [
+            "process/grounding/factor/inf_imply_has_relation_has_relation/materialize",
+            "process/grounding/factor/inf_istrue_has_relation/materialize"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n        : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n\n        # partition the id range for weights\n        RANGE_BEGIN=0 RANGE_STEP=1 \\\n        partition_id_range 'dd_weights_inf_imply_has_relation_has_relation' 'dd_weights_inf_istrue_has_relation' | {\n            weightsCountTotal=0\n            while read table begin excludeEnd; do\n                factor=${table#'dd_weights_'}\n                facPath=\"$DEEPDIVE_GROUNDING_DIR\"/factor/${factor}\n                mkdir -p \"$facPath\"\n                cd \"$facPath\"\n                echo $begin                      >weights_id_begin\n                echo $excludeEnd                 >weights_id_exclude_end\n                echo $(( $excludeEnd - $begin )) >weights_count\n                weightsCountTotal=$excludeEnd\n            done\n            echo $weightsCountTotal >\"$DEEPDIVE_GROUNDING_DIR\"/factor/weights_count\n        }\n        "
+        },
+        "process/grounding/global_weight_table": {
+          "dependencies_": [
+            "process/grounding/factor/inf_imply_has_relation_has_relation/materialize",
+            "process/grounding/factor/inf_istrue_has_relation/materialize"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n        : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n\n        # set up a union view for all weight tables (\"dd_graph_weights\")\n        deepdive create view 'dd_graph_weights' as '(SELECT \"id\"\n     , \"isfixed\"\n     , \"initvalue\"\n     , '\\''inf_imply_has_relation_has_relation-'\\'' AS \"description\"\n     , NULL AS \"categories\"\nFROM \"dd_weights_inf_imply_has_relation_has_relation\")\nUNION ALL\n(SELECT \"id\"\n     , \"isfixed\"\n     , \"initvalue\"\n     , '\\''inf_istrue_has_relation-'\\'' ||'\\''-'\\''|| CASE WHEN \"dd_weight_column_0\" IS NULL THEN '\\'''\\''\n              ELSE \"dd_weight_column_0\" || '\\'''\\''  -- XXX CAST(... AS TEXT) unsupported by MySQL\n          END AS \"description\"\n     , NULL AS \"categories\"\nFROM \"dd_weights_inf_istrue_has_relation\")'\n        "
+        },
+        "process/grounding/factor/inf_imply_has_relation_has_relation/assign_weight_id": {
+          "dependencies_": [
+            "process/grounding/weight_id_partition"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n            : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n\n            cd \"$DEEPDIVE_GROUNDING_DIR\"/factor/'inf_imply_has_relation_has_relation'\n            baseId=$(cat weights_id_begin)\n            inc=1\n            \n\n            # assign weight ids according to the partition\n            deepdive db assign_sequential_id 'dd_weights_inf_imply_has_relation_has_relation' id $baseId $inc\n\n            \n        "
+        },
+        "process/grounding/factor/inf_istrue_has_relation/assign_weight_id": {
+          "dependencies_": [
+            "process/grounding/weight_id_partition"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n            : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n\n            cd \"$DEEPDIVE_GROUNDING_DIR\"/factor/'inf_istrue_has_relation'\n            baseId=$(cat weights_id_begin)\n            inc=1\n            \n\n            # assign weight ids according to the partition\n            deepdive db assign_sequential_id 'dd_weights_inf_istrue_has_relation' id $baseId $inc\n\n            \n        "
+        },
+        "process/grounding/factor/inf_imply_has_relation_has_relation/dump": {
+          "dependencies_": [
+            "process/grounding/factor/inf_imply_has_relation_has_relation/assign_weight_id"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n            : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n            facPath=\"$DEEPDIVE_GROUNDING_DIR\"/factor/'inf_imply_has_relation_has_relation'\n            mkdir -p \"$facPath\"\n            cd \"$facPath\"\n            find . \\( -name  'factors.part-*.bin.bz2' \\\n                    -o -name 'nfactors.part-*'         \\\n                    -o -name   'nedges.part-*'         \\\n                   \\) -exec rm -rf {} +\n            export DEEPDIVE_LOAD_FORMAT=tsv\n            export DEEPDIVE_UNLOAD_MATERIALIZED=false\n\n            # dump the factors joining the assigned weight ids, converting into binary format for the inference engine\n            deepdive compute execute \\\n                input_sql='SELECT \"weights\".\"id\" AS \"weight_id\"\n     , \"factors\".\"has_relation.R0.id\"\n     , \"factors\".\"has_relation.R1.id\"\nFROM \"dd_factors_inf_imply_has_relation_has_relation\" \"factors\", \"dd_weights_inf_imply_has_relation_has_relation\" \"weights\"' \\\n                command='\n                    # also record the factor count\n                    tee >(wc -l >nfactors.part-${DEEPDIVE_CURRENT_PROCESS_INDEX}) |\n                    format_converter factor /dev/stdin >(pbzip2 >factors.part-${DEEPDIVE_CURRENT_PROCESS_INDEX}.bin.bz2) 0 2 original 1 1 |\n                    # and the edge count\n                    tee nedges.part-${DEEPDIVE_CURRENT_PROCESS_INDEX}\n                ' \\\n                output_relation=\n        "
+        },
+        "process/grounding/factor/inf_istrue_has_relation/dump": {
+          "dependencies_": [
+            "process/grounding/factor/inf_istrue_has_relation/assign_weight_id"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n            : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n            facPath=\"$DEEPDIVE_GROUNDING_DIR\"/factor/'inf_istrue_has_relation'\n            mkdir -p \"$facPath\"\n            cd \"$facPath\"\n            find . \\( -name  'factors.part-*.bin.bz2' \\\n                    -o -name 'nfactors.part-*'         \\\n                    -o -name   'nedges.part-*'         \\\n                   \\) -exec rm -rf {} +\n            export DEEPDIVE_LOAD_FORMAT=tsv\n            export DEEPDIVE_UNLOAD_MATERIALIZED=false\n\n            # dump the factors joining the assigned weight ids, converting into binary format for the inference engine\n            deepdive compute execute \\\n                input_sql='SELECT \"weights\".\"id\" AS \"weight_id\"\n     , \"factors\".\"has_relation.R0.id\"\nFROM \"dd_factors_inf_istrue_has_relation\" \"factors\", \"dd_weights_inf_istrue_has_relation\" \"weights\"\n\nWHERE \"factors\".\"dd_weight_column_0\" = \"weights\".\"dd_weight_column_0\"' \\\n                command='\n                    # also record the factor count\n                    tee >(wc -l >nfactors.part-${DEEPDIVE_CURRENT_PROCESS_INDEX}) |\n                    format_converter factor /dev/stdin >(pbzip2 >factors.part-${DEEPDIVE_CURRENT_PROCESS_INDEX}.bin.bz2) 0 1 original 1 |\n                    # and the edge count\n                    tee nedges.part-${DEEPDIVE_CURRENT_PROCESS_INDEX}\n                ' \\\n                output_relation=\n        "
+        },
+        "process/grounding/factor/inf_imply_has_relation_has_relation/dump_weights": {
+          "dependencies_": [
+            "process/grounding/factor/inf_imply_has_relation_has_relation/assign_weight_id"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n            : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n            facPath=\"$DEEPDIVE_GROUNDING_DIR\"/factor/'inf_imply_has_relation_has_relation'\n            mkdir -p \"$facPath\"\n            cd \"$facPath\"\n            find . \\( -name  'weights.part-*.bin.bz2' \\\n                   \\) -exec rm -rf {} +\n            export DEEPDIVE_LOAD_FORMAT=tsv\n            export DEEPDIVE_UNLOAD_MATERIALIZED=false\n\n            # flag that signals whether to reuse weights or not\n            reuseFlag=\"$DEEPDIVE_GROUNDING_DIR\"/factor/weights.reuse\n\n            # dump the weights (except the description column), converting into binary format for the inference engine\n            deepdive compute execute \\\n                input_sql=\"$(if [[ -e \"$reuseFlag\" ]]; then\n                    echo 'SELECT \"w\".\"id\"\n     , CASE WHEN w.isfixed THEN 1 ELSE 0 END\n     , COALESCE(reuse.weight, w.initvalue, 0)\nFROM \"dd_weights_inf_imply_has_relation_has_relation\" \"w\"\nLEFT OUTER JOIN \"dd_graph_weights_reuse\" \"reuse\" ON \"reuse\".\"description\" = '\\''inf_imply_has_relation_has_relation-'\\'''\n                else\n                    echo 'SELECT \"id\"\n     , CASE WHEN isfixed THEN 1 ELSE 0 END\n     , COALESCE(initvalue, 0)\nFROM \"dd_weights_inf_imply_has_relation_has_relation\"'\n                fi)\" \\\n                command='\n                    format_converter weight /dev/stdin >(pbzip2 >weights.part-${DEEPDIVE_CURRENT_PROCESS_INDEX}.bin.bz2)\n                ' \\\n                output_relation=\n        "
+        },
+        "process/grounding/factor/inf_istrue_has_relation/dump_weights": {
+          "dependencies_": [
+            "process/grounding/factor/inf_istrue_has_relation/assign_weight_id"
+          ],
+          "style": "cmd_extractor",
+          "cmd": "\n            : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n            facPath=\"$DEEPDIVE_GROUNDING_DIR\"/factor/'inf_istrue_has_relation'\n            mkdir -p \"$facPath\"\n            cd \"$facPath\"\n            find . \\( -name  'weights.part-*.bin.bz2' \\\n                   \\) -exec rm -rf {} +\n            export DEEPDIVE_LOAD_FORMAT=tsv\n            export DEEPDIVE_UNLOAD_MATERIALIZED=false\n\n            # flag that signals whether to reuse weights or not\n            reuseFlag=\"$DEEPDIVE_GROUNDING_DIR\"/factor/weights.reuse\n\n            # dump the weights (except the description column), converting into binary format for the inference engine\n            deepdive compute execute \\\n                input_sql=\"$(if [[ -e \"$reuseFlag\" ]]; then\n                    echo 'SELECT \"w\".\"id\"\n     , CASE WHEN w.isfixed THEN 1 ELSE 0 END\n     , COALESCE(reuse.weight, w.initvalue, 0)\nFROM \"dd_weights_inf_istrue_has_relation\" \"w\"\nLEFT OUTER JOIN \"dd_graph_weights_reuse\" \"reuse\" ON \"reuse\".\"description\" = '\\''inf_istrue_has_relation-'\\'' ||'\\''-'\\''|| CASE WHEN \"dd_weight_column_0\" IS NULL THEN '\\'''\\''\n              ELSE \"dd_weight_column_0\" || '\\'''\\''  -- XXX CAST(... AS TEXT) unsupported by MySQL\n          END'\n                else\n                    echo 'SELECT \"id\"\n     , CASE WHEN isfixed THEN 1 ELSE 0 END\n     , COALESCE(initvalue, 0)\nFROM \"dd_weights_inf_istrue_has_relation\"'\n                fi)\" \\\n                command='\n                    format_converter weight /dev/stdin >(pbzip2 >weights.part-${DEEPDIVE_CURRENT_PROCESS_INDEX}.bin.bz2)\n                ' \\\n                output_relation=\n        "
+        },
+        "process/grounding/combine_factorgraph": {
+          "dependencies_": [
+            "process/grounding/variable/has_relation/dump",
+            "process/grounding/factor/inf_imply_has_relation_has_relation/dump",
+            "process/grounding/factor/inf_imply_has_relation_has_relation/dump_weights",
+            "process/grounding/factor/inf_istrue_has_relation/dump",
+            "process/grounding/factor/inf_istrue_has_relation/dump_weights",
+            "process/grounding/global_weight_table"
+          ],
+          "output_": "model/factorgraph",
+          "style": "cmd_extractor",
+          "cmd": "\n        : ${DEEPDIVE_GROUNDING_DIR:=\"$DEEPDIVE_APP\"/run/model/grounding}\n        : ${DEEPDIVE_FACTORGRAPH_DIR:=\"$DEEPDIVE_APP\"/run/model/factorgraph}\n\n        # create a fresh empty directory for the new combined factor graph\n        rm -rf   \"$DEEPDIVE_FACTORGRAPH_DIR\"\n        mkdir -p \"$DEEPDIVE_FACTORGRAPH_DIR\"\n        cd \"$DEEPDIVE_FACTORGRAPH_DIR\"\n\n        # create symlinks to the grounded binaries by enumerating variables and factors\n        for v in 'has_relation'; do\n            mkdir -p variables/\"$v\"\n            find \"$DEEPDIVE_GROUNDING_DIR\"/variable/\"$v\" \\\n                -name 'variables.part-*.bin.bz2' -exec ln -sfnv -t variables/\"$v\"/ {} + \\\n                #\n        done\n        for f in 'inf_imply_has_relation_has_relation' 'inf_istrue_has_relation'; do\n            mkdir -p {factors,weights}/\"$f\"\n            find \"$DEEPDIVE_GROUNDING_DIR\"/factor/\"$f\" \\\n                -name 'factors.part-*.bin.bz2' -exec ln -sfnv -t factors/\"$f\"/ {} + \\\n                -o \\\n                -name 'weights.part-*.bin.bz2' -exec ln -sfnv -t weights/\"$f\"/ {} + \\\n                #\n        done\n\n        # generate the metadata for the inference engine\n        {\n            # first line with counts of variables and edges in the grounded factor graph\n            cd \"$DEEPDIVE_GROUNDING_DIR\"\n            sumup() { { tr '\\n' +; echo 0; } | bc; }\n            counts=()\n            counts+=($(cat factor/weights_count))\n            # sum up the number of factors and edges\n            counts+=($(cat variable_count))\n            cd factor\n            counts+=($(find 'inf_imply_has_relation_has_relation' 'inf_istrue_has_relation' -name 'nfactors.part-*' -exec cat {} + | sumup))\n            counts+=($(find 'inf_imply_has_relation_has_relation' 'inf_istrue_has_relation' -name 'nedges.part-*'   -exec cat {} + | sumup))\n            (IFS=,; echo \"${counts[*]}\")\n            # second line with file paths\n            paths=(\"$DEEPDIVE_FACTORGRAPH_DIR\"/{weights,variables,factors,edges})\n            (IFS=,; echo \"${paths[*]}\")\n        } >meta\n        "
+        },
+        "process/model/learning": {
+          "dependencies_": [
+            "model/factorgraph"
+          ],
+          "output_": "model/weights",
+          "style": "cmd_extractor",
+          "cmd": "mkdir -p ../../../model && cd ../../../model\n            mkdir -p weights\n            [ -d factorgraph ] || error \"No factorgraph found\"\n            # run inference engine for learning and inference\n            flatten() { find -L \"$@\" -type f -exec pbzip2 -c -d -k {} +; }\n            sampler-dw \\\n                gibbs \\\n                -w <(flatten factorgraph/weights) \\\n                -v <(flatten factorgraph/variables) \\\n                -f <(flatten factorgraph/factors) \\\n                -m factorgraph/meta \\\n                -o weights \\\n                -l 1000 -s 1 -i 1000 --alpha 0.01 --sample_evidence\n            mkdir -p probabilities\n            mv -f weights/inference_result.out.text probabilities/\n        "
+        },
+        "process/model/inference": {
+          "dependencies_": [
+            "model/factorgraph",
+            "model/weights"
+          ],
+          "output_": "model/probabilities",
+          "style": "cmd_extractor",
+          "cmd": "mkdir -p ../../../model && cd ../../../model\n            [ -d factorgraph ] || error \"No factorgraph found\"\n            if [[ factorgraph/weights -nt probabilities/inference_result.out.text ]]; then\n                # no need to run inference unless the weights are fresher\n                # XXX this skipping may cause confusion\n                # run sampler for performing inference with given weights without learning\n                flatten() { find -L \"$@\" -type f -exec pbzip2 -c -d -k {} +; }\n                sampler-dw \\\n                    gibbs \\\n                    -w <(flatten factorgraph/weights) \\\n                    -v <(flatten factorgraph/variables) \\\n                    -f <(flatten factorgraph/factors) \\\n                    -m factorgraph/meta \\\n                    -o weights \\\n                    -l 1000 -s 1 -i 1000 --alpha 0.01 --sample_evidence \\\n                    -l 0 \\\n                    #\n                mkdir -p probabilities\n                mv -f weights/inference_result.out.text probabilities/\n            fi\n        "
+        },
+        "process/model/load_weights": {
+          "dependencies_": [
+            "model/weights"
+          ],
+          "output_": "data/model/weights",
+          "style": "cmd_extractor",
+          "cmd": "mkdir -p ../../../model && cd ../../../model\n            # load weights to database\n            deepdive create table dd_inference_result_weights \\\n                id:BIGINT:'PRIMARY KEY' \\\n                weight:'DOUBLE PRECISION' \\\n                #\n            cat weights/inference_result.out.weights.text |\n            tr ' ' '\\t' | DEEPDIVE_LOAD_FORMAT=tsv \\\n            deepdive load dd_inference_result_weights /dev/stdin\n\n            # create views\n            deepdive create view dd_inference_result_weights_mapping as '\n                SELECT dd_graph_weights.*, dd_inference_result_weights.weight FROM\n                dd_graph_weights JOIN dd_inference_result_weights ON dd_graph_weights.id = dd_inference_result_weights.id\n                ORDER BY abs(weight) DESC\n            '\n\n            deepdive create view dd_inference_result_variables_mapped_weights as '\n                SELECT * FROM dd_inference_result_weights_mapping\n                ORDER BY abs(weight) DESC\n            '\n        "
+        },
+        "process/model/load_probabilities": {
+          "dependencies_": [
+            "model/probabilities"
+          ],
+          "output_": "data/model/probabilities",
+          "style": "cmd_extractor",
+          "cmd": "mkdir -p ../../../model && cd ../../../model\n            # load weights to database\n            deepdive create table dd_inference_result_variables \\\n                id:BIGINT \\\n                category:BIGINT \\\n                expectation:'DOUBLE PRECISION' \\\n                #\n            cat probabilities/inference_result.out.text |\n            tr ' ' '\\t' | DEEPDIVE_LOAD_FORMAT=tsv \\\n            deepdive load dd_inference_result_variables /dev/stdin\n\n            # create a view for each app schema variable\n            \n            deepdive create view 'has_relation_label_inference' as '\n                SELECT has_relation.*, mir.category, mir.expectation FROM\n                has_relation, dd_inference_result_variables mir\n                WHERE has_relation.id = mir.id\n                ORDER BY mir.expectation DESC\n                '\n        "
+        }
+      }
+    }
+  }
+}

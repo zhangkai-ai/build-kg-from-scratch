@@ -1,0 +1,5 @@
+tornado
+neo4j-driver==1.4
+marisa-trie
+loguru
+gensim

@@ -1,0 +1,7 @@
+*.pyc
+ssh
+conf/credentials.publishsettings
+.state
+env
+result
+segments

@@ -1,0 +1,50 @@
+{
+    "compare_qa": {
+        "regex": [
+            [
+                "(?P<subject>.+)(和)(?P<object>.+)(的)(?P<predicate>.*?)({which_expr}|({who}))({compare_how})",
+                "例句：北京和上海的面积哪个更大"
+            ],
+            [
+                "(?P<subject>.+)(和)(?P<object>.+)(比|相比)?({which_expr}|({who}))(?P<predicate>{compare_how})",
+                "例句：北京和上海的面积哪个更大"
+            ],
+            [
+                "(?P<subject>.+)(和)(?P<object>.+)(比|相比)({who}|{which_expr})(?P<predicate>.*?)({compare_how})",
+                "例句：汤唯和张梓琳相比谁的三围更大"
+            ],
+            [
+                "(?P<subject>.+)(和)(?P<object>.+)({which_expr}|{who})(?P<predicate>.*?)({compare_how})",
+                "例句:北京和上海哪个面积更大"
+            ],
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.*?)(和)(?P<object>.+)(比|相比)({who}|{which_expr})({compare_how})",
+                "例句：叶凡的年龄和芭比比谁更大"
+            ],
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.*?)({compare_how})(还是)(?P<object>.+)(的)(.*)({compare_how})",
+                "例句：芭比的年龄更大还是叶凡的更大"
+            ]
+        ]
+    },
+    "jump_qa" : {
+        "regex": [
+            [
+                "(?P<subject>.+)(的)(?P<object>.+)(的)(?P<predicate>.+)(是|为|叫)({what_expr}|{who}|{where}|{which_expr})",
+                "例句：美人鱼的导演的主要成就是什么"
+            ],
+            [
+                "({who}|{what_expr}|{who}|{where})(是|为)(?P<subject>.+)(的)(?P<object>.+)(的)(?P<predicate>.+)",
+                "例句：什么是美人鱼的导演的主要成就"
+            ],
+            [
+                "(?P<subject>.+)(的)(?P<object>.+)(是|为)(?P<predicate>哪里人)",
+                "例句：谢贤的儿子是哪里人"
+            ],
+            [
+                "(?P<subject>.+)(的)(?P<object>.+)(有)({what_expr}|{which_expr})(?P<predicate>.+)",
+                "例句：谢贤的儿子有什么主要成就"
+            ]
+        ]
+    }
+}

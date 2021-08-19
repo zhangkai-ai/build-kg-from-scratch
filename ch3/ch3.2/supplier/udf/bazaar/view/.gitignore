@@ -1,0 +1,9 @@
+*.pyc
+
+/env
+/node_modules
+/util/elasticsearch-*
+/public/closure-library
+/public/js/help
+/public/js/vis
+/public/js/.module-cache

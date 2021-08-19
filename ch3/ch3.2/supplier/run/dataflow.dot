@@ -1,0 +1,617 @@
+
+digraph "supplier data flow" {
+    graph[rankdir=BT  # bottom-to-top drawing (or RL/right-to-left may also make sense)
+    ];
+    node [shape=box
+         ,style=dotted
+         ,fontsize=10
+         ,fontname="Ubuntu Mono,Envy Code R,Oxygen Mono,Consolas,Menlo,Monaco,Andale Mono"
+    ];
+    edge [color="#999999"];
+
+
+"process/
+init/app" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+init/relation/information" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+init/app" -> "process/
+init/relation/information" [
+label=""
+
+];
+
+"process/
+init/relation/supplier_dbdata" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+init/app" -> "process/
+init/relation/supplier_dbdata" [
+label=""
+
+];
+
+"process/
+init/relation/supplier_dbdata_2" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+init/app" -> "process/
+init/relation/supplier_dbdata_2" [
+label=""
+
+];
+
+"process/
+ext_company_mention_by_map_company_mention" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+sentences" -> "process/
+ext_company_mention_by_map_company_mention" [
+label=""
+
+];
+
+"process/
+ext_has_relation" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+relation_label_resolved" -> "process/
+ext_has_relation" [
+label=""
+
+];
+
+"process/
+ext_relation_label" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+relation_label__0" -> "process/
+ext_relation_label" [
+label=""
+
+];
+
+"data/
+supplier_candidate" -> "process/
+ext_relation_label" [
+label=""
+
+];
+
+"data/
+supplier_dbdata" -> "process/
+ext_relation_label" [
+label=""
+
+];
+
+"data/
+supplier_dbdata_2" -> "process/
+ext_relation_label" [
+label=""
+
+];
+
+"process/
+ext_relation_label__0_by_supervise" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+company_mention" -> "process/
+ext_relation_label__0_by_supervise" [
+label=""
+
+];
+
+"data/
+sentences" -> "process/
+ext_relation_label__0_by_supervise" [
+label=""
+
+];
+
+"data/
+supplier_candidate" -> "process/
+ext_relation_label__0_by_supervise" [
+label=""
+
+];
+
+"process/
+ext_relation_label_resolved" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+relation_label" -> "process/
+ext_relation_label_resolved" [
+label=""
+
+];
+
+"process/
+ext_sentences_by_nlp_markup" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+information" -> "process/
+ext_sentences_by_nlp_markup" [
+label=""
+
+];
+
+"process/
+ext_supplier_candidate_by_map_supplier_candidate" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+company_mention" -> "process/
+ext_supplier_candidate_by_map_supplier_candidate" [
+label=""
+
+];
+
+"process/
+ext_supplier_feature_by_extract_features" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+company_mention" -> "process/
+ext_supplier_feature_by_extract_features" [
+label=""
+
+];
+
+"data/
+sentences" -> "process/
+ext_supplier_feature_by_extract_features" [
+label=""
+
+];
+
+"process/
+grounding/variable_id_partition" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+has_relation" -> "process/
+grounding/variable_id_partition" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_relation/assign_id" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/variable_id_partition" -> "process/
+grounding/variable/has_relation/assign_id" [
+label=""
+
+];
+
+"process/
+grounding/variable_holdout" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/variable/has_relation/assign_id" -> "process/
+grounding/variable_holdout" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_relation/dump" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/variable_holdout" -> "process/
+grounding/variable/has_relation/dump" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/materialize" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+supplier_candidate" -> "process/
+grounding/factor/inf_imply_has_relation_has_relation/materialize" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_relation/assign_id" -> "process/
+grounding/factor/inf_imply_has_relation_has_relation/materialize" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_relation/materialize" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+supplier_candidate" -> "process/
+grounding/factor/inf_istrue_has_relation/materialize" [
+label=""
+
+];
+
+"data/
+supplier_feature" -> "process/
+grounding/factor/inf_istrue_has_relation/materialize" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_relation/assign_id" -> "process/
+grounding/factor/inf_istrue_has_relation/materialize" [
+label=""
+
+];
+
+"process/
+grounding/weight_id_partition" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/materialize" -> "process/
+grounding/weight_id_partition" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_relation/materialize" -> "process/
+grounding/weight_id_partition" [
+label=""
+
+];
+
+"process/
+grounding/global_weight_table" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/materialize" -> "process/
+grounding/global_weight_table" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_relation/materialize" -> "process/
+grounding/global_weight_table" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/assign_weight_id" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/weight_id_partition" -> "process/
+grounding/factor/inf_imply_has_relation_has_relation/assign_weight_id" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_relation/assign_weight_id" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/weight_id_partition" -> "process/
+grounding/factor/inf_istrue_has_relation/assign_weight_id" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/dump" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/assign_weight_id" -> "process/
+grounding/factor/inf_imply_has_relation_has_relation/dump" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_relation/dump" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_istrue_has_relation/assign_weight_id" -> "process/
+grounding/factor/inf_istrue_has_relation/dump" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/dump_weights" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/assign_weight_id" -> "process/
+grounding/factor/inf_imply_has_relation_has_relation/dump_weights" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_relation/dump_weights" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_istrue_has_relation/assign_weight_id" -> "process/
+grounding/factor/inf_istrue_has_relation/dump_weights" [
+label=""
+
+];
+
+"process/
+grounding/combine_factorgraph" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/dump" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_relation_has_relation/dump_weights" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_relation/dump" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_relation/dump_weights" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/global_weight_table" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_relation/dump" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+model/learning" [shape=ellipse  color="#cc2222" style=solid];
+
+"model/
+factorgraph" -> "process/
+model/learning" [
+label=""
+
+];
+
+"process/
+model/inference" [shape=ellipse  color="#cc2222" style=solid];
+
+"model/
+factorgraph" -> "process/
+model/inference" [
+label=""
+
+];
+
+"model/
+weights" -> "process/
+model/inference" [
+label=""
+
+];
+
+"process/
+model/load_weights" [shape=ellipse  color="#cc2222" style=solid];
+
+"model/
+weights" -> "process/
+model/load_weights" [
+label=""
+
+];
+
+"process/
+model/load_probabilities" [shape=ellipse  color="#cc2222" style=solid];
+
+"model/
+probabilities" -> "process/
+model/load_probabilities" [
+label=""
+
+];
+
+"process/
+model/calibration" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+model/probabilities" -> "process/
+model/calibration" [
+label=""
+
+];
+
+"data/
+company_mention" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_company_mention_by_map_company_mention" -> "data/
+company_mention" [
+label=""
+
+];
+
+"data/
+has_relation" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_has_relation" -> "data/
+has_relation" [
+label=""
+
+];
+
+"data/
+information" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+init/relation/information" -> "data/
+information" [
+label=""
+
+];
+
+"data/
+model/probabilities" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+model/load_probabilities" -> "data/
+model/probabilities" [
+label=""
+
+];
+
+"data/
+model/weights" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+model/load_weights" -> "data/
+model/weights" [
+label=""
+
+];
+
+"data/
+relation_label" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_relation_label" -> "data/
+relation_label" [
+label=""
+
+];
+
+"data/
+relation_label__0" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_relation_label__0_by_supervise" -> "data/
+relation_label__0" [
+label=""
+
+];
+
+"data/
+relation_label_resolved" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_relation_label_resolved" -> "data/
+relation_label_resolved" [
+label=""
+
+];
+
+"data/
+sentences" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_sentences_by_nlp_markup" -> "data/
+sentences" [
+label=""
+
+];
+
+"data/
+supplier_candidate" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_supplier_candidate_by_map_supplier_candidate" -> "data/
+supplier_candidate" [
+label=""
+
+];
+
+"data/
+supplier_dbdata" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+init/relation/supplier_dbdata" -> "data/
+supplier_dbdata" [
+label=""
+
+];
+
+"data/
+supplier_dbdata_2" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+init/relation/supplier_dbdata_2" -> "data/
+supplier_dbdata_2" [
+label=""
+
+];
+
+"data/
+supplier_feature" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_supplier_feature_by_extract_features" -> "data/
+supplier_feature" [
+label=""
+
+];
+
+"model/
+calibration-plots" [shape=septagon color="#ffffff" style=filled fillcolor="#cc22cc"];
+
+"process/
+model/calibration" -> "model/
+calibration-plots" [
+label=""
+
+];
+
+"model/
+factorgraph" [shape=septagon color="#ffffff" style=filled fillcolor="#cc22cc"];
+
+"process/
+grounding/combine_factorgraph" -> "model/
+factorgraph" [
+label=""
+
+];
+
+"model/
+probabilities" [shape=septagon color="#ffffff" style=filled fillcolor="#cc22cc"];
+
+"process/
+model/inference" -> "model/
+probabilities" [
+label=""
+
+];
+
+"model/
+weights" [shape=septagon color="#ffffff" style=filled fillcolor="#cc22cc"];
+
+"process/
+model/learning" -> "model/
+weights" [
+label=""
+
+];
+
+
+}
+

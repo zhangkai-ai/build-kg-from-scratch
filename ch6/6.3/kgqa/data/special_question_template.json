@@ -1,0 +1,234 @@
+{
+    "how_many": {
+        "regex" : [
+            [
+                "(?P<subject>.+)(有|包含|拥有)(多少)(?P<predicate>员工|老师|教师|博士生导师|硕士生|大学生|房间|玩家|客房)",
+                "例句：小米有多少员工"
+            ]
+        ]
+    },
+    "when": {
+        "regex": [
+            [
+                "(?P<subject>.+)(?P<predicate>{general_template_verb})(的)(日期|时间|时代)(是|为|在)({what_date})",
+                "例句：小米上市的日期是什么时候"
+            ],
+            [
+                "reg =u'(?P<subject>.+)(的)(?P<predicate>{general_template_verb})(日期|时间|时代)(是|为|有|在)({what_date}|{what_expr}|{which_expr})",
+                "例句：小米的上市日期是什么时候"
+            ],
+            [
+                 "(?P<subject>.+)(是|在)({what_date})(?P<predicate>.+)(的)",
+                 "例句:小米公司是什么时候成立的"
+            ],
+            [
+                "(?P<subject>.+)(是|在)({what_expr})(?P<predicate>.+)({general_template_verb})",
+                "例句：泡泡战士是什么发行日期发行的"
+            ],
+            [
+                "(?P<subject>.+)({what_date})(?P<predicate>.+)",
+                "例句:科大讯飞啥时间创办的"
+            ],
+            [
+                "({what_date})(?P<subject>.+)(?P<predicate>({general_template_verb}))(的)",
+                "例句:什么时间腾讯创办的"
+            ],
+            [
+                "({what_date})(?P<predicate>({general_template_verb}))(的)(?P<subject>.+)",
+                "例句:什么时间创办的腾讯"
+            ],
+            [
+                "({what_date}|{what_expr})(是|为)(?P<subject>.+)(的)(?P<predicate>.+)",
+                "例句：什么时候是王莎莎的生日?"
+            ],
+            [
+                "(?P<subject>.+)(?P<predicate>({general_template_verb}))(于|在)({what_date})",
+                "例句:小米公司成立于什么时候"
+            ],
+            [
+                "(?P<subject>.+)(?P<predicate>({general_template_verb}))(的)?(时间|时候|时代)(是|为)({what_date})",
+                "例句:上海电影集团成立时间为什么时候？"
+            ],
+            [
+                "(?P<subject>.+)(?P<predicate>({general_template_verb}))(的)?(时间|时候)(是|为)$",
+                "例句:上海电影集团成立的时间是？"
+            ],
+            [
+                "(?P<subject>.+)(是|属于|为)({what_expr}|{which_expr})(?P<predicate>年代|时期|时候|时间|时代|朝代)",
+                "例句：蒸汽机属于哪个年代的"
+            ]
+        ]
+    },
+    "where": {
+        "regex": [
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.+)(是|在)({where}|{what_expr})",
+                "例句:小米公司的总部地点是在北京吗"
+            ],
+            [
+                "({where})(是|为)(?P<subject>.+)的(?P<predicate>.+)",
+                "例句：哪里是小米公司的地址"
+            ],
+            [
+                "(?P<subject>.+)(?P<predicate>{general_template_verb})(于|在)({where})",
+                "例句：周杰伦出生于哪里？"
+            ],
+            [
+                "(?P<subject>.+)(在|是由|是)({where}|{what_expr})(?P<predicate>.+)",
+                "例句：司母戊鼎在哪个地点出土的？"
+            ],
+            [
+                "(?P<subject>.+)(是|属于|为|所属)({what_expr}|{which_expr})(?P<predicate>地区|地址|地点|地方|产地)",
+                "例句：蒸汽机属于哪个年代的"
+            ],
+            [
+                "({where}|{what_expr})(是|为)(?P<subject>.+)(的)(?P<predicate>.+)",
+                "例句：什么是南昌的下辖地区"
+            ]
+        ]
+    },
+    "where_special":{
+        "regex": [
+            [
+                "(?P<subject>.+)(在|位于|来自|是)({where}|哪里人)$",
+                "例句:小米在哪"
+            ]
+        ]
+    },
+    "which": {
+        "regex": [
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.+)(是|有|属于|包含|属)({which_expr}|{what_expr})",
+                "例句：华为的公司性质属于哪一种"
+            ],
+            [
+                "({which_expr}|{what_expr})(.*)(是|为)(?P<subject>.+)(的)(?P<predicate>.+)",
+                "例句：哪个企业是水漾花城的开发商, 什么是海口石山火山群国家地质公园的气候类型"
+            ],
+            [
+                "({which_expr})(?P<predicate>.+)(是|为)(?P<subject>.+)(的)",
+                "例句:哪一种企业性质是狗尾草公司的企业性质"
+            ],
+            [
+                "(?P<subject>.+)(属于|属|有|是|是由|在|参与了|位于|采用)({which_expr}|{what_expr})(.+)(的)(?P<predicate>.+)",
+                "例句:谢霆锋是哪个国家的国籍"
+            ],
+            [
+                "(?P<subject>.+)(属于|属|有|是|是由|在|参与了|位于|采用)({which_expr}|{what_expr})(?P<predicate>.+)",
+                "例句:依云小镇属于哪个行政区域"
+            ],
+            [
+                "({which_expr})(?P<predicate>.+)(的)(?P<subject>.+)",
+                "例句：哪个公司生产的F-111战斗轰炸机"
+            ]
+        ]
+    },
+    "who": {
+        "regex" : [
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.+)(是|叫|属于|包括|有|为|叫作|包含)({who})$",
+                "例句:阿里巴巴的创始人是谁,sp:孙中山去世的时间是哪个时候？ "
+            ],
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.+)(是|叫|属于|包括|有|为|叫作|包含)({who})",
+                "例句:你知道阿里巴巴的创始人是哪个吗,sp:孙中山去世的时间是哪个时候？"
+            ],
+            [
+                "(?P<subject>.+)(是|为|属于|有|叫|包含|包括|属|由)?({who})(?P<predicate>.+)(的)",
+                "例句:阿里巴巴是谁创办的"
+            ],
+            [
+                "({who})(.*)(是|为)(?P<subject>.+)的(?P<predicate>.+)",
+                "例句：谁是阿里巴巴的创始人"
+            ],
+            [
+                "({who})(?P<predicate>.+)(了|的)(?P<subject>.+)",
+                "例句：谁演唱了喜马拉雅"
+            ],
+            [
+                "(?P<predicate>(提出|发明|发现))(?P<subject>.+)(的)({person})(是)({who})",
+                "例句：谁演唱了喜马拉雅"
+            ]
+        ]
+    },
+    "how": {
+        "regex": [
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.+)({how})",
+                "例句:徐州的气候条件如何"
+            ],
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.+)(有|是)({how})",
+                "例句：夫子庙的历史有多长？"
+            ],
+            [
+                "(?P<subject>.+?)(有|是|需要)?({how})(?P<predicate>.+)",
+                "例句：夫子庙有多长的历史"
+            ]
+        ]
+    },
+    "what": {
+        "regex": [
+            [
+                "({what_expr}|{which_expr})(?P<predicate>.+)(是和)(?P<subject>.+)(相关)",
+                "例句:哪种西医疾病是和呕吐相关的"
+            ],
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.+)(是|叫|属于|包括|有|为|叫作|包含)({what_expr}|{which_expr})",
+                "例句：周杰伦的年龄知道是多少么， 科比的中文名称是什么"
+            ],
+            [
+                "(?P<subject>.+)(中)(?P<predicate>.+)(是|叫|属于|包括|有|为|叫作|包含)({what_expr})",
+                "例句：周杰伦的年龄是多少么"
+            ],
+            [
+                "(?P<subject>.+)(是|为|属于|有|叫|包含|包括|属|是由)({what_expr}|多大|{which_expr})(?P<predicate>.{{2,}})(的)",
+                "例句:阿里巴巴是什么性质的企业"
+            ],
+            [
+                "(?P<subject>.+)(是|为|属于|有|叫|包含了?|包括|属|处于|造成了?|坚持|是由|遵循|采用了?|用于|位于)({what_expr}|多大|{which_expr})(?P<predicate>.+)",
+                "例句:创业板市场属于什么领域"
+            ],
+            [
+                "(?P<subject>.+)(是|叫|为|有|包含|包括|在)({what_expr}|{which_expr})(?P<predicate>.+)",
+                "例句：学习是什么词性"
+            ],
+            [
+                "(?P<subject>.+)(是|叫|为|有|包含|包括)(?P<predicate>.+)({what_expr}|{which_expr})",
+                "例句：马骥是研究哪个方向的"
+            ]
+        ]
+    },
+    "abstract" : {
+        "regex" :[
+            [
+                "(?P<subject>.+)(是|为|有|叫|代表|表示)({what})$",
+                "例句：狗尾草是什么"
+            ],
+            [
+                "({what})(是|为|有|叫|代表|表示)(?P<subject>.+)",
+                "例句：什么是狗尾草"
+            ],
+            [
+                "(?P<subject>.+)({what})$",
+                "例句：狗尾草怎么样"
+            ],
+            [
+                "(?P<subject>.+)(是|为)({who})$",
+                "例句：特朗普是谁"
+            ]
+        ]
+    },
+    "general_regex": {
+        "regex": [
+            [
+                "(?P<subject>.+)的(?P<predicate>.+)是({what})",
+                "例句：请回答周杰伦的星座"
+            ],
+            [
+                "(?P<subject>.+)(的)(?P<predicate>.+)",
+                "例句：请回答周杰伦的星座"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,23698 @@
+光	O	O
+头	O	O
+强	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+想	O	O
+看	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+大	B-SO	B-SO
+王	I-SO	I-SO
+叫	I-SO	I-SO
+我	I-SO	I-SO
+来	I-SO	I-SO
+巡	I-SO	I-SO
+山	E-SO	E-SO
+。	O	O
+
+唱	O	O
+快	B-SO	B-SO
+乐	I-SO	I-SO
+小	I-SO	I-SO
+青	I-SO	I-SO
+蛙	E-SO	E-SO
+。	O	O
+
+我	O	O
+南	O	O
+方	O	O
+北	O	O
+方	O	O
+。	O	O
+
+一	B-SO	B-SO
+万	I-SO	I-SO
+个	I-SO	I-SO
+理	I-SO	I-SO
+由	E-SO	E-SO
+。	O	O
+
+江	O	O
+西	O	O
+在	O	O
+哪	O	O
+里	O	O
+啊	O	O
+。	O	O
+
+L	O	O
+e	O	O
+o	O	O
+。	O	O
+
+哈	B-SO	O
+巴	I-SO	O
+狗	E-SO	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+美	B-SO	B-SO
+丽	I-SO	I-SO
+的	I-SO	I-SO
+九	I-SO	I-SO
+寨	I-SO	I-SO
+姑	I-SO	I-SO
+娘	E-SO	E-SO
+。	O	O
+
+你	O	O
+做	O	O
+我	O	O
+女	O	O
+朋	O	O
+友	O	O
+好	O	O
+吗	O	O
+？	O	O
+
+我	O	O
+要	O	O
+听	O	O
+薛	B-AR	B-AR
+之	I-AR	I-AR
+谦	E-AR	E-AR
+的	O	O
+。	O	O
+
+播	O	O
+放	O	O
+勇	B-SO	B-SO
+往	I-SO	I-SO
+直	I-SO	I-SO
+前	E-SO	E-SO
+。	O	O
+
+荷	B-SO	B-SO
+塘	I-SO	I-SO
+月	I-SO	I-SO
+色	E-SO	E-SO
+。	O	O
+
+王	O	O
+笑	O	O
+君	O	O
+。	O	O
+
+一	O	O
+切	O	O
+都	O	O
+变	O	O
+了	O	O
+。	O	O
+
+是	O	O
+我	O	O
+起	O	O
+床	O	O
+的	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+，	O	O
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+个	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+n	O	O
+i	O	O
+c	O	O
+e	O	O
+
+t	O	O
+o	O	O
+
+m	O	O
+e	O	O
+e	O	O
+t	O	O
+
+y	O	O
+o	O	O
+u	O	O
+。	O	O
+
+迎	B-SO	O
+宾	I-SO	O
+曲	E-SO	O
+。	O	O
+
+放	O	O
+7	B-AR	B-AR
+妹	E-AR	E-AR
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+D	O	O
+J	O	O
+慢	B-GE	O
+摇	E-GE	O
+。	O	O
+
+我	O	O
+很	O	O
+喜	O	O
+欢	O	O
+唱	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+乡	B-SO	B-SO
+愁	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+楚	B-SO	B-SO
+女	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+屠	B-AR	B-AR
+洪	I-AR	I-AR
+刚	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+小	B-SO	O
+白	I-SO	O
+兔	E-SO	O
+白	O	O
+我	O	O
+听	O	O
+。	O	O
+
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+现	O	O
+在	O	O
+天	O	O
+还	O	O
+健	O	O
+在	O	O
+，	O	O
+现	O	O
+在	O	O
+贴	O	O
+画	O	O
+，	O	O
+s	O	O
+d	O	O
+卡	O	O
+播	O	O
+放	O	O
+。	O	O
+
+帝	B-SO	O
+都	E-SO	O
+。	O	O
+
+我	O	O
+想	O	O
+起	O	O
+那	O	O
+个	O	O
+以	O	O
+前	O	O
+我	O	O
+是	O	O
+死	O	O
+那	O	O
+个	O	O
+清	O	O
+扬	O	O
+的	O	O
+，	O	O
+不	O	O
+会	O	O
+掉	O	O
+头	O	O
+发	O	O
+呢	O	O
+，	O	O
+但	O	O
+是	O	O
+我	O	O
+现	O	O
+在	O	O
+刚	O	O
+来	O	O
+没	O	O
+钱	O	O
+吗	O	O
+，	O	O
+有	O	O
+些	O	O
+是	O	O
+假	O	O
+货	O	O
+我	O	O
+觉	O	O
+得	O	O
+哪	O	O
+个	O	O
+台	O	O
+呢	O	O
+？	O	O
+
+我	O	O
+想	O	O
+听	O	O
+冰	B-SO	B-SO
+雪	I-SO	I-SO
+奇	I-SO	I-SO
+缘	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+歌	O	O
+叫	O	O
+说	B-SO	B-SO
+散	I-SO	I-SO
+就	I-SO	I-SO
+散	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+三	O	O
+耳	O	O
+机	O	O
+能	O	O
+导	O	O
+致	O	O
+全	O	O
+球	O	O
+变	O	O
+冷	O	O
+和	O	O
+都	O	O
+给	O	O
+哪	O	O
+个	O	O
+。	O	O
+
+唱	O	O
+的	O	O
+老	B-SO	B-SO
+爸	I-SO	I-SO
+老	I-SO	I-SO
+妈	E-SO	E-SO
+。	O	O
+
+查	O	O
+找	O	O
+国	O	O
+家	O	O
+。	O	O
+
+你	O	B-SO
+是	O	I-SO
+我	O	I-SO
+等	O	I-SO
+下	O	I-SO
+心	O	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+割	O	O
+手	O	O
+陈	B-AR	O
+一	I-AR	O
+玲	E-AR	O
+。	O	O
+
+关	O	O
+闭	O	O
+车	O	O
+灯	O	O
+，	O	O
+充	O	O
+实	O	O
+自	O	O
+己	O	O
+，	O	O
+你	O	O
+会	O	O
+发	O	O
+现	O	O
+这	O	O
+个	O	O
+世	O	O
+界	O	O
+上	O	O
+还	O	O
+有	O	O
+更	O	O
+多	O	O
+美	O	O
+好	O	O
+的	O	O
+事	O	O
+物	O	O
+去	O	O
+追	O	O
+求	O	O
+。	O	O
+
+哦	O	O
+找	O	O
+到	O	O
+了	O	O
+我	O	O
+奖	O	O
+励	O	O
+你	O	O
+吃	O	O
+冰	O	O
+淇	O	O
+淋	O	O
+。	O	O
+
+听	O	O
+音	O	O
+乐	O	O
+袅	B-SO	O
+袅	E-SO	O
+。	O	O
+
+E	O	O
+A	O	O
+S	O	O
+Y	O	O
+？	O	O
+
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+很	O	O
+难	O	O
+看	O	O
+我	O	O
+的	O	O
+选	O	O
+择	O	O
+。	O	O
+
+机	O	O
+器	O	O
+。	O	O
+
+接	O	B-SO
+受	O	I-SO
+爱	B-SO	I-SO
+江	I-SO	I-SO
+山	I-SO	I-SO
+更	I-SO	I-SO
+爱	I-SO	I-SO
+美	I-SO	I-SO
+人	E-SO	E-SO
+。	O	O
+
+远	O	O
+一	O	O
+点	O	O
+，	O	O
+看	O	O
+你	O	O
+说	O	O
+你	O	O
+会	O	O
+是	O	O
+什	O	O
+么	O	O
+样	O	O
+子	O	O
+的	O	O
+呀	O	O
+。	O	O
+
+播	O	O
+放	O	O
+。	O	O
+
+给	O	O
+我	O	O
+来	O	O
+个	O	O
+毕	O	O
+方	O	O
+。	O	O
+
+来	O	O
+个	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+一	O	O
+个	O	O
+人	O	O
+的	O	O
+时	O	O
+候	O	O
+好	O	O
+烦	O	O
+怎	O	O
+么	O	O
+办	O	O
+？	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+吧	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+上	B-SO	O
+海	I-SO	O
+滩	E-SO	O
+粤	O	O
+语	O	O
+版	O	O
+的	O	O
+。	O	O
+
+你	O	O
+觉	O	O
+得	O	O
+我	O	O
+是	O	O
+女	O	O
+生	O	O
+。	O	O
+
+我	O	O
+在	O	O
+听	O	O
+唱	O	O
+歌	O	O
+，	O	O
+不	B-SO	O
+要	I-SO	O
+啰	I-SO	O
+嗦	E-SO	O
+。	O	O
+
+你	O	O
+要	O	O
+听	O	O
+魔	B-SO	B-SO
+法	I-SO	I-SO
+的	I-SO	I-SO
+惩	I-SO	I-SO
+罚	E-SO	E-SO
+。	O	O
+
+下	O	O
+载	O	O
+帮	O	O
+他	O	O
+方	B-AR	O
+大	I-AR	O
+同	E-AR	O
+的	O	O
+春	B-SO	B-SO
+风	I-SO	I-SO
+吹	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+播	O	O
+放	O	O
+一	O	O
+首	O	O
+摇	B-SO	O
+得	I-SO	O
+你	I-SO	O
+六	I-SO	O
+神	I-SO	O
+无	I-SO	O
+主	E-SO	O
+，	O	O
+d	O	O
+版	O	O
+。	O	O
+
+跷	O	O
+跷	O	O
+板	O	O
+要	O	O
+两	O	O
+个	O	O
+人	O	O
+玩	O	O
+。	O	O
+
+艹	O	O
+你	O	O
+老	O	O
+母	O	O
+个	O	O
+烂	O	O
+照	O	O
+h	O	O
+i	O	O
+g	O	O
+h	O	O
+
+为	O	O
+什	O	O
+么	O	O
+这	O	O
+个	O	O
+歌	O	O
+这	O	O
+么	O	O
+好	O	O
+听	O	O
+呢	O	O
+？	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+哎	O	O
+好	O	O
+残	O	O
+忍	O	O
+。	O	O
+
+你	O	O
+可	O	O
+以	O	O
+给	O	O
+我	O	O
+播	O	O
+放	O	O
+电	O	O
+视	O	O
+吗	O	O
+？	O	O
+
+听	O	O
+J	O	B-SO
+e	O	I-SO
+s	O	I-SO
+s	O	I-SO
+i	O	I-SO
+e	O	I-SO
+
+J	O	O
+吗	O	O
+？	O	O
+
+来	O	O
+一	O	O
+段	O	O
+相	O	O
+声	O	O
+。	O	O
+
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+一	O	B-SO
+般	O	I-SO
+我	O	I-SO
+们	O	I-SO
+都	O	I-SO
+没	O	I-SO
+有	O	I-SO
+错	O	I-SO
+过	O	E-SO
+。	O	O
+
+查	O	O
+找	O	O
+刀	B-AR	B-AR
+郎	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+白	B-SO	O
+头	I-SO	O
+偕	I-SO	O
+老	E-SO	O
+。	O	O
+
+我	O	O
+你	O	O
+我	O	O
+
+听	O	O
+张	O	B-AR
+杰	O	I-AR
+窦	B-AR	I-AR
+唯	E-AR	E-AR
+。	O	O
+
+萌	O	O
+萌	O	O
+哒	O	O
+。	O	O
+
+吐	O	O
+鲁	O	O
+番	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+呼	B-SO	B-SO
+风	I-SO	I-SO
+唤	I-SO	I-SO
+雨	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+，	O	O
+金	B-SO	O
+孔	I-SO	O
+雀	I-SO	O
+轻	I-SO	O
+轻	I-SO	O
+跳	E-SO	O
+。	O	O
+
+播	O	O
+放	O	O
+蓝	O	O
+牙	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+捉	B-SO	B-SO
+泥	I-SO	I-SO
+鳅	E-SO	E-SO
+。	O	O
+
+说	O	O
+谎	O	O
+。	O	O
+
+女	B-SO	B-SO
+人	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+啊	O	O
+，	O	O
+郭	O	O
+德	O	O
+纲	O	O
+于	O	O
+谦	O	O
+的	O	O
+。	O	O
+
+张	O	B-AR
+韶	O	I-AR
+涵	O	E-AR
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+，	O	O
+有	O	O
+一	O	O
+首	O	O
+歌	O	O
+来	O	O
+听	O	O
+吧	O	O
+。	O	O
+
+唱	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+1	O	O
+0	O	O
+.	O	O
+6	O	O
+，	O	O
+第	O	O
+一	O	O
+时	O	O
+间	O	O
+第	O	O
+一	O	O
+现	O	O
+场	O	O
+，	O	O
+打	O	O
+到	O	O
+陕	O	O
+西	O	O
+新	O	O
+闻	O	O
+，	O	O
+5	O	O
+0	O	O
+0	O	O
+0	O	O
+就	O	O
+5	O	O
+0	O	O
+0	O	O
+0	O	O
+。	O	O
+
+姐	O	O
+姐	O	O
+。	O	O
+
+放	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+苹	O	O
+果	O	O
+。	O	O
+
+查	O	O
+看	O	O
+系	O	O
+统	O	O
+。	O	O
+
+我	O	O
+要	O	O
+周	B-AR	B-AR
+传	I-AR	I-AR
+雄	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+如	B-SO	B-SO
+果	I-SO	I-SO
+真	I-SO	I-SO
+爱	E-SO	E-SO
+。	O	O
+
+好	O	O
+，	O	O
+那	O	O
+要	O	O
+是	O	O
+薛	O	O
+晓	O	O
+燕	O	O
+，	O	O
+哦	O	O
+可	O	O
+以	O	O
+可	O	O
+以	O	O
+啊	O	O
+我	O	O
+让	O	O
+他	O	O
+给	O	O
+我	O	O
+们	O	O
+发	O	O
+一	O	O
+个	O	O
+参	O	O
+数	O	O
+的	O	O
+标	O	O
+准	O	O
+然	O	O
+后	O	O
+他	O	O
+要	O	O
+是	O	O
+u	O	O
+盾	O	O
+装	O	O
+的	O	O
+然	O	O
+后	O	O
+我	O	O
+要	O	O
+给	O	O
+你	O	O
+发	O	O
+的	O	O
+给	O	O
+在	O	O
+家	O	O
+里	O	O
+给	O	O
+你	O	O
+分	O	O
+装	O	O
+吧	O	O
+，	O	O
+好	O	O
+不	O	O
+好	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+西	O	O
+南	O	O
+官	O	O
+话	O	O
+。	O	O
+
+真	O	O
+诚	O	O
+你	O	O
+真	O	O
+聪	O	O
+明	O	O
+，	O	O
+是	O	O
+不	O	O
+是	O	O
+你	O	O
+跟	O	O
+他	O	O
+好	O	O
+好	O	O
+学	O	O
+习	O	O
+跟	O	O
+小	O	O
+年	O	O
+好	O	O
+好	O	O
+学	O	O
+习	O	O
+，	O	O
+宝	O	O
+宝	O	O
+啊	O	O
+。	O	O
+
+小	O	O
+草	O	O
+我	O	O
+要	O	O
+听	O	O
+遇	B-SO	B-SO
+见	E-SO	E-SO
+。	O	O
+
+喜	O	B-SO
+欢	O	I-SO
+你	O	E-SO
+。	O	O
+
+点	O	O
+首	O	O
+音	O	O
+乐	O	O
+吧	O	O
+。	O	O
+
+我	O	O
+以	O	O
+为	O	O
+很	O	O
+明	O	O
+显	O	O
+这	O	O
+老	O	O
+师	O	O
+和	O	O
+并	O	O
+的	O	O
+你	O	O
+的	O	O
+女	O	O
+人	O	O
+是	O	O
+真	O	O
+傻	O	O
+。	O	O
+
+你	O	O
+会	O	O
+被	O	O
+她	O	O
+说	O	O
+的	O	O
+我	O	O
+跟	O	O
+你	O	O
+说	O	O
+。	O	O
+
+媳	O	O
+妇	O	O
+儿	O	O
+，	O	O
+那	O	O
+我	O	O
+就	O	O
+给	O	O
+他	O	O
+打	O	O
+电	O	O
+话	O	O
+。	O	O
+
+爱	O	B-SO
+上	O	I-SO
+一	O	I-SO
+个	O	I-SO
+人	O	I-SO
+会	O	I-SO
+不	O	I-SO
+会	O	I-SO
+错	O	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+六	B-AR	O
+哲	E-AR	O
+，	O	O
+流	O	O
+行	O	O
+串	B-GE	O
+烧	E-GE	O
+歌	O	O
+曲	O	O
+。	O	O
+
+听	O	O
+水	B-SO	B-SO
+果	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+蜗	B-SO	B-SO
+牛	I-SO	I-SO
+与	I-SO	I-SO
+黄	I-SO	I-SO
+鹂	I-SO	I-SO
+鸟	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+小	O	O
+机	O	O
+器	O	O
+人	O	O
+。	O	O
+
+c	B-SO	O
+o	I-SO	O
+c	I-SO	O
+o	E-SO	O
+音	O	O
+乐	O	O
+。	O	O
+
+洋	B-SO	B-SO
+娃	I-SO	I-SO
+娃	I-SO	I-SO
+和	I-SO	I-SO
+小	I-SO	I-SO
+熊	I-SO	I-SO
+跳	I-SO	I-SO
+舞	E-SO	E-SO
+。	O	O
+
+来	O	O
+歌	O	O
+。	O	O
+
+危	O	O
+险	O	O
+。	O	O
+
+我	O	O
+们	O	O
+虽	O	O
+然	O	O
+很	O	O
+喜	O	O
+欢	O	O
+你	O	O
+。	O	O
+
+i	O	O
+
+o	O	O
+n	O	O
+l	O	O
+y	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+周	B-AR	B-AR
+华	I-AR	I-AR
+健	E-AR	E-AR
+的	O	O
+难	B-SO	B-SO
+念	I-SO	I-SO
+的	I-SO	I-SO
+经	E-SO	E-SO
+。	O	O
+
+我	O	O
+忘	O	O
+记	O	O
+了	O	O
+你	O	O
+可	O	O
+以	O	O
+告	O	O
+诉	O	O
+我	O	O
+吗	O	O
+？	O	O
+
+古	O	O
+力	O	O
+娜	O	O
+扎	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+嗯	O	O
+我	O	O
+喜	O	O
+欢	O	O
+你	O	O
+。	O	O
+
+也	O	O
+就	O	O
+给	O	O
+我	O	O
+点	O	O
+一	O	O
+首	O	O
+喜	B-SO	B-SO
+欢	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+这	O	O
+个	O	O
+年	O	O
+纪	O	O
+。	O	O
+
+哦	O	O
+b	O	O
+a	O	O
+b	O	O
+y	O	O
+去	O	O
+玩	O	O
+。	O	O
+
+我	O	O
+说	O	O
+那	O	O
+个	O	O
+名	O	O
+额	O	O
+够	O	O
+了	O	O
+，	O	O
+欢	O	O
+迎	O	O
+回	O	O
+来	O	O
+，	O	O
+要	O	O
+不	O	O
+然	O	O
+谁	O	O
+说	O	O
+我	O	O
+是	O	O
+你	O	O
+你	O	O
+要	O	O
+是	O	O
+我	O	O
+的	O	O
+话	O	O
+这	O	O
+你	O	O
+最	O	O
+好	O	O
+抽	O	O
+时	O	O
+间	O	O
+回	O	O
+来	O	O
+就	O	O
+行	O	O
+了	O	O
+，	O	O
+才	O	O
+会	O	O
+我	O	O
+头	O	O
+毛	O	O
+筒	O	O
+。	O	O
+
+知	O	O
+道	O	O
+啦	O	O
+但	O	O
+是	O	O
+你	O	O
+真	O	O
+的	O	O
+很	O	O
+笨	O	O
+。	O	O
+
+我	O	O
+不	O	O
+要	O	O
+听	O	O
+故	O	O
+事	O	O
+。	O	O
+
+唱	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+不	O	O
+想	O	O
+再	O	O
+找	O	O
+我	O	O
+干	O	O
+嘛	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+。	O	O
+
+我	O	O
+叫	O	O
+张	O	O
+杰	O	O
+，	O	O
+我	O	O
+的	O	O
+电	O	O
+话	O	O
+是	O	O
+1	O	O
+8	O	O
+2	O	O
+。	O	O
+
+邰	O	O
+正	O	O
+宵	O	O
+。	O	O
+
+你	O	O
+在	O	O
+哪	O	O
+里	O	O
+吗	O	O
+？	O	O
+
+跟	O	O
+他	O	O
+说	O	O
+一	O	O
+句	O	O
+。	O	O
+
+我	O	O
+喜	O	O
+欢	O	O
+周	O	O
+莹	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+个	O	O
+大	B-SO	B-SO
+舌	I-SO	I-SO
+头	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+暗	B-SO	B-SO
+香	E-SO	E-SO
+。	O	O
+
+妈	B-SO	B-SO
+妈	I-SO	I-SO
+的	I-SO	I-SO
+吻	E-SO	E-SO
+。	O	O
+
+我	O	O
+找	O	O
+小	O	O
+薇	O	O
+。	O	O
+
+不	O	O
+是	O	O
+我	O	O
+的	O	O
+你	O	O
+的	O	O
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+小	B-AR	B-SO
+柯	E-AR	E-SO
+音	O	O
+乐	O	O
+。	O	O
+
+啊	O	O
+，	O	O
+是	O	O
+自	O	O
+我	O	O
+调	O	O
+节	O	O
+，	O	O
+做	O	O
+了	O	O
+点	O	O
+还	O	O
+有	O	O
+他	O	O
+家	O	O
+饿	O	O
+呢	O	O
+，	O	O
+也	O	O
+不	O	O
+是	O	O
+要	O	O
+你	O	O
+你	O	O
+嫁	O	O
+给	O	O
+他	O	O
+就	O	O
+长	O	O
+大	O	O
+了	O	O
+也	O	O
+会	O	O
+无	O	O
+心	O	O
+八	O	O
+卦	O	O
+，	O	O
+他	O	O
+就	O	O
+会	O	O
+为	O	O
+自	O	O
+己	O	O
+自	O	O
+我	O	O
+调	O	O
+养	O	O
+，	O	O
+平	O	O
+时	O	O
+山	O	O
+寨	O	O
+什	O	O
+么	O	O
+，	O	O
+下	O	O
+电	O	O
+影	O	O
+集	O	O
+团	O	O
+公	O	O
+司	O	O
+教	O	O
+育	O	O
+展	O	O
+和	O	O
+一	O	O
+节	O	O
+课	O	O
+，	O	O
+起	O	O
+来	O	O
+抢	O	O
+啊	O	O
+，	O	O
+有	O	O
+着	O	O
+落	O	O
+啊	O	O
+，	O	O
+然	O	O
+后	O	O
+就	O	O
+是	O	O
+谈	O	O
+一	O	O
+谈	O	O
+，	O	O
+求	O	O
+，	O	O
+看	O	O
+来	O	O
+是	O	O
+慌	O	O
+了	O	O
+过	O	O
+来	O	O
+，	O	O
+然	O	O
+后	O	O
+那	O	O
+个	O	O
+导	O	O
+师	O	O
+那	O	O
+个	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+刚	B-SO	B-SO
+好	I-SO	I-SO
+遇	I-SO	I-SO
+见	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+f	B-SO	B-SO
+i	I-SO	I-SO
+r	I-SO	I-SO
+s	I-SO	I-SO
+t	I-SO	I-SO
+
+l	I-SO	O
+o	I-SO	O
+v	I-SO	O
+e	E-SO	O
+。	O	O
+
+那	O	O
+是	O	O
+你	O	O
+不	O	O
+代	O	O
+表	O	O
+我	O	O
+也	O	O
+会	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+安	O	B-SO
+东	O	I-SO
+阳	O	E-SO
+。	O	O
+
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+播	O	O
+放	O	O
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+E	O	O
+A	O	O
+S	O	O
+Y	O	O
+。	O	O
+
+劳	B-SO	B-SO
+动	I-SO	I-SO
+最	I-SO	I-SO
+光	I-SO	I-SO
+荣	E-SO	E-SO
+。	O	O
+
+再	B-SO	O
+回	I-SO	O
+首	E-SO	O
+。	O	O
+
+你	O	O
+刚	O	O
+才	O	O
+那	O	O
+首	O	O
+歌	O	O
+的	O	O
+好	O	O
+听	O	O
+的	O	O
+歌	O	O
+好	O	O
+听	O	O
+。	O	O
+
+人	O	O
+播	O	O
+放	O	O
+自	B-SO	B-SO
+由	I-SO	I-SO
+行	E-SO	E-SO
+。	O	O
+
+一	O	O
+首	O	O
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+这	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+给	O	O
+我	O	O
+播	O	O
+放	O	O
+金	B-AR	B-AR
+泽	E-AR	E-AR
+的	O	O
+童	B-SO	B-SO
+年	I-SO	I-SO
+舞	I-SO	I-SO
+蹈	E-SO	E-SO
+。	O	O
+
+我	O	O
+在	O	O
+这	O	O
+里	O	O
+。	O	O
+
+老	B-GE	O
+歌	E-GE	O
+。	O	O
+
+中	B-SO	O
+国	I-SO	O
+功	I-SO	O
+夫	E-SO	O
+。	O	O
+
+找	O	O
+你	O	O
+说	O	O
+英	O	O
+语	O	O
+啊	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+一	O	O
+首	O	O
+7	B-AR	B-AR
+妹	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+因	O	O
+为	O	O
+你	O	O
+看	O	O
+不	O	O
+见	O	O
+我	O	O
+自	O	O
+己	O	O
+呀	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+轻	B-SO	O
+轻	I-SO	O
+地	I-SO	O
+告	I-SO	O
+诉	I-SO	O
+你	E-SO	O
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+好	O	O
+小	O	O
+品	O	O
+。	O	O
+
+心	B-SO	O
+愿	I-SO	O
+便	I-SO	O
+利	I-SO	O
+贴	E-SO	O
+。	O	O
+
+你	O	O
+是	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+出	O	O
+厂	O	O
+的	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+u	O	O
+盘	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+今	B-SO	B-SO
+夜	I-SO	I-SO
+的	I-SO	I-SO
+你	I-SO	I-SO
+又	I-SO	I-SO
+在	I-SO	I-SO
+和	I-SO	I-SO
+谁	I-SO	I-SO
+约	I-SO	I-SO
+会	E-SO	E-SO
+。	O	O
+
+陈	O	O
+瑞	O	O
+希	O	O
+是	O	O
+谁	O	O
+呀	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+搜	O	O
+索	O	O
+你	B-SO	O
+知	I-SO	O
+道	I-SO	O
+我	I-SO	O
+在	I-SO	O
+等	I-SO	O
+你	I-SO	O
+吗	E-SO	O
+？	O	O
+
+要	O	O
+多	O	O
+h	O	O
+i	O	O
+g	O	O
+h	O	O
+。	O	O
+
+数	B-SO	B-SO
+鸭	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+爱	B-SO	O
+一	I-SO	O
+点	E-SO	O
+。	O	O
+
+帮	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+兄	B-SO	B-SO
+弟	I-SO	I-SO
+干	I-SO	I-SO
+杯	E-SO	E-SO
+。	O	O
+
+玩	O	O
+具	O	O
+熊	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+冲	B-SO	B-SO
+天	E-SO	E-SO
+。	O	O
+
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+听	O	O
+歌	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+i	O	O
+
+n	B-SO	O
+e	I-SO	O
+e	I-SO	O
+d	I-SO	O
+
+y	I-SO	O
+o	I-SO	O
+u	I-SO	O
+
+n	I-SO	I-SO
+o	I-SO	I-SO
+w	E-SO	E-SO
+。	O	O
+
+教	O	O
+你	O	O
+唱	O	O
+歌	O	O
+。	O	O
+
+挪	B-SO	B-SO
+威	I-SO	I-SO
+的	I-SO	I-SO
+森	I-SO	I-SO
+林	E-SO	E-SO
+。	O	O
+
+我	O	O
+是	O	O
+不	O	O
+是	O	O
+你	O	O
+的	O	O
+主	O	O
+人	O	O
+呢	O	O
+
+两	O	B-SO
+个	O	I-SO
+小	O	I-SO
+老	O	I-SO
+虎	O	E-SO
+两	B-SO	B-SO
+只	I-SO	I-SO
+老	I-SO	I-SO
+虎	E-SO	E-SO
+。	O	O
+
+唱	O	O
+赶	B-SO	B-SO
+海	I-SO	I-SO
+的	I-SO	I-SO
+小	I-SO	I-SO
+姑	I-SO	I-SO
+娘	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+首	O	O
+。	O	O
+
+都	O	O
+出	O	O
+来	O	O
+完	O	O
+了	O	O
+我	O	O
+相	O	O
+信	O	O
+，	O	O
+冷	O	O
+家	O	O
+说	O	O
+得	O	O
+是	O	O
+特	O	O
+小	O	O
+村	O	O
+，	O	O
+这	O	O
+些	O	O
+老	O	O
+师	O	O
+们	O	O
+，	O	O
+就	O	O
+是	O	O
+在	O	O
+家	O	O
+呆	O	O
+着	O	O
+，	O	O
+应	O	O
+该	O	O
+有	O	O
+一	O	O
+款	O	O
+真	O	O
+正	O	O
+的	O	O
+失	O	O
+落	O	O
+，	O	O
+这	O	O
+个	O	O
+狮	O	O
+子	O	O
+王	O	O
+就	O	O
+会	O	O
+教	O	O
+训	O	O
+婚	O	O
+有	O	O
+三	O	O
+的	O	O
+凶	O	O
+手	O	O
+就	O	O
+是	O	O
+不	O	O
+知	O	O
+该	O	O
+何	O	O
+去	O	O
+何	O	O
+从	O	O
+，	O	O
+这	O	O
+个	O	O
+地	O	O
+方	O	O
+是	O	O
+就	O	O
+是	O	O
+就	O	O
+只	O	O
+是	O	O
+在	O	O
+熬	O	O
+的	O	O
+，	O	O
+都	O	O
+记	O	O
+不	O	O
+得	O	O
+，	O	O
+能	O	O
+不	O	O
+能	O	O
+。	O	O
+
+放	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+我	O	O
+刚	O	O
+刚	O	O
+开	O	O
+始	O	O
+刚	O	O
+刚	O	O
+绑	O	O
+定	O	O
+了	O	O
+我	O	O
+的	O	O
+手	O	O
+机	O	O
+然	O	O
+后	O	O
+还	O	O
+没	O	O
+有	O	O
+开	O	O
+始	O	O
+玩	O	O
+。	O	O
+
+我	O	O
+是	O	O
+你	O	O
+妈	O	O
+妈	O	O
+。	O	O
+
+怎	O	O
+么	O	O
+老	B-AR	O
+狼	E-AR	O
+的	O	O
+干	B-SO	O
+爹	E-SO	O
+？	O	O
+
+放	O	O
+黑	B-SO	O
+白	I-SO	O
+切	E-SO	O
+。	O	O
+
+播	O	O
+放	O	O
+一	O	O
+首	O	O
+。	O	O
+
+我	O	O
+现	O	O
+在	O	O
+我	O	O
+是	O	O
+说	O	O
+看	O	O
+小	O	O
+品	O	O
+怎	O	O
+么	O	O
+看	O	O
+不	O	O
+到	O	O
+视	O	O
+频	O	O
+？	O	O
+
+明	B-SO	O
+天	I-SO	O
+你	I-SO	O
+是	I-SO	O
+否	I-SO	O
+依	I-SO	O
+然	I-SO	O
+爱	I-SO	O
+我	E-SO	O
+。	O	O
+
+听	O	O
+陈	B-AR	B-AR
+星	E-AR	E-AR
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+如	O	O
+果	O	O
+我	O	O
+们	O	O
+放	O	O
+店	O	O
+里	O	O
+卖	O	O
+了	O	O
+。	O	O
+
+听	O	O
+鹿	B-AR	B-AR
+晗	E-AR	E-AR
+唱	O	O
+的	O	O
+勋	B-SO	B-SO
+章	E-SO	E-SO
+。	O	O
+
+我	B-SO	O
+记	I-SO	O
+得	E-SO	O
+听	O	O
+一	O	O
+下	O	O
+放	O	O
+慢	B-GE	O
+歌	E-GE	O
+吧	O	O
+。	O	O
+
+上	B-SO	B-SO
+学	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+亲	B-SO	B-SO
+家	I-SO	I-SO
+母	I-SO	I-SO
+你	I-SO	I-SO
+坐	I-SO	I-SO
+下	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+萧	B-AR	B-SO
+敬	I-AR	I-SO
+腾	E-AR	I-SO
+王	B-SO	I-SO
+妃	E-SO	I-SO
+你	O	I-SO
+有	O	I-SO
+木	O	I-SO
+有	O	I-SO
+呀	O	E-SO
+。	O	O
+
+是	O	O
+你	O	O
+说	O	O
+。	O	O
+
+海	O	O
+绵	O	O
+宝	O	O
+宝	O	O
+好	O	O
+漂	O	O
+亮	O	O
+。	O	O
+
+蚂	O	O
+蚁	O	O
+搬	O	O
+虫	O	O
+虫	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+吗	O	O
+？	O	O
+
+美	B-SO	B-SO
+丽	I-SO	I-SO
+的	I-SO	I-SO
+童	I-SO	I-SO
+年	E-SO	E-SO
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+唐	B-SO	B-SO
+僧	I-SO	I-SO
+骑	I-SO	I-SO
+马	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+个	O	O
+瘦	B-SO	O
+子	E-SO	O
+。	O	O
+
+春	O	O
+哥	O	O
+。	O	O
+
+来	O	O
+个	O	O
+。	O	O
+
+播	O	O
+放	O	O
+捉	B-SO	B-SO
+泥	I-SO	I-SO
+鳅	E-SO	E-SO
+，	O	O
+孩	O	O
+子	O	O
+我	O	O
+与	O	O
+那	O	O
+捉	B-SO	O
+泥	I-SO	O
+鳅	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+罗	B-AR	B-SO
+百	I-AR	I-SO
+吉	E-AR	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+高	B-AR	B-SO
+胜	I-AR	I-SO
+美	E-AR	E-SO
+。	O	O
+
+歌	O	O
+曲	O	O
+繁	B-SO	O
+星	I-SO	O
+点	I-SO	O
+点	E-SO	O
+。	O	O
+
+赢	O	O
+经	O	O
+典	O	O
+。	O	O
+
+完	O	O
+了	O	O
+我	O	O
+跟	O	O
+老	O	O
+师	O	O
+还	O	O
+给	O	O
+他	O	O
+东	O	O
+西	O	O
+，	O	O
+忙	O	O
+着	O	O
+呢	O	O
+给	O	O
+做	O	O
+登	O	O
+记	O	O
+，	O	O
+就	O	O
+是	O	O
+谁	O	O
+放	O	O
+了	O	O
+，	O	O
+是	O	O
+每	O	O
+天	O	O
+忙	O	O
+着	O	O
+登	O	O
+船	O	O
+登	O	O
+机	O	O
+到	O	O
+地	O	O
+上	O	O
+。	O	O
+
+唱	O	O
+衰	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+歌	B-SO	B-SO
+在	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+住	O	B-SO
+在	O	I-SO
+回	B-SO	I-SO
+家	I-SO	I-SO
+的	I-SO	I-SO
+路	I-SO	I-SO
+上	E-SO	E-SO
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+酷	O	O
+狗	O	O
+。	O	O
+
+席	B-AR	O
+琳	I-AR	O
+迪	I-AR	O
+翁	E-AR	O
+的	O	O
+歌	O	O
+。	O	O
+
+有	O	O
+时	O	O
+候	O	O
+小	B-SO	O
+苹	I-SO	O
+果	E-SO	O
+唱	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+喜	B-SO	B-SO
+洋	I-SO	I-SO
+洋	I-SO	I-SO
+和	I-SO	I-SO
+灰	I-SO	I-SO
+太	I-SO	I-SO
+狼	E-SO	E-SO
+。	O	O
+
+吃	B-SO	O
+水	I-SO	O
+果	E-SO	O
+。	O	O
+
+一	O	O
+直	O	O
+称	O	O
+呼	O	O
+呀	O	O
+，	O	O
+结	O	O
+婚	O	O
+吧	O	O
+。	O	O
+
+我	B-SO	O
+要	I-SO	O
+抱	I-SO	O
+着	I-SO	O
+你	E-SO	O
+。	O	O
+
+陈	B-AR	B-AR
+奕	I-AR	I-AR
+迅	E-AR	E-AR
+的	O	O
+十	B-SO	B-SO
+年	E-SO	E-SO
+。	O	O
+
+拉	O	O
+丁	O	O
+。	O	O
+
+校	O	O
+长	O	O
+能	O	O
+不	O	O
+能	O	O
+改	O	O
+服	O	O
+了	O	O
+服	O	O
+了	O	O
+，	O	O
+我	O	O
+问	O	O
+你	O	O
+个	O	O
+事	O	O
+啊	O	O
+你	O	O
+买	O	O
+那	O	O
+个	O	O
+木	O	O
+板	O	O
+在	O	O
+哪	O	O
+里	O	O
+买	O	O
+的	O	O
+。	O	O
+
+莫	B-AR	B-SO
+西	I-AR	I-SO
+子	I-AR	I-SO
+诗	E-AR	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+嘻	O	O
+哈	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+宝	B-SO	B-SO
+贝	E-SO	E-SO
+。	O	O
+
+老	O	O
+徐	O	O
+你	O	O
+好	O	O
+，	O	O
+来	O	O
+一	O	O
+首	O	O
+黑	B-AR	B-AR
+龙	E-AR	E-AR
+的	O	O
+感	B-SO	O
+谢	E-SO	O
+，	O	O
+不	O	O
+是	O	O
+吧	O	O
+，	O	O
+我	O	O
+终	O	O
+于	O	O
+失	O	O
+去	O	O
+了	O	O
+你	O	O
+黑	B-AR	O
+龙	E-AR	O
+的	O	O
+感	B-SO	O
+谢	E-SO	O
+，	O	O
+会	O	O
+吗	O	O
+，	O	O
+尼	O	O
+玛	O	O
+，	O	O
+特	O	O
+点	O	O
+。	O	O
+
+J	O	O
+o	O	O
+e	O	O
+y	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+爱	B-SO	B-SO
+国	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+张	B-AR	B-AR
+学	I-AR	I-AR
+友	E-AR	E-AR
+。	O	O
+
+这	O	O
+首	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+偷	O	B-SO
+偷	O	I-SO
+的	O	I-SO
+哭	O	E-SO
+。	O	O
+
+移	B-SO	B-SO
+情	I-SO	I-SO
+别	I-SO	I-SO
+恋	E-SO	E-SO
+。	O	O
+
+听	O	O
+小	B-SO	B-SO
+宝	I-SO	I-SO
+贝	E-SO	E-SO
+。	O	O
+
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+悟	B-SO	B-SO
+空	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+唱	O	O
+我	O	O
+听	O	O
+w	B-SO	O
+a	I-SO	O
+l	I-SO	O
+k	I-SO	O
+i	I-SO	O
+n	I-SO	O
+g	E-SO	O
+。	O	O
+
+什	O	O
+么	O	O
+情	O	O
+况	O	O
+，	O	O
+还	O	O
+看	O	O
+你	O	O
+的	O	O
+这	O	O
+个	O	O
+网	O	O
+络	O	O
+，	O	O
+在	O	O
+不	O	O
+在	O	O
+，	O	O
+好	O	O
+好	O	O
+的	O	O
+呢	O	O
+？	O	O
+
+幸	O	O
+运	O	O
+的	O	O
+好	O	O
+，	O	O
+每	O	O
+个	O	O
+人	O	O
+总	O	O
+有	O	O
+一	O	O
+个	O	O
+人	O	O
+，	O	O
+掉	O	O
+了	O	O
+？	O	O
+
+老	O	O
+师	O	O
+您	O	O
+好	O	O
+。	O	O
+
+一	O	O
+个	O	O
+父	O	O
+母	O	O
+会	O	O
+拿	O	O
+自	O	O
+己	O	O
+的	O	O
+这	O	O
+个	O	O
+名	O	O
+誉	O	O
+，	O	O
+就	O	O
+说	O	O
+就	O	O
+是	O	O
+现	O	O
+在	O	O
+孩	O	O
+子	O	O
+小	O	O
+吧	O	O
+，	O	O
+那	O	O
+孩	O	O
+子	O	O
+的	O	O
+那	O	O
+个	O	O
+谜	O	O
+语	O	O
+什	O	O
+么	O	O
+的	O	O
+吗	O	O
+，	O	O
+这	O	O
+个	O	O
+名	O	O
+单	O	O
+有	O	O
+我	O	O
+们	O	O
+这	O	O
+儿	O	O
+有	O	O
+民	O	O
+生	O	O
+来	O	O
+着	O	O
+，	O	O
+开	O	O
+这	O	O
+种	O	O
+玩	O	O
+笑	O	O
+，	O	O
+没	O	O
+有	O	O
+。	O	O
+
+烈	O	O
+火	O	O
+，	O	O
+放	B-SO	O
+弃	E-SO	O
+。	O	O
+
+东	O	B-SO
+方	O	I-SO
+情	O	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+曲	O	O
+。	O	O
+
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+请	O	O
+放	O	O
+好	B-SO	B-SO
+姑	I-SO	I-SO
+娘	E-SO	E-SO
+。	O	O
+
+唱	O	O
+断	B-SO	B-SO
+金	I-SO	I-SO
+阙	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+感	B-SO	B-SO
+觉	I-SO	I-SO
+自	I-SO	I-SO
+己	I-SO	I-SO
+萌	I-SO	I-SO
+萌	I-SO	I-SO
+哒	E-SO	E-SO
+。	O	O
+
+伤	B-SO	B-SO
+心	I-SO	I-SO
+太	I-SO	I-SO
+平	I-SO	I-SO
+洋	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+个	O	O
+中	B-SO	B-SO
+国	I-SO	I-SO
+公	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+六	B-AR	B-SO
+哲	E-AR	I-SO
+的	O	I-SO
+错	B-SO	I-SO
+错	I-SO	I-SO
+错	E-SO	E-SO
+。	O	O
+
+叶	O	O
+一	O	O
+茜	O	O
+？	O	O
+
+大	O	O
+左	O	O
+。	O	O
+
+讲	O	O
+一	O	O
+首	O	O
+白	B-SO	B-SO
+龙	I-SO	I-SO
+马	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+林	B-AR	B-AR
+俊	I-AR	I-AR
+杰	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+谁	O	O
+说	O	O
+你	O	O
+的	O	O
+眼	O	O
+睛	O	O
+像	O	O
+啊	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+大	B-SO	B-SO
+王	I-SO	I-SO
+叫	I-SO	I-SO
+我	I-SO	I-SO
+来	I-SO	I-SO
+巡	I-SO	I-SO
+山	E-SO	E-SO
+。	O	O
+
+天	B-SO	O
+天	I-SO	O
+向	I-SO	O
+上	E-SO	O
+。	O	O
+
+小	B-SO	B-SO
+螺	I-SO	I-SO
+号	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+听	O	O
+一	O	O
+首	O	O
+五	S-SO	O
+吗	O	O
+？	O	O
+
+肯	O	O
+定	O	O
+是	O	O
+那	O	O
+个	O	O
+不	O	O
+是	O	O
+存	O	O
+在	O	O
+一	O	O
+种	O	O
+侥	O	O
+幸	O	O
+心	O	O
+理	O	O
+没	O	O
+有	O	O
+关	O	O
+系	O	O
+，	O	O
+那	O	O
+真	O	O
+正	O	O
+的	O	O
+打	O	O
+到	O	O
+你	O	O
+的	O	O
+那	O	O
+一	O	O
+天	O	O
+，	O	O
+真	O	O
+的	O	O
+是	O	O
+后	O	O
+悔	O	O
+莫	O	O
+及	O	O
+哦	O	O
+。	O	O
+
+仅	O	O
+的	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+爱	B-SO	B-SO
+情	I-SO	I-SO
+一	I-SO	I-SO
+阵	I-SO	I-SO
+风	E-SO	E-SO
+。	O	O
+
+张	B-AR	B-AR
+学	I-AR	I-AR
+友	E-AR	E-AR
+的	O	O
+歌	O	O
+，	O	O
+你	O	O
+不	O	O
+用	O	O
+听	O	O
+张	B-AR	O
+学	I-AR	O
+友	E-AR	O
+我	O	O
+返	O	O
+回	O	O
+去	O	O
+。	O	O
+
+数	B-SO	B-SO
+鸭	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+听	O	O
+一	O	O
+下	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+奶	O	O
+奶	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+了	O	B-SO
+明	O	I-SO
+年	O	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+鲁	O	B-SO
+冰	O	I-SO
+花	O	E-SO
+播	O	O
+放	O	O
+雨	B-SO	B-SO
+樱	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+你	O	O
+好	O	O
+不	O	O
+好	O	O
+。	O	O
+
+云	B-AR	B-AR
+菲	I-AR	I-AR
+菲	E-AR	E-AR
+的	O	O
+事	O	O
+，	O	O
+上	B-SO	O
+学	E-SO	O
+。	O	O
+
+i	B-SO	O
+
+l	I-SO	O
+o	I-SO	O
+v	I-SO	O
+e	I-SO	O
+
+i	I-SO	O
+t	E-SO	O
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+，	O	O
+哎	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+妈	B-SO	B-SO
+妈	I-SO	I-SO
+的	I-SO	I-SO
+吻	E-SO	E-SO
+。	O	O
+
+请	O	O
+你	O	O
+唱	O	O
+国	B-SO	B-SO
+歌	E-SO	E-SO
+。	O	O
+
+你	B-SO	O
+走	I-SO	O
+吧	E-SO	O
+。	O	O
+
+听	O	O
+谢	B-AR	B-AR
+春	I-AR	I-AR
+花	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+韩	B-AR	B-AR
+宝	I-AR	I-AR
+仪	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+A	O	O
+
+r	O	O
+e	O	O
+
+Y	O	O
+o	O	O
+u	O	O
+
+i	O	O
+u	O	O
+。	O	O
+
+放	O	O
+怀	B-SO	B-SO
+念	I-SO	I-SO
+青	I-SO	I-SO
+春	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+郑	B-AR	B-AR
+源	E-AR	E-AR
+。	O	O
+
+你	O	O
+是	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+生	O	O
+产	O	O
+出	O	O
+来	O	O
+的	O	O
+。	O	O
+
+原	O	O
+因	O	O
+系	O	O
+，	O	O
+好	O	O
+听	O	O
+好	O	O
+听	O	O
+的	O	O
+歌	O	O
+给	O	O
+我	O	O
+听	O	O
+。	O	O
+
+读	O	O
+唱	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+就	O	O
+不	O	O
+会	O	O
+呼	O	O
+吸	O	O
+困	O	O
+难	O	O
+，	O	O
+我	O	O
+很	O	O
+好	O	O
+，	O	O
+有	O	O
+什	O	O
+么	O	O
+可	O	O
+以	O	O
+做	O	O
+铃	O	O
+声	O	O
+。	O	O
+
+听	O	O
+b	B-AR	B-AR
+e	I-AR	I-AR
+y	I-AR	I-AR
+o	I-AR	I-AR
+n	I-AR	I-AR
+d	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+个	O	O
+小	B-SO	O
+小	I-SO	O
+鸟	E-SO	O
+吧	O	O
+。	O	O
+
+玖	B-AR	B-AR
+月	I-AR	I-AR
+奇	I-AR	I-AR
+迹	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+刚	O	O
+好	O	O
+，	O	O
+因	O	O
+为	O	O
+刚	B-SO	B-SO
+好	I-SO	I-SO
+遇	I-SO	I-SO
+见	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+童	B-SO	B-SO
+年	E-SO	E-SO
+。	O	O
+
+你	B-SO	O
+就	I-SO	O
+不	I-SO	O
+要	I-SO	O
+想	I-SO	O
+起	I-SO	O
+我	E-SO	O
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+就	O	O
+胡	O	O
+说	O	O
+，	O	O
+不	O	O
+要	O	O
+听	O	O
+音	O	O
+乐	O	O
+你	O	O
+们	O	O
+放	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+李	B-AR	B-AR
+健	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+搜	O	O
+索	O	O
+行	O	O
+，	O	O
+韩	O	O
+国	O	O
+d	O	O
+j	O	O
+串	B-GE	O
+烧	E-GE	O
+歌	O	O
+曲	O	O
+，	O	O
+韩	O	O
+国	O	O
+。	O	O
+
+你	O	O
+就	O	O
+是	O	O
+说	O	O
+一	O	O
+遍	O	O
+我	O	O
+想	O	O
+听	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+阿	B-SO	B-SO
+里	I-SO	I-SO
+山	I-SO	I-SO
+的	I-SO	I-SO
+姑	I-SO	I-SO
+娘	E-SO	E-SO
+。	O	O
+
+为	O	O
+什	O	O
+么	O	O
+呢	O	O
+？	O	O
+
+我	B-SO	B-SO
+们	I-SO	I-SO
+不	I-SO	I-SO
+一	I-SO	I-SO
+样	E-SO	E-SO
+，	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+最	B-SO	B-SO
+美	I-SO	I-SO
+情	I-SO	I-SO
+侣	E-SO	E-SO
+。	O	O
+
+看	O	O
+毛	B-AR	O
+主	I-AR	O
+席	E-AR	O
+唱	O	O
+的	O	O
+东	B-SO	B-SO
+方	I-SO	I-SO
+红	E-SO	I-SO
+歌	O	I-SO
+红	O	I-SO
+歌	O	E-SO
+。	O	O
+
+听	B-SO	O
+听	E-SO	O
+。	O	O
+
+是	O	O
+不	O	O
+是	O	O
+你	O	O
+妈	O	O
+逼	O	O
+。	O	O
+
+听	O	O
+歌	O	O
+。	O	O
+
+播	O	O
+放	O	O
+映	B-SO	B-SO
+山	I-SO	I-SO
+红	E-SO	I-SO
+葫	O	I-SO
+芦	O	I-SO
+丝	O	E-SO
+。	O	O
+
+你	O	O
+给	O	O
+他	O	O
+起	O	O
+来	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+打	O	O
+开	O	O
+妈	B-SO	O
+妈	I-SO	O
+我	I-SO	O
+想	I-SO	O
+你	I-SO	O
+了	E-SO	O
+。	O	O
+
+原	O	O
+来	O	O
+你	O	O
+不	O	O
+懂	O	O
+。	O	O
+
+记	O	O
+住	O	O
+我	O	O
+家	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+歌	O	O
+曲	O	O
+双	B-SO	B-SO
+截	I-SO	I-SO
+棍	E-SO	E-SO
+。	O	O
+
+请	O	O
+你	O	O
+来	O	O
+啦	O	O
+，	O	O
+说	O	O
+的	O	O
+的	O	O
+的	O	O
+我	O	O
+的	O	O
+方	O	O
+案	O	O
+。	O	O
+
+请	O	O
+给	O	O
+我	O	O
+们	O	O
+播	O	O
+放	O	O
+猪	B-SO	B-SO
+猪	I-SO	I-SO
+侠	E-SO	E-SO
+。	O	O
+
+唱	O	O
+数	B-SO	B-SO
+鸭	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+你	O	O
+能	O	O
+不	O	O
+能	O	O
+吧	O	O
+我	O	O
+搜	O	O
+一	O	O
+下	O	O
+传	O	B-AR
+王	B-AR	I-AR
+菲	E-AR	E-AR
+的	O	O
+歌	O	O
+
+好	O	O
+妈	O	O
+妈	O	O
+。	O	O
+
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+红	B-SO	O
+河	I-SO	O
+谷	E-SO	O
+。	O	O
+
+我	O	O
+现	O	O
+在	O	O
+啥	O	O
+好	O	O
+了	O	O
+，	O	O
+他	O	O
+会	O	O
+就	O	O
+马	O	O
+上	O	O
+想	O	O
+起	O	O
+了	O	O
+他	O	O
+家	O	O
+里	O	O
+给	O	O
+他	O	O
+以	O	O
+后	O	O
+花	O	O
+花	O	O
+完	O	O
+了	O	O
+之	O	O
+后	O	O
+有	O	O
+新	O	O
+疆	O	O
+那	O	O
+个	O	O
+特	O	O
+产	O	O
+太	O	O
+好	O	O
+了	O	O
+太	O	O
+好	O	O
+吃	O	O
+了	O	O
+我	O	O
+很	O	O
+多	O	O
+那	O	O
+边	O	O
+的	O	O
+。	O	O
+
+中	O	B-SO
+国	O	I-SO
+歌	O	E-SO
+
+如	O	O
+果	O	O
+我	O	O
+是	O	O
+你	O	O
+的	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+老	O	O
+虎	O	O
+是	O	O
+。	O	O
+
+我	O	O
+想	O	O
+问	O	O
+你	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+少	B-SO	B-SO
+年	I-SO	I-SO
+英	I-SO	I-SO
+雄	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+杰	B-SO	B-SO
+德	I-SO	I-SO
+奥	I-SO	I-SO
+特	I-SO	I-SO
+曼	I-SO	I-SO
+主	I-SO	I-SO
+题	I-SO	I-SO
+曲	E-SO	E-SO
+。	O	O
+
+小	O	O
+宝	O	O
+小	O	O
+宝	O	O
+，	O	O
+换	O	O
+歌	O	O
+。	O	O
+
+小	B-SO	O
+羊	I-SO	O
+小	I-SO	O
+羊	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+吻	B-SO	B-SO
+别	E-SO	E-SO
+。	O	O
+
+唱	O	O
+喷	B-SO	O
+火	I-SO	O
+的	I-SO	O
+葫	I-SO	B-SO
+芦	I-SO	I-SO
+娃	E-SO	E-SO
+。	O	O
+
+打	O	O
+开	O	O
+许	B-AR	B-AR
+巍	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+鹿	B-AR	B-AR
+晗	E-AR	E-AR
+的	O	O
+新	O	O
+歌	O	O
+。	O	O
+
+让	B-SO	B-SO
+我	I-SO	I-SO
+们	I-SO	I-SO
+荡	I-SO	I-SO
+起	I-SO	I-SO
+双	I-SO	I-SO
+桨	E-SO	E-SO
+。	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+播	O	O
+放	O	O
+量	B-SO	B-SO
+足	E-SO	E-SO
+。	O	O
+
+蒙	B-SO	B-SO
+古	I-SO	I-SO
+高	I-SO	I-SO
+原	E-SO	E-SO
+。	O	O
+
+唱	O	O
+个	O	O
+写	O	O
+景	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+生	O	B-SO
+姜	O	I-SO
+水	O	E-SO
+。	O	O
+
+爸	O	B-SO
+爸	O	I-SO
+去	O	I-SO
+哪	O	I-SO
+儿	O	E-SO
+。	O	O
+
+朋	B-SO	B-SO
+友	I-SO	I-SO
+别	I-SO	I-SO
+哭	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+有	O	O
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+吗	O	O
+？	O	O
+
+梦	B-SO	B-SO
+驼	I-SO	I-SO
+铃	E-SO	E-SO
+。	O	O
+
+帮	O	O
+你	O	O
+换	O	O
+个	O	O
+名	O	O
+字	O	O
+叫	O	O
+新	O	O
+歌	O	O
+。	O	O
+
+雅	B-AR	O
+阁	I-AR	O
+陌	I-AR	O
+迁	E-AR	O
+的	O	O
+抽	B-SO	O
+离	E-SO	O
+。	O	O
+
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+想	O	O
+明	O	O
+白	O	O
+呀	O	O
+。	O	O
+
+林	B-AR	B-AR
+依	I-AR	I-AR
+轮	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+下	O	O
+岗	O	O
+啦	O	O
+我	O	O
+想	O	O
+早	O	O
+点	O	O
+找	O	O
+我	O	O
+啥	O	O
+子	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+最	B-SO	B-SO
+美	I-SO	I-SO
+情	I-SO	I-SO
+侣	E-SO	E-SO
+。	O	O
+
+真	O	O
+爽	O	O
+。	O	O
+
+发	O	O
+烧	O	O
+，	O	O
+喜	O	O
+欢	O	O
+你	O	O
+。	O	O
+
+H	O	O
+a	O	O
+l	O	O
+o	O	O
+。	O	O
+
+向	B-SO	B-SO
+天	I-SO	I-SO
+再	I-SO	I-SO
+借	I-SO	I-SO
+五	I-SO	I-SO
+百	I-SO	I-SO
+年	E-SO	E-SO
+。	O	O
+
+n	O	O
+a	O	O
+n	O	O
+a	O	O
+。	O	O
+
+萤	B-SO	O
+火	I-SO	O
+虫	E-SO	O
+。	O	O
+
+嘎	B-SO	O
+嘎	E-SO	O
+。	O	O
+
+童	O	O
+话	O	O
+故	O	O
+事	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+。	O	O
+
+白	B-SO	B-SO
+龙	I-SO	I-SO
+马	E-SO	E-SO
+。	O	O
+
+放	O	O
+平	B-AR	B-AR
+安	E-AR	E-AR
+的	O	O
+离	B-SO	O
+开	I-SO	O
+我	E-SO	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+听	O	O
+听	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+换	O	O
+一	O	O
+首	O	O
+，	O	O
+毛	B-AR	B-AR
+不	I-AR	I-AR
+易	E-AR	E-AR
+的	O	O
+，	O	O
+像	B-SO	B-SO
+我	I-SO	I-SO
+这	I-SO	I-SO
+样	I-SO	I-SO
+的	I-SO	I-SO
+人	E-SO	E-SO
+。	O	O
+
+如	B-SO	O
+果	I-SO	O
+还	I-SO	O
+有	I-SO	O
+明	I-SO	O
+天	E-SO	O
+。	O	O
+
+c	O	O
+二	O	O
+c	O	O
+。	O	O
+
+看	O	O
+看	O	O
+这	O	O
+书	O	O
+的	O	O
+出	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+我	B-SO	B-SO
+们	I-SO	I-SO
+不	I-SO	I-SO
+一	I-SO	I-SO
+样	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+个	O	O
+。	O	O
+
+你	O	O
+看	O	O
+你	O	O
+这	O	O
+单	O	O
+了	O	O
+。	O	O
+
+我	O	O
+是	O	O
+赵	O	O
+于	O	O
+涛	O	O
+的	O	O
+妈	O	O
+妈	O	O
+你	O	O
+好	O	O
+。	O	O
+
+唱	O	O
+王	O	B-SO
+符	O	E-SO
+。	O	O
+
+李	B-AR	B-AR
+玉	I-AR	I-AR
+刚	E-AR	E-AR
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+好	B-SO	B-SO
+汉	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+深	B-SO	B-SO
+海	I-SO	I-SO
+少	I-SO	I-SO
+女	E-SO	E-SO
+。	O	O
+
+高	B-AR	B-SO
+凌	I-AR	I-SO
+风	E-AR	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+你	B-SO	B-SO
+是	I-SO	I-SO
+风	I-SO	I-SO
+儿	I-SO	I-SO
+我	I-SO	I-SO
+是	I-SO	I-SO
+沙	E-SO	E-SO
+。	O	O
+
+摇	B-SO	B-SO
+篮	I-SO	I-SO
+曲	E-SO	E-SO
+。	O	O
+
+过	B-SO	B-SO
+火	E-SO	E-SO
+唱	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+想	O	O
+要	O	O
+听	O	O
+青	B-SO	B-SO
+春	I-SO	I-SO
+修	I-SO	I-SO
+炼	I-SO	I-SO
+手	I-SO	I-SO
+册	E-SO	E-SO
+。	O	O
+
+说	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+。	O	O
+
+你	O	O
+看	O	O
+见	O	O
+我	O	O
+长	O	O
+得	O	O
+帅	O	O
+不	O	O
+帅	O	O
+呀	O	O
+。	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+唱	O	O
+虫	B-SO	B-SO
+儿	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+听	O	O
+芈	O	B-AR
+月	O	I-AR
+传	O	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+蒋	O	O
+雪	O	O
+儿	O	O
+的	O	O
+周	O	O
+星	O	O
+驰	O	O
+的	O	O
+电	O	O
+影	O	O
+。	O	O
+
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+。	O	O
+
+放	O	O
+个	O	O
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+。	O	O
+
+你	B-SO	O
+若	I-SO	O
+化	I-SO	O
+成	I-SO	O
+风	E-SO	O
+。	O	O
+
+筷	B-AR	B-AR
+子	I-AR	I-AR
+兄	I-AR	I-AR
+弟	E-AR	E-AR
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+张	B-AR	O
+芯	E-AR	O
+的	O	O
+老	B-SO	O
+铁	E-SO	O
+。	O	O
+
+来	O	O
+个	O	O
+捉	B-SO	B-SO
+泥	I-SO	I-SO
+鳅	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+渴	O	O
+望	O	O
+。	O	O
+
+听	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+下	O	O
+都	O	O
+成	O	O
+了	O	O
+你	O	O
+看	O	O
+我	O	O
+的	O	O
+照	O	O
+片	O	O
+成	O	O
+啥	O	O
+了	O	O
+应	O	O
+该	O	O
+这	O	O
+个	O	O
+钱	O	O
+都	O	O
+是	O	O
+两	O	O
+个	O	O
+线	O	O
+都	O	O
+平	O	O
+行	O	O
+了	O	O
+下	O	O
+来	O	O
+然	O	O
+后	O	O
+一	O	O
+边	O	O
+又	O	O
+糊	O	O
+涂	O	O
+才	O	O
+对	O	O
+，	O	O
+你	O	O
+看	O	O
+看	O	O
+。	O	O
+
+冷	B-AR	B-AR
+漠	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+每	O	O
+部	O	O
+分	O	O
+歌	O	O
+曲	O	O
+的	O	O
+。	O	O
+
+你	O	O
+都	O	O
+会	O	O
+干	O	O
+啥	O	O
+呀	O	O
+我	O	O
+看	O	O
+你	O	O
+啥	O	O
+也	O	O
+不	O	O
+会	O	O
+呀	O	O
+，	O	O
+聊	O	O
+聊	O	O
+天	O	O
+吧	O	O
+。	O	O
+
+小	O	O
+儿	O	B-GE
+歌	O	E-GE
+。	O	O
+
+放	O	O
+歌	O	O
+听	O	O
+。	O	O
+
+我	O	O
+的	O	O
+名	O	O
+字	O	O
+叫	O	O
+杨	O	O
+景	O	O
+诚	O	O
+。	O	O
+
+除	O	O
+了	O	O
+儿	O	O
+歌	O	O
+还	O	O
+会	O	O
+什	O	O
+么	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+大	O	O
+家	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+交	O	O
+。	O	O
+
+哈	O	O
+喽	O	O
+和	O	O
+和	O	O
+痛	O	O
+苦	O	O
+。	O	O
+
+数	B-SO	B-SO
+鸭	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+切	O	O
+换	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+是	O	O
+我	O	O
+同	O	O
+学	O	O
+完	O	O
+全	O	O
+瑞	O	O
+博	O	O
+。	O	O
+
+你	O	O
+是	O	O
+叫	O	O
+你	O	O
+唱	O	O
+首	O	O
+好	O	O
+听	O	O
+的	O	O
+歌	O	O
+吗	O	O
+？	O	O
+
+苦	O	O
+乐	O	O
+冲	O	O
+关	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+i	O	O
+n	O	O
+
+t	O	O
+h	O	O
+e	O	O
+
+o	O	O
+c	O	O
+e	O	O
+a	O	O
+n	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+黄	B-AR	B-AR
+家	I-AR	I-AR
+驹	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	B-SO	B-SO
+爱	I-SO	I-SO
+家	I-SO	I-SO
+乡	I-SO	I-SO
+我	I-SO	I-SO
+爱	I-SO	I-SO
+祖	I-SO	I-SO
+国	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+蒋	B-AR	B-AR
+雪	I-AR	I-AR
+儿	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+不	O	O
+用	O	O
+听	O	O
+个	O	O
+儿	B-SO	B-GE
+歌	E-SO	E-GE
+。	O	O
+
+那	B-SO	O
+个	I-SO	O
+你	E-SO	O
+。	O	O
+
+我	O	O
+这	O	O
+个	O	O
+肉	O	B-SO
+海	O	I-SO
+浪	O	I-SO
+的	O	I-SO
+声	O	I-SO
+音	O	E-SO
+。	O	O
+
+我	B-SO	B-SO
+爱	I-SO	I-SO
+北	I-SO	I-SO
+京	I-SO	I-SO
+天	I-SO	I-SO
+安	I-SO	I-SO
+门	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+斯	B-AR	B-AR
+琴	I-AR	I-AR
+高	I-AR	I-AR
+丽	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+看	O	O
+大	O	O
+话	O	O
+西	O	O
+游	O	O
+之	O	O
+爱	O	O
+你	O	O
+一	O	O
+万	O	O
+年	O	O
+。	O	O
+
+我	O	O
+，	O	O
+我	B-SO	O
+想	I-SO	O
+着	I-SO	O
+你	I-SO	O
+亲	I-SO	O
+爱	I-SO	O
+的	E-SO	O
+这	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+她	O	O
+说	O	O
+一	O	O
+岁	O	O
+了	O	O
+。	O	O
+
+神	O	B-SO
+曲	O	E-SO
+。	O	O
+
+祁	B-AR	B-AR
+隆	E-AR	E-AR
+。	O	O
+
+回	O	O
+来	O	O
+。	O	O
+
+那	O	O
+个	O	O
+她	O	O
+说	O	O
+她	O	O
+像	O	O
+她	O	O
+自	O	O
+己	O	O
+三	O	O
+个	O	O
+人	O	O
+，	O	O
+是	O	O
+不	O	O
+是	O	O
+有	O	O
+有	O	O
+黑	O	O
+脸	O	O
+娃	O	O
+娃	O	O
+你	O	O
+在	O	O
+一	O	O
+美	O	O
+女	O	O
+说	O	O
+放	O	O
+学	O	O
+了	O	O
+，	O	O
+有	O	O
+没	O	O
+有	O	O
+那	O	O
+个	O	O
+圈	O	O
+里	O	O
+面	O	O
+有	O	O
+没	O	O
+有	O	O
+。	O	O
+
+搜	O	O
+索	O	O
+一	B-SO	B-SO
+壶	I-SO	I-SO
+老	I-SO	I-SO
+酒	E-SO	E-SO
+。	O	O
+
+拔	B-SO	B-SO
+萝	I-SO	I-SO
+卜	E-SO	E-SO
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+。	O	O
+
+给	O	O
+我	O	O
+听	O	O
+一	O	O
+下	O	O
+西	S-SO	O
+。	O	O
+
+爱	B-SO	O
+情	I-SO	O
+和	I-SO	O
+香	I-SO	O
+烟	E-SO	O
+。	O	O
+
+别	O	O
+人	O	O
+死	O	O
+了	O	O
+该	O	O
+怎	O	O
+么	O	O
+办	O	O
+？	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+你	O	O
+可	O	O
+以	O	O
+给	O	O
+我	O	O
+唱	O	O
+2	B-SO	O
+0	E-SO	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+韩	B-AR	B-AR
+红	E-AR	E-AR
+的	O	O
+天	B-SO	B-SO
+路	E-SO	E-SO
+。	O	O
+
+来	O	O
+个	O	O
+成	O	O
+语	O	O
+接	O	O
+龙	O	O
+吧	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+两	B-SO	B-SO
+只	I-SO	I-SO
+老	I-SO	I-SO
+虎	E-SO	E-SO
+。	O	O
+
+如	O	O
+果	O	O
+你	O	O
+想	O	O
+要	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+去	O	O
+世	O	O
+的	O	O
+那	O	O
+一	O	O
+年	O	O
+。	O	O
+
+唱	O	O
+彩	B-SO	B-SO
+虹	I-SO	I-SO
+的	I-SO	I-SO
+约	I-SO	I-SO
+定	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+个	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+看	O	O
+你	O	O
+妈	O	O
+逼	O	O
+的	O	O
+脑	O	O
+袋	O	O
+。	O	O
+
+怎	O	O
+么	O	O
+说	O	O
+呢	O	O
+？	O	O
+
+唱	O	O
+阿	B-AR	B-AR
+宝	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+跟	O	B-SO
+着	O	I-SO
+我	O	I-SO
+九	O	I-SO
+章	O	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+越	B-GE	O
+剧	E-GE	O
+，	O	O
+要	O	O
+唱	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+江	B-SO	B-SO
+山	I-SO	I-SO
+无	I-SO	I-SO
+限	E-SO	E-SO
+。	O	O
+
+唱	O	O
+个	O	O
+月	B-SO	B-SO
+亮	I-SO	I-SO
+之	I-SO	I-SO
+上	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+一	O	O
+下	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+搜	O	O
+索	O	O
+一	O	O
+下	O	O
+杨	B-AR	B-AR
+钰	I-AR	I-AR
+莹	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+俩	O	O
+还	O	O
+不	O	O
+听	O	O
+你	O	O
+的	O	O
+。	O	O
+
+摇	B-GE	B-GE
+滚	E-GE	E-GE
+。	O	O
+
+唱	O	O
+社	B-SO	B-SO
+会	I-SO	I-SO
+摇	E-SO	E-SO
+。	O	O
+
+听	O	O
+赵	B-AR	B-AR
+薇	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+又	O	O
+去	O	O
+找	O	O
+我	O	O
+报	O	O
+销	O	O
+了	O	O
+，	O	O
+支	O	O
+付	O	O
+宝	O	O
+的	O	O
+，	O	O
+那	O	O
+是	O	O
+无	O	O
+话	O	O
+就	O	O
+把	O	O
+屋	O	O
+子	O	O
+来	O	O
+，	O	O
+就	O	O
+卡	O	O
+机	O	O
+啊	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+逆	B-SO	B-SO
+流	I-SO	I-SO
+成	I-SO	I-SO
+河	E-SO	E-SO
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+大	O	O
+高	O	O
+原	O	O
+青	B-SO	O
+藏	I-SO	O
+高	I-SO	O
+原	E-SO	O
+播	O	O
+放	O	O
+青	B-SO	B-SO
+藏	I-SO	I-SO
+高	I-SO	I-SO
+原	E-SO	E-SO
+。	O	O
+
+自	B-SO	B-SO
+己	E-SO	E-SO
+。	O	O
+
+我	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+小	B-SO	B-SO
+鸡	I-SO	I-SO
+小	I-SO	I-SO
+鸡	E-SO	E-SO
+。	O	O
+
+神	B-SO	B-SO
+曲	E-SO	E-SO
+。	O	O
+
+取	O	O
+消	O	O
+，	O	O
+等	O	O
+你	O	O
+爱	O	O
+我	O	O
+遥	O	O
+望	O	O
+谁	O	O
+，	O	O
+这	O	O
+些	O	O
+歌	O	O
+都	O	O
+跟	O	O
+随	O	O
+着	O	O
+主	O	O
+人	O	O
+公	O	O
+的	O	O
+命	O	O
+运	O	O
+。	O	O
+
+元	O	O
+浩	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+邓	B-AR	B-AR
+紫	I-AR	I-AR
+棋	E-AR	E-AR
+的	O	O
+再	B-SO	B-SO
+见	E-SO	E-SO
+。	O	O
+
+放	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+听	O	O
+一	O	O
+下	O	O
+小	B-AR	B-AR
+沈	I-AR	I-AR
+阳	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+那	O	O
+里	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+下	O	O
+观	O	O
+有	O	O
+彩	B-SO	O
+虹	E-SO	O
+的	O	O
+吗	O	O
+？	O	O
+
+你	O	O
+听	O	O
+我	O	O
+看	O	O
+的	O	O
+电	O	O
+视	O	O
+是	O	O
+什	O	O
+么	O	O
+。	O	O
+
+船	O	O
+歌	O	O
+一	O	O
+句	O	O
+。	O	O
+
+冷	B-AR	B-AR
+漠	E-AR	E-AR
+唱	O	O
+的	O	O
+无	B-SO	B-SO
+情	I-SO	I-SO
+的	I-SO	I-SO
+世	I-SO	I-SO
+界	I-SO	I-SO
+无	I-SO	I-SO
+情	I-SO	I-SO
+的	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+一	B-SO	B-SO
+醉	I-SO	I-SO
+方	I-SO	I-SO
+休	E-SO	E-SO
+。	O	O
+
+我	O	O
+是	O	O
+我	O	O
+老	O	O
+婆	O	O
+叫	O	O
+什	O	O
+么	O	O
+名	O	O
+字	O	O
+。	O	O
+
+相	B-SO	B-SO
+信	I-SO	I-SO
+自	I-SO	I-SO
+己	E-SO	E-SO
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+燕	I-SO	I-SO
+子	E-SO	E-SO
+穿	O	O
+花	O	O
+衣	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+你	B-SO	B-SO
+是	I-SO	I-SO
+风	I-SO	I-SO
+儿	I-SO	I-SO
+我	I-SO	I-SO
+是	I-SO	I-SO
+沙	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+妈	O	O
+妈	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+听	O	O
+听	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+要	O	O
+想	O	O
+那	O	O
+唱	O	O
+来	O	B-SO
+着	O	E-SO
+？	O	O
+
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+。	O	O
+
+变	B-SO	O
+形	I-SO	O
+记	E-SO	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+驼	B-SO	B-SO
+铃	E-SO	E-SO
+。	O	O
+
+苹	O	O
+果	O	O
+。	O	O
+
+盐	O	O
+城	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+哦	O	O
+，	O	O
+我	O	O
+要	O	O
+听	O	O
+粤	O	O
+语	O	O
+歌	O	O
+。	O	O
+
+播	O	O
+放	O	O
+一	O	O
+首	O	O
+。	O	O
+
+你	O	O
+知	O	O
+不	O	O
+知	O	O
+道	O	O
+我	O	O
+们	O	O
+这	O	O
+里	O	O
+的	O	O
+w	O	O
+i	O	O
+f	O	O
+i	O	O
+密	O	O
+码	O	O
+是	O	O
+多	O	O
+少	O	O
+呀	O	O
+。	O	O
+
+再	O	O
+放	O	O
+个	O	O
+歌	O	O
+。	O	O
+
+播	O	O
+崔	B-AR	B-AR
+子	I-AR	I-AR
+格	E-AR	E-AR
+的	O	O
+夏	B-SO	O
+季	I-SO	O
+爱	I-SO	O
+你	I-SO	O
+的	E-SO	O
+。	O	O
+
+给	O	O
+他	O	O
+家	O	O
+和	O	O
+熊	O	O
+。	O	O
+
+白	B-SO	B-SO
+龙	I-SO	I-SO
+马	E-SO	E-SO
+。	O	O
+
+萨	O	O
+克	O	O
+斯	O	O
+回	B-SO	O
+家	E-SO	O
+。	O	O
+
+晚	O	O
+安	O	O
+。	O	O
+
+我	O	O
+这	O	O
+是	O	O
+肿	O	O
+么	O	O
+了	O	O
+，	O	O
+我	O	O
+讨	O	O
+厌	O	O
+你	O	O
+会	O	O
+不	O	O
+会	O	O
+了	O	O
+。	O	O
+
+来	O	O
+一	O	O
+个	O	O
+海	O	B-SO
+滨	O	I-SO
+岛	O	E-SO
+。	O	O
+
+小	O	O
+七	O	O
+我	O	O
+喜	O	O
+欢	O	O
+你	O	O
+。	O	O
+
+单	O	O
+独	O	O
+听	O	O
+童	B-SO	B-SO
+话	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+刘	B-AR	B-AR
+若	I-AR	I-AR
+英	E-AR	E-AR
+的	O	O
+歌	O	O
+
+唱	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+爱	B-SO	B-SO
+你	I-SO	I-SO
+一	I-SO	I-SO
+万	I-SO	I-SO
+年	E-SO	E-SO
+。	O	O
+
+唱	O	O
+个	O	O
+月	B-SO	O
+亮	I-SO	O
+婆	I-SO	O
+婆	I-SO	O
+喜	I-SO	O
+欢	I-SO	O
+我	E-SO	O
+。	O	O
+
+唱	O	O
+学	B-SO	B-SO
+习	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+直	O	O
+接	O	O
+播	O	O
+放	O	O
+就	O	O
+可	O	O
+以	O	O
+了	O	O
+不	O	O
+用	O	O
+添	O	O
+加	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+山	B-SO	B-SO
+路	E-SO	E-SO
+。	O	O
+
+小	B-SO	O
+机	I-SO	O
+器	I-SO	O
+人	E-SO	O
+。	O	O
+
+我	O	O
+说	O	O
+他	O	O
+从	O	O
+来	O	O
+没	O	O
+有	O	O
+收	O	O
+拾	O	O
+，	O	O
+感	O	O
+觉	O	O
+都	O	O
+说	O	O
+是	O	O
+我	O	O
+有	O	O
+没	O	O
+有	O	O
+事	O	O
+，	O	O
+你	O	O
+会	O	O
+早	O	O
+点	O	O
+来	O	O
+不	O	O
+，	O	O
+他	O	O
+从	O	O
+来	O	O
+没	O	O
+这	O	O
+样	O	O
+说	O	O
+过	O	O
+，	O	O
+他	O	O
+一	O	O
+般	O	O
+都	O	O
+到	O	O
+八	O	O
+点	O	O
+快	O	O
+九	O	O
+点	O	O
+的	O	O
+时	O	O
+候	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+对	O	O
+说	O	O
+一	O	O
+句	O	O
+。	O	O
+
+大	O	O
+头	O	O
+儿	O	O
+子	O	O
+和	O	O
+小	O	O
+头	O	O
+爸	O	O
+爸	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+我	B-SO	O
+想	I-SO	O
+要	I-SO	O
+个	I-SO	O
+家	E-SO	O
+。	O	O
+
+为	O	O
+什	O	O
+么	O	O
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+白	O	O
+天	O	O
+要	O	O
+去	O	O
+上	O	O
+班	O	O
+呀	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+邓	O	O
+丽	O	O
+君	O	O
+那	O	O
+个	O	O
+叶	B-AR	B-AR
+倩	I-AR	I-AR
+文	E-AR	E-AR
+的	O	O
+歌	O	O
+，	O	O
+真	B-SO	O
+心	I-SO	O
+真	I-SO	O
+意	I-SO	O
+过	I-SO	O
+一	I-SO	O
+生	E-SO	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+跳	I-SO	I-SO
+蛙	E-SO	E-SO
+。	O	O
+
+黑	O	O
+龙	O	O
+会	O	O
+和	O	O
+了	O	O
+那	O	O
+么	O	O
+久	O	O
+，	O	O
+自	O	O
+然	O	O
+也	O	O
+知	O	O
+道	O	O
+一	O	O
+些	O	O
+关	O	O
+于	O	O
+狼	O	O
+牙	O	O
+的	O	O
+事	O	O
+情	O	O
+，	O	O
+只	O	O
+是	O	O
+他	O	O
+并	O	O
+不	O	O
+知	O	O
+道	O	O
+，	O	O
+鬼	O	O
+狼	O	O
+白	O	O
+天	O	O
+槐	O	O
+早	O	O
+就	O	O
+已	O	O
+经	O	O
+退	O	O
+出	O	O
+狼	O	O
+牙	O	O
+了	O	O
+，	O	O
+我	O	O
+已	O	O
+经	O	O
+胖	O	O
+出	O	O
+狼	O	O
+牙	O	O
+了	O	O
+，	O	O
+不	O	O
+是	O	O
+狼	O	O
+牙	O	O
+的	O	O
+人	O	O
+，	O	O
+不	O	O
+过	O	O
+我	O	O
+很	O	O
+喜	O	O
+欢	O	O
+鬼	O	O
+狼	O	O
+这	O	O
+个	O	O
+称	O	O
+号	O	O
+，	O	O
+鬼	O	O
+狼	O	O
+白	O	O
+天	O	O
+槐	O	O
+大	O	O
+道	O	O
+。	O	O
+
+i	O	O
+
+s	O	O
+e	O	O
+e	O	O
+
+i	O	O
+t	O	O
+。	O	O
+
+G	O	O
+o	O	O
+o	O	O
+d	O	O
+b	O	O
+y	O	O
+e	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+关	B-SO	B-SO
+不	I-SO	I-SO
+上	I-SO	I-SO
+的	I-SO	I-SO
+窗	E-SO	E-SO
+。	O	O
+
+说	O	O
+个	O	O
+小	B-SO	B-SO
+白	I-SO	I-SO
+兔	I-SO	I-SO
+请	I-SO	I-SO
+客	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+，	O	O
+缘	B-SO	O
+起	I-SO	O
+缘	I-SO	O
+落	E-SO	O
+。	O	O
+
+打	O	O
+开	O	O
+大	B-SO	O
+槐	I-SO	O
+树	E-SO	O
+下	O	O
+听	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+过	B-SO	O
+得	I-SO	O
+好	I-SO	O
+吗	E-SO	O
+？	O	O
+
+为	O	O
+什	O	O
+么	O	O
+一	O	O
+万	O	O
+个	O	O
+理	O	O
+由	O	O
+？	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+天	B-SO	B-SO
+籁	I-SO	I-SO
+之	I-SO	I-SO
+爱	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+弄	O	O
+一	O	O
+个	O	O
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+
+k	O	O
+i	O	O
+t	O	O
+t	O	O
+y	O	O
+的	O	O
+小	O	B-SO
+书	O	I-SO
+包	O	E-SO
+。	O	O
+
+迷	O	O
+路	O	O
+，	O	O
+不	O	O
+要	O	O
+慌	O	O
+。	O	O
+
+让	O	O
+他	O	O
+不	O	O
+要	O	O
+每	O	O
+周	O	O
+末	O	O
+给	O	O
+他	O	O
+弄	O	O
+点	O	O
+练	O	O
+习	O	O
+做	O	O
+做	O	O
+，	O	O
+不	O	O
+要	O	O
+那	O	O
+把	O	O
+这	O	O
+个	O	O
+忘	O	O
+掉	O	O
+了	O	O
+。	O	O
+
+好	O	O
+音	O	O
+乐	O	O
+音	O	O
+乐	O	O
+，	O	O
+呵	B-SO	O
+呵	E-SO	O
+呵	B-SO	O
+呵	E-SO	O
+。	O	O
+
+小	B-SO	B-SO
+跳	I-SO	I-SO
+蛙	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+说	B-SO	B-SO
+散	I-SO	I-SO
+就	I-SO	I-SO
+散	E-SO	E-SO
+。	O	O
+
+不	O	O
+是	O	O
+说	O	O
+好	O	O
+叫	O	O
+小	O	O
+鲜	O	O
+肉	O	O
+的	O	O
+吧	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+我	B-SO	B-SO
+有	I-SO	I-SO
+一	I-SO	I-SO
+个	I-SO	I-SO
+好	I-SO	I-SO
+爸	I-SO	I-SO
+爸	E-SO	I-SO
+的	O	I-SO
+曲	O	E-SO
+。	O	O
+
+我	O	O
+听	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+孙	B-AR	B-AR
+露	E-AR	E-AR
+唱	O	O
+的	O	O
+最	B-SO	B-SO
+后	I-SO	I-SO
+一	I-SO	I-SO
+次	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+支	O	O
+舞	O	O
+给	O	O
+我	O	O
+看	O	O
+。	O	O
+
+儿	O	O
+童	O	O
+故	O	O
+事	O	O
+，	O	O
+错	O	O
+误	O	O
+。	O	O
+
+播	O	O
+放	O	O
+一	O	O
+首	O	O
+。	O	O
+
+感	O	O
+性	O	O
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+放	O	O
+首	O	O
+歌	O	O
+听	O	O
+一	O	O
+下	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+爸	O	B-SO
+爸	O	I-SO
+去	O	I-SO
+哪	O	I-SO
+儿	O	E-SO
+。	O	O
+
+放	O	O
+大	B-SO	B-SO
+悲	I-SO	I-SO
+咒	E-SO	E-SO
+。	O	O
+
+要	O	O
+动	O	O
+之	O	O
+象	O	O
+母	O	O
+亲	O	O
+呀	O	O
+动	O	O
+呀	O	O
+动	O	O
+。	O	O
+
+冰	B-SO	O
+淇	I-SO	O
+淋	E-SO	O
+。	O	O
+
+蜗	B-SO	B-SO
+牛	I-SO	I-SO
+与	I-SO	I-SO
+黄	I-SO	I-SO
+鹂	I-SO	I-SO
+鸟	E-SO	E-SO
+。	O	O
+
+下	O	O
+载	O	O
+张	B-AR	O
+学	I-AR	O
+友	E-AR	O
+的	O	O
+吻	B-SO	B-SO
+别	E-SO	E-SO
+
+儿	O	B-GE
+歌	O	E-GE
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+下	O	O
+。	O	O
+
+省	O	O
+着	O	O
+女	O	O
+人	O	O
+去	O	O
+滚	O	O
+，	O	O
+要	O	O
+很	O	O
+久	O	O
+啊	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+龚	B-AR	B-AR
+玥	E-AR	E-AR
+的	O	O
+枕	B-SO	O
+着	I-SO	O
+你	I-SO	O
+的	I-SO	O
+名	I-SO	O
+字	I-SO	O
+入	I-SO	O
+眠	E-SO	O
+。	O	O
+
+但	O	O
+是	O	O
+我	O	O
+生	O	O
+病	O	O
+了	O	O
+呀	O	O
+。	O	O
+
+查	O	O
+一	O	O
+下	O	O
+本	O	O
+机	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+到	O	O
+期	O	O
+。	O	O
+
+唱	O	O
+歌	O	O
+给	O	O
+我	O	O
+听	O	O
+。	O	O
+
+说	O	O
+唱	O	O
+一	O	O
+个	O	O
+妈	B-SO	B-SO
+妈	I-SO	I-SO
+的	I-SO	I-SO
+吻	E-SO	E-SO
+。	O	O
+
+来	O	O
+吧	O	O
+宝	O	O
+贝	O	O
+儿	O	O
+来	O	O
+吧	O	O
+宝	O	O
+贝	O	O
+儿	O	O
+。	O	O
+
+一	B-SO	O
+只	I-SO	O
+小	I-SO	B-SO
+白	I-SO	I-SO
+兔	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+小	I-SO	I-SO
+世	I-SO	I-SO
+界	E-SO	E-SO
+。	O	O
+
+唱	O	O
+绿	B-SO	B-SO
+巨	I-SO	I-SO
+人	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+，	O	O
+到	B-SO	O
+底	I-SO	O
+叫	I-SO	O
+什	I-SO	O
+么	E-SO	O
+。	O	O
+
+不	B-SO	O
+做	I-SO	O
+爱	I-SO	O
+情	I-SO	O
+胆	I-SO	O
+小	I-SO	O
+鬼	E-SO	O
+。	O	O
+
+艾	O	O
+歌	O	O
+。	O	O
+
+我	O	B-SO
+的	O	I-SO
+好	O	I-SO
+妈	O	I-SO
+妈	O	E-SO
+。	O	O
+
+小	O	O
+熊	O	O
+。	O	O
+
+囚	B-SO	B-SO
+鸟	E-SO	E-SO
+。	O	O
+
+杨	O	O
+浩	O	O
+龙	O	O
+。	O	O
+
+孙	B-AR	B-AR
+露	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+好	O	O
+我	O	O
+要	O	O
+听	O	O
+薛	B-AR	B-AR
+之	I-AR	I-AR
+谦	E-AR	E-AR
+的	O	O
+丑	B-SO	B-SO
+八	I-SO	I-SO
+怪	E-SO	E-SO
+。	O	O
+
+朗	O	O
+诵	O	O
+一	O	O
+首	O	O
+诗	O	O
+名	O	O
+字	O	O
+叫	O	O
+相	O	O
+信	O	O
+未	O	O
+来	O	O
+。	O	O
+
+你	O	O
+听	O	O
+到	O	O
+我	O	O
+说	O	O
+话	O	O
+了	O	O
+吗	O	O
+？	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+鸿	B-SO	O
+雁	E-SO	O
+。	O	O
+
+我	O	O
+就	O	O
+说	O	O
+请	O	O
+他	O	O
+起	O	O
+来	O	O
+有	O	O
+劲	O	O
+啊	O	O
+，	O	O
+你	O	O
+你	O	O
+给	O	O
+我	O	O
+放	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+来	O	O
+点	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+涛	B-SO	B-SO
+声	I-SO	I-SO
+依	I-SO	I-SO
+旧	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+林	B-AR	B-AR
+俊	I-AR	I-AR
+杰	E-AR	E-AR
+唱	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+洪	B-SO	B-SO
+湖	I-SO	I-SO
+水	I-SO	I-SO
+浪	I-SO	I-SO
+打	I-SO	I-SO
+浪	E-SO	E-SO
+。	O	O
+
+我	O	B-SO
+不	O	I-SO
+怕	O	I-SO
+不	O	I-SO
+怕	O	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+一	O	B-SO
+物	O	I-SO
+降	O	I-SO
+一	O	I-SO
+物	O	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+你	O	O
+能	O	O
+不	O	O
+能	O	O
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+的	O	O
+歌	O	O
+给	O	O
+我	O	O
+听	O	O
+。	O	O
+
+听	O	O
+李	B-AR	B-AR
+思	I-AR	I-AR
+琳	E-AR	E-AR
+。	O	O
+
+我	O	O
+爱	O	O
+听	O	O
+我	O	O
+奶	O	O
+奶	O	O
+说	O	O
+，	O	O
+你	O	O
+在	O	O
+一	O	O
+次	O	O
+银	O	O
+行	O	O
+大	O	O
+劫	O	O
+案	O	O
+抓	O	O
+住	O	O
+了	O	O
+小	O	O
+偷	O	O
+。	O	O
+
+把	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+张	O	O
+学	O	O
+友	O	O
+是	O	O
+谁	O	O
+。	O	O
+
+听	O	O
+消	O	B-AR
+防	O	I-AR
+员	O	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+电	O	O
+子	O	O
+。	O	O
+
+问	O	O
+。	O	O
+
+种	B-SO	B-SO
+太	I-SO	I-SO
+阳	E-SO	E-SO
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+来	O	O
+个	O	O
+迟	B-SO	B-SO
+来	I-SO	I-SO
+的	I-SO	I-SO
+爱	E-SO	E-SO
+。	O	O
+
+你	O	O
+在	O	O
+干	O	O
+嘛	O	O
+。	O	O
+
+听	O	O
+一	O	O
+首	O	O
+兄	B-SO	B-SO
+弟	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+他	O	O
+都	O	O
+是	O	O
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+好	O	O
+吗	O	O
+？	O	O
+
+小	O	O
+笨	O	O
+，	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+有	B-SO	O
+个	I-SO	O
+傻	I-SO	B-SO
+瓜	I-SO	I-SO
+爱	I-SO	I-SO
+过	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+下	B-SO	B-SO
+定	I-SO	I-SO
+决	I-SO	I-SO
+心	I-SO	I-SO
+忘	I-SO	I-SO
+记	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+八	B-SO	O
+零	I-SO	O
+后	I-SO	O
+的	I-SO	O
+歌	E-SO	O
+。	O	O
+
+我	O	O
+不	O	O
+想	O	O
+说	O	O
+对	O	O
+不	O	O
+起	O	O
+。	O	O
+
+得	O	O
+到	O	O
+剪	O	O
+刀	O	O
+，	O	O
+夜	O	B-SO
+夜	O	I-SO
+夜	O	I-SO
+夜	O	E-SO
+。	O	O
+
+下	O	O
+载	O	O
+，	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+播	O	O
+个	O	O
+鲍	O	B-SO
+斯	O	I-SO
+米	O	I-SO
+丘	O	I-SO
+林	O	I-SO
+诗	O	I-SO
+词	O	E-SO
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+漂	B-SO	B-SO
+洋	I-SO	I-SO
+过	I-SO	I-SO
+海	I-SO	I-SO
+来	I-SO	I-SO
+看	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+看	O	O
+这	O	O
+小	O	O
+苹	O	O
+果	O	O
+。	O	O
+
+一	O	O
+遍	O	O
+的	O	O
+公	O	O
+交	O	O
+站	O	O
+我	O	O
+到	O	O
+那	O	O
+里	O	O
+去	O	O
+找	O	O
+你	O	O
+找	O	O
+不	O	O
+到	O	O
+，	O	O
+现	O	O
+在	O	O
+去	O	O
+东	O	O
+莞	O	O
+市	O	O
+大	O	O
+朗	O	O
+医	O	O
+院	O	O
+，	O	O
+他	O	O
+打	O	O
+拉	O	O
+帮	O	O
+他	O	O
+提	O	O
+了	O	O
+那	O	O
+么	O	O
+久	O	O
+呢	O	O
+，	O	O
+你	O	O
+站	O	O
+在	O	O
+里	O	O
+边	O	O
+谁	O	O
+看	O	O
+到	O	O
+。	O	O
+
+听	O	O
+前	O	O
+一	O	O
+首	O	O
+抒	O	B-SO
+情	O	I-SO
+的	O	I-SO
+梁	B-SO	I-SO
+祝	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+民	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+流	B-GE	B-GE
+行	E-GE	E-GE
+音	O	O
+乐	O	O
+。	O	O
+
+播	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+小	B-SO	B-SO
+手	I-SO	I-SO
+拍	I-SO	I-SO
+拍	E-SO	E-SO
+。	O	O
+
+走	B-SO	B-SO
+路	I-SO	I-SO
+去	I-SO	I-SO
+纽	I-SO	I-SO
+约	E-SO	E-SO
+。	O	O
+
+能	O	O
+不	O	O
+能	O	O
+帮	O	O
+我	O	O
+背	O	O
+诵	O	O
+一	O	O
+首	O	O
+望	O	B-SO
+庐	O	I-SO
+山	O	I-SO
+瀑	O	I-SO
+布	O	E-SO
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+下	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+我	O	O
+不	O	O
+喜	O	O
+欢	O	O
+你	O	O
+。	O	O
+
+来	O	O
+个	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+不	O	O
+要	O	O
+唱	O	O
+歌	O	O
+了	O	O
+，	O	O
+你	O	O
+睡	O	O
+觉	O	O
+吧	O	O
+。	O	O
+
+露	O	O
+逼	O	O
+说	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+做	O	O
+了	O	O
+一	O	O
+下	O	O
+我	O	O
+的	O	O
+职	O	O
+业	O	O
+生	O	O
+涯	O	O
+规	O	O
+划	O	O
+啊	O	O
+，	O	O
+他	O	O
+让	O	O
+我	O	O
+上	O	O
+他	O	O
+让	O	O
+我	O	O
+上	O	O
+肌	O	O
+肉	O	O
+，	O	O
+他	O	O
+说	O	O
+我	O	O
+想	O	O
+了	O	O
+想	O	O
+你	O	O
+还	O	O
+是	O	O
+不	O	O
+能	O	O
+少	O	O
+那	O	O
+个	O	O
+级	O	O
+数	O	O
+和	O	O
+，	O	O
+你	O	O
+还	O	O
+是	O	O
+去	O	O
+金	O	O
+融	O	O
+系	O	O
+吧	O	O
+，	O	O
+她	O	O
+说	O	O
+那	O	O
+个	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+爸	B-SO	B-SO
+爸	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+听	I-SO	I-SO
+我	I-SO	I-SO
+说	E-SO	E-SO
+。	O	O
+
+那	O	O
+个	O	O
+老	O	O
+娘	O	O
+们	O	O
+儿	O	O
+有	O	O
+没	O	O
+有	O	O
+男	O	O
+朋	O	O
+友	O	O
+。	O	O
+
+西	B-SO	B-SO
+游	I-SO	I-SO
+记	I-SO	I-SO
+主	I-SO	I-SO
+题	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+虾	S-SO	S-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+有	O	O
+何	O	O
+瑶	O	O
+。	O	O
+
+猜	O	O
+曲	O	O
+时	O	O
+代	O	O
+曲	O	O
+电	O	B-SO
+视	O	I-SO
+剧	O	I-SO
+片	O	I-SO
+尾	O	I-SO
+曲	O	E-SO
+。	O	O
+
+你	O	O
+的	O	O
+名	O	O
+字	O	O
+。	O	O
+
+2	O	O
+0	O	O
+1	O	O
+7	O	O
+年	O	O
+金	O	O
+曲	O	O
+排	O	O
+行	O	O
+榜	O	O
+。	O	O
+
+唱	O	O
+个	O	O
+拉	B-SO	B-SO
+巴	I-SO	I-SO
+丁	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+最	B-SO	B-SO
+美	I-SO	I-SO
+情	I-SO	I-SO
+侣	E-SO	E-SO
+。	O	O
+
+苹	O	O
+果	O	O
+。	O	O
+
+泥	B-SO	B-SO
+娃	I-SO	I-SO
+娃	E-SO	E-SO
+。	O	O
+
+彩	B-SO	B-SO
+虹	I-SO	I-SO
+的	I-SO	I-SO
+约	I-SO	I-SO
+定	E-SO	E-SO
+。	O	O
+
+吴	B-AR	O
+琼	E-AR	O
+。	O	O
+
+白	B-SO	B-SO
+龙	I-SO	I-SO
+马	E-SO	E-SO
+。	O	O
+
+你	O	O
+知	O	O
+道	O	O
+我	O	O
+是	O	O
+什	O	O
+么	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+拔	B-SO	B-SO
+萝	I-SO	I-SO
+卜	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+w	B-SO	O
+h	I-SO	O
+o	I-SO	O
+
+a	I-SO	O
+m	I-SO	O
+
+i	E-SO	O
+。	O	O
+
+不	O	O
+要	O	O
+放	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+远	B-SO	B-SO
+走	I-SO	I-SO
+高	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+音	O	O
+乐	O	O
+8	B-SO	O
+万	E-SO	O
+
+对	O	O
+了	O	O
+那	O	O
+个	O	O
+什	O	O
+么	O	O
+那	O	O
+个	O	O
+那	O	O
+个	O	O
+嗯	O	O
+，	O	O
+苹	O	O
+果	O	O
+说	O	O
+不	O	O
+准	O	O
+，	O	O
+到	O	O
+时	O	O
+还	O	O
+得	O	O
+跟	O	O
+着	O	O
+我	O	O
+再	O	O
+回	O	O
+来	O	O
+，	O	O
+那	O	O
+个	O	O
+我	O	O
+们	O	O
+不	O	O
+是	O	O
+在	O	O
+给	O	O
+他	O	O
+找	O	O
+英	O	O
+语	O	O
+培	O	O
+训	O	O
+机	O	O
+构	O	O
+吗	O	O
+？	O	O
+
+找	O	O
+我	O	O
+干	O	O
+嘛	O	O
+。	O	O
+
+那	O	O
+你	O	O
+以	O	O
+后	O	O
+要	O	O
+听	O	O
+从	O	O
+我	O	O
+的	O	O
+。	O	O
+
+圣	B-SO	B-SO
+诞	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+留	O	O
+学	O	O
+生	O	O
+活	O	O
+，	O	O
+最	O	O
+近	O	O
+有	O	O
+一	O	O
+个	O	O
+新	O	O
+闻	O	O
+在	O	O
+我	O	O
+的	O	O
+朋	O	O
+友	O	O
+圈	O	O
+里	O	O
+刷	O	O
+起	O	O
+了	O	O
+屏	O	O
+，	O	O
+澳	O	O
+洲	O	O
+教	O	O
+育	O	O
+部	O	O
+长	O	O
+宣	O	O
+布	O	O
+将	O	O
+从	O	O
+2	O	O
+0	O	O
+1	O	O
+8	O	O
+年	O	O
+1	O	O
+月	O	O
+1	O	O
+号	O	O
+也	O	O
+就	O	O
+是	O	O
+明	O	O
+天	O	O
+。	O	O
+
+张	B-AR	B-AR
+学	I-AR	I-AR
+友	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	B-SO
+们	O	I-SO
+来	O	I-SO
+春	B-SO	I-SO
+夜	I-SO	I-SO
+喜	I-SO	I-SO
+雨	E-SO	E-SO
+。	O	O
+
+f	B-SO	O
+a	I-SO	O
+r	I-SO	O
+
+a	I-SO	B-SO
+w	I-SO	I-SO
+a	I-SO	I-SO
+y	E-SO	E-SO
+。	O	O
+
+亲	O	O
+爱	O	O
+的	O	O
+你	O	O
+好	O	O
+。	O	O
+
+刘	B-AR	O
+欢	E-AR	O
+歌	O	O
+曲	O	O
+刘	B-AR	B-SO
+欢	E-AR	E-SO
+。	O	O
+
+l	B-SO	O
+a	I-SO	O
+
+l	I-SO	O
+a	I-SO	O
+
+l	I-SO	O
+a	I-SO	O
+
+l	I-SO	O
+a	E-SO	O
+。	O	O
+
+搜	O	O
+索	O	O
+郭	O	O
+德	O	O
+纲	O	O
+的	O	O
+相	O	O
+声	O	O
+。	O	O
+
+丫	B-SO	O
+头	E-SO	O
+，	O	O
+来	O	O
+一	O	O
+首	O	O
+丫	B-SO	B-SO
+头	E-SO	E-SO
+。	O	O
+
+见	O	O
+了	O	O
+漂	O	O
+亮	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+音	O	O
+乐	O	O
+的	O	O
+追	S-SO	O
+。	O	O
+
+导	O	O
+航	O	O
+，	O	O
+中	O	O
+原	O	O
+地	O	O
+产	O	O
+首	O	O
+席	O	O
+分	O	O
+析	O	O
+师	O	O
+张	O	O
+大	O	O
+伟	O	O
+指	O	O
+出	O	O
+，	O	O
+不	O	O
+能	O	O
+转	O	O
+换	O	O
+为	O	O
+完	O	O
+全	O	O
+商	O	O
+品	O	O
+房	O	O
+，	O	O
+对	O	O
+于	O	O
+北	O	O
+京	O	O
+目	O	O
+前	O	O
+的	O	O
+保	O	O
+障	O	O
+房	O	O
+体	O	O
+系	O	O
+而	O	O
+言	O	O
+是	O	O
+一	O	O
+个	O	O
+巨	O	O
+大	O	O
+的	O	O
+变	O	O
+化	O	O
+，	O	O
+也	O	O
+是	O	O
+对	O	O
+过	O	O
+去	O	O
+自	O	O
+住	O	O
+房	O	O
+政	O	O
+策	O	O
+的	O	O
+全	O	O
+面	O	O
+升	O	O
+级	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+屠	O	B-AR
+洪	O	I-AR
+刚	O	E-AR
+的	O	O
+中	B-SO	B-SO
+国	I-SO	I-SO
+功	I-SO	I-SO
+夫	E-SO	E-SO
+。	O	O
+
+一	O	O
+步	O	O
+步	O	O
+的	O	O
+来	O	O
+哦	O	O
+，	O	O
+请	O	O
+打	O	O
+一	O	O
+个	O	O
+等	O	O
+提	O	O
+示	O	O
+齐	O	O
+步	O	O
+走	O	O
+，	O	O
+然	O	O
+后	O	O
+看	O	O
+看	O	O
+我	O	O
+的	O	O
+鼠	O	O
+标	O	O
+动	O	O
+了	O	O
+。	O	O
+
+大	O	O
+家	O	O
+好	O	O
+我	O	O
+是	O	O
+李	O	O
+行	O	O
+亮	O	O
+，	O	O
+现	O	O
+在	O	O
+你	O	O
+听	O	O
+到	O	O
+的	O	O
+是	O	O
+我	O	O
+的	O	O
+最	O	O
+爱	O	O
+。	O	O
+
+少	O	O
+说	O	O
+一	O	O
+句	O	O
+，	O	O
+也	O	O
+是	O	O
+。	O	O
+
+六	O	O
+一	O	O
+儿	O	O
+童	O	O
+节	O	O
+吃	O	O
+什	O	O
+么	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+播	O	O
+一	O	O
+首	O	O
+爱	B-SO	B-SO
+你	I-SO	I-SO
+一	I-SO	I-SO
+万	I-SO	I-SO
+年	E-SO	E-SO
+。	O	O
+
+十	B-SO	B-SO
+七	I-SO	I-SO
+岁	I-SO	I-SO
+的	I-SO	I-SO
+雨	I-SO	I-SO
+季	E-SO	E-SO
+。	O	O
+
+h	B-SO	O
+o	I-SO	O
+w	I-SO	O
+
+a	I-SO	O
+r	I-SO	O
+e	I-SO	O
+
+y	I-SO	O
+o	I-SO	O
+u	E-SO	O
+。	O	O
+
+张	B-AR	B-AR
+碧	I-AR	I-AR
+晨	E-AR	E-AR
+。	O	O
+
+我	O	O
+们	O	O
+一	O	O
+起	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+陈	B-AR	B-AR
+一	I-AR	I-AR
+发	I-AR	I-AR
+儿	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+是	O	O
+你	O	O
+的	O	O
+主	O	O
+人	O	O
+，	O	O
+请	O	O
+给	O	O
+我	O	O
+一	O	O
+首	O	O
+奥	B-SO	B-SO
+特	I-SO	I-SO
+曼	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+星	I-SO	I-SO
+星	E-SO	E-SO
+。	O	O
+
+不	O	O
+要	O	O
+听	O	O
+徐	O	B-AR
+虎	O	E-AR
+的	O	O
+胡	O	O
+同	O	O
+儿	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+我	O	O
+的	O	O
+名	O	O
+字	O	O
+。	O	O
+
+l	O	O
+a	O	O
+
+l	O	O
+a	O	O
+
+l	O	O
+a	O	O
+
+l	O	O
+a	O	O
+。	O	O
+
+种	B-SO	B-SO
+太	I-SO	I-SO
+阳	E-SO	E-SO
+。	O	O
+
+娃	O	O
+娃	O	O
+。	O	O
+
+你	O	O
+好	O	O
+想	O	O
+办	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+随	B-SO	B-SO
+它	I-SO	I-SO
+吧	E-SO	E-SO
+。	O	O
+
+邓	B-AR	B-AR
+丽	I-AR	I-AR
+君	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+冬	B-SO	B-SO
+天	I-SO	I-SO
+里	I-SO	I-SO
+的	I-SO	I-SO
+一	I-SO	I-SO
+把	I-SO	I-SO
+火	E-SO	E-SO
+。	O	O
+
+i	B-SO	O
+
+p	I-SO	B-SO
+r	I-SO	I-SO
+o	I-SO	I-SO
+t	I-SO	I-SO
+e	I-SO	I-SO
+c	I-SO	I-SO
+t	I-SO	I-SO
+
+y	I-SO	O
+o	I-SO	O
+u	E-SO	O
+。	O	O
+
+n	O	O
+i	O	O
+c	O	O
+e	O	O
+
+t	O	O
+o	O	O
+
+m	O	O
+e	O	O
+e	O	O
+t	O	O
+
+y	O	O
+o	O	O
+u	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+点	O	O
+首	O	O
+我	O	B-SO
+爱	O	I-SO
+的	O	I-SO
+人	O	E-SO
+陈	B-AR	B-AR
+小	I-AR	I-AR
+春	E-AR	E-AR
+的	O	O
+谢	B-SO	B-SO
+谢	E-SO	E-SO
+。	O	O
+
+虫	B-SO	B-SO
+儿	I-SO	I-SO
+飞	E-SO	E-SO
+你	O	O
+会	O	O
+唱	O	O
+吗	O	O
+？	O	O
+
+哎	O	O
+我	O	O
+你	O	O
+看	O	O
+看	O	O
+你	O	O
+，	O	O
+取	O	O
+消	O	O
+。	O	O
+
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+唱	O	O
+乡	B-SO	B-SO
+间	I-SO	I-SO
+小	I-SO	I-SO
+路	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+杨	B-AR	B-AR
+幂	E-AR	E-AR
+的	O	O
+星	B-SO	B-SO
+月	I-SO	I-SO
+神	I-SO	I-SO
+话	E-SO	E-SO
+。	O	O
+
+云	B-AR	O
+飞	E-AR	O
+的	O	O
+青	B-SO	B-SO
+藏	I-SO	I-SO
+高	I-SO	I-SO
+原	E-SO	E-SO
+。	O	O
+
+好	O	O
+好	O	O
+想	O	O
+你	O	O
+，	O	O
+天	O	O
+津	O	O
+吗	O	O
+？	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+歌	B-SO	B-SO
+在	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+捉	O	B-SO
+泥	O	I-SO
+鳅	O	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+花	B-SO	B-SO
+好	I-SO	I-SO
+月	I-SO	I-SO
+圆	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+跳	I-SO	I-SO
+蛙	E-SO	E-SO
+。	O	O
+
+我	B-SO	O
+歌	E-SO	O
+。	O	O
+
+查	O	O
+找	O	O
+张	B-AR	B-AR
+赫	I-AR	I-AR
+宣	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+社	B-SO	B-SO
+会	I-SO	I-SO
+摇	E-SO	E-SO
+。	O	O
+
+起	O	O
+床	O	O
+歌	O	O
+。	O	O
+
+渐	O	O
+渐	O	O
+云	O	O
+制	O	O
+版	O	O
+。	O	O
+
+沉	O	B-SO
+着	O	I-SO
+沉	O	I-SO
+着	O	I-SO
+旋	O	I-SO
+爱	B-SO	I-SO
+笑	I-SO	I-SO
+的	I-SO	I-SO
+眼	I-SO	I-SO
+睛	E-SO	E-SO
+。	O	O
+
+超	O	O
+好	O	O
+听	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+是	O	O
+个	O	O
+学	O	O
+者	O	O
+我	O	O
+是	O	O
+我	O	O
+们	O	O
+这	O	O
+些	O	O
+搞	O	O
+文	O	O
+学	O	O
+的	O	O
+老	O	O
+前	O	O
+辈	O	O
+写	O	O
+小	O	O
+说	O	O
+那	O	O
+些	O	O
+散	O	O
+文	O	O
+的	O	O
+写	O	O
+法	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+任	O	O
+贤	O	O
+齐	O	O
+与	O	O
+张	B-AR	O
+柏	I-AR	O
+芝	E-AR	O
+合	O	O
+唱	O	O
+的	O	O
+星	B-SO	B-SO
+语	I-SO	I-SO
+心	I-SO	I-SO
+愿	E-SO	E-SO
+吧	O	O
+。	O	O
+
+你	O	O
+建	O	O
+议	O	O
+，	O	O
+c	O	O
+o	O	O
+c	O	O
+o	O	O
+用	O	O
+什	O	O
+么	O	O
+名	O	O
+字	O	O
+
+执	B-SO	B-SO
+子	I-SO	I-SO
+之	I-SO	I-SO
+手	E-SO	E-SO
+。	O	O
+
+有	O	O
+脱	O	O
+衣	O	O
+舞	O	O
+嘞	O	O
+个	O	O
+逼	O	O
+，	O	O
+脱	O	O
+衣	O	O
+舞	O	O
+了	O	O
+。	O	O
+
+小	O	O
+猴	O	O
+子	O	O
+。	O	O
+
+好	O	O
+好	O	O
+工	O	O
+作	O	O
+。	O	O
+
+你	O	O
+个	O	O
+问	O	O
+题	O	O
+，	O	O
+春	O	O
+眠	O	O
+不	O	O
+觉	O	O
+晓	O	O
+的	O	O
+下	O	O
+一	O	O
+句	O	O
+是	O	O
+啥	O	O
+吗	O	O
+？	O	O
+
+你	O	O
+别	O	O
+抢	O	O
+答	O	O
+慢	O	O
+听	O	O
+你	O	O
+听	O	O
+我	O	O
+说	O	O
+。	O	O
+
+换	O	O
+一	O	O
+首	O	O
+黄	B-AR	B-AR
+家	I-AR	I-AR
+驹	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+新	O	O
+闻	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+爱	B-SO	B-SO
+我	I-SO	I-SO
+你	I-SO	I-SO
+就	I-SO	I-SO
+抱	I-SO	I-SO
+抱	I-SO	I-SO
+我	E-SO	E-SO
+。	O	O
+
+你	O	O
+听	O	O
+个	O	O
+歌	O	O
+吧	O	O
+，	O	O
+你	O	O
+好	O	O
+，	O	O
+听	O	O
+歌	O	O
+荷	B-SO	B-SO
+塘	I-SO	I-SO
+月	I-SO	I-SO
+色	E-SO	E-SO
+。	O	O
+
+哦	O	O
+，	O	O
+请	O	O
+关	O	O
+掉	O	O
+，	O	O
+爱	O	O
+你	O	O
+一	O	O
+万	O	O
+年	O	O
+，	O	O
+不	O	O
+听	O	O
+了	O	O
+。	O	O
+
+播	O	O
+放	O	O
+蓝	O	O
+牙	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+3	B-SO	O
+0	I-SO	O
+出	I-SO	O
+头	E-SO	O
+。	O	O
+
+黄	B-AR	B-AR
+家	I-AR	I-AR
+驹	E-AR	E-AR
+。	O	O
+
+凤	O	B-AR
+凰	O	I-AR
+传	O	I-AR
+奇	O	E-AR
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+菊	B-SO	B-SO
+花	I-SO	I-SO
+台	E-SO	E-SO
+。	O	O
+
+爱	O	O
+是	O	O
+你	O	O
+给	O	O
+我	O	O
+的	O	O
+毒	O	O
+。	O	O
+
+郭	O	O
+德	O	O
+纲	O	O
+。	O	O
+
+凤	B-AR	B-AR
+凰	I-AR	I-AR
+传	I-AR	I-AR
+奇	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+i	O	O
+
+d	O	I-SO
+o	O	I-SO
+n	O	I-SO
+'	O	I-SO
+t	O	I-SO
+
+m	O	O
+i	O	O
+s	O	O
+s	O	O
+
+y	O	O
+o	O	O
+u	O	O
+。	O	O
+
+看	O	O
+你	O	O
+家	O	O
+什	O	O
+么	O	O
+名	O	O
+字	O	O
+呢	O	O
+？	O	O
+
+声	O	O
+音	O	O
+。	O	O
+
+伤	B-SO	B-SO
+心	I-SO	I-SO
+泪	E-SO	E-SO
+。	O	O
+
+摇	B-GE	B-GE
+滚	E-GE	E-GE
+。	O	O
+
+我	O	O
+上	O	O
+次	O	O
+给	O	O
+他	O	O
+我	O	O
+去	O	O
+年	O	O
+给	O	O
+他	O	O
+买	O	O
+的	O	O
+那	O	O
+个	O	O
+耳	O	O
+机	O	O
+的	O	O
+买	O	O
+回	O	O
+去	O	O
+换	O	O
+不	O	O
+了	O	O
+啊	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+你	O	O
+唱	O	O
+首	O	O
+歌	O	O
+给	O	O
+我	O	O
+听	O	O
+吧	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+心	B-SO	B-SO
+灵	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+上	B-SO	B-SO
+海	I-SO	I-SO
+滩	E-SO	E-SO
+。	O	O
+
+天	O	O
+感	O	O
+天	O	O
+，	O	O
+感	B-SO	B-SO
+觉	I-SO	I-SO
+自	I-SO	I-SO
+己	I-SO	I-SO
+萌	I-SO	I-SO
+萌	I-SO	I-SO
+哒	E-SO	E-SO
+。	O	O
+
+你	O	O
+会	O	O
+的	O	O
+，	O	O
+你	O	O
+在	O	O
+的	O	O
+那	O	O
+个	O	O
+那	O	O
+个	O	O
+你	O	O
+好	O	O
+好	O	O
+想	O	O
+一	O	O
+想	O	O
+，	O	O
+你	O	O
+还	O	O
+记	O	O
+得	O	O
+了	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+贾	O	B-SO
+斯	O	I-SO
+丁	O	I-SO
+比	O	I-SO
+伯	O	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+小	O	O
+贝	O	O
+我	O	O
+想	O	O
+你	O	O
+啦	O	O
+。	O	O
+
+小	B-AR	B-SO
+凌	E-AR	I-SO
+的	O	I-SO
+晚	B-SO	I-SO
+秋	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+给	O	O
+我	O	O
+上	O	O
+唱	O	O
+一	O	O
+首	O	O
+九	B-SO	B-SO
+张	I-SO	I-SO
+机	E-SO	E-SO
+。	O	O
+
+点	O	O
+首	O	O
+月	B-SO	B-SO
+半	I-SO	I-SO
+小	I-SO	I-SO
+夜	I-SO	I-SO
+曲	E-SO	E-SO
+李	B-AR	B-AR
+克	I-AR	I-AR
+勤	E-AR	E-AR
+的	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+宠	B-SO	B-SO
+爱	E-SO	I-SO
+你	O	E-SO
+。	O	O
+
+美	O	O
+国	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+小	B-SO	B-SO
+鸡	I-SO	I-SO
+小	I-SO	I-SO
+鸡	E-SO	E-SO
+。	O	O
+
+不	O	O
+是	O	O
+说	O	O
+好	O	O
+想	O	O
+了	O	O
+，	O	O
+最	O	O
+适	O	O
+合	O	O
+女	O	O
+性	O	O
+系	O	O
+统	O	O
+的	O	O
+人	O	O
+。	O	O
+
+出	O	O
+去	O	O
+旅	O	O
+游	O	O
+都	O	O
+是	O	O
+我	O	O
+们	O	O
+两	O	O
+个	O	O
+去	O	O
+吗	O	O
+，	O	O
+团	O	O
+结	O	O
+，	O	O
+知	O	O
+道	O	O
+他	O	O
+经	O	O
+常	O	O
+给	O	O
+我	O	O
+再	O	O
+去	O	O
+旅	O	O
+游	O	O
+吧	O	O
+，	O	O
+是	O	O
+前	O	O
+几	O	O
+天	O	O
+在	O	O
+湖	O	O
+北	O	O
+哪	O	O
+个	O	O
+路	O	O
+上	O	O
+，	O	O
+就	O	O
+是	O	O
+吃	O	O
+的	O	O
+东	O	O
+西	O	O
+都	O	O
+发	O	O
+货	O	O
+了	O	O
+。	O	O
+
+不	O	O
+林	O	O
+峰	O	O
+王	O	O
+力	O	O
+宏	O	O
+。	O	O
+
+脑	O	O
+子	O	O
+不	O	O
+那	O	O
+么	O	O
+和	O	O
+谐	O	O
+，	O	O
+我	O	O
+什	O	O
+么	O	O
+都	O	O
+不	O	O
+做	O	O
+。	O	O
+
+兔	O	B-SO
+子	O	I-SO
+乖	O	I-SO
+乖	O	E-SO
+。	O	O
+
+春	O	B-SO
+蕾	O	I-SO
+没	O	I-SO
+有	O	I-SO
+这	O	I-SO
+样	O	I-SO
+心	O	I-SO
+动	O	I-SO
+过	O	E-SO
+。	O	O
+
+为	O	O
+什	O	O
+么	O	O
+呢	O	O
+，	O	O
+哎	O	O
+呀	O	O
+？	O	O
+
+艾	B-AR	B-AR
+菲	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+说	O	O
+你	O	O
+在	O	O
+哪	O	O
+里	O	O
+开	O	O
+轮	O	O
+船	O	O
+，	O	O
+我	O	O
+说	O	O
+你	O	O
+在	O	O
+哪	O	O
+里	O	O
+开	O	O
+轮	O	O
+船	O	O
+。	O	O
+
+我	O	O
+之	O	O
+前	O	O
+叫	O	O
+那	O	O
+个	O	O
+我	O	O
+是	O	O
+你	O	O
+记	O	O
+得	O	O
+我	O	O
+是	O	O
+做	O	O
+到	O	O
+6	O	O
+0	O	O
+岁	O	O
+的	O	O
+还	O	O
+是	O	O
+到	O	O
+6	O	O
+5	O	O
+岁	O	O
+领	O	O
+吧	O	O
+。	O	O
+
+播	O	O
+放	O	O
+电	O	O
+话	O	O
+。	O	O
+
+你	O	O
+一	O	O
+点	O	O
+都	O	O
+不	O	O
+可	O	O
+爱	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+。	O	O
+
+机	O	O
+器	O	O
+人	O	O
+抢	O	O
+的	O	O
+是	O	O
+你	O	O
+从	O	O
+现	O	O
+在	O	O
+有	O	O
+多	O	O
+少	O	O
+电	O	O
+充	O	O
+满	O	O
+没	O	O
+有	O	O
+。	O	O
+
+这	O	O
+是	O	O
+你	O	O
+的	O	O
+么	O	O
+。	O	O
+
+李	O	O
+维	O	O
+信	O	O
+。	O	O
+
+幸	B-SO	B-SO
+福	I-SO	I-SO
+拍	I-SO	I-SO
+手	I-SO	I-SO
+歌	E-SO	E-SO
+
+浠	O	O
+储	O	O
+。	O	O
+
+我	O	O
+依	O	O
+然	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+拼	B-SO	B-SO
+吧	I-SO	I-SO
+舞	E-SO	I-SO
+吧	O	E-SO
+。	O	O
+
+你	O	O
+去	O	O
+哪	O	O
+了	O	O
+。	O	O
+
+平	B-SO	B-SO
+凡	I-SO	I-SO
+之	I-SO	I-SO
+路	E-SO	E-SO
+。	O	O
+
+爱	O	O
+因	O	O
+斯	O	O
+坦	O	O
+。	O	O
+
+唱	O	O
+激	B-SO	O
+战	E-SO	O
+其	O	O
+伦	O	O
+三	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+大	B-SO	B-SO
+梦	I-SO	I-SO
+想	I-SO	I-SO
+家	E-SO	E-SO
+。	O	O
+
+匆	B-SO	O
+匆	I-SO	O
+那	I-SO	O
+年	E-SO	O
+。	O	O
+
+为	O	O
+什	O	O
+么	O	O
+呢	O	O
+？	O	O
+
+兄	B-SO	B-SO
+弟	I-SO	I-SO
+干	I-SO	I-SO
+一	I-SO	I-SO
+杯	E-SO	E-SO
+。	O	O
+
+七	B-SO	B-SO
+里	I-SO	I-SO
+香	E-SO	E-SO
+。	O	O
+
+龙	B-SO	B-SO
+的	I-SO	I-SO
+传	I-SO	I-SO
+人	E-SO	E-SO
+。	O	O
+
+搜	O	O
+索	O	O
+，	O	O
+我	B-SO	O
+很	I-SO	O
+爱	I-SO	O
+你	E-SO	O
+。	O	O
+
+是	O	O
+啊	O	O
+，	O	O
+w	O	O
+i	O	O
+f	O	O
+i	O	O
+信	O	O
+号	O	O
+是	O	O
+满	O	O
+的	O	O
+但	O	O
+是	O	O
+你	O	O
+那	O	O
+个	O	O
+路	O	O
+由	O	O
+器	O	O
+它	O	O
+那	O	O
+个	O	O
+流	O	O
+量	O	O
+大	O	O
+不	O	O
+大	O	O
+。	O	O
+
+生	O	O
+命	O	O
+过	O	O
+客	O	O
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+好	O	O
+听	O	O
+的	O	O
+音	O	O
+乐	O	O
+好	O	O
+吗	O	O
+？	O	O
+
+苹	O	O
+果	O	O
+。	O	O
+
+找	O	O
+一	O	O
+下	O	O
+胡	B-AR	B-AR
+歌	E-AR	E-AR
+的	O	O
+九	B-SO	B-SO
+妹	E-SO	E-SO
+。	O	O
+
+三	B-SO	O
+套	I-SO	O
+车	E-SO	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+樊	B-AR	B-SO
+凡	E-AR	I-SO
+的	O	I-SO
+痛	B-SO	I-SO
+惜	E-SO	E-SO
+。	O	O
+
+芝	O	O
+麻	O	O
+开	O	O
+门	O	O
+。	O	O
+
+来	O	O
+个	O	O
+雨	B-SO	O
+后	E-SO	O
+。	O	O
+
+换	O	O
+一	O	O
+个	O	O
+节	O	O
+奏	O	O
+快	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+再	O	O
+爱	O	O
+了	O	O
+你	O	O
+，	O	O
+我	O	O
+爱	O	O
+我	O	O
+自	O	O
+己	O	O
+，	O	O
+你	O	O
+爱	O	O
+谁	O	O
+呀	O	O
+，	O	O
+你	O	O
+的	O	O
+男	O	O
+朋	O	O
+友	O	O
+是	O	O
+谁	O	O
+呀	O	O
+
+两	B-SO	B-SO
+只	I-SO	I-SO
+老	I-SO	I-SO
+虎	E-SO	E-SO
+。	O	O
+
+巫	B-AR	O
+娜	E-AR	O
+。	O	O
+
+k	O	O
+e	O	O
+l	O	O
+l	O	O
+y	O	O
+唱	O	O
+了	O	O
+几	O	O
+个	O	O
+。	O	O
+
+来	O	O
+一	O	O
+段	O	O
+d	B-GE	B-GE
+j	E-GE	E-GE
+。	O	O
+
+如	B-SO	O
+果	I-SO	O
+有	I-SO	O
+来	I-SO	O
+生	E-SO	O
+。	O	O
+
+杨	O	O
+幂	O	O
+是	O	O
+谁	O	O
+。	O	O
+
+学	O	O
+习	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+，	O	O
+大	O	B-SO
+豆	O	I-SO
+南	B-SO	I-SO
+瓜	E-SO	E-SO
+。	O	O
+
+听	O	O
+罗	O	O
+曼	O	O
+蒂	O	O
+克	O	O
+的	O	O
+爱	O	O
+情	O	O
+，	O	O
+地	B-SO	O
+震	E-SO	O
+。	O	O
+
+也	O	O
+好	O	O
+，	O	O
+来	O	O
+点	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+嘻	O	O
+嘻	O	O
+要	O	O
+听	O	O
+泥	B-SO	B-SO
+娃	I-SO	I-SO
+娃	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+曲	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+两	B-SO	B-SO
+只	I-SO	I-SO
+老	I-SO	I-SO
+虎	E-SO	E-SO
+，	O	O
+奥	O	O
+夫	O	O
+，	O	O
+马	O	O
+上	O	O
+就	O	O
+来	O	O
+你	O	O
+还	O	O
+小	O	O
+云	O	O
+小	O	O
+云	O	O
+，	O	O
+想	O	O
+一	O	O
+想	O	O
+，	O	O
+不	O	O
+怕	O	O
+小	O	O
+人	O	O
+，	O	O
+小	O	O
+云	O	O
+小	O	O
+云	O	O
+，	O	O
+安	O	O
+福	O	O
+安	O	O
+福	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+林	B-AR	B-AR
+翠	I-AR	I-AR
+萍	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+一	O	O
+会	O	O
+儿	O	O
+我	O	O
+看	O	O
+一	O	O
+看	O	O
+，	O	O
+我	O	O
+不	O	O
+要	O	O
+，	O	O
+而	O	O
+亮	O	O
+，	O	O
+有	O	O
+没	O	O
+有	O	O
+开	O	O
+有	O	O
+图	O	O
+片	O	O
+视	O	O
+频	O	O
+，	O	O
+你	O	O
+不	O	O
+是	O	O
+说	O	O
+有	O	O
+个	O	O
+硬	O	O
+盘	O	O
+吗	O	O
+，	O	O
+傻	O	O
+玩	O	O
+吧	O	O
+，	O	O
+拿	O	O
+我	O	O
+看	O	O
+看	O	O
+呗	O	O
+，	O	O
+白	O	O
+太	O	O
+黄	O	O
+了	O	O
+，	O	O
+故	O	O
+事	O	O
+片	O	O
+儿	O	O
+就	O	O
+行	O	O
+
+给	O	O
+我	O	O
+放	O	O
+首	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+老	O	O
+公	O	O
+你	O	O
+在	O	O
+哪	O	O
+。	O	O
+
+的	O	O
+骨	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	B-SO	B-SO
+只	I-SO	I-SO
+哈	I-SO	I-SO
+巴	I-SO	I-SO
+狗	E-SO	E-SO
+。	O	O
+
+你	O	O
+好	O	O
+想	O	O
+开	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+d	B-AR	O
+a	I-AR	O
+n	I-AR	O
+i	I-AR	O
+e	I-AR	O
+l	I-AR	O
+
+j	I-AR	O
+a	I-AR	O
+c	I-AR	O
+o	I-AR	O
+b	I-AR	O
+
+t	I-AR	B-AR
+e	I-AR	I-AR
+p	I-AR	I-AR
+e	I-AR	I-AR
+r	E-AR	E-AR
+的	O	O
+四	B-SO	O
+季	E-SO	O
+。	O	O
+
+请	O	O
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+鹿	B-AR	B-AR
+晗	E-AR	E-AR
+的	O	O
+勋	B-SO	B-SO
+章	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+背	O	O
+啊	O	O
+唱	O	O
+一	O	O
+首	O	O
+上	B-SO	B-SO
+学	I-SO	I-SO
+歌	E-SO	E-SO
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+九	O	B-SO
+歌	O	I-SO
+糖	O	I-SO
+卖	O	I-SO
+猫	O	E-SO
+。	O	O
+
+凉	O	O
+拌	O	O
+菜	O	O
+，	O	O
+一	B-SO	O
+闪	I-SO	O
+一	I-SO	O
+闪	I-SO	O
+亮	I-SO	O
+晶	I-SO	O
+晶	E-SO	O
+。	O	O
+
+赵	O	O
+州	O	O
+桥	O	O
+，	O	O
+儿	O	O
+童	O	O
+。	O	O
+
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+。	O	O
+
+我	O	O
+他	O	O
+妈	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+抛	O	O
+弃	O	O
+你	O	O
+了	O	O
+。	O	O
+
+可	O	O
+以	O	O
+来	O	O
+一	O	O
+首	O	O
+喝	B-SO	B-SO
+醉	I-SO	I-SO
+以	I-SO	I-SO
+后	I-SO	I-SO
+才	I-SO	I-SO
+明	I-SO	I-SO
+白	E-SO	E-SO
+。	O	O
+
+音	O	O
+乐	O	O
+，	O	O
+操	O	O
+你	O	O
+妈	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+不	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+国	B-SO	B-SO
+歌	E-SO	E-SO
+我	O	O
+要	O	O
+听	O	O
+个	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+床	O	O
+前	O	O
+明	O	O
+月	O	O
+光	O	O
+下	O	O
+一	O	O
+句	O	O
+是	O	O
+什	O	O
+么	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+你	O	O
+唱	O	O
+首	O	O
+睡	B-SO	B-SO
+前	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+李	B-AR	B-AR
+莲	I-AR	I-AR
+英	E-AR	E-AR
+的	O	O
+咖	B-SO	B-SO
+啡	I-SO	I-SO
+屋	E-SO	E-SO
+。	O	O
+
+可	O	O
+以	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+纸	B-SO	O
+老	I-SO	O
+虎	E-SO	O
+。	O	O
+
+山	O	O
+不	O	O
+转	O	O
+水	O	O
+转	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+摇	B-GE	B-GE
+滚	E-GE	E-GE
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+二	O	O
+人	O	O
+转	O	O
+正	O	O
+戏	O	O
+好	O	O
+，	O	O
+董	O	O
+伟	O	O
+韩	O	O
+子	O	O
+坪	O	O
+。	O	O
+
+我	O	O
+要	O	O
+是	O	O
+能	O	O
+当	O	O
+天	O	O
+我	O	O
+要	O	O
+见	O	O
+她	O	O
+一	O	O
+面	O	O
+也	O	O
+行	O	O
+句	O	O
+就	O	O
+我	O	O
+给	O	O
+他	O	O
+介	O	O
+绍	O	O
+的	O	O
+宋	O	O
+伟	O	O
+强	O	O
+的	O	O
+表	O	O
+妹	O	O
+呀	O	O
+
+小	O	B-SO
+苹	O	I-SO
+果	O	E-SO
+。	O	O
+
+上	B-SO	B-SO
+学	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+白	I-SO	I-SO
+兔	E-SO	E-SO
+。	O	O
+
+大	O	O
+点	O	O
+声	O	O
+播	O	O
+放	O	O
+小	B-SO	B-SO
+小	I-SO	I-SO
+蚂	I-SO	I-SO
+蚁	E-SO	E-SO
+。	O	O
+
+一	O	B-SO
+定	O	I-SO
+一	O	I-SO
+定	O	E-SO
+。	O	O
+
+听	O	O
+听	O	O
+。	O	O
+
+小	O	O
+心	O	O
+一	O	O
+点	O	O
+，	O	O
+久	O	O
+了	O	O
+你	O	O
+了	O	O
+，	O	O
+他	O	O
+心	O	O
+里	O	O
+边	O	O
+儿	O	O
+有	O	O
+啥	O	O
+问	O	O
+题	O	O
+给	O	O
+你	O	O
+说	O	O
+说	O	O
+让	O	O
+我	O	O
+自	O	O
+己	O	O
+给	O	O
+他	O	O
+分	O	O
+析	O	O
+分	O	O
+析	O	O
+。	O	O
+
+给	O	O
+我	O	O
+一	O	O
+个	O	O
+冰	O	O
+淇	O	O
+淋	O	O
+吃	O	O
+。	O	O
+
+第	O	O
+一	O	O
+个	O	O
+开	O	O
+始	O	O
+放	O	O
+h	B-SO	O
+e	I-SO	O
+l	I-SO	O
+l	I-SO	O
+o	E-SO	O
+。	O	O
+
+放	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+苹	O	O
+果	O	O
+。	O	O
+
+思	B-SO	O
+念	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+偏	B-SO	B-SO
+偏	I-SO	I-SO
+喜	I-SO	I-SO
+欢	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+巴	B-SO	B-SO
+格	I-SO	I-SO
+达	E-SO	E-SO
+吗	O	O
+？	O	O
+
+那	O	O
+首	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+他	O	O
+做	O	O
+啥	O	O
+子	O	O
+事	O	O
+情	O	O
+不	O	O
+能	O	O
+忘	O	O
+记	O	O
+他	O	O
+，	O	O
+说	O	O
+个	O	O
+笑	O	O
+话	O	O
+来	O	O
+听	O	O
+小	O	O
+薇	O	O
+小	O	O
+薇	O	O
+唱	O	O
+首	O	O
+歌	O	O
+来	O	O
+听	O	O
+。	O	O
+
+这	O	O
+是	O	O
+我	O	O
+们	O	O
+。	O	O
+
+嗯	O	O
+你	O	O
+能	O	O
+给	O	O
+我	O	O
+们	O	O
+唱	O	O
+歌	O	O
+吗	O	O
+？	O	O
+
+恐	O	O
+龙	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+灭	O	O
+绝	O	O
+的	O	O
+。	O	O
+
+你	O	O
+能	O	O
+听	O	O
+我	O	O
+的	O	O
+。	O	O
+
+新	B-SO	B-SO
+贵	I-SO	I-SO
+妃	I-SO	I-SO
+醉	I-SO	I-SO
+酒	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+听	O	O
+一	O	O
+下	O	O
+的	O	O
+。	O	O
+
+你	O	O
+好	O	O
+小	O	O
+笨	O	O
+，	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+贾	B-AR	B-AR
+剑	I-AR	I-AR
+龙	E-AR	E-AR
+的	O	O
+兰	B-SO	B-SO
+花	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+有	O	O
+没	O	O
+有	O	O
+小	O	O
+孩	O	O
+听	O	O
+的	O	O
+歌	O	O
+呀	O	O
+。	O	O
+
+梦	B-SO	B-SO
+中	I-SO	I-SO
+想	I-SO	I-SO
+着	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+一	O	B-SO
+双	O	I-SO
+梦	O	I-SO
+想	O	I-SO
+的	O	I-SO
+翅	O	I-SO
+膀	O	E-SO
+。	O	O
+
+播	O	O
+不	B-SO	O
+听	I-SO	O
+话	E-SO	O
+。	O	O
+
+喜	B-SO	B-SO
+羊	I-SO	I-SO
+羊	I-SO	I-SO
+美	I-SO	I-SO
+羊	I-SO	I-SO
+羊	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+c	O	O
+a	O	O
+n	O	O
+
+y	O	O
+o	O	O
+u	O	O
+
+s	O	O
+p	O	O
+e	O	O
+a	O	O
+k	O	O
+
+e	O	O
+n	O	O
+g	O	O
+l	O	O
+i	O	O
+s	O	O
+h	O	O
+。	O	O
+
+听	O	O
+着	O	B-SO
+伤	B-SO	I-SO
+心	I-SO	I-SO
+太	I-SO	I-SO
+平	I-SO	I-SO
+洋	E-SO	E-SO
+。	O	O
+
+梦	B-SO	B-SO
+醒	I-SO	I-SO
+时	I-SO	I-SO
+分	E-SO	E-SO
+。	O	O
+
+数	B-SO	B-SO
+鸭	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+帮	O	O
+你	O	O
+打	O	O
+开	O	O
+这	O	O
+个	O	O
+东	O	O
+西	O	O
+吃	O	O
+。	O	O
+
+三	B-SO	O
+哥	E-SO	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+军	B-SO	B-SO
+港	I-SO	I-SO
+之	I-SO	I-SO
+夜	E-SO	E-SO
+。	O	O
+
+王	B-AR	B-AR
+俊	I-AR	I-AR
+凯	E-AR	E-AR
+的	O	O
+歌	O	O
+
+天	B-SO	B-SO
+使	I-SO	I-SO
+的	I-SO	I-SO
+翅	I-SO	I-SO
+膀	E-SO	E-SO
+。	O	O
+
+朋	B-SO	B-SO
+友	I-SO	I-SO
+别	I-SO	I-SO
+哭	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+你	O	O
+告	O	O
+诉	O	O
+我	O	O
+，	O	O
+床	O	O
+前	O	O
+明	O	O
+月	O	O
+光	O	O
+的	O	O
+下	O	O
+一	O	O
+句	O	O
+是	O	O
+什	O	O
+么	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+寂	B-SO	B-SO
+寞	I-SO	I-SO
+才	I-SO	I-SO
+说	I-SO	I-SO
+爱	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+邓	B-AR	B-AR
+紫	I-AR	I-AR
+棋	E-AR	E-AR
+的	O	O
+黑	B-SO	O
+粉	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+雪	B-SO	B-SO
+中	I-SO	I-SO
+情	E-SO	E-SO
+。	O	O
+
+放	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+个	O	O
+萤	B-SO	O
+火	I-SO	O
+虫	E-SO	O
+吧	O	O
+。	O	O
+
+小	O	O
+芮	O	O
+你	O	O
+好	O	O
+，	O	O
+三	O	O
+g	O	O
+3	O	O
+京	O	O
+赛	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+唱	O	O
+葫	B-SO	B-SO
+芦	I-SO	I-SO
+娃	E-SO	E-SO
+。	O	O
+
+我	O	B-SO
+的	O	I-SO
+狼	O	I-SO
+过	O	E-SO
+吗	O	O
+？	O	O
+
+听	O	O
+一	O	O
+首	O	O
+铁	B-SO	B-SO
+打	I-SO	I-SO
+的	I-SO	I-SO
+营	I-SO	I-SO
+盘	I-SO	I-SO
+流	I-SO	I-SO
+水	I-SO	I-SO
+的	I-SO	I-SO
+兵	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+星	I-SO	I-SO
+星	E-SO	I-SO
+小	B-SO	I-SO
+星	I-SO	I-SO
+星	E-SO	E-SO
+。	O	O
+
+那	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+火	B-SO	O
+苗	E-SO	O
+
+我	O	O
+想	O	O
+听	O	O
+三	B-SO	B-SO
+字	I-SO	I-SO
+经	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+播	O	O
+放	O	O
+我	B-SO	B-SO
+们	I-SO	I-SO
+不	I-SO	I-SO
+一	I-SO	I-SO
+样	E-SO	E-SO
+。	O	O
+
+演	O	O
+出	O	O
+演	O	O
+奏	O	O
+汉	B-SO	O
+宫	I-SO	O
+秋	I-SO	O
+月	E-SO	O
+。	O	O
+
+唱	O	O
+一	O	O
+曲	O	O
+。	O	O
+
+你	O	O
+住	O	O
+在	O	O
+哪	O	O
+里	O	O
+呀	O	O
+。	O	O
+
+光	B-SO	B-SO
+辉	I-SO	I-SO
+岁	I-SO	I-SO
+月	E-SO	E-SO
+。	O	O
+
+唱	O	O
+两	B-SO	B-SO
+只	I-SO	I-SO
+老	I-SO	I-SO
+虎	E-SO	E-SO
+。	O	O
+
+博	O	O
+哥	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+卷	O	O
+珠	O	O
+帘	O	O
+交	O	O
+通	O	O
+规	O	O
+则	O	O
+爱	O	O
+的	O	O
+好	O	O
+累	O	O
+。	O	O
+
+点	O	O
+首	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+。	O	O
+
+我	O	O
+不	O	O
+想	O	O
+说	O	O
+话	O	O
+
+给	O	O
+我	O	O
+讲	O	O
+唱	O	O
+一	O	O
+首	O	O
+亲	B-SO	B-SO
+爱	I-SO	I-SO
+的	I-SO	I-SO
+你	I-SO	I-SO
+在	I-SO	I-SO
+哪	I-SO	I-SO
+里	E-SO	E-SO
+。	O	O
+
+邱	B-AR	O
+权	E-AR	O
+唱	O	O
+的	O	O
+敢	B-SO	B-SO
+不	I-SO	I-SO
+敢	I-SO	I-SO
+爱	E-SO	I-SO
+歌	O	E-SO
+。	O	O
+
+不	O	O
+要	O	O
+不	O	O
+要	O	O
+。	O	O
+
+网	O	O
+络	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+贷	O	O
+款	O	O
+担	O	O
+保	O	O
+的	O	O
+，	O	O
+那	O	O
+如	O	O
+果	O	O
+你	O	O
+用	O	O
+不	O	O
+到	O	O
+也	O	O
+没	O	O
+关	O	O
+系	O	O
+我	O	O
+确	O	O
+实	O	O
+是	O	O
+这	O	O
+样	O	O
+的	O	O
+，	O	O
+这	O	O
+边	O	O
+银	O	O
+行	O	O
+系	O	O
+统	O	O
+审	O	O
+核	O	O
+通	O	O
+过	O	O
+了	O	O
+它	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+老	O	O
+婆	O	O
+一	O	O
+直	O	O
+打	O	O
+。	O	O
+
+让	O	O
+我	O	O
+们	O	O
+看	O	O
+你	O	O
+。	O	O
+
+p	B-SO	O
+e	I-SO	O
+o	I-SO	O
+p	I-SO	O
+l	I-SO	O
+e	I-SO	O
+
+a	I-SO	O
+r	I-SO	O
+e	I-SO	O
+
+p	I-SO	O
+e	I-SO	O
+o	I-SO	O
+p	I-SO	O
+l	I-SO	O
+e	E-SO	O
+。	O	O
+
+我	O	O
+想	O	O
+查	O	O
+一	O	O
+下	O	O
+那	O	O
+个	O	O
+小	O	O
+孩	O	O
+去	O	O
+接	O	O
+她	O	O
+，	O	O
+深	O	O
+情	O	O
+好	O	O
+累	O	O
+，	O	O
+嗯	O	O
+，	O	O
+白	O	O
+色	O	O
+的	O	O
+大	O	O
+众	O	O
+啊	O	O
+这	O	O
+个	O	O
+车	O	O
+目	O	O
+前	O	O
+没	O	O
+有	O	O
+违	O	O
+法	O	O
+记	O	O
+录	O	O
+，	O	O
+6	O	O
+6	O	O
+6	O	O
+6	O	O
+6	O	O
+6	O	O
+2	O	O
+a	O	O
+这	O	O
+是	O	O
+个	O	O
+普	O	O
+通	O	O
+的	O	O
+蓝	O	O
+牌	O	O
+车	O	O
+吗	O	O
+，	O	O
+这	O	O
+个	O	O
+城	O	O
+市	O	O
+没	O	O
+有	O	O
+违	O	O
+法	O	O
+记	O	O
+录	O	O
+的	O	O
+。	O	O
+
+我	O	O
+把	O	O
+小	B-SO	O
+苹	I-SO	O
+果	E-SO	O
+。	O	O
+
+甜	B-SO	B-SO
+甜	I-SO	I-SO
+的	E-SO	I-SO
+年	O	E-SO
+。	O	O
+
+杜	O	O
+淳	O	O
+和	O	O
+。	O	O
+
+棒	O	O
+棒	O	O
+糖	O	O
+。	O	O
+
+韩	B-AR	B-AR
+信	E-AR	E-AR
+的	O	O
+寂	B-SO	B-SO
+寞	I-SO	I-SO
+无	I-SO	I-SO
+罪	E-SO	E-SO
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+歌	B-SO	O
+唱	I-SO	O
+祖	I-SO	B-SO
+国	E-SO	E-SO
+。	O	O
+
+他	O	O
+说	O	O
+好	O	O
+妈	O	O
+妈	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+彩	B-SO	B-SO
+虹	I-SO	I-SO
+之	I-SO	I-SO
+歌	E-SO	E-SO
+
+高	B-SO	O
+山	I-SO	O
+流	I-SO	O
+水	E-SO	O
+的	O	O
+古	O	O
+筝	O	O
+曲	O	O
+。	O	O
+
+中	O	O
+国	O	O
+新	O	O
+声	O	O
+代	O	O
+。	O	O
+
+和	O	O
+这	O	O
+么	O	O
+个	O	O
+毛	O	O
+病	O	O
+吵	O	O
+的	O	O
+，	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+到	O	O
+家	O	O
+的	O	O
+。	O	O
+
+我	O	O
+让	O	O
+你	O	O
+唱	O	O
+歌	O	O
+不	O	O
+让	O	O
+你	O	O
+背	O	O
+书	O	O
+。	O	O
+
+胎	O	O
+教	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+朋	B-SO	B-SO
+友	I-SO	I-SO
+的	I-SO	I-SO
+酒	E-SO	E-SO
+。	O	O
+
+继	O	O
+续	O	O
+行	O	O
+驶	O	O
+4	O	O
+.	O	O
+8	O	O
+公	O	O
+里	O	O
+，	O	O
+因	O	O
+为	O	O
+你	O	O
+切	O	O
+换	O	O
+路	O	O
+线	O	O
+，	O	O
+前	O	O
+方	O	O
+2	O	O
+0	O	O
+0	O	O
+米	O	O
+左	O	O
+转	O	O
+驶	O	O
+入	O	O
+大	O	O
+洋	O	O
+。	O	O
+
+c	O	O
+a	O	O
+l	O	O
+l	O	O
+
+m	O	O
+e	O	O
+。	O	O
+
+我	O	O
+们	O	O
+喂	O	O
+喂	O	O
+喂	O	O
+喂	O	O
+。	O	O
+
+给	O	O
+宝	O	O
+宝	O	O
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+刘	O	B-AR
+德	O	I-AR
+华	O	E-AR
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+燕	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+辽	O	B-AR
+宁	O	E-AR
+的	O	O
+歌	O	O
+曲	O	O
+
+唱	O	O
+一	O	O
+个	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+不	O	O
+说	O	O
+了	O	O
+再	O	O
+见	O	O
+吧	O	O
+。	O	O
+
+不	B-SO	O
+要	I-SO	O
+说	I-SO	O
+话	E-SO	O
+，	O	O
+我	O	O
+说	O	O
+你	O	O
+牛	O	O
+。	O	O
+
+今	O	O
+天	O	O
+这	O	O
+歌	O	O
+曲	O	O
+吗	O	O
+？	O	O
+
+播	O	O
+放	O	O
+。	O	O
+
+后	B-SO	B-SO
+悔	I-SO	I-SO
+爱	I-SO	I-SO
+上	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+听	O	O
+上	O	O
+一	O	O
+首	O	O
+曲	O	B-SO
+子	O	E-SO
+。	O	O
+
+北	O	O
+京	O	O
+，	O	O
+给	O	O
+我	O	O
+听	O	O
+邓	B-AR	B-AR
+丽	I-AR	I-AR
+君	E-AR	E-AR
+的	O	O
+甜	B-SO	B-SO
+蜜	I-SO	I-SO
+蜜	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+东	O	O
+北	O	O
+神	O	O
+调	O	O
+，	O	O
+老	O	O
+翟	O	O
+头	O	O
+，	O	O
+跳	O	O
+大	O	O
+绳	O	O
+儿	O	O
+。	O	O
+
+伍	B-AR	B-AR
+佰	E-AR	E-AR
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+大	O	O
+概	O	O
+是	O	O
+个	O	O
+什	O	O
+么	O	O
+意	O	O
+思	O	O
+他	O	O
+指	O	O
+的	O	O
+是	O	O
+什	O	O
+么	O	O
+东	O	O
+西	O	O
+我	O	O
+没	O	O
+听	O	O
+你	O	O
+的	O	O
+我	O	O
+我	O	O
+怎	O	O
+么	O	O
+听	O	O
+你	O	O
+说	O	O
+一	O	O
+个	O	O
+大	O	O
+概	O	O
+，	O	O
+他	O	O
+大	O	O
+概	O	O
+是	O	O
+什	O	O
+么	O	O
+意	O	O
+思	O	O
+的	O	O
+讲	O	O
+？	O	O
+
+最	B-SO	B-SO
+炫	I-SO	I-SO
+民	I-SO	I-SO
+族	I-SO	I-SO
+风	E-SO	E-SO
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+毛	I-SO	I-SO
+驴	E-SO	E-SO
+。	O	O
+
+放	O	O
+个	O	O
+放	O	O
+个	O	O
+海	B-SO	B-SO
+阔	I-SO	I-SO
+天	I-SO	I-SO
+空	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+预	B-SO	B-SO
+谋	E-SO	E-SO
+。	O	O
+
+天	O	O
+鹅	O	O
+湖	O	O
+的	O	O
+假	O	B-SO
+日	O	E-SO
+。	O	O
+
+小	O	O
+卫	O	O
+来	O	O
+个	O	O
+笑	O	O
+话	O	O
+。	O	O
+
+那	O	O
+你	O	O
+给	O	O
+我	O	O
+们	O	O
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+你	O	O
+叫	O	O
+什	O	O
+么	O	O
+名	O	O
+字	O	O
+我	O	O
+忘	O	O
+了	O	O
+。	O	O
+
+铃	O	O
+声	O	O
+也	O	O
+不	O	O
+会	O	O
+给	O	O
+你	O	O
+买	O	O
+呀	O	O
+因	O	O
+为	O	O
+你	O	O
+的	O	O
+生	O	O
+日	O	O
+礼	O	O
+物	O	O
+就	O	O
+在	O	O
+这	O	O
+边	O	O
+呀	O	O
+。	O	O
+
+放	O	O
+小	B-SO	B-SO
+鸡	I-SO	I-SO
+小	I-SO	I-SO
+鸡	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+茉	B-SO	B-SO
+莉	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+这	O	O
+个	O	O
+比	O	O
+听	O	O
+郭	O	B-AR
+静	O	E-AR
+的	O	O
+很	O	O
+烂	O	O
+。	O	O
+
+发	O	O
+给	O	O
+我	O	O
+好	O	O
+吗	O	O
+？	O	O
+
+o	O	O
+k	O	O
+啊	O	O
+，	O	O
+有	O	O
+没	O	O
+有	O	O
+连	O	O
+上	O	O
+网	O	O
+，	O	O
+给	O	O
+你	O	O
+们	O	O
+看	O	O
+什	O	O
+看	O	O
+呀	O	O
+。	O	O
+
+听	O	O
+歌	O	O
+。	O	O
+
+快	O	O
+点	O	O
+，	O	O
+的	O	O
+那	O	O
+个	O	O
+。	O	O
+
+播	O	O
+一	O	O
+首	O	O
+刀	B-SO	B-SO
+山	I-SO	I-SO
+火	I-SO	I-SO
+海	E-SO	E-SO
+。	O	O
+
+降	B-AR	B-AR
+央	I-AR	I-AR
+卓	I-AR	I-AR
+玛	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+的	O	O
+电	O	O
+话	O	O
+号	O	O
+码	O	O
+是	O	O
+多	O	O
+少	O	O
+。	O	O
+
+唱	O	O
+生	B-SO	B-SO
+日	I-SO	I-SO
+快	I-SO	I-SO
+乐	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+山	O	O
+。	O	O
+
+跟	O	O
+她	O	O
+说	O	O
+话	O	O
+能	O	O
+气	O	O
+死	O	O
+。	O	O
+
+你	O	O
+说	O	O
+话	O	O
+呢	O	O
+，	O	O
+我	O	O
+这	O	O
+么	O	O
+你	O	O
+在	O	O
+身	O	O
+边	O	O
+，	O	O
+你	O	O
+真	O	O
+厉	O	O
+害	O	O
+。	O	O
+
+猜	O	B-SO
+出	O	I-SO
+回	O	I-SO
+家	O	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+远	B-SO	B-SO
+走	I-SO	I-SO
+高	I-SO	I-SO
+飞	E-SO	E-SO
+金	B-AR	B-AR
+志	I-AR	I-AR
+文	E-AR	E-AR
+唱	O	O
+的	O	O
+。	O	O
+
+我	O	O
+也	O	O
+爱	O	O
+你	O	O
+。	O	O
+
+等	O	O
+不	O	O
+来	O	O
+的	O	O
+。	O	O
+
+这	O	O
+是	O	O
+最	O	O
+近	O	O
+的	O	O
+新	O	O
+歌	O	O
+，	O	O
+这	O	O
+应	O	O
+该	O	O
+没	O	O
+有	O	O
+。	O	O
+
+t	B-AR	O
+a	I-AR	O
+n	E-AR	O
+的	O	O
+音	O	O
+乐	O	O
+吧	O	O
+。	O	O
+
+海	B-SO	B-SO
+阔	I-SO	I-SO
+天	I-SO	I-SO
+空	E-SO	E-SO
+。	O	O
+
+我	O	O
+是	O	O
+什	O	O
+么	O	O
+星	O	O
+座	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+放	O	O
+。	O	O
+
+时	O	O
+钟	O	O
+，	O	O
+吃	O	O
+粥	O	O
+，	O	O
+如	O	O
+果	O	O
+要	O	O
+招	O	O
+商	O	O
+吗	O	O
+，	O	O
+成	O	O
+王	O	O
+败	O	O
+寇	O	O
+一	O	O
+念	O	O
+之	O	O
+差	O	O
+，	O	O
+手	O	O
+机	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+播	O	O
+放	O	O
+一	O	O
+首	O	O
+。	O	O
+
+你	O	O
+的	O	O
+名	O	O
+字	O	O
+。	O	O
+
+虫	B-SO	B-SO
+儿	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+打	B-SO	B-SO
+靶	I-SO	I-SO
+归	I-SO	I-SO
+来	E-SO	E-SO
+。	O	O
+
+许	B-AR	O
+冠	I-AR	O
+杰	E-AR	O
+。	O	O
+
+包	B-SO	B-SO
+容	E-SO	E-SO
+。	O	O
+
+邓	O	O
+紫	O	O
+棋	O	O
+是	O	O
+谁	O	O
+啊	O	O
+
+那	O	O
+你	O	O
+吃	O	O
+饭	O	O
+以	O	O
+后	O	O
+你	O	O
+是	O	O
+不	O	O
+是	O	O
+你	O	O
+吃	O	O
+吗	O	O
+，	O	O
+别	O	O
+讲	O	O
+话	O	O
+了	O	O
+。	O	O
+
+这	O	O
+个	O	O
+这	O	O
+个	O	O
+叫	O	O
+什	O	O
+么	O	O
+，	O	O
+你	O	O
+要	O	O
+干	O	O
+什	O	O
+么	O	O
+就	O	O
+跟	O	O
+人	O	O
+说	O	O
+这	O	O
+个	O	O
+这	O	O
+个	O	O
+叫	O	O
+什	O	O
+么	O	O
+呃	O	O
+呃	O	O
+那	O	O
+个	O	O
+那	O	O
+个	O	O
+叫	O	O
+什	O	O
+么	O	O
+，	O	O
+电	O	O
+子	O	O
+这	O	O
+个	O	O
+这	O	O
+个	O	O
+叫	O	O
+什	O	O
+么	O	O
+视	O	O
+频	O	O
+啊	O	O
+，	O	O
+在	O	O
+哪	O	O
+里	O	O
+啊	O	O
+，	O	O
+看	O	O
+不	O	O
+出	O	O
+来	O	O
+你	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+刀	B-AR	B-AR
+郎	E-AR	E-AR
+的	O	O
+谢	B-SO	B-SO
+谢	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+他	O	O
+认	O	O
+为	O	O
+他	O	O
+根	O	O
+本	O	O
+没	O	O
+有	O	O
+忘	O	O
+记	O	O
+，	O	O
+因	O	O
+此	O	O
+他	O	O
+一	O	O
+次	O	O
+又	O	O
+一	O	O
+次	O	O
+的	O	O
+保	O	O
+证	O	O
+他	O	O
+绝	O	O
+对	O	O
+最	O	O
+爱	O	O
+的	O	O
+人	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+吻	B-SO	B-SO
+别	E-SO	E-SO
+。	O	O
+
+来	O	O
+个	O	O
+人	O	O
+的	O	O
+你	O	O
+的	O	O
+烂	O	O
+借	O	O
+口	O	O
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+蓝	O	O
+牙	O	O
+音	O	O
+乐	O	O
+播	O	O
+放	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+下	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+爱	B-SO	B-SO
+大	I-SO	I-SO
+了	I-SO	I-SO
+受	I-SO	I-SO
+伤	I-SO	I-SO
+了	E-SO	E-SO
+。	O	O
+
+下	B-SO	O
+辈	I-SO	O
+子	I-SO	O
+不	I-SO	O
+做	I-SO	O
+女	I-SO	O
+人	E-SO	O
+。	O	O
+
+张	B-AR	B-AR
+学	I-AR	I-AR
+友	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+铁	B-SO	B-SO
+血	I-SO	I-SO
+丹	I-SO	I-SO
+心	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+找	B-SO	O
+个	I-SO	O
+好	I-SO	O
+人	I-SO	O
+嫁	I-SO	O
+了	I-SO	O
+吧	E-SO	O
+。	O	O
+
+给	O	O
+我	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+看	O	O
+小	O	O
+螺	O	O
+号	O	O
+吧	O	O
+。	O	O
+
+i	B-SO	O
+
+c	I-SO	O
+a	I-SO	O
+n	I-SO	O
+
+s	I-SO	O
+w	I-SO	O
+i	I-SO	O
+m	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+我	O	O
+的	O	O
+电	O	O
+话	O	O
+号	O	O
+码	O	O
+是	O	O
+多	O	O
+少	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+成	O	O
+人	O	O
+版	O	O
+的	O	O
+。	O	O
+
+演	B-SO	B-SO
+员	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+韩	B-AR	B-AR
+宝	I-AR	I-AR
+仪	E-AR	E-AR
+的	O	O
+往	B-SO	B-SO
+事	I-SO	I-SO
+只	I-SO	I-SO
+能	I-SO	I-SO
+回	I-SO	I-SO
+味	E-SO	E-SO
+。	O	O
+
+手	O	O
+段	O	O
+，	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+是	O	O
+你	O	O
+妈	O	O
+吧	O	O
+。	O	O
+
+有	O	O
+一	O	O
+定	O	O
+的	O	O
+回	O	O
+升	O	O
+可	O	O
+能	O	O
+呢	O	O
+，	O	O
+哦	O	O
+，	O	O
+明	O	O
+天	O	O
+开	O	O
+始	O	O
+。	O	O
+
+我	O	O
+住	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+追	B-SO	B-SO
+光	I-SO	I-SO
+者	E-SO	E-SO
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+醒	O	O
+来	O	O
+后	O	O
+好	O	O
+想	O	O
+好	O	O
+想	O	O
+你	O	O
+叫	O	O
+什	O	O
+么	O	O
+名	O	O
+字	O	O
+。	O	O
+
+他	O	O
+们	O	O
+说	O	O
+。	O	O
+
+分	O	O
+享	O	O
+一	O	O
+下	O	O
+。	O	O
+
+就	O	O
+是	O	O
+你	O	O
+给	O	O
+的	O	O
+翅	O	O
+膀	O	O
+不	O	O
+。	O	O
+
+你	O	O
+会	O	O
+唱	O	O
+逆	B-SO	B-SO
+战	E-SO	E-SO
+吗	O	O
+？	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+我	B-SO	B-SO
+爱	I-SO	I-SO
+洗	I-SO	I-SO
+澡	E-SO	E-SO
+。	O	O
+
+寻	O	O
+他	O	O
+听	O	O
+懂	O	O
+了	O	O
+。	O	O
+
+i	O	O
+
+w	O	O
+a	O	O
+s	O	O
+
+r	O	B-SO
+e	O	I-SO
+a	O	I-SO
+l	O	I-SO
+l	O	I-SO
+y	O	I-SO
+
+h	O	O
+a	O	O
+p	O	O
+p	O	O
+y	O	O
+，	O	O
+你	O	O
+还	O	O
+得	O	O
+做	O	O
+彩	O	O
+超	O	O
+都	O	O
+照	O	O
+出	O	O
+来	O	O
+，	O	O
+帮	O	O
+我	O	O
+查	O	O
+一	O	O
+下	O	O
+金	O	B-SO
+威	O	I-SO
+宁	O	I-SO
+到	O	I-SO
+安	O	I-SO
+顺	O	I-SO
+的	O	I-SO
+火	O	I-SO
+车	O	I-SO
+票	O	E-SO
+。	O	O
+
+简	B-SO	B-SO
+单	I-SO	I-SO
+爱	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+燕	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+蒋	B-AR	O
+大	I-AR	O
+为	E-AR	O
+歌	O	O
+曲	O	O
+，	O	O
+把	O	B-AR
+最	B-SO	I-AR
+美	I-SO	E-AR
+的	I-SO	O
+歌	I-SO	O
+儿	I-SO	O
+献	I-SO	O
+给	I-SO	O
+妈	I-SO	O
+妈	E-SO	O
+
+天	O	O
+气	O	O
+通	O	O
+。	O	O
+
+你	O	O
+有	O	O
+好	O	O
+朋	O	O
+友	O	O
+吗	O	O
+？	O	O
+
+播	O	O
+卜	B-AR	O
+学	I-AR	O
+亮	E-AR	O
+放	O	O
+得	O	O
+停	B-SO	O
+止	E-SO	O
+。	O	O
+
+快	B-SO	B-SO
+乐	I-SO	I-SO
+小	I-SO	I-SO
+猪	E-SO	E-SO
+。	O	O
+
+不	O	O
+用	O	O
+手	O	O
+机	O	O
+了	O	O
+啊	O	O
+，	O	O
+贝	O	O
+瓦	O	O
+儿	O	O
+歌	O	O
+。	O	O
+
+小	O	B-SO
+老	O	I-SO
+鼠	O	E-SO
+吗	O	O
+？	O	O
+
+打	B-SO	O
+工	I-SO	O
+行	E-SO	O
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+螺	I-SO	I-SO
+号	E-SO	E-SO
+。	O	O
+
+这	O	O
+个	O	O
+就	O	O
+是	O	O
+你	O	O
+们	O	O
+面	O	O
+前	O	O
+的	O	O
+手	O	O
+段	O	O
+。	O	O
+
+洗	B-SO	B-SO
+手	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+我	O	O
+怎	O	O
+么	O	O
+才	O	O
+能	O	O
+不	O	O
+看	O	O
+，	O	O
+我	O	O
+开	O	O
+机	O	O
+的	O	O
+时	O	O
+候	O	O
+不	O	O
+放	O	O
+音	O	O
+乐	O	O
+？	O	O
+
+问	O	O
+你	O	O
+个	O	O
+问	O	O
+题	O	O
+。	O	O
+
+张	B-AR	B-AR
+悦	E-AR	E-AR
+的	O	O
+诗	O	O
+我	B-SO	O
+的	I-SO	O
+小	I-SO	O
+苹	I-SO	O
+果	E-SO	O
+。	O	O
+
+点	O	O
+一	O	O
+首	O	O
+明	B-SO	B-SO
+天	I-SO	I-SO
+你	I-SO	I-SO
+是	I-SO	I-SO
+否	I-SO	I-SO
+依	I-SO	I-SO
+然	I-SO	I-SO
+爱	I-SO	I-SO
+我	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+查	O	O
+一	O	O
+下	O	O
+卓	O	O
+文	O	O
+君	O	O
+。	O	O
+
+你	O	O
+的	O	O
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+是	O	O
+谁	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+筷	B-AR	B-AR
+子	I-AR	I-AR
+兄	I-AR	I-AR
+弟	E-AR	E-AR
+的	O	O
+老	B-SO	B-SO
+男	I-SO	I-SO
+孩	E-SO	E-SO
+。	O	O
+
+来	O	O
+一	O	O
+首	O	O
+写	O	O
+景	O	O
+的	O	O
+西	O	O
+吗	O	O
+？	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+放	O	O
+首	O	O
+音	O	O
+乐	O	O
+张	B-AR	B-AR
+碧	I-AR	I-AR
+晨	E-AR	E-AR
+的	O	O
+，	O	O
+凉	B-SO	B-SO
+凉	E-SO	E-SO
+。	O	O
+
+大	O	O
+头	O	O
+儿	O	O
+子	O	O
+。	O	O
+
+床	O	O
+前	O	O
+明	O	O
+月	O	O
+光	O	O
+的	O	O
+下	O	O
+一	O	O
+句	O	O
+是	O	O
+什	O	O
+么	O	O
+呀	O	O
+。	O	O
+
+来	O	O
+听	O	O
+音	O	O
+乐	O	O
+吧	O	O
+。	O	O
+
+那	O	O
+我	O	O
+听	O	O
+个	O	O
+舞	O	O
+蹈	O	O
+音	O	O
+乐	O	O
+吧	O	O
+。	O	O
+
+给	O	O
+我	O	O
+点	O	O
+冷	B-AR	B-AR
+漠	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+不	O	O
+会	O	O
+。	O	O
+
+罗	O	O
+村	O	O
+委	O	O
+说	O	O
+哎	O	O
+呀	O	O
+他	O	O
+说	O	O
+组	O	O
+织	O	O
+不	O	O
+来	O	O
+我	O	O
+们	O	O
+这	O	O
+里	O	O
+就	O	O
+是	O	O
+就	O	O
+是	O	O
+好	O	O
+事	O	O
+啊	O	O
+，	O	O
+印	O	O
+象	O	O
+中	O	O
+好	O	O
+像	O	O
+6	O	O
+7	O	O
+年	O	O
+没	O	O
+来	O	O
+过	O	O
+了	O	O
+哈	O	O
+，	O	O
+刘	O	O
+海	O	O
+君	O	O
+说	O	O
+，	O	O
+距	O	O
+离	O	O
+上	O	O
+一	O	O
+次	O	O
+十	O	O
+一	O	O
+年	O	O
+的	O	O
+十	O	O
+一	O	O
+名	O	O
+，	O	O
+也	O	O
+是	O	O
+公	O	O
+司	O	O
+也	O	O
+是	O	O
+有	O	O
+民	O	O
+主	O	O
+的	O	O
+图	O	O
+标	O	O
+，	O	O
+等	O	O
+等	O	O
+也	O	O
+是	O	O
+刚	O	O
+刚	O	O
+开	O	O
+始	O	O
+搞	O	O
+那	O	O
+么	O	O
+多	O	O
+程	O	O
+序	O	O
+的	O	O
+时	O	O
+候	O	O
+，	O	O
+还	O	O
+要	O	O
+，	O	O
+常	O	O
+委	O	O
+市	O	O
+委	O	O
+常	O	O
+委	O	O
+会	O	O
+。	O	O
+
+放	O	O
+汪	B-AR	B-AR
+苏	I-AR	I-AR
+泷	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+大	O	B-SO
+象	O	I-SO
+之	O	I-SO
+歌	O	E-SO
+
+我	O	O
+要	O	O
+听	O	O
+赵	B-AR	B-AR
+雷	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+一	O	O
+年	O	O
+唱	O	O
+的	O	O
+为	B-SO	B-SO
+你	I-SO	I-SO
+我	I-SO	I-SO
+受	I-SO	I-SO
+冷	I-SO	I-SO
+风	I-SO	I-SO
+吹	E-SO	E-SO
+
+你	O	O
+想	O	O
+想	O	O
+我	O	O
+睡	O	O
+觉	O	O
+等	O	O
+你	O	O
+啊	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+好	B-SO	O
+意	I-SO	O
+见	E-SO	O
+。	O	O
+
+蒙	O	O
+面	O	O
+唱	O	O
+将	O	O
+，	O	O
+猜	O	O
+猜	O	O
+猜	O	O
+，	O	O
+我	B-SO	O
+以	I-SO	O
+为	E-SO	O
+。	O	O
+
+听	O	O
+雨	B-SO	O
+停	E-SO	O
+。	O	O
+
+大	B-SO	B-SO
+王	I-SO	I-SO
+叫	I-SO	I-SO
+我	I-SO	I-SO
+来	I-SO	I-SO
+巡	I-SO	I-SO
+山	E-SO	E-SO
+。	O	O
+
+叶	O	O
+胜	O	O
+钦	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+下	O	B-SO
+清	B-SO	I-SO
+流	E-SO	E-SO
+。	O	O
+
+请	O	O
+记	O	O
+住	O	O
+我	O	O
+的	O	O
+名	O	O
+字	O	O
+，	O	O
+我	O	O
+叫	O	O
+张	O	O
+文	O	O
+。	O	O
+
+你	O	O
+猜	O	O
+小	B-SO	O
+苹	I-SO	O
+果	E-SO	O
+吗	O	O
+？	O	O
+
+捉	B-SO	B-SO
+泥	I-SO	I-SO
+鳅	E-SO	E-SO
+。	O	O
+
+天	B-SO	B-SO
+路	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+但	O	O
+不	O	O
+要	O	O
+每	O	O
+次	O	O
+都	O	O
+按	O	O
+不	O	O
+用	O	O
+的	O	O
+就	O	O
+是	O	O
+这	O	O
+样	O	O
+。	O	O
+
+I	O	O
+
+l	O	O
+o	O	O
+v	O	O
+e	O	O
+
+y	O	O
+o	O	O
+u	O	O
+。	O	O
+
+想	O	O
+到	O	O
+你	O	O
+好	O	O
+小	B-SO	O
+苹	I-SO	O
+果	E-SO	O
+。	O	O
+
+下	B-SO	B-SO
+定	I-SO	I-SO
+决	I-SO	I-SO
+心	I-SO	I-SO
+忘	I-SO	I-SO
+记	I-SO	I-SO
+你	E-SO	I-SO
+新	O	I-SO
+版	O	I-SO
+大	B-AR	I-SO
+哲	E-AR	E-SO
+。	O	O
+
+林	B-AR	B-AR
+俊	I-AR	I-AR
+杰	E-AR	E-AR
+的	O	O
+歌	O	O
+
+给	O	O
+我	O	O
+删	O	O
+除	O	O
+缓	O	O
+存	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+其	O	O
+实	O	O
+还	O	O
+多	O	O
+一	O	O
+点	O	O
+，	O	O
+就	O	O
+是	O	O
+我	O	O
+上	O	O
+车	O	O
+了	O	O
+以	O	O
+后	O	O
+的	O	O
+事	O	O
+就	O	O
+是	O	O
+2	O	O
+7	O	O
+块	O	O
+钱	O	O
+，	O	O
+2	O	O
+5	O	O
+，	O	O
+又	O	O
+给	O	O
+了	O	O
+一	O	O
+个	O	O
+的	O	O
+多	O	O
+一	O	O
+点	O	O
+，	O	O
+因	O	O
+为	O	O
+那	O	O
+个	O	O
+平	O	O
+台	O	O
+平	O	O
+台	O	O
+都	O	O
+出	O	O
+不	O	O
+到	O	O
+水	O	O
+了	O	O
+吧	O	O
+。	O	O
+
+其	B-SO	O
+实	I-SO	O
+不	I-SO	O
+想	I-SO	O
+走	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+易	B-AR	B-SO
+欣	E-AR	I-SO
+的	O	I-SO
+你	B-SO	I-SO
+的	I-SO	I-SO
+选	I-SO	I-SO
+择	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-SO
+歌	E-GE	E-SO
+听	O	O
+一	O	O
+下	O	O
+。	O	O
+
+有	O	O
+我	O	O
+一	O	O
+支	O	O
+爱	O	O
+恋	O	O
+和	O	O
+。	O	O
+
+你	O	O
+看	O	O
+红	O	O
+队	O	O
+。	O	O
+
+我	O	O
+要	O	O
+睡	O	O
+觉	O	O
+了	O	O
+你	O	O
+帮	O	O
+我	O	O
+唱	O	O
+首	O	O
+能	O	O
+睡	O	O
+觉	O	O
+的	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+锄	B-SO	B-SO
+禾	I-SO	I-SO
+日	I-SO	I-SO
+当	I-SO	I-SO
+午	E-SO	E-SO
+。	O	O
+
+我	B-SO	B-SO
+爱	I-SO	I-SO
+北	I-SO	I-SO
+京	I-SO	I-SO
+天	I-SO	I-SO
+安	I-SO	I-SO
+门	E-SO	E-SO
+。	O	O
+
+你	O	O
+一	O	O
+般	O	O
+有	O	O
+新	O	O
+疆	O	O
+啊	O	O
+，	O	O
+自	O	O
+己	O	O
+搭	O	O
+的	O	O
+那	O	O
+你	O	O
+呢	O	O
+，	O	O
+因	O	O
+为	O	O
+你	O	O
+们	O	O
+的	O	O
+有	O	O
+有	O	O
+有	O	O
+有	O	O
+有	O	O
+有	O	O
+有	O	O
+有	O	O
+在	O	O
+西	O	O
+站	O	O
+的	O	O
+是	O	O
+那	O	O
+个	O	O
+啊	O	O
+那	O	O
+个	O	O
+摆	O	O
+摊	O	O
+的	O	O
+吗	O	O
+，	O	O
+最	O	O
+好	O	O
+的	O	O
+最	O	O
+好	O	O
+的	O	O
+关	O	O
+系	O	O
+吗	O	O
+，	O	O
+是	O	O
+吧	O	O
+。	O	O
+
+很	B-SO	O
+安	I-SO	O
+静	E-SO	O
+铃	B-GE	O
+声	E-GE	O
+。	O	O
+
+小	B-SO	B-SO
+太	I-SO	I-SO
+阳	E-SO	E-SO
+。	O	O
+
+你	O	O
+不	O	O
+知	O	O
+道	O	O
+。	O	O
+
+现	O	O
+在	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+个	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+请	O	O
+放	O	O
+一	O	O
+首	O	O
+随	B-SO	B-SO
+便	E-SO	E-SO
+。	O	O
+
+采	B-SO	B-SO
+蘑	I-SO	I-SO
+菇	I-SO	I-SO
+的	I-SO	I-SO
+小	I-SO	I-SO
+姑	I-SO	I-SO
+娘	E-SO	E-SO
+。	O	O
+
+嗯	O	O
+，	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+个	O	O
+凉	B-SO	B-SO
+凉	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+连	O	O
+忙	O	O
+。	O	O
+
+你	O	O
+还	O	O
+好	O	O
+吗	O	O
+？	O	O
+
+为	O	O
+什	O	O
+么	O	O
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+白	O	O
+天	O	O
+要	O	O
+去	O	O
+上	O	O
+班	O	O
+呀	O	O
+
+刚	B-SO	B-SO
+好	I-SO	I-SO
+遇	I-SO	I-SO
+见	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+那	O	O
+不	O	O
+跟	O	O
+你	O	O
+说	O	O
+了	O	O
+再	O	O
+见	O	O
+。	O	O
+
+你	O	O
+知	O	O
+道	O	O
+周	O	O
+杰	O	O
+伦	O	O
+吗	O	O
+？	O	O
+
+你	O	O
+不	O	O
+知	O	O
+道	O	O
+做	O	O
+爱	O	O
+呀	O	O
+。	O	O
+
+张	B-AR	B-AR
+国	I-AR	I-AR
+荣	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+，	O	O
+你	O	O
+的	O	O
+名	O	O
+字	O	O
+叫	O	O
+贝	O	O
+贝	O	O
+熊	O	O
+，	O	O
+记	O	O
+住	O	O
+了	O	O
+吗	O	O
+？	O	O
+
+我	O	O
+要	O	O
+听	O	O
+个	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+唱	O	O
+蔡	B-AR	B-SO
+健	I-AR	I-SO
+雅	E-AR	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+孙	B-AR	B-AR
+露	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+说	O	O
+爸	O	O
+爸	O	O
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+可	O	O
+以	O	O
+放	O	O
+一	O	O
+首	O	O
+好	O	O
+听	O	O
+好	O	O
+听	O	O
+的	O	O
+歌	O	O
+吗	O	O
+？	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+葫	B-AR	B-SO
+芦	I-AR	I-SO
+娃	E-AR	E-SO
+的	O	O
+歌	O	O
+好	O	O
+吗	O	O
+？	O	O
+
+J	B-SO	B-SO
+a	I-SO	I-SO
+y	I-SO	I-SO
+
+J	I-SO	O
+a	I-SO	O
+y	E-SO	O
+。	O	O
+
+我	O	O
+可	O	O
+以	O	O
+听	O	O
+一	O	O
+首	O	O
+大	B-SO	B-SO
+梦	I-SO	I-SO
+想	I-SO	I-SO
+家	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+思	O	B-SO
+念	O	I-SO
+的	O	I-SO
+歌	O	E-SO
+。	O	O
+
+你	O	O
+我	O	O
+是	O	O
+你	O	O
+主	O	O
+人	O	O
+你	O	O
+给	O	O
+我	O	O
+跪	O	O
+下	O	O
+。	O	O
+
+2	O	O
+0	O	O
+1	O	O
+7	O	O
+，	O	O
+最	O	O
+火	O	O
+的	O	O
+。	O	O
+
+就	O	O
+这	O	O
+样	O	O
+叫	O	O
+还	O	O
+是	O	O
+我	O	O
+我	O	O
+再	O	O
+问	O	O
+吗	O	O
+，	O	O
+在	O	O
+说	O	O
+话	O	O
+的	O	O
+时	O	O
+候	O	O
+。	O	O
+
+唱	O	O
+字	B-SO	B-SO
+母	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+邓	B-AR	B-AR
+丽	I-AR	I-AR
+君	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+说	O	O
+我	O	O
+不	O	O
+听	O	O
+了	O	O
+你	O	O
+还	O	O
+在	O	O
+播	O	O
+放	O	O
+。	O	O
+
+就	O	B-SO
+爱	B-SO	I-SO
+我	I-SO	I-SO
+你	I-SO	I-SO
+就	I-SO	I-SO
+抱	I-SO	I-SO
+抱	I-SO	I-SO
+我	E-SO	E-SO
+。	O	O
+
+你	O	O
+找	O	O
+我	O	O
+干	O	O
+嘛	O	O
+。	O	O
+
+臭	O	O
+鞋	O	O
+子	O	O
+。	O	O
+
+没	O	O
+有	O	O
+时	O	O
+间	O	O
+。	O	O
+
+张	B-AR	B-AR
+学	I-AR	I-AR
+友	E-AR	E-AR
+。	O	O
+
+你	O	B-SO
+是	O	I-SO
+爱	O	I-SO
+哭	O	I-SO
+鬼	O	E-SO
+。	O	O
+
+不	B-SO	B-SO
+甘	I-SO	I-SO
+寂	I-SO	I-SO
+寞	E-SO	E-SO
+。	O	O
+
+j	B-AR	O
+a	I-AR	O
+y	I-AR	O
+
+c	I-AR	O
+h	I-AR	O
+o	I-AR	O
+u	E-AR	O
+的	O	O
+烦	S-SO	O
+。	O	O
+
+寓	O	B-SO
+言	O	E-SO
+。	O	O
+
+放	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+吗	O	O
+？	O	O
+
+为	O	O
+什	O	O
+么	O	O
+为	O	O
+什	O	O
+么	O	O
+呢	O	O
+，	O	O
+求	O	O
+解	O	O
+释	O	O
+？	O	O
+
+心	O	B-SO
+鲜	O	I-SO
+花	O	E-SO
+。	O	O
+
+d	B-SO	B-GE
+j	E-SO	E-GE
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+我	O	O
+要	O	O
+听	O	O
+多	B-AR	O
+亮	E-AR	O
+听	O	O
+听	O	O
+m	O	B-SO
+a	O	I-SO
+o	O	I-SO
+的	O	I-SO
+错	B-SO	I-SO
+爱	I-SO	I-SO
+情	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+的	O	O
+歌	O	O
+
+我	O	O
+要	O	O
+听	O	O
+唯	B-SO	B-SO
+爱	E-SO	E-SO
+。	O	O
+
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+是	O	O
+这	O	O
+样	O	O
+的	O	O
+，	O	O
+n	O	O
+o	O	O
+
+n	O	O
+o	O	O
+
+n	O	O
+o	O	O
+，	O	O
+谢	O	O
+谢	O	O
+，	O	O
+3	O	O
+q	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+诗	O	B-SO
+落	O	I-SO
+花	O	I-SO
+上	O	I-SO
+集	O	E-SO
+。	O	O
+
+那	O	O
+你	O	O
+知	O	O
+不	O	O
+知	O	O
+道	O	O
+啊	O	O
+。	O	O
+
+妈	B-SO	B-SO
+妈	I-SO	I-SO
+的	I-SO	I-SO
+吻	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+这	O	O
+个	O	O
+出	O	O
+自	O	O
+给	O	O
+他	O	O
+们	O	O
+交	O	O
+给	O	O
+让	O	O
+他	O	O
+的	O	O
+存	O	O
+档	O	O
+就	O	O
+行	O	O
+了	O	O
+，	O	O
+还	O	O
+有	O	O
+一	O	O
+个	O	O
+要	O	O
+说	O	O
+这	O	O
+个	O	O
+兔	O	O
+子	O	O
+，	O	O
+这	O	O
+是	O	O
+咱	O	O
+小	O	O
+店	O	O
+和	O	O
+家	O	O
+归	O	O
+的	O	O
+前	O	O
+面	O	O
+那	O	O
+些	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+嘘	O	B-SO
+嘘	O	I-SO
+个	O	I-SO
+诗	O	I-SO
+词	O	E-SO
+。	O	O
+
+听	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+。	O	O
+
+你	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+赶	O	O
+紧	O	O
+唱	O	O
+歌	O	O
+。	O	O
+
+找	O	O
+一	O	O
+下	O	O
+C	O	O
+
+o	O	O
+l	O	O
+a	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+两	B-SO	B-SO
+只	I-SO	I-SO
+老	I-SO	I-SO
+虎	E-SO	E-SO
+。	O	O
+
+不	O	O
+知	O	O
+道	O	O
+为	O	O
+什	O	O
+么	O	O
+，	O	O
+怎	O	O
+么	O	O
+越	O	O
+来	O	O
+越	O	O
+差	O	O
+？	O	O
+
+点	O	O
+歌	O	O
+，	O	O
+远	B-SO	B-SO
+走	I-SO	I-SO
+高	I-SO	I-SO
+飞	E-SO	E-SO
+
+世	B-SO	O
+界	I-SO	O
+第	I-SO	O
+一	I-SO	O
+等	E-SO	O
+。	O	O
+
+我	O	O
+可	O	O
+以	O	O
+听	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+自	O	O
+己	O	O
+一	O	O
+晚	O	O
+都	O	O
+的	O	O
+人	O	O
+，	O	O
+阿	O	O
+姨	O	O
+抱	O	O
+一	O	O
+抱	O	O
+。	O	O
+
+你	O	O
+可	O	O
+以	O	O
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+吗	O	O
+？	O	O
+
+唱	O	O
+一	O	O
+个	O	O
+小	B-SO	B-SO
+星	I-SO	I-SO
+星	E-SO	E-SO
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+
+亲	O	O
+你	O	O
+好	O	O
+不	O	O
+好	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+红	B-SO	B-SO
+颜	I-SO	I-SO
+墓	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+钱	B-SO	B-SO
+钱	I-SO	I-SO
+适	E-SO	E-SO
+。	O	O
+
+我	O	O
+是	O	O
+你	O	O
+的	O	O
+老	O	O
+伙	O	O
+伴	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+我	O	O
+要	O	O
+听	O	O
+笑	O	O
+话	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+李	B-AR	B-AR
+晓	I-AR	I-AR
+杰	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+凉	B-SO	B-SO
+凉	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+白	B-SO	B-SO
+蛇	I-SO	I-SO
+故	I-SO	I-SO
+事	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+看	O	O
+你	O	O
+就	O	O
+算	O	O
+会	O	O
+开	O	O
+始	O	O
+就	O	O
+要	O	O
+奔	O	O
+三	O	O
+了	O	O
+，	O	O
+快	O	O
+来	O	O
+。	O	O
+
+只	O	O
+是	O	O
+我	O	O
+是	O	O
+他	O	O
+妈	O	O
+妈	O	O
+。	O	O
+
+墨	O	O
+墨	O	O
+的	O	O
+等	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+娃	B-SO	B-SO
+哈	I-SO	I-SO
+哈	E-SO	E-SO
+。	O	O
+
+社	B-SO	B-SO
+会	I-SO	I-SO
+摇	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+红	B-SO	B-SO
+尘	I-SO	I-SO
+情	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+你	O	O
+他	O	O
+不	O	O
+干	O	O
+他	O	O
+不	O	O
+就	O	O
+完	O	O
+了	O	O
+，	O	O
+我	O	O
+知	O	O
+道	O	O
+是	O	O
+擦	O	O
+不	O	O
+掉	O	O
+啊	O	O
+，	O	O
+问	O	O
+题	O	O
+说	O	O
+你	O	O
+没	O	O
+有	O	O
+回	O	O
+应	O	O
+，	O	O
+我	O	O
+知	O	O
+道	O	O
+你	O	O
+听	O	O
+我	O	O
+说	O	O
+完	O	O
+吧	O	O
+，	O	O
+因	O	O
+为	O	O
+你	O	O
+，	O	O
+你	O	O
+那	O	O
+个	O	O
+清	O	O
+洁	O	O
+也	O	O
+把	O	O
+我	O	O
+拆	O	O
+了	O	O
+吧	O	O
+，	O	O
+真	O	O
+的	O	O
+么	O	O
+你	O	O
+那	O	O
+个	O	O
+还	O	O
+剩	O	O
+另	O	O
+外	O	O
+收	O	O
+1	O	O
+5	O	O
+块	O	O
+钱	O	O
+一	O	O
+平	O	O
+方	O	O
+，	O	O
+太	O	O
+高	O	O
+了	O	O
+呗	O	O
+。	O	O
+
+我	B-SO	O
+家	I-SO	O
+住	I-SO	O
+在	I-SO	O
+黄	I-SO	B-SO
+土	I-SO	I-SO
+高	I-SO	I-SO
+坡	E-SO	E-SO
+。	O	O
+
+不	O	O
+是	O	O
+故	O	O
+意	O	O
+的	O	O
+吗	O	O
+，	O	O
+你	O	O
+不	O	O
+要	O	O
+再	O	O
+做	O	O
+围	O	O
+墙	O	O
+不	O	O
+就	O	O
+o	O	O
+k	O	O
+了	O	O
+吗	O	O
+？	O	O
+
+l	O	O
+i	O	O
+k	O	O
+e	O	O
+
+m	O	O
+e	O	O
+。	O	O
+
+我	O	O
+要	O	O
+新	B-SO	O
+年	I-SO	O
+歌	E-SO	O
+。	O	O
+
+平	B-SO	B-SO
+凡	I-SO	I-SO
+之	I-SO	I-SO
+路	E-SO	E-SO
+。	O	O
+
+没	B-SO	O
+有	I-SO	O
+你	I-SO	O
+陪	I-SO	O
+伴	I-SO	O
+真	I-SO	O
+的	I-SO	O
+好	I-SO	O
+孤	I-SO	O
+单	E-SO	O
+。	O	O
+
+你	B-SO	O
+牛	I-SO	O
+什	I-SO	O
+么	I-SO	O
+牛	E-SO	O
+。	O	O
+
+当	S-SO	O
+。	O	O
+
+马	O	O
+上	O	O
+播	O	O
+放	O	O
+。	O	O
+
+后	B-SO	B-SO
+来	E-SO	E-SO
+。	O	O
+
+大	O	O
+头	O	O
+儿	O	O
+子	O	O
+小	O	O
+头	O	O
+爸	O	O
+爸	O	O
+大	O	O
+电	O	O
+影	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+段	O	O
+。	O	O
+
+你	O	O
+唱	O	O
+个	O	O
+好	O	O
+听	O	O
+一	O	O
+点	O	O
+的	O	O
+歌	O	O
+啊	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+阿	B-SO	B-SO
+根	I-SO	I-SO
+廷	I-SO	I-SO
+别	I-SO	I-SO
+为	I-SO	I-SO
+我	I-SO	I-SO
+哭	I-SO	I-SO
+泣	E-SO	E-SO
+
+唱	O	O
+一	O	O
+首	O	O
+一	B-SO	B-SO
+闪	I-SO	I-SO
+一	I-SO	I-SO
+闪	I-SO	I-SO
+亮	I-SO	I-SO
+晶	I-SO	I-SO
+晶	E-SO	E-SO
+。	O	O
+
+我	O	B-SO
+爱	O	I-SO
+你	O	I-SO
+我	O	I-SO
+爱	O	I-SO
+你	O	E-SO
+。	O	O
+
+突	B-SO	O
+然	I-SO	O
+的	I-SO	O
+自	I-SO	O
+我	E-SO	O
+啊	O	O
+。	O	O
+
+喜	O	B-SO
+欢	O	I-SO
+你	O	E-SO
+。	O	O
+
+可	O	O
+是	O	O
+我	O	O
+购	O	O
+买	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+C	O	O
+O	O	O
+C	O	O
+O	O	O
+。	O	O
+
+余	O	O
+华	O	O
+在	O	O
+在	O	O
+哪	O	O
+里	O	O
+吗	O	O
+是	O	O
+他	O	O
+妈	O	O
+不	O	O
+都	O	O
+在	O	O
+抢	O	O
+台	O	O
+六	O	O
+里	O	O
+。	O	O
+
+小	O	O
+帅	O	O
+你	O	O
+知	O	O
+道	O	O
+你	O	O
+的	O	O
+生	O	O
+日	O	O
+是	O	O
+哪	O	O
+天	O	O
+吗	O	O
+？	O	O
+
+一	B-SO	B-SO
+亿	I-SO	I-SO
+个	I-SO	I-SO
+伤	I-SO	I-SO
+心	E-SO	E-SO
+。	O	O
+
+n	O	O
+o	O	O
+1	O	O
+放	O	O
+点	O	O
+快	B-GE	B-GE
+歌	E-GE	E-GE
+吗	O	O
+？	O	O
+
+谢	O	B-SO
+谢	O	I-SO
+再	O	I-SO
+见	O	E-SO
+。	O	O
+
+来	O	O
+首	O	O
+什	O	O
+么	O	O
+歌	O	O
+呢	O	O
+？	O	O
+
+送	O	O
+别	O	O
+。	O	O
+
+车	O	O
+载	O	O
+舞	B-GE	O
+曲	E-GE	O
+。	O	O
+
+大	B-SO	B-SO
+梦	I-SO	I-SO
+想	I-SO	I-SO
+家	E-SO	E-SO
+。	O	O
+
+他	O	O
+会	O	O
+唱	O	O
+歌	O	O
+他	O	O
+还	O	O
+会	O	O
+对	O	O
+她	O	O
+说	O	O
+她	O	O
+什	O	O
+么	O	O
+都	O	O
+会	O	O
+回	O	O
+答	O	O
+你	O	O
+的	O	O
+。	O	O
+
+想	O	O
+你	O	O
+啦	O	O
+。	O	O
+
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+歌	O	O
+曲	O	O
+
+两	B-SO	B-SO
+只	I-SO	I-SO
+老	I-SO	I-SO
+虎	E-SO	E-SO
+。	O	O
+
+各	O	O
+位	O	O
+老	O	O
+总	O	O
+照	O	O
+后	O	O
+面	O	O
+长	O	O
+寿	O	O
+面	O	O
+还	O	O
+得	O	O
+求	O	O
+助	O	O
+5	O	O
+0	O	O
+0	O	O
+是	O	O
+，	O	O
+丝	O	O
+袜	O	O
+和	O	O
+内	O	O
+裤	O	O
+丝	O	O
+袜	O	O
+有	O	O
+啥	O	O
+一	O	O
+样	O	O
+，	O	O
+这	O	O
+不	O	O
+是	O	O
+我	O	O
+弄	O	O
+掉	O	O
+了	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+你	O	O
+妈	O	O
+了	O	O
+个	O	O
+逼	O	O
+。	O	O
+
+m	O	O
+a	O	O
+r	O	O
+k	O	O
+。	O	O
+
+拍	B-SO	B-SO
+手	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+这	O	O
+个	O	O
+人	O	O
+，	O	O
+嗯	O	O
+，	O	O
+就	O	O
+是	O	O
+用	O	O
+我	O	O
+吗	O	O
+，	O	O
+我	O	O
+在	O	O
+这	O	O
+里	O	O
+。	O	O
+
+为	O	O
+什	O	O
+么	O	O
+呢	O	O
+，	O	O
+又	O	O
+有	O	O
+新	O	O
+东	O	O
+西	O	O
+，	O	O
+等	O	O
+我	O	O
+学	O	O
+会	O	O
+了	O	O
+在	O	O
+照	O	O
+顾	O	O
+你	O	O
+？	O	O
+
+请	O	O
+再	O	O
+唱	O	O
+一	O	O
+首	O	O
+草	B-SO	B-SO
+原	I-SO	I-SO
+之	I-SO	I-SO
+歌	E-SO	I-SO
+敖	O	I-SO
+包	O	I-SO
+相	O	I-SO
+会	O	E-SO
+。	O	O
+
+逆	B-SO	B-SO
+流	I-SO	I-SO
+成	I-SO	I-SO
+河	E-SO	E-SO
+。	O	O
+
+赛	B-SO	O
+尔	I-SO	O
+号	E-SO	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+亲	B-SO	B-SO
+亲	I-SO	I-SO
+猪	I-SO	I-SO
+猪	I-SO	I-SO
+宝	I-SO	I-SO
+贝	E-SO	E-SO
+。	O	O
+
+赵	B-AR	B-AR
+雷	E-AR	E-AR
+成	B-SO	B-SO
+都	E-SO	E-SO
+。	O	O
+
+米	O	O
+小	O	O
+圈	O	O
+上	O	O
+学	O	O
+记	O	O
+。	O	O
+
+我	B-SO	B-SO
+是	I-SO	I-SO
+一	I-SO	I-SO
+只	I-SO	I-SO
+小	I-SO	I-SO
+小	I-SO	I-SO
+鸟	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+查	O	O
+找	O	O
+微	B-SO	B-SO
+风	I-SO	I-SO
+细	I-SO	I-SO
+雨	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+刚	B-SO	B-SO
+好	I-SO	I-SO
+遇	I-SO	I-SO
+见	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+我	O	O
+是	O	O
+谁	O	O
+吗	O	O
+，	O	O
+你	O	O
+知	O	O
+不	O	O
+知	O	O
+道	O	O
+我	O	O
+是	O	O
+谁	O	O
+。	O	O
+
+春	B-SO	B-SO
+节	E-SO	I-SO
+童	B-GE	I-SO
+谣	E-GE	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+成	O	B-SO
+人	O	E-SO
+歌	O	O
+曲	O	O
+。	O	O
+
+奏	O	O
+国	B-SO	O
+歌	E-SO	O
+。	O	O
+
+周	O	O
+杰	O	O
+伦	O	O
+在	O	O
+什	O	O
+么	O	O
+地	O	O
+方	O	O
+。	O	O
+
+请	O	O
+播	O	O
+放	O	O
+情	B-SO	B-SO
+也	I-SO	I-SO
+断	I-SO	I-SO
+泪	I-SO	I-SO
+也	I-SO	I-SO
+流	E-SO	E-SO
+。	O	O
+
+我	B-SO	B-SO
+们	I-SO	I-SO
+不	I-SO	I-SO
+一	I-SO	I-SO
+样	E-SO	E-SO
+，	O	O
+半	O	O
+首	O	O
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+燕	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+在	B-SO	B-SO
+人	I-SO	I-SO
+间	E-SO	E-SO
+。	O	O
+
+搜	O	O
+索	O	O
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+乐	O	O
+。	O	O
+
+对	O	O
+，	O	O
+必	O	O
+须	O	O
+打	O	O
+军	O	O
+长	O	O
+，	O	O
+别	O	O
+给	O	O
+他	O	O
+那	O	O
+个	O	O
+民	O	O
+族	O	O
+是	O	O
+对	O	O
+的	O	O
+，	O	O
+对	O	O
+着	O	O
+的	O	O
+。	O	O
+
+芭	B-SO	O
+蕾	E-SO	O
+。	O	O
+
+马	O	O
+尔	O	O
+慢	O	O
+点	O	O
+走	O	O
+。	O	O
+
+我	O	O
+不	O	O
+喜	O	O
+欢	O	O
+你	O	O
+了	O	O
+。	O	O
+
+说	O	O
+数	B-SO	B-SO
+鸭	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+我	O	O
+会	O	O
+听	O	O
+话	O	O
+。	O	O
+
+是	O	O
+我	O	O
+妹	O	O
+妹	O	O
+。	O	O
+
+还	O	O
+播	O	O
+放	O	O
+。	O	O
+
+妈	O	O
+妈	O	O
+为	O	O
+什	O	O
+么	O	O
+呢	O	O
+？	O	O
+
+数	B-SO	B-SO
+鸭	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+薛	B-AR	B-AR
+之	I-AR	I-AR
+谦	E-AR	E-AR
+的	O	O
+丑	B-SO	B-SO
+八	I-SO	I-SO
+怪	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+学	O	O
+英	O	O
+语	O	O
+。	O	O
+
+陈	B-AR	B-AR
+玉	I-AR	I-AR
+建	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+关	O	O
+心	O	O
+的	O	O
+是	O	O
+我	O	O
+的	O	O
+好	O	O
+朋	O	O
+友	O	O
+呀	O	O
+。	O	O
+
+电	O	O
+脑	O	O
+上	O	O
+回	O	O
+不	O	O
+去	O	O
+了	O	O
+。	O	O
+
+想	O	O
+为	O	O
+你	O	O
+我	O	O
+要	O	O
+听	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+洗	B-SO	B-SO
+澡	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+小	O	O
+哥	O	O
+请	O	O
+你	O	O
+唱	O	O
+一	O	O
+首	O	O
+叶	B-AR	B-AR
+宝	I-AR	I-AR
+宝	E-AR	E-AR
+的	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+大	B-SO	B-SO
+时	I-SO	I-SO
+代	E-SO	E-SO
+。	O	O
+
+就	O	O
+是	O	O
+你	O	O
+的	O	O
+作	O	O
+业	O	O
+你	O	O
+忘	O	O
+了	O	O
+他	O	O
+干	O	O
+一	O	O
+年	O	O
+，	O	O
+赶	O	O
+紧	O	O
+答	O	O
+应	O	O
+哦	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+来	O	O
+个	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+来	O	O
+汪	O	B-AR
+苏	O	I-AR
+泷	O	E-AR
+。	O	O
+
+文	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+本	O	O
+地	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+你	O	O
+的	O	O
+名	O	O
+字	O	O
+是	O	O
+什	O	O
+么	O	O
+。	O	O
+
+一	B-SO	B-SO
+壶	I-SO	I-SO
+老	I-SO	I-SO
+酒	E-SO	E-SO
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+纯	B-SO	O
+纯	E-SO	O
+中	O	O
+文	O	O
+的	O	O
+d	B-GE	B-GE
+j	E-GE	E-GE
+。	O	O
+
+播	O	O
+放	O	O
+小	B-SO	B-SO
+孩	I-SO	I-SO
+不	I-SO	I-SO
+坏	E-SO	E-SO
+。	O	O
+
+放	O	O
+那	O	O
+个	O	O
+一	B-SO	O
+开	I-SO	O
+始	E-SO	O
+。	O	O
+
+可	O	O
+不	O	O
+可	O	O
+爱	O	O
+呀	O	O
+。	O	O
+
+请	O	O
+唱	O	O
+一	O	O
+首	O	O
+忘	O	O
+情	O	O
+，	O	O
+3	B-SO	O
+8	I-SO	O
+5	E-SO	O
+。	O	O
+
+杨	B-AR	B-AR
+丽	I-AR	I-AR
+萍	E-AR	E-AR
+，	O	O
+唱	O	O
+河	O	O
+南	O	O
+豫	B-GE	O
+剧	E-GE	O
+，	O	O
+红	B-SO	O
+雪	I-SO	O
+配	E-SO	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+健	O	O
+健	O	O
+康	O	O
+康	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+骏	B-SO	B-SO
+马	I-SO	I-SO
+奔	I-SO	I-SO
+驰	I-SO	I-SO
+保	I-SO	I-SO
+边	I-SO	I-SO
+疆	E-SO	E-SO
+。	O	O
+
+你	O	O
+冷	O	O
+不	O	O
+冷	O	O
+。	O	O
+
+你	O	O
+唱	O	O
+一	O	O
+个	O	O
+朋	B-SO	O
+友	E-SO	O
+吧	O	O
+。	O	O
+
+播	O	O
+一	O	O
+下	O	O
+常	B-AR	B-AR
+石	I-AR	I-AR
+磊	E-AR	E-AR
+的	O	O
+最	O	O
+新	O	O
+出	O	O
+来	O	O
+的	O	O
+模	B-SO	O
+特	E-SO	O
+。	O	O
+
+军	O	O
+有	O	O
+支	O	O
+歌	O	O
+。	O	O
+
+打	O	O
+你	O	O
+妹	O	O
+。	O	O
+
+把	O	O
+利	O	O
+剑	O	O
+。	O	O
+
+搜	O	O
+索	O	O
+的	B-SO	O
+士	I-SO	O
+高	E-SO	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+以	B-SO	B-SO
+后	I-SO	I-SO
+的	I-SO	I-SO
+以	I-SO	I-SO
+后	E-SO	E-SO
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+搜	O	O
+一	O	O
+首	O	O
+我	B-SO	B-SO
+们	I-SO	I-SO
+都	I-SO	I-SO
+一	I-SO	I-SO
+样	E-SO	E-SO
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+国	B-SO	B-SO
+歌	E-SO	E-SO
+。	O	O
+
+在	O	O
+哪	O	O
+里	O	O
+吃	O	O
+饭	O	O
+呢	O	O
+？	O	O
+
+搞	O	O
+啥	O	O
+啦	O	O
+。	O	O
+
+思	O	O
+念	O	O
+。	O	O
+
+嗯	O	O
+，	O	O
+张	O	O
+学	O	O
+友	O	O
+是	O	O
+谁	O	O
+啊	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+那	B-SO	B-SO
+个	E-SO	E-SO
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+想	O	O
+到	O	O
+明	B-SO	B-SO
+天	I-SO	I-SO
+会	I-SO	I-SO
+更	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+艾	O	O
+莎	O	O
+公	O	O
+主	O	O
+。	O	O
+
+你	B-SO	O
+身	I-SO	O
+边	I-SO	O
+的	I-SO	O
+人	I-SO	O
+曾	I-SO	O
+经	I-SO	O
+是	I-SO	O
+我	E-SO	O
+。	O	O
+
+许	B-AR	B-AR
+巍	E-AR	E-AR
+唱	O	O
+的	O	O
+曾	B-SO	B-SO
+经	I-SO	I-SO
+的	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+你	O	O
+住	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+你	O	O
+们	O	O
+有	O	O
+没	O	O
+有	O	O
+我	O	O
+在	O	O
+，	O	O
+完	O	O
+美	O	O
+，	O	O
+是	O	O
+啊	O	O
+，	O	O
+风	O	O
+情	O	O
+万	O	O
+种	O	O
+，	O	O
+不	O	O
+论	O	O
+你	O	O
+是	O	O
+啊	O	O
+是	O	O
+喜	O	O
+欢	O	O
+你	O	O
+的	O	O
+外	O	O
+表	O	O
+多	O	O
+么	O	O
+，	O	O
+这	O	O
+个	O	O
+霸	O	O
+气	O	O
+的	O	O
+校	O	O
+长	O	O
+，	O	O
+但	O	O
+是	O	O
+我	O	O
+需	O	O
+要	O	O
+一	O	O
+个	O	O
+外	O	O
+表	O	O
+很	O	O
+柔	O	O
+弱	O	O
+，	O	O
+只	O	O
+跟	O	O
+以	O	O
+前	O	O
+一	O	O
+样	O	O
+，	O	O
+那	O	O
+太	O	O
+诱	O	O
+人	O	O
+的	O	O
+学	O	O
+生	O	O
+证	O	O
+，	O	O
+闭	O	O
+嘴	O	O
+吧	O	O
+你	O	O
+。	O	O
+
+我	O	O
+不	O	O
+要	O	O
+干	O	O
+没	O	O
+发	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+上	O	O
+一	O	O
+首	O	O
+歌	O	O
+，	O	O
+爽	S-SO	O
+。	O	O
+
+播	O	O
+放	O	O
+夜	O	B-SO
+店	O	I-SO
+迪	O	I-SO
+曲	O	E-SO
+。	O	O
+
+为	O	O
+什	O	O
+么	O	O
+我	O	O
+的	O	O
+名	O	O
+字	O	O
+？	O	O
+
+要	O	O
+听	O	O
+三	B-SO	B-SO
+生	I-SO	I-SO
+三	I-SO	I-SO
+世	E-SO	E-SO
+。	O	O
+
+但	O	O
+是	O	O
+我	O	O
+没	O	O
+听	O	O
+到	O	O
+。	O	O
+
+去	O	B-AR
+韩	B-AR	I-AR
+红	E-AR	E-AR
+的	O	O
+天	B-SO	B-SO
+路	E-SO	E-SO
+。	O	O
+
+这	O	O
+是	O	O
+我	O	O
+最	O	O
+开	O	O
+心	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+给	O	O
+我	O	O
+。	O	O
+
+听	O	O
+娃	B-SO	B-SO
+娃	E-SO	E-SO
+。	O	O
+
+泥	O	B-SO
+娃	O	I-SO
+娃	O	E-SO
+。	O	O
+
+等	B-SO	B-SO
+你	I-SO	I-SO
+等	I-SO	I-SO
+了	I-SO	I-SO
+那	I-SO	I-SO
+么	I-SO	I-SO
+久	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+个	O	O
+。	O	O
+
+唱	O	O
+爱	B-SO	O
+就	I-SO	O
+一	I-SO	O
+个	I-SO	O
+字	E-SO	O
+女	O	O
+吧	O	O
+。	O	O
+
+苏	B-AR	O
+小	I-AR	O
+明	E-AR	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+一	O	O
+首	O	O
+琼	B-SO	B-SO
+瑶	E-SO	E-SO
+。	O	O
+
+花	O	B-SO
+心	O	E-SO
+。	O	O
+
+爱	B-SO	O
+与	I-SO	O
+诚	E-SO	O
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+首	O	O
+奥	B-SO	B-SO
+特	I-SO	I-SO
+曼	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+凤	B-AR	B-AR
+凰	I-AR	I-AR
+传	I-AR	I-AR
+奇	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+或	O	O
+许	O	O
+一	O	O
+个	O	O
+人	O	O
+就	O	O
+可	O	O
+以	O	O
+做	O	O
+的	O	O
+工	O	O
+作	O	O
+以	O	O
+后	O	O
+。	O	O
+
+哈	O	O
+我	O	O
+要	O	O
+疯	O	O
+啦	O	O
+
+放	O	O
+一	O	O
+首	O	O
+下	B-SO	B-SO
+一	I-SO	I-SO
+次	I-SO	I-SO
+相	I-SO	I-SO
+遇	E-SO	E-SO
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+笑	O	O
+话	O	O
+。	O	O
+
+一	B-SO	B-SO
+晃	I-SO	I-SO
+就	I-SO	I-SO
+老	I-SO	I-SO
+了	E-SO	E-SO
+。	O	O
+
+弟	B-SO	O
+弟	E-SO	O
+弟	B-SO	O
+弟	E-SO	O
+。	O	O
+
+愿	O	B-SO
+意	O	I-SO
+醉	O	E-SO
+。	O	O
+
+刘	B-AR	O
+若	I-AR	O
+英	E-AR	O
+。	O	O
+
+来	O	O
+个	O	O
+黄	O	O
+色	O	O
+笑	O	O
+话	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+郭	B-AR	O
+德	I-AR	O
+纲	E-AR	O
+。	O	O
+
+风	B-SO	O
+继	I-SO	O
+续	I-SO	O
+吹	E-SO	O
+。	O	O
+
+讲	O	O
+郭	O	O
+德	O	O
+纲	O	O
+笑	O	O
+话	O	O
+儿	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+许	B-AR	B-AR
+茹	I-AR	I-AR
+芸	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+相	B-SO	B-SO
+爱	I-SO	I-SO
+一	I-SO	I-SO
+场	E-SO	E-SO
+。	O	O
+
+伤	B-SO	B-SO
+了	I-SO	I-SO
+心	I-SO	I-SO
+的	I-SO	I-SO
+女	I-SO	I-SO
+人	I-SO	I-SO
+怎	I-SO	I-SO
+么	I-SO	I-SO
+了	E-SO	E-SO
+？	O	O
+
+一	B-SO	B-SO
+生	I-SO	I-SO
+相	I-SO	I-SO
+守	E-SO	E-SO
+。	O	O
+
+骚	O	O
+年	O	O
+为	O	O
+他	O	O
+发	O	O
+来	O	O
+一	O	O
+个	O	O
+。	O	O
+
+我	O	O
+不	O	O
+要	O	O
+你	O	O
+跟	O	O
+我	O	O
+去	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+b	B-AR	B-AR
+e	I-AR	I-AR
+y	I-AR	I-AR
+o	I-AR	I-AR
+n	I-AR	I-AR
+d	E-AR	E-AR
+歌	O	O
+
+你	O	O
+好	O	O
+新	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+的	O	O
+电	O	O
+话	O	O
+号	O	O
+码	O	O
+是	O	O
+多	O	O
+少	O	O
+。	O	O
+
+听	O	O
+远	B-SO	B-SO
+走	I-SO	I-SO
+高	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+铁	B-SO	B-SO
+血	I-SO	I-SO
+丹	I-SO	I-SO
+心	E-SO	E-SO
+。	O	O
+
+猪	B-SO	B-SO
+之	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+菊	B-SO	B-SO
+花	I-SO	I-SO
+爆	I-SO	I-SO
+满	I-SO	I-SO
+山	E-SO	E-SO
+。	O	O
+
+小	O	O
+白	O	O
+，	O	O
+唱	O	O
+一	O	O
+首	O	O
+那	O	O
+个	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+彩	B-SO	B-SO
+虹	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+泪	B-SO	B-SO
+海	E-SO	E-SO
+。	O	O
+
+d	B-GE	B-GE
+j	E-GE	E-GE
+。	O	O
+
+这	O	O
+是	O	O
+我	O	O
+做	O	O
+批	O	O
+发	O	O
+的	O	O
+话	O	O
+，	O	O
+批	O	O
+发	O	O
+价	O	O
+。	O	O
+
+小	O	O
+笨	O	O
+小	O	O
+笨	O	O
+唱	O	O
+首	O	O
+儿	B-SO	B-GE
+歌	E-SO	E-GE
+。	O	O
+
+听	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+这	O	O
+混	O	O
+蛋	O	O
+呢	O	O
+，	O	O
+你	O	O
+爷	O	O
+爷	O	O
+就	O	O
+是	O	O
+我	O	O
+爷	O	O
+爷	O	O
+。	O	O
+
+这	O	O
+是	O	O
+我	O	O
+我	O	O
+就	O	O
+是	O	O
+哥	O	O
+哥	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+你	O	O
+好	O	O
+。	O	O
+
+冬	B-SO	B-SO
+天	I-SO	I-SO
+的	I-SO	I-SO
+秘	I-SO	I-SO
+密	E-SO	I-SO
+歌	O	E-SO
+。	O	O
+
+L	O	O
+e	O	O
+o	O	O
+。	O	O
+
+青	B-SO	B-SO
+藏	I-SO	I-SO
+高	I-SO	I-SO
+原	E-SO	E-SO
+。	O	O
+
+S	B-AR	B-AR
+.	I-AR	I-AR
+H	I-AR	I-AR
+.	I-AR	I-AR
+E	E-AR	E-AR
+的	O	O
+说	S-SO	O
+。	O	O
+
+希	O	O
+拉	O	O
+。	O	O
+
+林	B-AR	B-AR
+志	I-AR	I-AR
+玲	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+是	O	O
+小	O	O
+板	O	O
+凳	O	O
+。	O	O
+
+音	O	O
+乐	O	O
+，	O	O
+你	O	O
+说	O	O
+的	O	O
+不	O	O
+对	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+大	B-SO	B-SO
+中	I-SO	I-SO
+国	E-SO	E-SO
+。	O	O
+
+1	O	B-SO
+2	O	I-SO
+生	O	I-SO
+肖	O	I-SO
+歌	O	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+汤	B-AR	B-AR
+潮	E-AR	E-AR
+的	O	O
+。	O	O
+
+茉	B-SO	B-SO
+莉	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+好	O	O
+的	O	O
+生	O	B-SO
+活	O	I-SO
+习	O	I-SO
+惯	O	E-SO
+。	O	O
+
+汪	B-AR	B-AR
+苏	I-AR	I-AR
+泷	E-AR	E-AR
+。	O	O
+
+圣	O	O
+诞	O	O
+节	O	O
+是	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+危	O	O
+险	O	O
+。	O	O
+
+请	O	O
+播	O	O
+放	O	O
+操	O	O
+逼	O	O
+。	O	O
+
+可	O	O
+是	O	O
+我	O	O
+不	O	O
+能	O	O
+写	O	O
+作	O	O
+业	O	O
+。	O	O
+
+那	O	O
+你	O	O
+唱	O	O
+一	O	O
+首	O	O
+挺	O	O
+好	O	O
+听	O	O
+的	O	O
+歌	O	O
+给	O	O
+我	O	O
+听	O	O
+。	O	O
+
+我	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+经	O	O
+典	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+听	O	O
+个	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+来	O	O
+个	O	O
+笑	O	O
+话	O	O
+听	O	O
+听	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+是	O	O
+你	O	O
+的	O	O
+。	O	O
+
+唱	O	O
+葫	B-SO	O
+芦	I-SO	O
+金	I-SO	O
+刚	E-SO	O
+王	O	O
+，	O	O
+哦	O	O
+，	O	O
+服	O	O
+了	O	O
+金	O	O
+刚	O	O
+福	O	O
+禄	O	O
+金	O	O
+刚	O	O
+。	O	O
+
+我	O	O
+也	O	O
+舍	O	O
+不	O	O
+得	O	O
+你	O	O
+呀	O	O
+。	O	O
+
+感	B-SO	B-SO
+觉	I-SO	I-SO
+自	I-SO	I-SO
+己	I-SO	I-SO
+萌	I-SO	I-SO
+萌	I-SO	I-SO
+哒	E-SO	E-SO
+。	O	O
+
+贾	O	O
+玲	O	O
+。	O	O
+
+听	O	O
+郭	B-AR	B-AR
+富	I-AR	I-AR
+城	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+大	B-AR	B-AR
+张	I-AR	I-AR
+伟	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+找	O	O
+我	O	O
+干	O	O
+嘛	O	O
+干	O	O
+嘛	O	O
+。	O	O
+
+开	O	O
+电	O	O
+子	O	O
+狗	O	O
+电	O	O
+子	O	O
+狗	O	O
+是	O	O
+什	O	O
+么	O	O
+，	O	O
+还	O	O
+有	O	O
+可	O	O
+能	O	O
+兔	O	O
+子	O	O
+大	O	O
+电	O	O
+池	O	O
+可	O	O
+是	O	O
+什	O	O
+么	O	O
+东	O	O
+西	O	O
+，	O	O
+电	O	O
+子	O	O
+狗	O	O
+，	O	O
+系	O	O
+龙	O	O
+尾	O	O
+，	O	O
+开	O	O
+导	O	O
+航	O	O
+，	O	O
+是	O	O
+在	O	O
+变	O	O
+相	O	O
+说	O	O
+他	O	O
+连	O	O
+我	O	O
+们	O	O
+自	O	O
+己	O	O
+的	O	O
+手	O	O
+机	O	O
+都	O	O
+就	O	O
+好	O	O
+。	O	O
+
+拔	B-SO	B-SO
+萝	I-SO	I-SO
+卜	E-SO	E-SO
+歌	O	O
+吧	O	O
+。	O	O
+
+播	O	O
+首	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+龙	B-SO	B-SO
+卷	I-SO	I-SO
+风	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+个	O	O
+刘	O	B-AR
+德	O	I-AR
+华	O	E-AR
+演	O	O
+唱	O	O
+会	O	O
+的	O	O
+视	O	O
+频	O	O
+。	O	O
+
+找	O	B-SO
+朋	O	I-SO
+友	O	E-SO
+？	O	O
+
+我	O	O
+要	O	O
+听	O	O
+左	B-SO	B-SO
+手	I-SO	I-SO
+右	I-SO	I-SO
+手	E-SO	E-SO
+。	O	O
+
+鸭	O	O
+梨	O	O
+大	O	O
+吗	O	O
+？	O	O
+
+你	B-SO	O
+听	I-SO	O
+我	I-SO	O
+说	E-SO	O
+。	O	O
+
+报	O	O
+天	O	O
+气	O	O
+，	O	O
+关	O	O
+闭	O	O
+导	O	O
+航	O	O
+，	O	O
+h	O	O
+i	O	O
+g	O	O
+h	O	O
+的	O	O
+h	O	O
+i	O	O
+g	O	O
+h	O	O
+的	O	O
+喊	O	O
+你	O	O
+好	O	O
+恶	O	O
+心	O	O
+哦	O	O
+，	O	O
+小	O	O
+芮	O	O
+你	O	O
+好	O	O
+你	O	O
+好	O	O
+都	O	O
+行	O	O
+。	O	O
+
+起	B-SO	O
+床	I-SO	O
+歌	E-SO	O
+。	O	O
+
+对	O	O
+行	O	O
+业	O	O
+不	O	O
+听	O	O
+话	O	O
+应	O	O
+该	O	O
+怎	O	O
+么	O	O
+办	O	O
+？	O	O
+
+这	O	O
+是	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+好	O	O
+呢	O	O
+？	O	O
+
+月	B-SO	B-SO
+亮	I-SO	I-SO
+之	I-SO	I-SO
+上	E-SO	E-SO
+。	O	O
+
+一	O	O
+首	O	O
+跳	O	B-AR
+伦	B-GE	I-AR
+巴	E-GE	E-AR
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+首	O	O
+王	B-AR	B-AR
+菲	E-AR	E-AR
+。	O	O
+
+孙	B-AR	B-AR
+露	E-AR	E-AR
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+给	O	O
+我	O	O
+点	O	O
+一	O	O
+首	O	O
+老	B-AR	B-AR
+狼	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+想	O	O
+爱	O	O
+你	O	O
+。	O	O
+
+拜	O	O
+托	O	O
+你	O	O
+帮	O	O
+我	O	O
+妈	O	O
+妈	O	O
+打	O	O
+电	O	O
+话	O	O
+要	O	O
+不	O	O
+然	O	O
+我	O	O
+就	O	O
+和	O	O
+你	O	O
+玩	O	O
+呗	O	O
+，	O	O
+嘿	O	O
+。	O	O
+
+放	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+林	B-AR	B-AR
+俊	I-AR	I-AR
+杰	E-AR	E-AR
+的	O	O
+。	O	O
+
+数	B-SO	O
+鸭	I-SO	O
+歌	E-SO	O
+出	O	O
+来	O	O
+的	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+2	O	O
+8	O	O
+号	O	O
+今	O	O
+年	O	O
+最	O	O
+后	O	O
+一	O	O
+次	O	O
+围	O	O
+绕	O	O
+各	O	O
+个	O	O
+剧	O	O
+里	O	O
+国	O	O
+家	O	O
+级	O	O
+自	O	O
+然	O	O
+。	O	O
+
+喜	O	O
+欢	O	O
+那	O	O
+个	O	O
+女	O	O
+孩	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+韩	B-AR	B-AR
+红	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+荷	B-SO	B-SO
+塘	I-SO	I-SO
+月	I-SO	I-SO
+色	E-SO	E-SO
+。	O	O
+
+三	O	O
+套	O	O
+车	O	O
+。	O	O
+
+好	O	O
+多	O	O
+号	O	O
+码	O	O
+都	O	O
+给	O	O
+他	O	O
+吃	O	O
+，	O	O
+颜	O	O
+色	O	O
+。	O	O
+
+开	O	O
+你	O	O
+妹	O	O
+，	O	O
+播	O	O
+放	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+给	O	O
+他	O	O
+个	O	O
+八	O	O
+块	O	O
+五	O	O
+块	O	O
+，	O	O
+他	O	O
+妈	O	O
+的	O	O
+想	O	O
+气	O	O
+死	O	O
+他	O	O
+气	O	O
+死	O	O
+他	O	O
+喷	O	O
+水	O	O
+，	O	O
+期	O	O
+待	O	O
+呀	O	O
+，	O	O
+十	O	O
+3	O	O
+4	O	O
+号	O	O
+。	O	O
+
+孙	B-AR	O
+越	E-AR	O
+。	O	O
+
+姚	B-AR	B-AR
+贝	I-AR	I-AR
+娜	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+的	B-SO	O
+高	E-SO	O
+。	O	O
+
+关	O	O
+闭	O	O
+，	O	O
+真	O	O
+没	O	O
+意	O	O
+思	O	O
+，	O	O
+小	O	O
+品	O	O
+。	O	O
+
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+请	O	O
+搜	O	O
+一	O	O
+首	O	O
+同	B-SO	B-SO
+桌	I-SO	I-SO
+的	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+千	B-SO	O
+字	I-SO	O
+文	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+陈	B-AR	B-AR
+粒	E-AR	E-AR
+的	O	O
+奇	B-SO	B-SO
+妙	I-SO	I-SO
+能	I-SO	I-SO
+力	I-SO	E-SO
+歌	E-SO	O
+
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+歌	O	O
+曲	O	O
+黑	B-SO	B-SO
+色	I-SO	I-SO
+毛	I-SO	I-SO
+衣	E-SO	E-SO
+
+大	O	O
+力	O	O
+出	O	O
+奇	O	O
+迹	O	O
+。	O	O
+
+播	O	O
+放	O	O
+。	O	O
+
+播	O	O
+放	O	O
+，	O	O
+皮	B-SO	B-SO
+皮	I-SO	I-SO
+虾	I-SO	I-SO
+我	I-SO	I-SO
+们	I-SO	I-SO
+走	E-SO	E-SO
+。	O	O
+
+好	O	O
+想	O	O
+好	O	O
+好	O	O
+神	O	O
+。	O	O
+
+放	O	O
+小	O	B-SO
+苹	O	I-SO
+果	O	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+回	B-SO	B-SO
+娘	I-SO	I-SO
+家	E-SO	E-SO
+。	O	O
+
+那	O	O
+你	O	O
+给	O	O
+唱	O	O
+一	O	O
+首	O	O
+，	O	O
+追	B-SO	B-SO
+光	I-SO	I-SO
+者	E-SO	I-SO
+好	O	E-SO
+吗	O	O
+？	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+含	O	O
+过	O	O
+的	O	O
+汗	O	O
+。	O	O
+
+E	O	O
+A	O	O
+S	O	O
+Y	O	O
+。	O	O
+
+花	B-SO	B-SO
+开	I-SO	I-SO
+的	I-SO	I-SO
+时	I-SO	I-SO
+候	I-SO	I-SO
+来	I-SO	I-SO
+看	I-SO	I-SO
+我	E-SO	E-SO
+。	O	O
+
+看	O	O
+见	O	O
+我	O	O
+挠	O	O
+痒	O	O
+痒	O	O
+。	O	O
+
+这	O	O
+种	O	O
+环	O	O
+境	O	O
+下	O	O
+就	O	O
+是	O	O
+我	O	O
+们	O	O
+稍	O	O
+微	O	O
+远	O	O
+一	O	O
+点	O	O
+。	O	O
+
+我	O	O
+来	O	O
+一	O	O
+首	O	O
+。	O	O
+
+刺	O	O
+伤	O	O
+的	O	O
+时	O	O
+候	O	O
+打	O	O
+几	O	O
+十	O	O
+块	O	O
+钱	O	O
+，	O	O
+你	O	O
+要	O	O
+杀	O	O
+猪	O	O
+你	O	O
+站	O	O
+在	O	O
+自	O	O
+己	O	O
+公	O	O
+司	O	O
+里	O	O
+查	O	O
+到	O	O
+，	O	O
+我	O	O
+也	O	O
+不	O	O
+知	O	O
+道	O	O
+我	O	O
+现	O	O
+在	O	O
+在	O	O
+干	O	O
+嘛	O	O
+我	O	O
+现	O	O
+在	O	O
+他	O	O
+妈	O	O
+的	O	O
+胸	O	O
+卡	O	O
+我	O	O
+修	O	O
+好	O	O
+了	O	O
+没	O	O
+还	O	O
+我	O	O
+不	O	O
+是	O	O
+啊	O	O
+你	O	O
+不	O	O
+说	O	O
+了	O	O
+吗	O	O
+，	O	O
+这	O	O
+两	O	O
+天	O	O
+我	O	O
+们	O	O
+是	O	O
+去	O	O
+北	O	O
+京	O	O
+玩	O	O
+然	O	O
+后	O	O
+我	O	O
+跟	O	O
+我	O	O
+姐	O	O
+说	O	O
+让	O	O
+他	O	O
+给	O	O
+我	O	O
+钱	O	O
+啊	O	O
+加	O	O
+上	O	O
+我	O	O
+只	O	O
+有	O	O
+几	O	O
+千	O	O
+块	O	O
+钱	O	O
+微	O	O
+信	O	O
+全	O	O
+部	O	O
+还	O	O
+进	O	O
+去	O	O
+了	O	O
+1	O	O
+0	O	O
+0	O	O
+多	O	O
+块	O	O
+钱	O	O
+几	O	O
+百	O	O
+块	O	O
+钱	O	O
+跟	O	O
+你	O	O
+不	O	O
+是	O	O
+说	O	O
+要	O	O
+么	O	O
+要	O	O
+不	O	O
+要	O	O
+交	O	O
+给	O	O
+我	O	O
+我	O	O
+这	O	O
+边	O	O
+几	O	O
+天	O	O
+都	O	O
+哭	O	O
+了	O	O
+我	O	O
+就	O	O
+走	O	O
+7	O	O
+4	O	O
+0	O	O
+0	O	O
+多	O	O
+块	O	O
+钱	O	O
+现	O	O
+在	O	O
+还	O	O
+能	O	O
+剩	O	O
+1	O	O
+0	O	O
+0	O	O
+0	O	O
+多	O	O
+块	O	O
+钱	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+阳	B-SO	B-SO
+光	I-SO	I-SO
+宅	I-SO	I-SO
+男	E-SO	E-SO
+。	O	O
+
+听	O	O
+歌	O	O
+。	O	O
+
+快	O	O
+来	O	O
+抢	O	O
+啊	O	O
+，	O	O
+四	O	O
+万	O	O
+块	O	O
+钱	O	O
+，	O	O
+你	O	O
+不	O	O
+想	O	O
+给	O	O
+他	O	O
+一	O	O
+月	O	O
+工	O	O
+资	O	O
+他	O	O
+肯	O	O
+定	O	O
+他	O	O
+俩	O	O
+。	O	O
+
+田	O	O
+亚	O	O
+庆	O	O
+蛤	O	O
+。	O	O
+
+蝴	B-SO	B-SO
+蝶	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+来	O	O
+。	O	O
+
+可	O	O
+是	O	O
+我	O	O
+身	O	O
+上	O	O
+没	O	O
+有	O	O
+水	O	O
+啊	O	O
+。	O	O
+
+就	O	O
+那	O	O
+个	O	O
+时	O	O
+候	O	O
+。	O	O
+
+没	O	O
+啊	O	O
+。	O	O
+
+唱	O	O
+个	O	O
+拉	B-SO	B-SO
+吉	I-SO	I-SO
+舍	E-SO	E-SO
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+拉	O	O
+丁	O	O
+。	O	O
+
+去	O	O
+去	O	O
+去	O	O
+去	O	O
+去	O	O
+去	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+听	O	O
+听	O	O
+。	O	O
+
+请	O	O
+放	O	O
+一	O	O
+首	O	O
+辛	B-AR	B-AR
+晓	I-AR	I-AR
+琪	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+音	O	O
+乐	O	O
+，	O	O
+风	B-SO	B-SO
+筝	I-SO	I-SO
+误	E-SO	E-SO
+。	O	O
+
+一	O	O
+点	O	O
+点	O	O
+，	O	O
+宝	O	O
+宝	O	O
+说	O	O
+我	O	O
+想	O	O
+你	O	O
+了	O	O
+，	O	O
+进	O	O
+入	O	O
+主	O	O
+路	O	O
+，	O	O
+我	O	O
+说	O	O
+我	O	O
+认	O	O
+识	O	O
+你	O	O
+两	O	O
+年	O	O
+啦	O	O
+，	O	O
+我	O	O
+也	O	O
+爱	O	O
+了	O	O
+你	O	O
+两	O	O
+年	O	O
+也	O	O
+想	O	O
+了	O	O
+你	O	O
+两	O	O
+年	O	O
+。	O	O
+
+板	O	O
+的	O	O
+轻	B-GE	B-GE
+音	I-GE	I-GE
+乐	E-GE	E-GE
+。	O	O
+
+你	O	O
+说	O	O
+你	O	O
+是	O	O
+你	O	O
+的	O	O
+典	O	O
+范	O	O
+，	O	O
+你	O	O
+说	O	O
+的	O	O
+是	O	O
+笨	O	O
+蛋	O	O
+。	O	O
+
+迟	B-AR	B-AR
+志	I-AR	I-AR
+强	E-AR	E-AR
+的	O	O
+铁	B-SO	O
+窗	I-SO	O
+泪	E-SO	O
+。	O	O
+
+逆	B-SO	B-SO
+战	E-SO	E-SO
+张	B-AR	B-AR
+杰	E-AR	E-AR
+。	O	O
+
+我	O	O
+不	O	O
+喜	O	O
+欢	O	O
+听	O	O
+音	O	O
+乐	O	O
+，	O	O
+我	O	O
+现	O	O
+在	O	O
+要	O	O
+出	O	O
+行	O	O
+要	O	O
+到	O	O
+北	O	O
+京	O	O
+，	O	O
+帮	O	O
+我	O	O
+找	O	O
+一	O	O
+趟	O	O
+车	O	O
+好	O	O
+不	O	O
+好	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+邓	B-AR	B-AR
+丽	I-AR	I-AR
+君	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+社	O	O
+保	O	O
+就	O	O
+是	O	O
+1	O	O
+3	O	O
+8	O	O
+0	O	O
+0	O	O
+是	O	O
+吧	O	O
+，	O	O
+那	O	O
+她	O	O
+说	O	O
+一	O	O
+块	O	O
+钱	O	O
+一	O	O
+个	O	O
+现	O	O
+在	O	O
+，	O	O
+下	O	O
+个	O	O
+月	O	O
+开	O	O
+始	O	O
+缴	O	O
+交	O	O
+了	O	O
+你	O	O
+再	O	O
+买	O	O
+一	O	O
+年	O	O
+的	O	O
+实	O	O
+惠	O	O
+房	O	O
+子	O	O
+过	O	O
+来	O	O
+找	O	O
+都	O	O
+没	O	O
+了	O	O
+呀	O	O
+，	O	O
+还	O	O
+在	O	O
+买	O	O
+一	O	O
+年	O	O
+祝	O	O
+你	O	O
+过	O	O
+的	O	O
+是	O	O
+什	O	O
+么	O	O
+价	O	O
+格	O	O
+的	O	O
+最	O	O
+最	O	O
+有	O	O
+另	O	O
+说	O	O
+了	O	O
+，	O	O
+一	O	O
+年	O	O
+的	O	O
+时	O	O
+间	O	O
+谁	O	O
+也	O	O
+说	O	O
+不	O	O
+好	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+唱	O	O
+祖	B-SO	B-SO
+国	I-SO	I-SO
+的	I-SO	I-SO
+花	I-SO	I-SO
+朵	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+亲	O	O
+我	B-SO	O
+想	I-SO	O
+静	I-SO	O
+静	E-SO	O
+。	O	O
+
+清	B-SO	O
+流	E-SO	O
+
+不	O	O
+喜	O	O
+欢	O	O
+的	O	O
+你	O	O
+就	O	O
+给	O	O
+我	O	O
+换	O	O
+一	O	O
+首	O	O
+我	O	O
+喜	O	O
+欢	O	O
+听	O	O
+的	O	O
+。	O	O
+
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+的	O	O
+。	O	O
+
+找	O	O
+我	O	O
+干	O	O
+嘛	O	O
+。	O	O
+
+老	B-SO	B-SO
+男	I-SO	I-SO
+孩	E-SO	E-SO
+。	O	O
+
+那	O	O
+你	O	O
+最	O	O
+喜	O	O
+欢	O	O
+听	O	O
+什	O	B-SO
+么	O	I-SO
+歌	O	E-SO
+。	O	O
+
+你	O	O
+可	O	O
+以	O	O
+给	O	O
+我	O	O
+唱	O	O
+个	O	O
+歌	O	O
+。	O	O
+
+小	B-SO	B-SO
+小	I-SO	I-SO
+葫	I-SO	I-SO
+芦	I-SO	I-SO
+娃	E-SO	E-SO
+。	O	O
+
+记	O	O
+住	O	O
+你	O	O
+的	O	O
+名	O	O
+字	O	O
+叫	O	O
+小	O	O
+智	O	O
+。	O	O
+
+我	O	O
+问	O	O
+你	O	O
+有	O	O
+没	O	O
+有	O	O
+玩	O	O
+具	O	O
+。	O	O
+
+你	O	O
+的	O	O
+电	O	O
+话	O	O
+号	O	O
+码	O	O
+是	O	O
+多	O	O
+少	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+能	S-SO	O
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+是	O	O
+歌	O	O
+手	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+啊	O	O
+你	O	O
+，	O	O
+c	B-SO	O
+h	I-SO	O
+r	I-SO	O
+i	I-SO	O
+s	I-SO	O
+t	I-SO	O
+m	I-SO	O
+a	I-SO	O
+s	E-SO	O
+。	O	O
+
+挺	O	O
+为	O	O
+我	O	O
+搜	O	O
+索	O	O
+天	B-SO	B-SO
+使	I-SO	I-SO
+的	I-SO	I-SO
+翅	I-SO	I-SO
+膀	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+个	O	O
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+首	O	O
+打	O	B-AR
+仗	O	E-AR
+的	O	O
+歌	O	O
+
+放	O	O
+一	O	O
+首	O	O
+罗	B-SO	B-SO
+马	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+美	B-SO	B-SO
+酒	I-SO	I-SO
+加	I-SO	I-SO
+咖	I-SO	I-SO
+啡	E-SO	E-SO
+。	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+我	B-SO	B-SO
+爱	I-SO	I-SO
+洗	I-SO	I-SO
+澡	E-SO	E-SO
+。	O	O
+
+轻	B-GE	B-GE
+音	I-GE	I-GE
+乐	E-GE	E-GE
+。	O	O
+
+落	O	O
+跑	O	O
+甜	O	O
+心	O	O
+。	O	O
+
+贝	O	O
+尔	O	O
+妹	O	O
+，	O	O
+铃	B-GE	O
+声	E-GE	O
+呗	O	O
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+口	O	O
+渴	O	O
+了	O	O
+怎	O	O
+么	O	O
+办	O	O
+？	O	O
+
+这	O	O
+样	O	O
+做	O	O
+。	O	O
+
+茉	B-SO	B-SO
+莉	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+立	O	O
+即	O	O
+张	O	O
+嘴	O	O
+先	O	O
+煎	O	O
+熟	O	O
+了	O	O
+我	O	O
+在	O	O
+这	O	O
+里	O	O
+。	O	O
+
+好	B-SO	B-SO
+爸	I-SO	I-SO
+爸	I-SO	I-SO
+坏	I-SO	I-SO
+爸	I-SO	I-SO
+爸	E-SO	E-SO
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+点	O	O
+一	O	O
+首	O	O
+炖	B-SO	B-SO
+羊	I-SO	I-SO
+肉	E-SO	E-SO
+。	O	O
+
+听	O	O
+一	O	O
+个	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+放	O	O
+首	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+小	B-SO	B-SO
+白	I-SO	I-SO
+兔	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+b	B-AR	B-AR
+e	I-AR	I-AR
+y	I-AR	I-AR
+o	I-AR	I-AR
+n	I-AR	I-AR
+d	E-AR	E-AR
+的	O	O
+H	B-SO	O
+a	I-SO	O
+l	I-SO	O
+o	E-SO	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+张	B-AR	B-AR
+欣	I-AR	I-AR
+妍	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+真	O	O
+的	O	O
+假	O	O
+的	O	O
+，	O	O
+我	O	O
+还	O	O
+不	O	O
+相	O	O
+信	O	O
+是	O	O
+吧	O	O
+，	O	O
+还	O	O
+是	O	O
+那	O	O
+句	O	O
+话	O	O
+。	O	O
+
+犯	O	O
+贱	O	O
+。	O	O
+
+张	B-AR	B-AR
+国	I-AR	I-AR
+荣	E-AR	E-AR
+的	O	O
+沉	B-SO	O
+默	I-SO	O
+是	I-SO	O
+金	E-SO	O
+。	O	O
+
+我	O	O
+是	O	O
+你	O	O
+哥	O	O
+哥	O	O
+
+g	O	O
+的	O	O
+小	O	O
+可	O	O
+舞	O	O
+曲	O	O
+。	O	O
+
+背	O	O
+个	O	O
+熊	O	O
+出	O	O
+没	O	O
+王	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+来	O	O
+点	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+他	O	O
+们	O	O
+说	O	O
+。	O	O
+
+好	O	O
+好	O	O
+想	O	O
+想	O	O
+好	O	O
+好	O	O
+想	O	O
+想	O	O
+。	O	O
+
+听	O	O
+我	S-SO	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+来	O	O
+听	O	O
+。	O	O
+
+新	O	O
+娘	O	O
+别	O	O
+给	O	O
+他	O	O
+
+我	O	O
+很	O	O
+喜	O	O
+欢	O	O
+你	O	O
+啊	O	O
+。	O	O
+
+当	O	O
+个	O	O
+二	O	O
+。	O	O
+
+来	O	O
+最	B-SO	B-SO
+炫	I-SO	I-SO
+民	I-SO	I-SO
+族	I-SO	I-SO
+风	E-SO	E-SO
+。	O	O
+
+你	O	O
+来	O	O
+插	O	O
+隐	B-SO	O
+形	I-SO	O
+的	I-SO	O
+翅	I-SO	O
+膀	E-SO	O
+张	B-AR	O
+韶	I-AR	O
+涵	E-AR	O
+。	O	O
+
+她	O	O
+说	O	O
+我	O	O
+打	O	O
+麻	O	O
+将	O	O
+了	O	O
+。	O	O
+
+水	B-SO	B-SO
+手	E-SO	E-SO
+。	O	O
+
+逆	B-SO	B-SO
+相	I-SO	I-SO
+思	E-SO	E-SO
+。	O	O
+
+洗	B-SO	B-SO
+手	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+蓝	B-SO	B-SO
+精	I-SO	I-SO
+灵	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+赵	B-AR	B-AR
+雷	E-AR	E-AR
+的	O	O
+成	B-SO	B-SO
+都	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+他	O	O
+唱	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+玛	B-SO	B-SO
+尼	I-SO	I-SO
+情	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+你	O	O
+知	O	O
+不	O	O
+知	O	O
+道	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+两	B-SO	B-SO
+只	I-SO	I-SO
+蝴	I-SO	I-SO
+蝶	E-SO	E-SO
+现	O	O
+在	O	O
+就	O	O
+要	O	O
+听	O	O
+。	O	O
+
+数	B-SO	O
+星	I-SO	O
+星	E-SO	O
+。	O	O
+
+陈	O	O
+淑	O	O
+桦	O	O
+成	B-AR	O
+龙	E-AR	O
+的	O	O
+回	B-SO	B-SO
+家	E-SO	E-SO
+？	O	O
+
+老	O	O
+司	O	O
+机	O	O
+带	O	O
+带	O	O
+我	O	O
+
+帮	O	O
+我	O	O
+唱	O	O
+一	O	O
+个	O	O
+朋	B-SO	O
+友	E-SO	O
+好	O	O
+吗	O	O
+？	O	O
+
+你	O	O
+为	O	O
+什	O	O
+么	O	O
+？	O	O
+
+你	O	O
+的	O	O
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+是	O	O
+谁	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+信	S-AR	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+林	B-AR	B-AR
+俊	I-AR	I-AR
+杰	E-AR	E-AR
+的	O	O
+豆	B-SO	B-SO
+浆	I-SO	I-SO
+油	I-SO	I-SO
+条	E-SO	E-SO
+。	O	O
+
+总	O	O
+参	O	O
+。	O	O
+
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+c	B-SO	B-SO
+o	I-SO	I-SO
+l	I-SO	I-SO
+d	I-SO	I-SO
+e	I-SO	I-SO
+r	I-SO	I-SO
+
+t	I-SO	O
+h	I-SO	O
+a	I-SO	O
+n	I-SO	O
+
+i	I-SO	O
+c	I-SO	O
+e	E-SO	O
+。	O	O
+
+播	O	O
+放	O	O
+他	B-SO	B-SO
+真	I-SO	I-SO
+的	I-SO	I-SO
+比	I-SO	I-SO
+我	I-SO	I-SO
+爱	I-SO	I-SO
+你	I-SO	I-SO
+吗	E-SO	E-SO
+，	O	O
+最	O	O
+近	O	O
+很	O	O
+辛	O	O
+苦	O	O
+。	O	O
+
+我	O	O
+给	O	O
+他	O	O
+说	O	O
+话	O	O
+按	O	O
+一	O	O
+下	O	O
+那	O	O
+个	O	O
+键	O	O
+他	O	O
+又	O	O
+说	O	O
+，	O	O
+小	O	O
+主	O	O
+人	O	O
+你	O	O
+好	O	O
+。	O	O
+
+播	O	O
+放	O	O
+最	B-SO	B-SO
+美	I-SO	I-SO
+情	I-SO	I-SO
+侣	E-SO	E-SO
+
+大	B-SO	B-SO
+王	I-SO	I-SO
+叫	I-SO	I-SO
+我	I-SO	I-SO
+来	I-SO	I-SO
+巡	I-SO	I-SO
+山	E-SO	E-SO
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+初	B-SO	B-SO
+恋	I-SO	I-SO
+情	I-SO	I-SO
+人	E-SO	E-SO
+。	O	O
+
+凤	B-AR	B-AR
+凰	I-AR	I-AR
+传	I-AR	I-AR
+奇	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+哦	O	O
+你	O	O
+这	O	O
+个	O	O
+小	O	O
+机	O	O
+器	O	O
+人	O	O
+有	O	O
+什	O	O
+么	O	O
+功	O	O
+能	O	O
+吗	O	O
+？	O	O
+
+我	O	O
+要	O	O
+听	O	O
+盛	B-SO	B-AR
+夏	I-SO	E-AR
+的	I-SO	O
+果	I-SO	O
+实	E-SO	O
+。	O	O
+
+星	B-SO	B-SO
+空	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+刚	B-SO	B-SO
+好	I-SO	I-SO
+遇	I-SO	I-SO
+见	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+布	B-GE	O
+鲁	I-GE	O
+斯	E-GE	O
+的	O	O
+歌	O	O
+。	O	O
+
+y	O	O
+o	O	O
+u	O	O
+r	O	O
+
+h	O	O
+e	O	O
+a	O	O
+r	O	O
+t	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+放	O	O
+刀	B-AR	B-AR
+郎	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+不	O	O
+爱	B-SO	O
+我	I-SO	O
+就	I-SO	O
+不	I-SO	O
+要	I-SO	O
+伤	I-SO	O
+害	I-SO	O
+我	E-SO	O
+，	O	O
+放	O	O
+一	O	O
+首	O	O
+歌	O	O
+，	O	O
+矫	O	O
+正	O	O
+你	O	O
+好	O	O
+。	O	O
+
+采	B-SO	B-SO
+蘑	I-SO	I-SO
+菇	I-SO	I-SO
+的	I-SO	I-SO
+小	I-SO	I-SO
+姑	I-SO	I-SO
+娘	E-SO	E-SO
+。	O	O
+
+我	B-SO	O
+要	I-SO	O
+去	I-SO	O
+西	I-SO	O
+藏	E-SO	O
+。	O	O
+
+超	B-SO	B-SO
+级	I-SO	I-SO
+飞	I-SO	I-SO
+侠	E-SO	E-SO
+。	O	O
+
+a	B-AR	B-SO
+k	I-AR	I-SO
+o	I-AR	I-SO
+n	E-AR	I-SO
+的	O	I-SO
+浪	B-SO	I-SO
+子	I-SO	I-SO
+回	I-SO	I-SO
+头	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+数	B-SO	B-SO
+鸭	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+加	O	O
+油	O	O
+加	O	O
+油	O	O
+。	O	O
+
+m	B-SO	I-SO
+o	I-SO	I-SO
+r	I-SO	I-SO
+e	I-SO	I-SO
+
+t	I-SO	O
+h	I-SO	O
+a	I-SO	O
+n	I-SO	O
+
+l	I-SO	O
+o	I-SO	O
+v	I-SO	O
+e	E-SO	O
+。	O	O
+
+继	O	O
+续	O	O
+唱	O	O
+刚	O	O
+才	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+小	O	B-SO
+白	O	I-SO
+兔	O	E-SO
+。	O	O
+
+问	O	O
+世	O	O
+间	O	O
+什	O	O
+么	O	O
+对	O	O
+美	O	O
+丽	O	O
+爱	O	O
+情	O	O
+绝	O	O
+对	O	O
+是	O	O
+个	O	O
+契	O	O
+机	O	O
+。	O	O
+
+抽	B-SO	O
+烟	I-SO	O
+只	I-SO	O
+抽	I-SO	O
+这	I-SO	O
+些	I-SO	O
+烟	E-SO	O
+。	O	O
+
+小	O	O
+优	O	O
+的	O	O
+女	O	O
+朋	O	O
+友	O	O
+就	O	O
+是	O	O
+伊	O	O
+娃	O	O
+。	O	O
+
+幸	B-SO	B-SO
+福	I-SO	I-SO
+爱	I-SO	I-SO
+河	E-SO	E-SO
+。	O	O
+
+唱	O	O
+莫	B-AR	B-SO
+文	I-AR	I-SO
+蔚	E-AR	I-SO
+的	O	I-SO
+宝	B-SO	I-SO
+贝	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+黑	O	O
+洞	O	O
+故	O	O
+事	O	O
+。	O	O
+
+牛	B-SO	B-SO
+奶	E-SO	E-SO
+。	O	O
+
+下	B-SO	B-SO
+定	I-SO	I-SO
+决	I-SO	I-SO
+心	I-SO	I-SO
+忘	I-SO	I-SO
+记	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+千	B-SO	B-SO
+年	I-SO	I-SO
+等	I-SO	I-SO
+一	I-SO	I-SO
+回	E-SO	E-SO
+
+唱	O	O
+k	O	O
+。	O	O
+
+听	B-SO	O
+听	E-SO	O
+。	O	O
+
+我	O	O
+听	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+下	O	O
+一	O	O
+曲	O	O
+，	O	O
+放	O	O
+首	O	O
+儿	B-GE	B-SO
+歌	E-GE	E-SO
+听	O	O
+。	O	O
+
+是	O	O
+你	O	O
+作	O	O
+死	O	O
+的	O	O
+狗	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+热	B-SO	B-SO
+情	I-SO	I-SO
+的	I-SO	I-SO
+沙	I-SO	I-SO
+漠	E-SO	E-SO
+。	O	O
+
+走	B-SO	B-SO
+天	I-SO	I-SO
+涯	E-SO	E-SO
+。	O	O
+
+冲	O	O
+动	O	O
+是	O	O
+魔	O	O
+鬼	O	O
+哦	O	O
+，	O	O
+呵	O	O
+呵	O	O
+，	O	O
+顶	O	O
+你	O	O
+个	O	O
+肺	O	O
+。	O	O
+
+不	O	O
+会	O	O
+。	O	O
+
+听	O	O
+听	O	O
+一	O	O
+首	O	O
+搞	B-SO	O
+笑	E-SO	O
+。	O	O
+
+而	O	O
+是	O	O
+我	B-SO	O
+喜	I-SO	O
+欢	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+秋	B-SO	B-SO
+天	I-SO	I-SO
+假	I-SO	I-SO
+期	E-SO	E-SO
+。	O	O
+
+我	O	O
+说	O	O
+我	O	O
+喜	O	O
+欢	O	O
+你	O	O
+
+我	O	O
+要	O	O
+听	O	O
+陈	B-AR	B-AR
+奕	I-AR	I-AR
+迅	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+给	O	O
+你	O	O
+重	O	O
+新	O	O
+取	O	O
+名	O	O
+字	O	O
+行	O	O
+不	O	O
+行	O	O
+。	O	O
+
+一	B-SO	B-SO
+分	I-SO	I-SO
+钱	E-SO	E-SO
+。	O	O
+
+小	O	O
+贩	O	O
+，	O	O
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+能	O	O
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+吗	O	O
+？	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+的	O	O
+倒	B-SO	B-SO
+带	E-SO	E-SO
+。	O	O
+
+回	O	O
+来	O	O
+。	O	O
+
+苦	B-SO	O
+水	I-SO	O
+变	I-SO	O
+美	I-SO	O
+酒	E-SO	O
+。	O	O
+
+t	O	O
+h	O	O
+a	O	O
+n	O	O
+k	O	O
+
+y	O	O
+o	O	O
+u	O	O
+。	O	O
+
+这	O	O
+首	O	O
+歌	O	O
+我	O	O
+喜	O	O
+欢	O	O
+。	O	O
+
+国	O	O
+歌	O	O
+。	O	O
+
+小	B-GE	O
+清	I-GE	O
+新	E-GE	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+不	O	O
+是	O	O
+删	O	O
+除	O	O
+所	O	O
+有	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+电	O	B-SO
+影	O	I-SO
+甜	B-SO	I-SO
+蜜	I-SO	I-SO
+的	I-SO	I-SO
+事	I-SO	I-SO
+业	I-SO	I-SO
+主	I-SO	I-SO
+题	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+拇	O	O
+指	O	O
+。	O	O
+
+放	O	O
+几	O	O
+首	O	O
+歌	O	O
+
+海	B-SO	B-SO
+阔	I-SO	I-SO
+天	I-SO	I-SO
+空	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+红	B-SO	B-SO
+豆	I-SO	I-SO
+红	E-SO	E-SO
+。	O	O
+
+澳	O	O
+门	O	O
+风	O	O
+云	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+个	O	O
+笑	O	O
+话	O	O
+。	O	O
+
+b	O	O
+u	O	O
+t	O	O
+
+w	O	O
+h	O	O
+e	O	O
+n	O	O
+
+y	O	O
+o	O	O
+u	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+伤	B-SO	B-SO
+心	I-SO	I-SO
+的	I-SO	I-SO
+人	I-SO	I-SO
+别	I-SO	I-SO
+听	I-SO	I-SO
+慢	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+一	O	B-SO
+曲	O	I-SO
+红	O	I-SO
+尘	O	E-SO
+。	O	O
+
+逆	B-SO	B-SO
+流	I-SO	I-SO
+成	I-SO	I-SO
+河	E-SO	E-SO
+。	O	O
+
+点	O	O
+一	O	O
+首	O	O
+兰	B-AR	B-SO
+鸽	E-AR	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+咽	O	O
+喉	O	O
+红	O	O
+高	O	O
+梁	O	O
+，	O	O
+主	O	O
+题	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+社	B-SO	B-SO
+会	I-SO	I-SO
+摇	E-SO	E-SO
+。	O	O
+
+再	O	O
+下	O	O
+一	O	O
+句	O	O
+。	O	O
+
+放	O	O
+首	O	O
+好	O	O
+歌	O	O
+听	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+爱	B-SO	B-SO
+上	I-SO	I-SO
+一	I-SO	I-SO
+个	I-SO	I-SO
+有	I-SO	I-SO
+家	I-SO	I-SO
+的	I-SO	I-SO
+人	E-SO	E-SO
+。	O	O
+
+可	O	O
+以	O	O
+记	O	O
+住	O	O
+我	O	O
+的	O	O
+电	O	O
+话	O	O
+号	O	O
+码	O	O
+吗	O	O
+？	O	O
+
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+的	O	O
+稻	B-SO	B-SO
+香	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+白	I-SO	I-SO
+兔	I-SO	I-SO
+白	I-SO	I-SO
+又	I-SO	I-SO
+白	E-SO	E-SO
+。	O	O
+
+给	O	O
+宝	O	O
+宝	O	O
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+起	B-SO	O
+床	I-SO	O
+歌	E-SO	O
+。	O	O
+
+我	O	O
+的	O	O
+名	O	O
+字	O	O
+叫	O	O
+什	O	O
+么	O	O
+呢	O	O
+？	O	O
+
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+吉	B-SO	B-SO
+祥	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+吧	O	O
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+丑	B-SO	B-SO
+八	I-SO	I-SO
+怪	E-SO	E-SO
+。	O	O
+
+却	O	O
+给	O	O
+他	O	O
+。	O	O
+
+听	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+霸	B-SO	B-SO
+王	I-SO	I-SO
+别	I-SO	I-SO
+姬	E-SO	E-SO
+。	O	O
+
+唱	O	O
+丢	B-SO	B-SO
+手	I-SO	I-SO
+绢	E-SO	E-SO
+。	O	O
+
+我	B-SO	O
+想	I-SO	O
+静	I-SO	O
+静	E-SO	O
+。	O	O
+
+这	O	O
+里	O	O
+的	O	O
+亲	O	O
+爱	O	O
+的	O	O
+不	O	O
+能	O	O
+到	O	O
+最	O	O
+后	O	O
+。	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+B	O	O
+O	O	O
+B	O	O
+O	O	O
+。	O	O
+
+唱	O	O
+歌	O	O
+跳	O	O
+舞	O	O
+。	O	O
+
+陪	O	O
+她	O	O
+说	O	O
+话	O	O
+。	O	O
+
+我	O	O
+不	O	O
+想	O	O
+听	O	O
+音	O	O
+乐	O	O
+我	O	O
+就	O	O
+想	O	O
+问	O	O
+你	O	O
+狗	O	O
+的	O	O
+英	O	O
+语	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+太	B-SO	B-SO
+傻	E-SO	E-SO
+。	O	O
+
+开	O	O
+关	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+红	B-SO	B-SO
+尘	I-SO	I-SO
+情	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+把	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+过	O	O
+去	O	O
+这	O	O
+么	O	O
+伤	O	O
+不	O	O
+起	O	O
+。	O	O
+
+祖	O	O
+先	O	O
+的	O	O
+玩	O	O
+意	O	O
+传	O	O
+到	O	O
+今	O	O
+天	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+听	O	O
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+张	B-AR	B-AR
+碧	I-AR	I-AR
+晨	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+悟	S-SO	O
+。	O	O
+
+如	O	O
+说	O	O
+你	O	O
+要	O	O
+说	O	O
+一	O	O
+句	O	O
+话	O	O
+快	O	O
+。	O	O
+
+青	B-SO	B-SO
+藏	I-SO	I-SO
+高	I-SO	I-SO
+原	E-SO	E-SO
+。	O	O
+
+贾	O	B-SO
+斯	O	I-SO
+丁	O	I-SO
+比	O	I-SO
+伯	O	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+陈	B-AR	B-AR
+慧	I-AR	I-AR
+娴	E-AR	E-AR
+的	O	O
+歌	O	O
+
+喜	O	B-SO
+欢	O	I-SO
+你	O	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+英	O	O
+文	O	O
+歌	O	O
+。	O	O
+
+点	O	O
+播	O	O
+新	O	O
+出	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+大	B-SO	B-SO
+话	I-SO	I-SO
+西	I-SO	I-SO
+游	I-SO	I-SO
+一	I-SO	I-SO
+生	I-SO	I-SO
+所	I-SO	I-SO
+爱	E-SO	E-SO
+。	O	O
+
+w	O	O
+i	O	O
+t	O	O
+h	O	O
+
+y	O	O
+o	O	O
+u	O	O
+吧	O	O
+？	O	O
+
+别	B-SO	B-SO
+说	I-SO	I-SO
+我	I-SO	I-SO
+的	I-SO	I-SO
+眼	I-SO	I-SO
+泪	I-SO	I-SO
+你	I-SO	I-SO
+无	I-SO	I-SO
+所	I-SO	I-SO
+谓	E-SO	E-SO
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+你	O	O
+你	O	O
+不	O	O
+同	O	O
+意	O	O
+我	O	O
+前	O	O
+面	O	O
+不	O	O
+是	O	O
+脏	O	O
+话	O	O
+，	O	O
+跟	O	O
+你	O	O
+交	O	O
+涉	O	O
+了	O	O
+吗	O	O
+？	O	O
+
+余	O	O
+沧	B-SO	O
+海	I-SO	O
+一	I-SO	O
+声	I-SO	O
+笑	E-SO	O
+。	O	O
+
+好	O	B-SO
+汉	O	I-SO
+歌	O	E-SO
+，	O	O
+唱	O	O
+一	O	O
+个	O	O
+好	O	O
+h	B-SO	O
+i	I-SO	O
+g	I-SO	O
+h	I-SO	O
+歌	E-SO	O
+。	O	O
+
+哦	O	O
+，	O	O
+换	O	O
+一	O	O
+首	O	O
+不	B-SO	O
+是	I-SO	O
+我	I-SO	O
+不	I-SO	O
+小	I-SO	O
+心	E-SO	O
+的	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+来	O	O
+点	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+缘	O	B-SO
+分	O	I-SO
+让	O	I-SO
+我	O	I-SO
+遇	O	I-SO
+见	O	I-SO
+了	O	I-SO
+你	O	E-SO
+。	O	O
+
+唱	O	O
+支	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+个	O	O
+小	O	O
+鸭	O	O
+小	B-SO	O
+苹	I-SO	O
+果	E-SO	O
+。	O	O
+
+我	O	O
+是	O	O
+你	O	O
+爸	O	O
+。	O	O
+
+找	O	O
+我	O	O
+干	O	O
+嘛	O	O
+。	O	O
+
+你	O	O
+家	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+装	O	O
+备	O	O
+好	O	O
+想	O	O
+买	O	O
+多	O	O
+少	O	O
+，	O	O
+这	O	O
+看	O	O
+起	O	O
+来	O	O
+像	O	O
+中	O	O
+的	O	O
+不	O	O
+一	O	O
+样	O	O
+啊	O	O
+，	O	O
+管	O	O
+理	O	O
+知	O	O
+识	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+用	O	O
+我	O	O
+们	O	O
+的	O	O
+天	O	B-SO
+空	O	E-SO
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+真	O	O
+的	O	O
+还	O	O
+是	O	O
+假	O	O
+的	O	O
+呀	O	O
+。	O	O
+
+说	O	B-SO
+上	O	I-SO
+岗	O	I-SO
+湾	O	E-SO
+。	O	O
+
+唱	O	O
+首	O	O
+。	O	O
+
+那	O	O
+你	O	O
+不	O	O
+知	O	O
+道	O	O
+吗	O	O
+？	O	O
+
+舞	B-GE	B-GE
+曲	E-GE	E-GE
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+你	O	O
+好	O	O
+。	O	O
+
+为	O	O
+我	O	O
+播	O	O
+爱	O	O
+情	O	O
+类	O	O
+似	O	O
+的	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+你	O	O
+的	O	O
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+是	O	O
+谁	O	O
+。	O	O
+
+花	B-SO	O
+心	E-SO	O
+，	O	O
+九	O	O
+号	O	O
+。	O	O
+
+游	O	O
+乐	O	O
+小	O	O
+优	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+勉	B-SO	B-SO
+为	I-SO	I-SO
+其	I-SO	I-SO
+难	E-SO	E-SO
+。	O	O
+
+J	O	O
+o	O	O
+e	O	O
+y	O	O
+。	O	O
+
+你	O	O
+不	O	O
+再	O	O
+爱	O	O
+我	O	O
+吗	O	O
+？	O	O
+
+结	O	O
+果	O	O
+了	O	O
+那	O	O
+么	O	O
+多	O	O
+了	O	O
+所	O	O
+以	O	O
+我	O	O
+们	O	O
+才	O	O
+放	O	O
+放	O	O
+给	O	O
+那	O	O
+个	O	O
+那	O	O
+个	O	O
+那	O	O
+个	O	O
+那	O	O
+个	O	O
+嘴	O	O
+巴	O	O
+管	O	O
+的	O	O
+所	O	O
+以	O	O
+他	O	O
+居	O	O
+然	O	O
+跟	O	O
+我	O	O
+说	O	O
+又	O	O
+要	O	O
+乱	O	O
+熟	O	O
+不	O	O
+熟	O	O
+的	O	O
+话	O	O
+肯	O	O
+定	O	O
+是	O	O
+我	O	O
+比	O	O
+他	O	O
+那	O	O
+个	O	O
+那	O	O
+个	O	O
+那	O	O
+个	O	O
+熟	O	O
+了	O	O
+让	O	O
+你	O	O
+跟	O	O
+我	O	O
+讲	O	O
+那	O	O
+个	O	O
+名	O	O
+额	O	O
+没	O	O
+有	O	O
+了	O	O
+我	O	O
+屁	O	O
+我	O	O
+说	O	O
+这	O	O
+是	O	O
+我	O	O
+打	O	O
+一	O	O
+个	O	O
+电	O	O
+话	O	O
+的	O	O
+事	O	O
+儿	O	O
+有	O	O
+没	O	O
+有	O	O
+我	O	O
+比	O	O
+你	O	O
+还	O	O
+还	O	O
+了	O	O
+解	O	O
+些	O	O
+只	O	O
+是	O	O
+跟	O	O
+我	O	O
+大	O	O
+寡	O	O
+这	O	O
+个	O	O
+事	O	O
+情	O	O
+而	O	O
+已	O	O
+，	O	O
+你	O	O
+还	O	O
+给	O	O
+我	O	O
+说	O	O
+没	O	O
+有	O	O
+。	O	O
+
+不	O	O
+能	O	O
+忘	O	O
+记	O	O
+你	O	O
+在	O	O
+这	O	O
+里	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+四	B-SO	B-SO
+季	I-SO	I-SO
+童	I-SO	I-SO
+谣	E-SO	E-SO
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+，	O	O
+世	B-SO	B-SO
+界	I-SO	I-SO
+报	I-SO	I-SO
+飞	I-SO	I-SO
+火	E-SO	E-SO
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+明	B-SO	O
+杨	I-SO	O
+仲	I-SO	O
+适	E-SO	O
+。	O	O
+
+好	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+一	B-SO	B-SO
+人	I-SO	I-SO
+我	I-SO	I-SO
+饮	I-SO	I-SO
+酒	I-SO	I-SO
+醉	E-SO	E-SO
+，	O	O
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+放	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+中	O	O
+文	O	O
+版	O	O
+快	B-SO	B-SO
+乐	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+魏	O	B-AR
+晨	O	E-AR
+的	O	O
+这	O	O
+是	O	O
+第	O	O
+几	O	O
+支	O	O
+烟	O	O
+中	O	O
+的	O	O
+幸	O	O
+福	O	O
+的	O	O
+事	O	O
+情	O	O
+，	O	O
+离	O	O
+开	O	O
+我	O	O
+的	O	O
+身	O	O
+边	O	O
+境	O	O
+地	O	O
+。	O	O
+
+唱	O	O
+支	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+一	O	O
+首	O	O
+眉	B-SO	B-SO
+飞	I-SO	I-SO
+色	I-SO	I-SO
+舞	E-SO	E-SO
+。	O	O
+
+我	O	O
+和	O	O
+你	O	O
+玩	O	O
+成	O	O
+语	O	O
+接	O	O
+龙	O	O
+好	O	O
+不	O	O
+好	O	O
+。	O	O
+
+应	O	O
+该	O	O
+先	O	O
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+小	B-SO	O
+机	I-SO	O
+器	I-SO	O
+人	E-SO	O
+。	O	O
+
+我	O	O
+想	O	O
+知	O	O
+道	O	O
+。	O	O
+
+放	O	O
+y	B-SO	O
+a	I-SO	O
+
+m	I-SO	O
+a	I-SO	O
+
+b	I-SO	O
+a	I-SO	O
+b	I-SO	O
+y	E-SO	O
+的	O	O
+小	O	B-SO
+丑	O	E-SO
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+你	O	O
+说	O	O
+话	O	O
+。	O	O
+
+小	B-SO	B-SO
+鸵	I-SO	I-SO
+鸟	E-SO	E-SO
+。	O	O
+
+彩	B-SO	B-SO
+虹	I-SO	I-SO
+的	I-SO	I-SO
+约	I-SO	I-SO
+定	E-SO	E-SO
+。	O	O
+
+可	O	O
+不	O	O
+可	O	O
+以	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+搜	O	O
+索	O	O
+歌	O	O
+曲	O	O
+勉	B-SO	B-SO
+为	I-SO	I-SO
+其	I-SO	I-SO
+难	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+九	B-SO	B-SO
+张	I-SO	I-SO
+机	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+黄	B-SO	B-SO
+鹂	I-SO	I-SO
+鸟	E-SO	E-SO
+。	O	O
+
+唱	O	O
+那	B-AR	B-AR
+英	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+散	O	O
+了	O	O
+吧	O	O
+。	O	O
+
+你	O	O
+再	O	O
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+们	O	O
+来	O	O
+石	O	O
+头	O	O
+剪	O	O
+刀	O	O
+布	O	O
+吧	O	O
+。	O	O
+
+记	O	O
+住	O	O
+你	O	O
+的	O	O
+名	O	O
+字	O	O
+叫	O	O
+小	O	O
+志	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+董	B-SO	B-SO
+小	I-SO	I-SO
+姐	E-SO	E-SO
+。	O	O
+
+那	O	O
+些	O	O
+经	O	O
+典	O	O
+老	O	O
+歌	O	O
+。	O	O
+
+当	O	O
+。	O	O
+
+粉	B-SO	B-SO
+刷	I-SO	I-SO
+匠	E-SO	E-SO
+。	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+月	B-SO	B-SO
+亮	I-SO	I-SO
+月	I-SO	I-SO
+光	I-SO	I-SO
+光	E-SO	E-SO
+。	O	O
+
+骚	O	O
+味	O	O
+三	B-AR	O
+儿	E-AR	O
+的	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+不	O	O
+是	O	O
+说	O	O
+你	O	O
+上	O	O
+次	O	O
+的	O	O
+。	O	O
+
+好	O	O
+歌	O	O
+。	O	O
+
+3	O	O
+6	O	O
+块	O	O
+钱	O	O
+的	O	O
+低	O	O
+收	O	O
+百	O	O
+分	O	O
+之	O	O
+多	O	O
+少	O	O
+，	O	O
+2	O	O
+5	O	O
+2	O	O
+0	O	O
+%	O	O
+啊	O	O
+，	O	O
+还	O	O
+2	O	O
+5	O	O
+2	O	O
+4	O	O
+，	O	O
+这	O	O
+些	O	O
+的	O	O
+的	O	O
+司	O	O
+机	O	O
+都	O	O
+不	O	O
+想	O	O
+跑	O	O
+你	O	O
+不	O	O
+知	O	O
+道	O	O
+吧	O	O
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+爸	O	O
+爸	O	O
+你	O	O
+给	O	O
+他	O	O
+送	O	O
+我	O	O
+们	O	O
+一	O	O
+起	O	O
+说	O	O
+。	O	O
+
+快	O	O
+来	O	O
+抢	O	O
+票	O	O
+的	O	O
+看	O	O
+你	O	O
+看	O	O
+了	O	O
+吗	O	O
+？	O	O
+
+给	O	O
+我	O	O
+放	O	O
+首	O	O
+野	B-SO	B-SO
+原	E-SO	E-SO
+。	O	O
+
+也	O	B-SO
+好	O	I-SO
+回	O	I-SO
+去	O	I-SO
+蹦	O	I-SO
+乐	O	E-SO
+的	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+来	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+的	O	O
+梨	B-SO	B-SO
+花	I-SO	I-SO
+又	I-SO	I-SO
+开	I-SO	I-SO
+放	E-SO	E-SO
+。	O	O
+
+这	O	O
+是	O	O
+你	O	O
+的	O	O
+想	O	O
+法	O	O
+。	O	O
+
+嗯	O	O
+播	O	O
+放	O	O
+一	O	O
+首	O	O
+。	O	O
+
+g	O	O
+o	O	O
+o	O	O
+d	O	O
+
+m	O	O
+o	O	O
+r	O	O
+n	O	O
+i	O	O
+n	O	O
+g	O	O
+。	O	O
+
+打	O	O
+开	O	O
+电	O	O
+子	O	O
+狗	O	O
+，	O	O
+也	O	O
+好	O	O
+你	O	O
+打	O	O
+他	O	O
+那	O	O
+本	O	O
+了	O	O
+。	O	O
+
+播	O	O
+首	O	O
+。	O	O
+
+当	O	O
+兵	O	O
+的	O	O
+井	O	O
+盖	O	O
+房	O	O
+里	O	O
+脚	O	O
+上	O	O
+没	O	O
+有	O	O
+谁	O	O
+能	O	O
+体	O	O
+谅	O	O
+我	O	O
+应	O	O
+该	O	O
+怎	O	O
+么	O	O
+接	O	O
+吻	O	O
+为	O	O
+了	O	O
+给	O	O
+他	O	O
+摸	O	O
+摸	O	O
+？	O	O
+
+雪	B-SO	B-SO
+娃	I-SO	I-SO
+娃	E-SO	E-SO
+。	O	O
+
+毛	O	O
+主	O	O
+席	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+死	O	O
+的	O	O
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+电	O	O
+子	O	O
+。	O	O
+
+用	B-SO	O
+心	I-SO	O
+良	I-SO	O
+苦	E-SO	O
+。	O	O
+
+早	B-AR	O
+见	I-AR	O
+沙	I-AR	O
+织	E-AR	O
+的	O	O
+纯	B-GE	B-GE
+音	I-GE	I-GE
+乐	E-GE	E-GE
+。	O	O
+
+好	O	O
+想	O	O
+好	O	O
+想	O	O
+陪	O	O
+你	O	O
+睡	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+红	I-SO	I-SO
+帽	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+。	O	O
+
+在	O	O
+谁	O	O
+最	O	O
+红	O	O
+
+我	O	O
+是	O	O
+你	O	O
+的	O	O
+好	O	O
+朋	O	O
+友	O	O
+，	O	O
+哈	O	O
+喽	O	O
+我	O	O
+是	O	O
+你	O	O
+的	O	O
+不	O	O
+冷	O	O
+。	O	O
+
+红	B-SO	B-SO
+尘	I-SO	I-SO
+爱	I-SO	I-SO
+恋	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+我	O	B-SO
+保	O	I-SO
+存	O	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+一	O	O
+首	O	O
+葫	B-SO	B-SO
+芦	I-SO	I-SO
+娃	E-SO	E-SO
+的	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+喜	O	O
+欢	O	O
+你	O	O
+没	O	O
+道	O	O
+理	O	O
+喜	O	O
+欢	O	O
+你	O	O
+没	O	O
+道	O	O
+理	O	O
+，	O	O
+我	O	O
+喜	O	O
+欢	O	O
+。	O	O
+
+我	B-SO	O
+们	E-SO	O
+。	O	O
+
+今	B-SO	O
+生	I-SO	O
+为	I-SO	O
+你	I-SO	O
+着	I-SO	O
+迷	E-SO	O
+。	O	O
+
+欢	O	O
+迎	O	O
+各	O	O
+位	O	O
+，	O	O
+天	O	O
+气	O	O
+超	O	O
+好	O	O
+好	O	O
+到	O	O
+想	O	O
+谈	O	O
+恋	O	O
+爱	O	O
+就	O	O
+很	O	O
+阳	O	O
+光	O	O
+，	O	O
+听	O	O
+过	O	O
+那	O	O
+首	O	O
+歌	O	O
+，	O	O
+我	O	O
+香	O	O
+蕉	O	O
+，	O	O
+简	O	O
+单	O	O
+的	O	O
+中	O	O
+学	O	O
+时	O	O
+代	O	O
+中	O	O
+学	O	O
+时	O	O
+代	O	O
+的	O	O
+我	O	O
+也	O	O
+是	O	O
+这	O	O
+样	O	O
+称	O	O
+街	O	O
+上	O	O
+一	O	O
+对	O	O
+一	O	O
+对	O	O
+。	O	O
+
+我	O	B-SO
+是	O	I-SO
+一	O	I-SO
+只	O	I-SO
+淤	O	I-SO
+青	O	I-SO
+的	O	I-SO
+小	O	I-SO
+鸟	O	E-SO
+。	O	O
+
+让	B-SO	B-SO
+我	I-SO	I-SO
+们	I-SO	I-SO
+荡	I-SO	I-SO
+起	I-SO	I-SO
+双	I-SO	I-SO
+桨	E-SO	E-SO
+。	O	O
+
+敢	B-SO	B-SO
+为	I-SO	I-SO
+天	I-SO	I-SO
+下	I-SO	I-SO
+先	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+暂	O	O
+停	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+起	B-SO	O
+床	I-SO	O
+歌	E-SO	O
+。	O	O
+
+杯	B-SO	B-SO
+水	I-SO	I-SO
+情	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+有	O	O
+扣	O	O
+扣	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+听	O	O
+草	B-SO	B-SO
+原	I-SO	I-SO
+就	I-SO	I-SO
+是	I-SO	I-SO
+我	I-SO	I-SO
+的	I-SO	I-SO
+家	E-SO	E-SO
+。	O	O
+
+唱	O	O
+圆	B-SO	O
+圆	I-SO	O
+的	I-SO	O
+月	I-SO	O
+亮	E-SO	O
+。	O	O
+
+听	O	O
+花	B-SO	B-SO
+裙	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+那	O	O
+里	O	O
+有	O	O
+没	O	O
+有	O	O
+宋	O	O
+小	O	O
+宝	O	O
+的	O	O
+片	O	O
+段	O	O
+。	O	O
+
+说	O	O
+不	O	O
+出	O	O
+的	O	O
+语	O	O
+言	O	O
+这	O	O
+首	O	O
+歌	O	O
+有	O	O
+木	O	O
+有	O	O
+。	O	O
+
+我	O	O
+不	O	O
+喜	O	O
+欢	O	O
+你	O	O
+怎	O	O
+么	O	O
+办	O	O
+？	O	O
+
+A	O	O
+
+S	O	O
+h	O	O
+a	O	O
+d	O	O
+o	O	O
+w	O	O
+
+i	O	O
+n	O	O
+
+t	O	O
+h	O	O
+e	O	O
+
+S	O	O
+o	O	O
+u	O	O
+l	O	O
+。	O	O
+
+听	O	O
+歌	O	O
+，	O	O
+
+你	O	O
+昨	O	O
+天	O	O
+还	O	O
+说	O	O
+你	O	O
+我	O	O
+还	O	O
+没	O	O
+有	O	O
+，	O	O
+我	O	O
+是	O	O
+女	O	O
+孩	O	O
+子	O	O
+呢	O	O
+？	O	O
+
+韩	B-AR	B-AR
+红	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+冷	O	O
+不	O	O
+冷	O	O
+啊	O	O
+。	O	O
+
+我	O	O
+想	O	O
+看	O	O
+电	O	O
+影	O	O
+，	O	O
+慢	O	O
+慢	O	O
+的	O	O
+说	O	O
+，	O	O
+我	O	O
+想	O	O
+看	O	O
+电	O	O
+影	O	O
+。	O	O
+
+花	B-SO	B-SO
+花	I-SO	I-SO
+世	I-SO	I-SO
+界	E-SO	E-SO
+？	O	O
+
+想	B-SO	O
+爱	E-SO	O
+啦	O	O
+。	O	O
+
+不	O	O
+找	O	O
+我	O	O
+干	O	O
+嘛	O	O
+。	O	O
+
+放	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+可	O	O
+以	O	O
+。	O	O
+
+三	O	O
+角	O	O
+龙	O	O
+与	O	O
+霸	O	O
+王	O	O
+龙	O	O
+谁	O	O
+厉	O	O
+害	O	O
+
+放	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+劳	B-SO	B-SO
+动	I-SO	I-SO
+最	I-SO	I-SO
+光	I-SO	I-SO
+荣	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+播	O	O
+放	O	O
+车	O	B-SO
+载	O	I-SO
+飞	S-SO	E-SO
+。	O	O
+
+我	O	O
+的	O	O
+名	O	O
+字	O	O
+叫	O	O
+可	O	O
+乐	O	O
+。	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+嘿	O	O
+嘿	O	O
+我	O	O
+钢	O	O
+琴	O	O
+六	O	O
+年	O	O
+上	O	O
+。	O	O
+
+h	O	O
+e	O	O
+l	O	O
+l	O	O
+o	O	O
+。	O	O
+
+郑	B-AR	B-AR
+源	E-AR	E-AR
+的	O	O
+我	B-SO	B-SO
+的	I-SO	I-SO
+世	I-SO	I-SO
+界	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+高	B-SO	B-SO
+山	I-SO	I-SO
+低	I-SO	I-SO
+谷	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+的	O	O
+击	B-SO	B-SO
+杀	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+听	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+妈	B-SO	B-SO
+妈	I-SO	I-SO
+的	I-SO	I-SO
+妈	I-SO	I-SO
+妈	E-SO	E-SO
+。	O	O
+
+在	O	O
+等	O	O
+你	O	O
+回	O	O
+来	O	O
+，	O	O
+改	O	O
+天	O	O
+测	O	O
+试	O	O
+通	O	O
+过	O	O
+，	O	O
+估	O	O
+计	O	O
+培	O	O
+训	O	O
+只	O	O
+是	O	O
+配	O	O
+角	O	O
+一	O	O
+段	O	O
+时	O	O
+间	O	O
+吧	O	O
+。	O	O
+
+你	O	O
+能	O	O
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+点	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+首	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+有	O	O
+我	B-SO	O
+想	I-SO	O
+静	I-SO	O
+静	E-SO	O
+。	O	O
+
+小	B-SO	B-SO
+手	I-SO	I-SO
+拍	I-SO	I-SO
+拍	E-SO	E-SO
+。	O	O
+
+但	O	O
+是	O	O
+我	O	O
+要	O	O
+吃	O	O
+东	O	O
+西	O	O
+啊	O	O
+我	O	O
+知	O	O
+道	O	O
+你	O	O
+只	O	O
+烧	O	O
+电	O	O
+池	O	O
+了	O	O
+吗	O	O
+？	O	O
+
+白	O	O
+虎	O	O
+。	O	O
+
+嘿	O	O
+你	O	O
+你	O	O
+你	O	O
+是	O	O
+我	O	O
+叫	O	O
+什	O	O
+么	O	O
+名	O	O
+字	O	O
+，	O	O
+快	O	O
+说	O	O
+。	O	O
+
+J	O	O
+o	O	O
+e	O	O
+y	O	O
+。	O	O
+
+六	O	O
+放	O	O
+一	O	O
+首	O	O
+我	B-SO	B-SO
+在	I-SO	I-SO
+等	I-SO	I-SO
+风	I-SO	I-SO
+也	I-SO	I-SO
+在	I-SO	I-SO
+等	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+新	O	O
+卡	O	O
+第	O	O
+一	O	O
+步	O	O
+，	O	O
+跟	O	O
+你	O	O
+没	O	O
+让	O	O
+你	O	O
+们	O	O
+带	O	O
+的	O	O
+面	O	O
+料	O	O
+，	O	O
+腿	O	O
+部	O	O
+发	O	O
+麻	O	O
+，	O	O
+跟	O	O
+她	O	O
+说	O	O
+个	O	O
+就	O	O
+快	O	O
+做	O	O
+完	O	O
+所	O	O
+有	O	O
+的	O	O
+我	O	O
+哪	O	O
+需	O	O
+要	O	O
+哪	O	O
+般	O	O
+，	O	O
+楼	O	O
+下	O	O
+需	O	O
+要	O	O
+的	O	O
+，	O	O
+上	O	O
+来	O	O
+帮	O	O
+忙	O	O
+的	O	O
+。	O	O
+
+金	B-AR	B-SO
+莎	E-AR	I-SO
+的	O	I-SO
+好	B-SO	I-SO
+妈	I-SO	I-SO
+妈	E-SO	E-SO
+。	O	O
+
+刀	B-AR	B-AR
+郎	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+好	O	O
+运	O	O
+转	O	O
+。	O	O
+
+一	O	B-SO
+娃	O	I-SO
+娃	O	I-SO
+泥	B-SO	I-SO
+娃	I-SO	I-SO
+娃	E-SO	I-SO
+泥	B-SO	I-SO
+娃	I-SO	I-SO
+娃	E-SO	E-SO
+。	O	O
+
+i	O	O
+
+l	O	O
+o	O	O
+v	O	O
+e	O	O
+
+y	O	O
+o	O	O
+u	O	O
+。	O	O
+
+小	B-SO	B-SO
+跳	I-SO	I-SO
+蛙	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+我	B-SO	B-SO
+们	I-SO	I-SO
+不	I-SO	I-SO
+一	I-SO	I-SO
+样	E-SO	E-SO
+。	O	O
+
+慢	O	B-GE
+摇	O	E-GE
+舞	B-GE	B-GE
+曲	E-GE	E-GE
+。	O	O
+
+f	B-SO	O
+r	I-SO	O
+e	I-SO	O
+e	I-SO	O
+d	I-SO	O
+o	I-SO	O
+m	E-SO	O
+。	O	O
+
+师	O	O
+傅	O	O
+唱	O	O
+的	O	O
+那	O	O
+个	O	O
+。	O	O
+
+而	O	O
+是	O	O
+因	O	O
+为	O	O
+刚	O	O
+才	O	O
+若	O	O
+瑄	O	O
+给	O	O
+他	O	O
+的	O	O
+药	O	O
+丸	O	O
+竟	O	O
+然	O	O
+可	O	O
+以	O	O
+恢	O	O
+复	O	O
+他	O	O
+的	O	O
+真	O	O
+元	O	O
+。	O	O
+
+大	B-SO	B-SO
+悲	I-SO	I-SO
+咒	E-SO	I-SO
+大	B-SO	I-SO
+悲	I-SO	I-SO
+咒	E-SO	E-SO
+。	O	O
+
+点	O	O
+一	O	O
+首	O	O
+赵	B-AR	B-AR
+雷	E-AR	E-AR
+的	O	O
+成	B-SO	B-SO
+都	E-SO	E-SO
+。	O	O
+
+把	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+你	O	O
+会	O	O
+唱	O	O
+大	O	B-AR
+人	O	E-AR
+唱	O	O
+的	O	O
+歌	O	O
+曲	O	O
+吗	O	O
+？	O	O
+
+这	O	O
+都	O	O
+行	O	O
+，	O	O
+谢	B-SO	B-SO
+谢	I-SO	I-SO
+你	I-SO	I-SO
+的	I-SO	I-SO
+爱	E-SO	E-SO
+。	O	O
+
+小	B-AR	O
+小	I-AR	O
+的	I-AR	O
+小	I-AR	O
+孩	E-AR	O
+。	O	O
+
+陈	O	O
+佳	O	O
+浩	O	O
+是	O	O
+谁	O	O
+。	O	O
+
+没	O	O
+有	O	O
+没	O	O
+有	O	O
+我	O	O
+们	O	O
+他	O	O
+们	O	O
+没	O	O
+给	O	O
+我	O	O
+发	O	O
+过	O	O
+那	O	O
+个	O	O
+回	O	B-SO
+头	O	I-SO
+没	O	I-SO
+过	O	E-SO
+。	O	O
+
+哦	O	O
+。	O	O
+
+你	O	O
+好	O	O
+不	O	O
+好	O	O
+。	O	O
+
+不	O	O
+是	O	O
+我	O	O
+的	O	O
+风	O	O
+格	O	O
+，	O	O
+我	O	O
+是	O	O
+不	O	O
+是	O	O
+不	O	O
+说	O	O
+话	O	O
+的	O	O
+。	O	O
+
+换	O	O
+一	O	O
+首	O	O
+，	O	O
+3	B-SO	B-SO
+6	I-SO	I-SO
+5	I-SO	I-SO
+个	I-SO	I-SO
+祝	I-SO	I-SO
+福	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+。	O	O
+
+播	O	O
+放	O	O
+追	B-SO	B-SO
+光	I-SO	I-SO
+者	E-SO	E-SO
+，	O	O
+狗	O	O
+狗	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+青	B-SO	B-AR
+海	I-SO	I-AR
+花	I-SO	I-AR
+儿	E-SO	E-AR
+。	O	O
+
+黄	B-AR	B-AR
+安	E-AR	E-AR
+的	O	O
+一	B-SO	B-SO
+万	I-SO	I-SO
+个	I-SO	I-SO
+理	I-SO	I-SO
+由	E-SO	E-SO
+。	O	O
+
+自	O	B-SO
+己	O	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+今	O	O
+天	O	O
+开	O	O
+始	O	O
+就	O	O
+等	O	O
+一	O	O
+下	O	O
+明	O	O
+天	O	O
+后	O	O
+天	O	O
+可	O	O
+能	O	O
+。	O	O
+
+听	O	O
+一	O	O
+下	O	O
+带	O	B-SO
+好	O	I-SO
+遇	O	I-SO
+见	O	I-SO
+你	O	E-SO
+，	O	O
+刚	B-SO	B-SO
+好	I-SO	I-SO
+遇	I-SO	I-SO
+见	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+你	O	O
+能	O	O
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+听	O	O
+吗	O	O
+？	O	O
+
+星	B-SO	O
+座	E-SO	O
+王	B-AR	B-AR
+力	I-AR	I-AR
+宏	E-AR	E-AR
+唱	O	O
+的	O	O
+。	O	O
+
+你	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+t	O	O
+h	O	O
+a	O	O
+n	O	O
+k	O	O
+
+y	O	O
+o	O	O
+u	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+猜	O	O
+的	O	O
+巴	B-SO	O
+啦	I-SO	O
+啦	I-SO	O
+小	I-SO	O
+魔	I-SO	O
+仙	E-SO	O
+的	O	O
+歌	O	O
+？	O	O
+
+你	O	O
+可	O	O
+以	O	O
+跟	O	O
+我	O	O
+做	O	O
+好	O	O
+朋	O	O
+友	O	O
+她	O	O
+说	O	O
+听	O	O
+不	O	O
+见	O	O
+。	O	O
+
+也	O	O
+就	O	O
+是	O	O
+你	O	O
+听	O	O
+不	O	O
+懂	O	O
+人	O	O
+话	O	O
+了	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+m	B-SO	B-SO
+e	I-SO	I-SO
+r	I-SO	I-SO
+r	I-SO	I-SO
+y	I-SO	I-SO
+
+c	I-SO	I-SO
+h	I-SO	I-SO
+r	I-SO	I-SO
+i	I-SO	I-SO
+s	I-SO	I-SO
+t	I-SO	I-SO
+m	I-SO	I-SO
+a	I-SO	I-SO
+s	E-SO	E-SO
+。	O	O
+
+聚	O	O
+在	O	O
+一	O	O
+起	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+生	B-SO	B-SO
+日	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+要	O	O
+首	O	O
+G	B-SO	B-SO
+o	I-SO	I-SO
+n	I-SO	I-SO
+n	I-SO	I-SO
+a	I-SO	I-SO
+
+B	I-SO	O
+e	I-SO	O
+
+A	I-SO	O
+l	I-SO	O
+r	I-SO	O
+i	I-SO	O
+g	I-SO	O
+h	I-SO	O
+t	E-SO	O
+。	O	O
+
+请	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+三	B-SO	B-SO
+只	I-SO	I-SO
+小	I-SO	I-SO
+熊	E-SO	E-SO
+。	O	O
+
+我	O	O
+没	O	O
+让	O	O
+你	O	O
+唱	O	O
+歌	O	O
+呀	O	O
+，	O	O
+你	O	O
+怎	O	O
+么	O	O
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+的	O	O
+？	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+丫	B-SO	B-SO
+丫	E-SO	E-SO
+歌	O	O
+吧	O	O
+。	O	O
+
+点	O	O
+歌	O	O
+，	O	O
+你	B-SO	O
+还	I-SO	O
+要	I-SO	O
+我	I-SO	O
+怎	I-SO	O
+样	E-SO	O
+。	O	O
+
+请	O	O
+播	O	O
+韩	B-AR	B-AR
+红	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+。	O	O
+
+播	O	O
+放	O	O
+，	O	O
+8	O	O
+1	O	O
+5	O	O
+9	O	O
+盗	O	O
+版	O	O
+。	O	O
+
+走	B-SO	B-SO
+天	I-SO	I-SO
+涯	E-SO	E-SO
+。	O	O
+
+哦	O	O
+，	O	O
+爸	O	B-SO
+爸	O	I-SO
+妈	O	I-SO
+妈	O	I-SO
+说	O	I-SO
+爱	O	I-SO
+我	O	E-SO
+。	O	O
+
+现	O	O
+在	O	O
+都	O	O
+晚	O	O
+上	O	O
+8	O	O
+点	O	O
+4	O	O
+0	O	O
+了	O	O
+，	O	O
+天	O	O
+都	O	O
+黑	O	O
+了	O	O
+。	O	O
+
+这	O	O
+首	O	O
+唱	O	O
+的	O	O
+久	B-SO	B-SO
+别	I-SO	I-SO
+的	I-SO	I-SO
+人	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+刘	B-AR	B-AR
+德	I-AR	I-AR
+华	E-AR	E-AR
+的	O	O
+歌	O	O
+，	O	O
+
+大	B-SO	B-SO
+王	I-SO	I-SO
+叫	I-SO	I-SO
+我	I-SO	I-SO
+来	I-SO	I-SO
+巡	I-SO	I-SO
+山	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+点	O	O
+一	O	O
+首	O	O
+韩	B-AR	B-AR
+宝	I-AR	I-AR
+仪	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+彩	B-SO	B-SO
+虹	I-SO	I-SO
+的	I-SO	I-SO
+约	I-SO	I-SO
+定	E-SO	E-SO
+的	O	O
+歌	O	O
+怎	O	O
+么	O	O
+唱	O	O
+？	O	O
+
+J	O	O
+o	O	O
+e	O	O
+y	O	O
+。	O	O
+
+电	O	O
+话	O	O
+。	O	O
+
+小	B-AR	O
+白	E-AR	O
+唱	O	O
+的	O	O
+。	O	O
+
+背	O	O
+一	O	O
+个	O	O
+春	O	B-SO
+眠	O	I-SO
+不	O	I-SO
+觉	O	I-SO
+晓	O	E-SO
+。	O	O
+
+有	O	O
+没	O	O
+有	O	O
+愁	O	O
+饭	O	O
+，	O	O
+小	O	O
+妞	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+歌	O	O
+曲	O	O
+，	O	O
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+可	O	O
+以	O	O
+做	O	O
+我	O	O
+女	O	O
+朋	O	O
+友	O	O
+吗	O	O
+？	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+有	B-SO	B-SO
+点	I-SO	I-SO
+甜	E-SO	E-SO
+。	O	O
+
+难	O	O
+以	O	O
+，	O	O
+来	O	O
+一	O	O
+首	O	O
+。	O	O
+
+O	O	B-SO
+n	O	I-SO
+l	O	I-SO
+y	O	I-SO
+
+Y	O	O
+o	O	O
+u	O	O
+吗	O	O
+？	O	O
+
+空	O	O
+覃	O	O
+桢	O	O
+。	O	O
+
+播	O	O
+放	O	O
+图	B-AR	O
+有	I-AR	O
+有	E-AR	O
+的	O	O
+不	B-SO	B-SO
+是	I-SO	I-SO
+寂	I-SO	I-SO
+寞	I-SO	I-SO
+才	I-SO	I-SO
+爱	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+洗	B-SO	B-SO
+手	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+无	O	O
+锡	O	O
+就	O	O
+是	O	O
+我	O	O
+们	O	O
+这	O	O
+边	O	O
+。	O	O
+
+高	B-AR	O
+迪	E-AR	O
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+好	B-SO	B-SO
+汉	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+诗	O	O
+仙	O	O
+是	O	O
+谁	O	O
+不	O	O
+要	O	O
+说	O	O
+是	O	O
+我	O	O
+是	O	O
+我	O	O
+就	O	O
+是	O	O
+我	O	O
+了	O	O
+行	O	O
+不	O	O
+
+小	O	O
+凤	O	O
+我	O	O
+是	O	O
+什	O	O
+么	O	O
+星	O	O
+座	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+唱	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+唱	O	O
+首	O	O
+列	B-SO	B-SO
+范	E-SO	E-SO
+。	O	O
+
+与	O	O
+一	O	O
+县	O	O
+。	O	O
+
+再	O	O
+见	O	O
+再	O	O
+见	O	O
+，	O	O
+不	O	O
+跟	O	O
+你	O	O
+说	O	O
+了	O	O
+。	O	O
+
+我	O	O
+妹	O	O
+呢	O	O
+吧	O	O
+你	O	O
+，	O	O
+我	O	O
+们	O	O
+尾	O	O
+巴	O	O
+呢	O	O
+，	O	O
+我	O	O
+们	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+亲	B-SO	B-SO
+密	I-SO	I-SO
+爱	I-SO	I-SO
+人	E-SO	E-SO
+。	O	O
+
+开	O	O
+始	O	O
+播	O	O
+放	O	O
+凝	B-SO	B-SO
+视	E-SO	E-SO
+。	O	O
+
+请	O	O
+唱	O	O
+支	O	O
+歌	O	O
+。	O	O
+
+好	O	O
+妈	O	O
+妈	O	O
+。	O	O
+
+永	B-SO	B-SO
+远	I-SO	I-SO
+的	I-SO	I-SO
+爱	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+打	O	O
+开	O	O
+儿	B-GE	O
+歌	E-GE	O
+多	B-SO	O
+多	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+。	O	O
+
+赛	O	B-SO
+马	O	E-SO
+。	O	O
+
+明	B-SO	O
+天	I-SO	O
+你	I-SO	O
+好	E-SO	O
+。	O	O
+
+我	O	O
+的	O	O
+名	O	O
+字	O	O
+叫	O	O
+苏	O	O
+艺	O	O
+伟	O	O
+，	O	O
+我	O	O
+妹	O	O
+妹	O	O
+叫	O	O
+苏	O	O
+亦	O	O
+菲	O	O
+。	O	O
+
+听	O	O
+英	O	O
+文	O	O
+歌	O	O
+。	O	O
+
+女	O	O
+秘	O	O
+书	O	O
+。	O	O
+
+现	O	O
+如	O	O
+今	O	O
+，	O	O
+就	O	O
+抄	O	O
+满	O	O
+坡	O	O
+救	O	O
+阿	O	O
+斗	O	O
+的	O	O
+故	O	O
+事	O	O
+由	O	O
+谁	O	O
+人	O	O
+不	O	O
+知	O	O
+。	O	O
+
+播	O	O
+放	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+英	O	B-SO
+文	O	I-SO
+字	B-SO	I-SO
+母	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+听	O	O
+丁	B-AR	O
+当	E-AR	O
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+浪	B-SO	B-SO
+人	I-SO	I-SO
+情	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+伤	O	O
+不	O	O
+起	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+介	O	O
+绍	O	O
+个	O	O
+女	O	O
+朋	O	O
+友	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+西	B-SO	B-SO
+游	I-SO	I-SO
+记	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+你	O	O
+能	O	O
+放	O	O
+一	O	O
+首	O	O
+歌	O	O
+给	O	O
+我	O	O
+听	O	O
+吗	O	O
+？	O	O
+
+加	B-SO	O
+大	I-SO	O
+力	I-SO	O
+度	E-SO	O
+。	O	O
+
+思	B-SO	B-SO
+念	I-SO	I-SO
+天	I-SO	I-SO
+边	I-SO	I-SO
+的	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+数	B-SO	B-SO
+鸭	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+风	O	O
+流	O	O
+到	O	O
+君	O	O
+阁	O	O
+和	O	O
+龙	O	O
+鱼	O	O
+。	O	O
+
+蛤	O	O
+蛤	O	O
+蛤	O	O
+蛤	O	O
+你	O	O
+是	O	O
+我	O	O
+妹	O	O
+妹	O	O
+哥	O	O
+哥	O	O
+给	O	O
+我	O	O
+买	O	O
+好	O	O
+吃	O	O
+的	O	O
+吧	O	O
+蛤	O	O
+蛤	O	O
+蛤	O	O
+问	O	O
+真	O	O
+大	O	O
+方	O	O
+给	O	O
+了	O	O
+我	O	O
+了	O	O
+，	O	O
+这	O	O
+可	O	O
+是	O	O
+第	O	O
+一	O	O
+次	O	O
+吃	O	O
+蘑	O	O
+菇	O	O
+汤	O	O
+，	O	O
+哎	O	O
+呀	O	O
+哥	O	O
+哥	O	O
+哥	O	O
+哥	O	O
+哥	O	O
+哥	O	O
+你	O	O
+真	O	O
+好	O	O
+。	O	O
+
+一	O	O
+岁	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+一	O	B-SO
+岁	O	E-SO
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+汪	B-AR	B-AR
+苏	I-AR	I-AR
+泷	E-AR	E-AR
+的	O	O
+，	O	O
+伤	O	O
+的	O	O
+有	B-SO	B-SO
+点	I-SO	I-SO
+甜	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+薛	B-AR	B-AR
+之	I-AR	I-AR
+谦	E-AR	E-AR
+的	O	O
+小	B-SO	O
+孩	E-SO	O
+。	O	O
+
+你	O	O
+聪	O	O
+明	O	O
+过	O	O
+我	O	O
+一	O	O
+下	O	O
+又	O	O
+不	O	O
+是	O	O
+我	O	O
+聪	O	O
+明	O	O
+。	O	O
+
+麻	O	O
+烦	O	O
+你	O	O
+唱	O	O
+一	O	O
+首	O	O
+告	B-SO	B-SO
+白	I-SO	I-SO
+气	I-SO	I-SO
+球	E-SO	E-SO
+。	O	O
+
+他	O	O
+知	O	O
+道	O	O
+我	O	O
+的	O	O
+名	O	O
+字	O	O
+。	O	O
+
+加	O	O
+大	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+小	O	O
+羊	O	O
+咩	O	O
+咩	O	O
+叫	O	O
+妈	O	O
+妈	O	O
+。	O	O
+
+你	O	O
+是	O	O
+在	O	O
+哪	O	O
+里	O	O
+出	O	O
+生	O	O
+的	O	O
+呀	O	O
+。	O	O
+
+我	O	O
+生	O	O
+气	O	O
+了	O	O
+我	O	O
+根	O	O
+本	O	O
+就	O	O
+不	O	O
+想	O	O
+了	O	O
+你	O	O
+我	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+小	O	O
+凯	O	O
+你	O	O
+好	O	O
+我	O	O
+要	O	O
+听	O	O
+王	B-AR	B-AR
+力	I-AR	I-AR
+宏	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+给	O	O
+我	O	O
+放	O	O
+b	B-AR	O
+i	I-AR	O
+g	I-AR	O
+b	I-AR	O
+a	I-AR	O
+n	I-AR	O
+g	E-AR	O
+的	O	O
+歌	O	O
+。	O	O
+
+苹	B-SO	O
+果	E-SO	O
+。	O	O
+
+老	O	O
+鼠	O	O
+。	O	O
+
+跳	O	O
+一	O	O
+支	O	O
+舞	O	O
+吧	O	O
+，	O	O
+唱	O	O
+一	O	O
+支	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+w	B-SO	B-SO
+h	I-SO	I-SO
+a	I-SO	I-SO
+t	I-SO	I-SO
+
+y	I-SO	O
+o	I-SO	O
+u	I-SO	O
+
+a	I-SO	O
+r	I-SO	O
+e	E-SO	O
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+是	O	O
+我	O	O
+的	O	O
+呼	O	O
+吸	O	O
+吧	O	O
+。	O	O
+
+黑	B-AR	O
+龙	E-AR	O
+唱	O	O
+的	O	O
+。	O	O
+
+整	O	O
+个	O	O
+中	O	O
+国	O	O
+摇	O	O
+滚	O	O
+历	O	O
+史	O	O
+的	O	O
+发	O	O
+展	O	O
+进	O	O
+程	O	O
+。	O	O
+
+你	O	O
+给	O	O
+我	O	O
+女	O	O
+儿	O	O
+唱	O	O
+一	O	O
+支	O	O
+歌	O	O
+。	O	O
+
+天	B-SO	B-SO
+使	I-SO	I-SO
+之	I-SO	I-SO
+城	E-SO	E-SO
+。	O	O
+
+听	O	O
+听	O	O
+。	O	O
+
+发	O	O
+现	O	O
+。	O	O
+
+小	O	O
+贝	O	O
+你	O	O
+唱	O	O
+一	O	O
+个	O	O
+新	B-SO	O
+白	I-SO	O
+娘	I-SO	O
+子	I-SO	O
+传	I-SO	O
+奇	E-SO	O
+。	O	O
+
+庄	B-AR	O
+学	I-AR	O
+忠	E-AR	O
+敖	B-SO	O
+包	I-SO	O
+相	I-SO	O
+会	E-SO	O
+。	O	O
+
+乱	O	O
+了	O	O
+，	O	O
+摸	O	O
+摸	O	O
+你	O	O
+，	O	O
+你	O	O
+唱	O	O
+歌	O	O
+。	O	O
+
+摇	B-SO	B-SO
+篮	I-SO	I-SO
+曲	E-SO	E-SO
+。	O	O
+
+嗯	O	O
+你	O	O
+今	O	O
+天	O	O
+晚	O	O
+上	O	O
+想	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+睡	O	O
+觉	O	O
+啊	O	O
+。	O	O
+
+唱	O	O
+歌	O	O
+给	O	O
+妹	O	O
+妹	O	O
+听	O	O
+。	O	O
+
+我	O	O
+喜	O	O
+欢	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+来	O	O
+点	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+双	B-SO	B-SO
+截	I-SO	I-SO
+棍	E-SO	E-SO
+。	O	O
+
+郝	B-AR	O
+蕾	E-AR	O
+唱	O	O
+的	O	O
+成	B-SO	B-SO
+都	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+跳	I-SO	I-SO
+蛙	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+成	B-SO	B-SO
+都	E-SO	E-SO
+。	O	O
+
+不	O	O
+怕	O	O
+不	O	O
+怕	O	O
+了	O	O
+你	O	O
+你	O	O
+要	O	O
+先	O	O
+画	O	O
+完	O	O
+了	O	O
+它	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+铃	B-SO	B-SO
+儿	I-SO	I-SO
+响	I-SO	I-SO
+叮	I-SO	I-SO
+当	E-SO	E-SO
+。	O	O
+
+唱	O	O
+汪	B-AR	B-AR
+峰	E-AR	E-AR
+的	O	O
+北	B-SO	B-SO
+京	I-SO	I-SO
+北	I-SO	I-SO
+京	E-SO	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+，	O	O
+我	B-SO	O
+的	I-SO	O
+未	I-SO	O
+来	I-SO	O
+不	I-SO	O
+是	I-SO	O
+梦	E-SO	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+最	B-SO	B-SO
+炫	I-SO	I-SO
+民	I-SO	I-SO
+族	I-SO	I-SO
+风	E-SO	E-SO
+。	O	O
+
+郑	B-AR	B-AR
+智	I-AR	I-AR
+化	E-AR	E-AR
+的	O	O
+水	B-SO	B-SO
+手	E-SO	E-SO
+。	O	O
+
+我	O	O
+不	O	O
+会	O	O
+唱	O	O
+歌	O	O
+。	O	O
+
+播	O	O
+放	O	O
+电	O	O
+视	O	O
+剧	O	O
+醉	O	O
+玲	O	O
+珑	O	O
+。	O	O
+
+你	O	O
+不	O	O
+是	O	O
+说	O	O
+你	O	O
+弟	O	O
+弟	O	O
+不	O	O
+听	O	O
+话	O	O
+吗	O	O
+？	O	O
+
+送	B-SO	O
+别	E-SO	O
+这	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	B-SO	O
+做	I-SO	O
+了	I-SO	O
+一	I-SO	O
+的	I-SO	O
+主	I-SO	B-SO
+题	I-SO	I-SO
+曲	E-SO	E-SO
+
+记	B-SO	B-SO
+得	I-SO	I-SO
+咱	I-SO	I-SO
+的	I-SO	I-SO
+家	E-SO	E-SO
+。	O	O
+
+我	O	O
+想	O	O
+你	O	O
+了	O	O
+。	O	O
+
+呵	O	O
+呵	O	O
+，	O	O
+你	O	O
+知	O	O
+道	O	O
+吗	O	O
+？	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+你	O	O
+是	O	O
+h	O	O
+i	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+听	O	O
+歌	O	O
+，	O	O
+老	O	O
+师	O	O
+怎	O	O
+么	O	O
+说	O	O
+的	O	O
+？	O	O
+
+再	O	O
+来	O	O
+个	O	O
+笑	O	O
+话	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+唱	O	O
+首	O	O
+杀	B-SO	B-SO
+猪	I-SO	I-SO
+刀	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+h	O	O
+i	O	O
+g	O	O
+h	O	O
+1	O	O
+点	O	O
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+m	B-SO	B-SO
+e	I-SO	I-SO
+r	I-SO	I-SO
+r	I-SO	I-SO
+y	I-SO	I-SO
+
+c	I-SO	I-SO
+h	I-SO	I-SO
+r	I-SO	I-SO
+i	I-SO	I-SO
+s	I-SO	I-SO
+t	I-SO	I-SO
+m	I-SO	I-SO
+a	I-SO	I-SO
+s	E-SO	E-SO
+。	O	O
+
+清	O	O
+新	O	O
+的	O	O
+音	O	O
+乐	O	O
+，	O	O
+是	O	O
+否	O	O
+失	O	O
+职	O	O
+，	O	O
+为	O	O
+什	O	O
+么	O	O
+我	O	O
+？	O	O
+
+请	O	O
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+青	B-SO	B-SO
+藏	I-SO	I-SO
+高	I-SO	I-SO
+原	E-SO	E-SO
+。	O	O
+
+爸	O	O
+爸	O	O
+唱	O	O
+一	O	O
+首	O	O
+妈	O	B-SO
+妈	O	I-SO
+月	O	I-SO
+光	O	I-SO
+之	O	I-SO
+下	O	E-SO
+。	O	O
+
+我	O	O
+想	O	O
+知	O	O
+道	O	O
+李	O	O
+白	O	O
+的	O	O
+一	O	O
+首	O	O
+诗	O	O
+。	O	O
+
+加	O	O
+油	O	O
+张	B-AR	O
+柏	I-AR	O
+芝	E-AR	O
+美	S-SO	O
+。	O	O
+
+下	B-SO	B-SO
+定	I-SO	I-SO
+决	I-SO	I-SO
+心	I-SO	I-SO
+忘	I-SO	I-SO
+记	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+下	O	O
+一	O	O
+首	O	O
+张	B-AR	B-AR
+碧	I-AR	I-AR
+晨	E-AR	E-AR
+唱	O	O
+的	O	O
+胡	B-SO	B-SO
+桃	I-SO	I-SO
+夹	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+我	O	O
+又	O	O
+没	O	O
+变	O	O
+成	O	O
+另	O	O
+外	O	O
+一	O	O
+张	O	O
+卡	O	O
+的	O	O
+泪	O	O
+点	O	O
+了	O	O
+点	O	O
+不	O	O
+动	O	O
+退	O	O
+都	O	O
+看	O	O
+不	O	O
+出	O	O
+来	O	O
+。	O	O
+
+我	O	O
+该	O	O
+。	O	O
+
+叶	O	O
+一	O	O
+茜	O	O
+。	O	O
+
+小	O	O
+朋	O	O
+友	O	O
+们	O	O
+爱	O	O
+打	O	O
+p	O	O
+p	O	O
+，	O	O
+而	O	O
+且	O	O
+他	O	O
+们	O	O
+还	O	O
+爱	O	O
+吃	O	O
+素	O	O
+。	O	O
+
+伍	B-AR	B-AR
+佰	E-AR	E-AR
+的	O	O
+晚	B-SO	B-SO
+风	E-SO	E-SO
+。	O	O
+
+一	O	O
+个	O	O
+人	O	O
+不	O	O
+开	O	O
+心	O	O
+的	O	O
+时	O	O
+候	O	O
+应	O	O
+该	O	O
+怎	O	O
+么	O	O
+办	O	O
+？	O	O
+
+那	O	O
+你	O	O
+唱	O	O
+首	O	O
+。	O	O
+
+给	O	O
+我	O	O
+们	O	O
+唱	O	O
+一	O	O
+支	O	O
+国	B-SO	O
+歌	E-SO	O
+。	O	O
+
+说	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+叮	I-SO	I-SO
+当	E-SO	E-SO
+。	O	O
+
+冷	O	B-AR
+威	O	E-AR
+。	O	O
+
+放	O	O
+不	B-SO	O
+怕	I-SO	O
+老	E-SO	O
+歌	O	O
+曲	O	O
+。	O	O
+
+用	O	O
+郭	O	O
+德	O	O
+纲	O	O
+的	O	O
+声	O	O
+音	O	O
+给	O	O
+我	O	O
+说	O	O
+话	O	O
+。	O	O
+
+围	O	O
+场	O	O
+县	O	O
+广	O	O
+源	O	O
+小	O	O
+区	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+我	O	O
+想	O	O
+知	O	O
+道	O	O
+。	O	O
+
+单	O	O
+曲	O	O
+。	O	O
+
+放	O	O
+离	B-SO	B-SO
+歌	E-SO	E-SO
+。	O	O
+
+民	B-GE	O
+歌	E-GE	O
+陈	B-AR	O
+思	I-AR	O
+思	E-AR	O
+。	O	O
+
+蝴	B-SO	B-SO
+蝶	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+孙	B-AR	B-AR
+国	I-AR	I-AR
+庆	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+超	B-SO	B-SO
+兽	I-SO	I-SO
+武	I-SO	I-SO
+装	E-SO	E-SO
+。	O	O
+
+小	O	O
+牛	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+在	O	O
+哪	O	O
+里	O	O
+上	O	O
+班	O	O
+啊	O	O
+。	O	O
+
+我	O	O
+看	O	O
+那	O	O
+个	O	O
+懂	O	O
+懂	O	O
+，	O	O
+就	O	O
+是	O	O
+咱	O	O
+遗	O	O
+憾	O	O
+的	O	O
+爸	O	O
+爸	O	O
+，	O	O
+我	O	O
+看	O	O
+也	O	O
+两	O	O
+张	O	O
+良	O	O
+心	O	O
+，	O	O
+他	O	O
+也	O	O
+赞	O	O
+成	O	O
+记	O	O
+住	O	O
+了	O	O
+是	O	O
+吧	O	O
+，	O	O
+记	O	O
+住	O	O
+了	O	O
+盐	O	O
+就	O	O
+可	O	O
+以	O	O
+挑	O	O
+了	O	O
+，	O	O
+要	O	O
+是	O	O
+你	O	O
+转	O	O
+成	O	O
+要	O	O
+是	O	O
+你	O	O
+不	O	O
+转	O	O
+身	O	O
+技	O	O
+术	O	O
+，	O	O
+你	O	O
+要	O	O
+职	O	O
+位	O	O
+不	O	O
+到	O	O
+，	O	O
+你	O	O
+还	O	O
+调	O	O
+不	O	O
+了	O	O
+呢	O	O
+是	O	O
+吧	O	O
+，	O	O
+没	O	O
+位	O	O
+置	O	O
+你	O	O
+就	O	O
+挑	O	O
+不	O	O
+了	O	O
+，	O	O
+小	O	O
+儿	O	O
+正	O	O
+常	O	O
+走	O	O
+，	O	O
+四	O	O
+年	O	O
+一	O	O
+调	O	O
+？	O	O
+
+我	O	O
+面	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+天	B-SO	B-SO
+之	I-SO	I-SO
+大	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+韩	B-AR	B-AR
+磊	E-AR	E-AR
+的	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+张	B-AR	B-AR
+学	I-AR	I-AR
+友	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+又	O	O
+看	O	O
+见	O	O
+我	O	O
+吃	O	O
+的	O	O
+四	O	O
+个	O	O
+菜	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+白	B-SO	B-SO
+龙	I-SO	I-SO
+马	E-SO	E-SO
+。	O	O
+
+凤	B-AR	B-AR
+凰	I-AR	I-AR
+传	I-AR	I-AR
+奇	E-AR	E-AR
+。	O	O
+
+一	O	O
+首	O	O
+歌	O	O
+，	O	O
+没	O	O
+有	O	O
+找	O	O
+到	O	O
+播	O	O
+放	O	O
+器	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+蝴	O	B-SO
+蝶	O	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+歌	O	O
+给	O	O
+我	O	O
+们	O	O
+听	O	O
+。	O	O
+
+珍	O	O
+珠	O	O
+奶	O	O
+茶	O	O
+。	O	O
+
+只	O	O
+因	O	O
+在	O	O
+人	O	O
+群	O	O
+中	O	O
+多	O	O
+看	O	O
+了	O	O
+你	O	O
+一	O	O
+眼	O	O
+，	O	O
+想	O	O
+你	O	O
+是	O	O
+真	O	O
+心	O	O
+杰	O	O
+。	O	O
+
+好	O	O
+朋	O	O
+友	O	O
+。	O	O
+
+那	O	O
+就	O	O
+说	O	O
+明	O	O
+我	O	O
+们	O	O
+的	O	O
+我	O	O
+又	O	O
+要	O	O
+借	O	O
+我	O	O
+你	O	O
+的	O	O
+眼	O	O
+睛	O	O
+爽	O	O
+歪	O	O
+歪	O	O
+，	O	O
+她	O	O
+她	O	O
+很	O	O
+美	O	O
+哦	O	O
+。	O	O
+
+换	O	O
+一	O	O
+首	O	O
+歌	B-SO	B-SO
+在	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+我	O	O
+以	O	O
+前	O	O
+的	O	O
+同	O	O
+桌	O	O
+在	O	O
+发	O	O
+大	O	O
+水	O	O
+要	O	O
+什	O	O
+么	O	O
+给	O	O
+淹	O	O
+没	O	O
+什	O	O
+么	O	O
+从	O	O
+前	O	O
+，	O	O
+恋	O	B-SO
+千	O	I-SO
+年	O	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+上	B-SO	B-SO
+学	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+听	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+能	O	O
+给	O	O
+我	O	O
+播	O	O
+放	O	O
+。	O	O
+
+嗯	O	O
+，	O	O
+唱	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+好	O	O
+，	O	O
+播	O	O
+放	O	O
+葫	B-SO	B-SO
+芦	I-SO	I-SO
+娃	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+小	B-SO	B-SO
+燕	I-SO	I-SO
+子	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+刀	B-AR	B-AR
+郎	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+E	O	O
+A	O	O
+S	O	O
+Y	O	O
+。	O	O
+
+存	O	O
+照	O	O
+。	O	O
+
+你	O	O
+好	O	O
+我	O	O
+要	O	O
+听	O	O
+阿	B-SO	B-SO
+哥	I-SO	I-SO
+阿	I-SO	I-SO
+妹	E-SO	E-SO
+。	O	O
+
+词	O	O
+穷	O	O
+啊	O	O
+。	O	O
+
+搜	O	O
+歌	O	O
+搜	O	O
+歌	O	O
+。	O	O
+
+两	B-SO	B-SO
+只	I-SO	I-SO
+老	I-SO	I-SO
+虎	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+逆	B-SO	B-SO
+战	E-SO	E-SO
+。	O	O
+
+请	O	O
+问	O	O
+大	O	O
+海	O	O
+啊	O	O
+故	O	O
+乡	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+千	B-SO	O
+本	I-SO	O
+樱	E-SO	O
+，	O	O
+王	O	B-SO
+者	O	I-SO
+荣	O	I-SO
+耀	O	E-SO
+。	O	O
+
+再	O	O
+下	O	O
+一	O	O
+句	O	O
+。	O	O
+
+好	O	O
+了	O	O
+好	O	O
+了	O	O
+别	O	O
+尿	O	O
+了	O	O
+憋	O	O
+尿	O	O
+了	O	O
+，	O	O
+我	O	O
+看	O	O
+你	O	O
+的	O	O
+样	O	O
+子	O	O
+，	O	O
+不	O	O
+尿	O	O
+尿	O	O
+么	O	O
+。	O	O
+
+来	O	O
+一	O	O
+首	O	O
+。	O	O
+
+能	O	O
+不	O	O
+能	O	O
+听	O	O
+一	O	O
+首	O	O
+歌	O	O
+啊	O	O
+。	O	O
+
+我	O	O
+播	O	O
+放	O	O
+音	O	O
+乐	O	O
+，	O	O
+连	O	O
+接	O	O
+蓝	O	O
+牙	O	O
+。	O	O
+
+快	B-SO	B-SO
+乐	I-SO	I-SO
+崇	I-SO	I-SO
+拜	E-SO	E-SO
+。	O	O
+
+你	O	O
+认	O	O
+识	O	O
+薛	O	O
+之	O	O
+谦	O	O
+吗	O	O
+？	O	O
+
+可	O	O
+以	O	O
+。	O	O
+
+小	O	O
+曾	O	O
+。	O	O
+
+爱	B-SO	B-SO
+出	I-SO	I-SO
+发	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+播	O	O
+候	B-SO	O
+鸟	E-SO	O
+。	O	O
+
+来	O	O
+个	O	O
+笑	O	O
+话	O	O
+。	O	O
+
+我	B-SO	B-SO
+的	I-SO	I-SO
+快	I-SO	I-SO
+乐	I-SO	I-SO
+就	I-SO	I-SO
+是	I-SO	I-SO
+想	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+找	O	O
+个	O	O
+你	O	O
+还	O	O
+欠	O	O
+我	O	O
+我	O	O
+不	O	O
+爱	O	O
+你	O	O
+。	O	O
+
+猜	O	O
+。	O	O
+
+奇	O	O
+缘	O	O
+冰	O	O
+雪	O	O
+奇	O	O
+缘	O	O
+。	O	O
+
+伤	B-SO	B-SO
+心	I-SO	I-SO
+太	I-SO	I-SO
+平	I-SO	I-SO
+洋	E-SO	E-SO
+。	O	O
+
+猪	B-SO	B-SO
+八	I-SO	I-SO
+戒	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+个	O	O
+A	O	O
+
+B	O	O
+C	O	O
+歌	O	O
+。	O	O
+
+放	O	O
+凉	B-SO	B-SO
+凉	E-SO	E-SO
+。	O	O
+
+三	B-SO	B-SO
+只	I-SO	I-SO
+小	I-SO	I-SO
+熊	E-SO	E-SO
+。	O	O
+
+呼	B-SO	B-SO
+伦	I-SO	I-SO
+贝	I-SO	I-SO
+尔	I-SO	I-SO
+大	I-SO	I-SO
+草	I-SO	I-SO
+原	E-SO	E-SO
+。	O	O
+
+你	O	O
+怎	O	O
+么	O	O
+这	O	O
+么	O	O
+幼	O	O
+稚	O	O
+，	O	O
+你	O	O
+是	O	O
+男	O	O
+的	O	O
+是	O	O
+女	O	O
+的	O	O
+，	O	O
+我	O	O
+没	O	O
+有	O	O
+你	O	O
+我	O	O
+的	O	O
+我	O	O
+是	O	O
+？	O	O
+
+三	O	O
+个	O	O
+和	O	O
+尚	O	O
+。	O	O
+
+退	O	O
+出	O	O
+电	O	O
+子	O	O
+眼	O	O
+。	O	O
+
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+才	O	O
+封	O	O
+啊	O	O
+。	O	O
+
+那	O	O
+天	O	O
+晚	O	O
+上	O	O
+也	O	O
+是	O	O
+你	O	O
+真	O	O
+的	O	O
+没	O	O
+必	O	O
+要	O	O
+跟	O	O
+我	O	O
+像	O	O
+这	O	O
+个	O	O
+这	O	O
+么	O	O
+，	O	O
+有	O	O
+多	O	O
+少	O	O
+就	O	O
+是	O	O
+多	O	O
+少	O	O
+我	O	O
+不	O	O
+可	O	O
+能	O	O
+，	O	O
+我	O	O
+手	O	O
+里	O	O
+有	O	O
+一	O	O
+万	O	O
+二	O	O
+吧	O	O
+，	O	O
+那	O	O
+我	O	O
+就	O	O
+说	O	O
+就	O	O
+说	O	O
+。	O	O
+
+我	O	O
+看	O	O
+你	O	O
+回	O	O
+答	O	O
+。	O	O
+
+赵	B-AR	B-AR
+雷	E-AR	E-AR
+唱	O	O
+的	O	O
+成	B-SO	B-SO
+都	E-SO	E-SO
+。	O	O
+
+哦	O	O
+天	O	O
+哪	O	O
+好	O	O
+歌	O	O
+曲	O	O
+呀	O	O
+。	O	O
+
+说	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+以	O	O
+前	O	O
+他	O	O
+们	O	O
+猜	O	O
+了	O	O
+一	O	O
+个	O	O
+脑	O	O
+筋	O	O
+急	O	O
+转	O	O
+弯	O	O
+，	O	O
+据	O	O
+说	O	O
+有	O	O
+一	O	O
+个	O	O
+人	O	O
+走	O	O
+到	O	O
+一	O	O
+个	O	O
+桥	O	O
+中	O	O
+间	O	O
+前	O	O
+面	O	O
+是	O	O
+个	O	O
+鬼	O	O
+后	O	O
+面	O	O
+是	O	O
+银	O	O
+行	O	O
+问	O	O
+你	O	O
+怎	O	O
+么	O	O
+选	O	O
+择	O	O
+？	O	O
+
+记	O	O
+住	O	O
+你	O	O
+的	O	O
+名	O	O
+字	O	O
+叫	O	O
+小	O	O
+紫	O	O
+。	O	O
+
+雨	B-AR	O
+中	I-AR	O
+百	I-AR	O
+合	E-AR	O
+的	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+我	O	O
+要	O	O
+杀	O	O
+了	O	O
+，	O	O
+我	O	O
+要	O	O
+冰	O	O
+淇	O	O
+淋	O	O
+。	O	O
+
+播	O	O
+放	O	O
+黑	O	B-SO
+猫	O	I-SO
+警	O	I-SO
+长	O	E-SO
+m	O	O
+v	O	O
+播	O	O
+放	O	O
+。	O	O
+
+河	O	B-SO
+北	O	I-SO
+石	O	I-SO
+家	O	I-SO
+庄	O	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+蓝	B-GE	O
+调	E-GE	O
+。	O	O
+
+金	B-AR	B-AR
+志	I-AR	I-AR
+文	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+说	O	O
+个	O	O
+葫	B-SO	B-SO
+芦	I-SO	I-SO
+娃	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+给	O	O
+他	O	O
+说	O	O
+话	O	O
+。	O	O
+
+必	O	O
+须	O	O
+的	O	O
+有	O	O
+专	O	O
+车	O	O
+专	O	O
+用	O	O
+拆	O	O
+装	O	O
+哦	O	O
+，	O	O
+她	O	O
+说	O	O
+那	O	O
+没	O	O
+用	O	O
+的	O	O
+东	O	O
+西	O	O
+啊	O	O
+。	O	O
+
+王	B-SO	B-SO
+妃	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+殇	B-SO	B-SO
+雪	E-SO	E-SO
+。	O	O
+
+儿	O	B-GE
+歌	O	E-GE
+。	O	O
+
+我	O	O
+的	O	O
+名	O	O
+字	O	O
+怎	O	O
+么	O	O
+写	O	O
+？	O	O
+
+我	O	O
+要	O	O
+听	O	O
+董	B-AR	B-AR
+贞	E-AR	E-AR
+的	O	O
+凉	B-SO	B-SO
+凉	E-SO	E-SO
+。	O	O
+
+茉	B-SO	B-SO
+莉	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+听	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+清	O	O
+朝	O	O
+同	O	O
+治	O	O
+，	O	O
+爱	O	B-SO
+青	O	I-SO
+草	O	E-SO
+。	O	O
+
+可	O	O
+是	O	O
+我	O	O
+要	O	O
+吃	O	O
+饭	O	O
+时	O	O
+间	O	O
+到	O	O
+了	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+梅	B-AR	B-AR
+艳	I-AR	I-AR
+芳	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+一	B-SO	B-SO
+壶	I-SO	I-SO
+老	I-SO	I-SO
+酒	E-SO	E-SO
+。	O	O
+
+唱	O	O
+远	B-SO	B-SO
+走	I-SO	I-SO
+高	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+你	O	O
+是	O	O
+神	O	O
+仙	O	O
+。	O	O
+
+我	O	O
+在	O	O
+看	O	O
+一	O	O
+下	O	O
+他	O	O
+的	O	O
+声	O	O
+音	O	O
+在	O	O
+哪	O	O
+里	O	O
+，	O	O
+还	O	O
+有	O	O
+利	O	O
+益	O	O
+，	O	O
+录	O	O
+音	O	O
+哦	O	O
+。	O	O
+
+腾	B-AR	B-AR
+格	I-AR	I-AR
+尔	E-AR	I-AR
+演	O	E-AR
+唱	O	O
+的	O	O
+草	B-SO	B-SO
+原	I-SO	I-SO
+之	I-SO	I-SO
+夜	E-SO	E-SO
+。	O	O
+
+拔	B-SO	B-SO
+萝	I-SO	I-SO
+卜	E-SO	E-SO
+。	O	O
+
+对	O	O
+的	O	O
+歌	O	O
+，	O	O
+小	B-AR	B-SO
+虎	I-AR	I-SO
+队	E-AR	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+感	B-SO	B-SO
+觉	I-SO	I-SO
+自	I-SO	I-SO
+己	I-SO	I-SO
+萌	I-SO	I-SO
+萌	I-SO	I-SO
+哒	E-SO	E-SO
+。	O	O
+
+你	O	O
+你	O	O
+的	O	O
+意	O	O
+思	O	O
+就	O	O
+是	O	O
+我	O	O
+的	O	O
+意	O	O
+思	O	O
+。	O	O
+
+一	O	B-SO
+分	O	I-SO
+钱	O	E-SO
+。	O	O
+
+据	O	O
+说	O	O
+要	O	O
+你	O	O
+唱	O	O
+歌	O	O
+的	O	O
+。	O	O
+
+播	O	O
+放	O	O
+蓝	O	O
+牙	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+w	O	O
+i	O	O
+l	O	O
+l	O	O
+
+y	O	O
+o	O	O
+u	O	O
+
+g	O	O
+i	O	O
+r	O	O
+l	O	O
+。	O	O
+
+阿	B-AR	B-AR
+宝	E-AR	E-AR
+的	O	O
+老	B-SO	O
+爸	I-SO	O
+老	I-SO	O
+妈	E-SO	O
+。	O	O
+
+唱	O	O
+洗	B-SO	B-SO
+碗	E-SO	E-SO
+。	O	O
+
+老	O	O
+爸	O	O
+你	O	O
+唱	O	O
+中	B-SO	B-SO
+国	I-SO	I-SO
+国	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+个	O	O
+唱	O	O
+一	O	O
+个	O	O
+桃	B-SO	B-SO
+子	E-SO	I-SO
+歌	O	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+人	B-SO	O
+在	I-SO	O
+世	I-SO	O
+上	I-SO	O
+飘	E-SO	O
+。	O	O
+
+咪	O	O
+咪	O	O
+，	O	O
+不	O	O
+听	O	O
+这	O	O
+首	O	O
+歌	O	O
+啦	O	O
+。	O	O
+
+飞	O	O
+越	O	O
+五	O	O
+洲	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+吧	O	O
+。	O	O
+
+有	O	O
+没	O	O
+有	O	O
+赛	B-SO	O
+尔	I-SO	O
+号	E-SO	O
+的	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+蜗	B-SO	B-SO
+牛	I-SO	I-SO
+与	I-SO	I-SO
+黄	I-SO	I-SO
+鹂	I-SO	I-SO
+鸟	E-SO	E-SO
+。	O	O
+
+滚	O	O
+蛋	O	O
+，	O	O
+自	B-SO	B-SO
+由	I-SO	I-SO
+飞	I-SO	I-SO
+翔	E-SO	E-SO
+。	O	O
+
+我	O	O
+想	O	O
+听	O	O
+笑	O	O
+话	O	O
+。	O	O
+
+周	B-AR	B-AR
+杰	I-AR	I-AR
+伦	E-AR	E-AR
+的	O	O
+黑	B-SO	B-SO
+色	I-SO	I-SO
+毛	I-SO	I-SO
+衣	E-SO	E-SO
+。	O	O
+
+那	O	O
+是	O	O
+什	O	O
+么	O	O
+歌	O	O
+，	O	O
+听	O	O
+葫	B-SO	O
+芦	I-SO	O
+娃	E-SO	O
+葫	B-SO	O
+芦	I-SO	O
+娃	E-SO	O
+吧	O	O
+。	O	O
+
+帮	O	O
+我	O	O
+放	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+亲	B-SO	B-SO
+爱	I-SO	I-SO
+的	I-SO	I-SO
+爸	I-SO	I-SO
+爸	E-SO	E-SO
+。	O	O
+
+遥	B-SO	O
+远	I-SO	O
+的	I-SO	O
+她	E-SO	O
+吧	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+全	B-SO	B-SO
+部	I-SO	I-SO
+都	I-SO	I-SO
+是	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+粤	O	O
+语	O	O
+歌	O	O
+。	O	O
+
+啊	O	O
+我	O	O
+不	O	O
+是	O	O
+娄	O	O
+小	O	O
+姐	O	O
+我	O	O
+是	O	O
+我	O	O
+姓	O	O
+张	O	O
+张	O	O
+小	O	O
+盒	O	O
+。	O	O
+
+古	B-GE	O
+典	E-GE	O
+。	O	O
+
+搜	O	O
+索	O	O
+动	B-SO	O
+情	E-SO	O
+的	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+张	B-AR	B-AR
+碧	I-AR	I-AR
+晨	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+的	O	O
+名	O	O
+字	O	O
+真	O	O
+好	O	O
+听	O	O
+。	O	O
+
+霸	O	O
+王	O	O
+龙	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+生	B-SO	B-SO
+日	I-SO	I-SO
+快	I-SO	I-SO
+乐	E-SO	E-SO
+。	O	O
+
+会	O	O
+过	O	O
+去	O	O
+的	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+安	B-SO	B-SO
+妮	E-SO	E-SO
+。	O	O
+
+来	O	O
+段	O	O
+舞	O	O
+蹈	O	O
+。	O	O
+
+大	O	O
+骨	O	O
+和	O	O
+小	O	O
+骨	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+歌	O	O
+听	O	O
+听	O	O
+。	O	O
+
+你	O	O
+给	O	O
+他	O	O
+打	O	O
+电	O	O
+话	O	O
+吗	O	O
+？	O	O
+
+陈	B-AR	B-AR
+奕	I-AR	I-AR
+迅	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+不	O	O
+是	O	O
+我	O	O
+自	O	O
+己	O	O
+去	O	O
+。	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+巫	O	O
+娜	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+冷	B-AR	B-AR
+漠	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+是	O	O
+你	O	O
+是	O	O
+你	O	O
+就	O	O
+是	O	O
+你	O	O
+你	O	O
+最	O	O
+喜	O	O
+欢	O	O
+哭	O	O
+。	O	O
+
+神	B-SO	O
+奇	I-SO	O
+的	I-SO	O
+九	I-SO	B-SO
+寨	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+下	O	O
+水	B-SO	B-SO
+果	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+看	O	O
+我	O	O
+的	O	O
+车	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+乔	B-AR	B-SO
+任	I-AR	I-SO
+梁	E-AR	E-SO
+。	O	O
+
+吃	O	O
+粑	O	O
+粑	O	O
+，	O	O
+就	O	O
+是	O	O
+吃	O	O
+掉	O	O
+。	O	O
+
+不	O	O
+知	O	O
+道	O	O
+前	O	O
+一	O	O
+阵	O	O
+他	O	O
+们	O	O
+到	O	O
+他	O	O
+们	O	O
+那	O	O
+打	O	O
+死	O	O
+都	O	O
+要	O	O
+因	O	O
+为	O	O
+你	O	O
+们	O	O
+时	O	O
+间	O	O
+不	O	O
+多	O	O
+差	O	O
+点	O	O
+。	O	O
+
+我	O	O
+不	O	O
+说	O	O
+了	O	O
+再	O	O
+见	O	O
+。	O	O
+
+播	O	O
+放	O	O
+九	B-SO	B-SO
+张	I-SO	I-SO
+机	E-SO	E-SO
+。	O	O
+
+好	O	O
+喜	O	O
+欢	O	O
+，	O	O
+唱	O	O
+一	O	O
+首	O	O
+光	B-AR	B-AR
+良	E-AR	E-AR
+的	O	O
+童	B-SO	O
+话	E-SO	O
+给	O	O
+我	O	O
+们	O	O
+听	O	O
+一	O	O
+下	O	O
+吧	O	O
+。	O	O
+
+我	O	O
+叫	O	O
+毛	O	O
+毛	O	O
+，	O	O
+我	O	O
+在	O	O
+哪	O	O
+里	O	O
+，	O	O
+天	O	O
+涯	O	O
+何	O	O
+处	O	O
+无	O	O
+芳	O	O
+草	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+不	O	O
+是	O	O
+你	O	O
+们	O	O
+那	O	O
+的	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+徐	B-AR	B-AR
+良	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+听	O	O
+成	B-SO	B-SO
+都	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+娃	B-SO	B-SO
+哈	I-SO	I-SO
+哈	E-SO	E-SO
+。	O	O
+
+割	O	O
+手	O	O
+。	O	O
+
+嗯	O	O
+我	O	O
+要	O	O
+听	O	O
+祁	B-AR	B-AR
+隆	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+首	O	O
+你	B-SO	B-SO
+拍	I-SO	I-SO
+一	I-SO	I-SO
+我	I-SO	I-SO
+拍	I-SO	I-SO
+一	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+凤	B-AR	B-AR
+凰	I-AR	I-AR
+传	I-AR	I-AR
+奇	E-AR	E-AR
+。	O	O
+
+爱	B-SO	B-SO
+情	I-SO	I-SO
+神	I-SO	I-SO
+马	I-SO	I-SO
+价	E-SO	E-SO
+。	O	O
+
+云	O	O
+翔	O	O
+我	O	O
+们	O	O
+怎	O	O
+么	O	O
+珍	O	O
+惜	O	O
+，	O	O
+皮	O	O
+皮	O	O
+虾	O	O
+？	O	O
+
+她	O	O
+想	O	O
+吃	O	O
+啥	O	O
+了	O	O
+我	O	O
+是	O	O
+你	O	O
+的	O	O
+。	O	O
+
+反	O	O
+正	O	O
+他	O	O
+那	O	O
+个	O	O
+翻	O	O
+去	O	O
+翻	O	O
+给	O	O
+他	O	O
+送	O	O
+来	O	O
+就	O	O
+是	O	O
+两	O	O
+个	O	O
+一	O	O
+辈	O	O
+子	O	O
+，	O	O
+电	O	O
+子	O	O
+装	O	O
+置	O	O
+。	O	O
+
+你	O	O
+累	O	O
+不	O	O
+累	O	O
+。	O	O
+
+朝	O	B-SO
+花	O	I-SO
+夕	O	I-SO
+拾	O	I-SO
+杯	O	I-SO
+中	O	I-SO
+酒	O	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+你	B-SO	B-SO
+不	I-SO	I-SO
+来	I-SO	I-SO
+我	I-SO	I-SO
+不	I-SO	I-SO
+拿	E-SO	E-SO
+。	O	O
+
+打	B-SO	B-SO
+靶	I-SO	I-SO
+归	I-SO	I-SO
+来	E-SO	E-SO
+。	O	O
+
+播	O	O
+罗	B-AR	O
+威	E-AR	O
+。	O	O
+
+听	O	O
+歌	O	O
+。	O	O
+
+相	O	O
+反	O	O
+的	O	O
+，	O	O
+只	O	O
+能	O	O
+跟	O	O
+着	O	O
+痛	O	O
+，	O	O
+执	B-SO	B-SO
+子	I-SO	I-SO
+之	I-SO	I-SO
+手	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+唱	O	O
+我	B-SO	B-SO
+们	I-SO	I-SO
+不	I-SO	I-SO
+一	I-SO	I-SO
+样	E-SO	E-SO
+。	O	O
+
+你	O	O
+唱	O	O
+个	O	O
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+好	O	O
+不	O	O
+好	O	O
+。	O	O
+
+感	B-SO	B-SO
+恩	I-SO	I-SO
+的	I-SO	I-SO
+心	E-SO	E-SO
+。	O	O
+
+那	O	O
+是	O	O
+你	O	O
+自	O	O
+己	O	O
+的	O	O
+事	O	O
+情	O	O
+。	O	O
+
+鸭	B-SO	O
+子	E-SO	O
+的	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+没	O	O
+。	O	O
+
+你	O	O
+跟	O	O
+她	O	O
+说	O	O
+得	O	O
+越	O	O
+多	O	O
+他	O	O
+就	O	O
+会	O	O
+的	O	O
+越	O	O
+多	O	O
+。	O	O
+
+拍	O	B-SO
+拍	O	I-SO
+手	O	I-SO
+军	B-SO	I-SO
+中	I-SO	I-SO
+绿	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+等	O	O
+他	O	O
+把	O	O
+那	O	O
+个	O	O
+两	O	O
+个	O	O
+朋	O	O
+友	O	O
+来	O	O
+让	O	O
+小	O	O
+胖	O	O
+唱	O	O
+杜	O	B-SO
+十	O	I-SO
+娘	O	E-SO
+，	O	O
+它	O	O
+都	O	O
+有	O	O
+，	O	O
+但	O	O
+是	O	O
+这	O	O
+上	O	O
+面	O	O
+有	O	O
+的	O	O
+歌	O	O
+竟	O	O
+然	O	O
+给	O	O
+刘	O	O
+德	O	O
+华	O	O
+的	O	O
+今	O	B-SO
+天	O	I-SO
+就	O	I-SO
+没	O	I-SO
+有	O	E-SO
+。	O	O
+
+映	B-SO	B-SO
+山	I-SO	I-SO
+红	E-SO	E-SO
+。	O	O
+
+你	O	O
+认	O	O
+识	O	O
+周	O	O
+杰	O	O
+伦	O	O
+吗	O	O
+？	O	O
+
+请	O	O
+唱	O	O
+走	B-SO	B-SO
+天	I-SO	I-SO
+涯	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+d	O	B-GE
+j	O	E-GE
+舞	B-GE	B-GE
+曲	E-GE	E-GE
+。	O	O
+
+可	O	O
+不	O	O
+可	O	O
+爱	O	O
+我	O	O
+看	O	O
+你	O	O
+陪	O	O
+陪	O	O
+她	O	O
+胖	O	O
+的	O	O
+呀	O	O
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+城	I-SO	I-SO
+故	I-SO	I-SO
+事	I-SO	I-SO
+多	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+美	B-SO	B-SO
+丽	I-SO	I-SO
+中	I-SO	I-SO
+国	I-SO	I-SO
+梦	E-SO	E-SO
+。	O	O
+
+我	B-SO	B-SO
+的	I-SO	I-SO
+快	I-SO	I-SO
+乐	I-SO	I-SO
+就	I-SO	I-SO
+是	I-SO	I-SO
+想	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+童	O	B-SO
+话	O	E-SO
+。	O	O
+
+军	B-SO	B-SO
+中	I-SO	I-SO
+绿	I-SO	I-SO
+花	E-SO	E-SO
+。	O	O
+
+不	O	B-SO
+是	O	I-SO
+你	O	I-SO
+自	O	I-SO
+己	O	E-SO
+。	O	O
+
+帮	O	O
+我	O	O
+联	O	O
+网	O	O
+播	O	O
+放	O	O
+一	O	O
+个	O	O
+帮	O	O
+我	O	O
+联	O	O
+网	O	O
+。	O	O
+
+唱	O	O
+小	B-SO	B-SO
+兔	I-SO	I-SO
+子	I-SO	I-SO
+乖	I-SO	I-SO
+乖	E-SO	E-SO
+把	O	O
+门	O	O
+开	O	O
+开	O	O
+。	O	O
+
+请	O	O
+播	O	O
+放	O	O
+，	O	O
+要	B-SO	B-SO
+死	I-SO	I-SO
+就	I-SO	I-SO
+死	I-SO	I-SO
+在	I-SO	I-SO
+你	I-SO	I-SO
+手	I-SO	I-SO
+里	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+你	B-SO	B-SO
+好	I-SO	I-SO
+毒	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+感	B-SO	B-SO
+觉	I-SO	I-SO
+自	I-SO	I-SO
+己	I-SO	I-SO
+萌	I-SO	I-SO
+萌	I-SO	I-SO
+哒	E-SO	E-SO
+。	O	O
+
+听	O	O
+歌	O	O
+某	B-SO	O
+人	E-SO	O
+。	O	O
+
+因	O	O
+为	O	O
+儿	O	B-GE
+歌	O	E-GE
+。	O	O
+
+听	O	O
+歌	O	O
+。	O	O
+
+找	O	O
+一	O	O
+个	O	O
+一	B-SO	B-SO
+壶	I-SO	I-SO
+老	I-SO	I-SO
+酒	E-SO	E-SO
+。	O	O
+
+还	O	O
+是	O	O
+你	O	O
+厉	O	O
+害	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+哭	B-SO	B-SO
+了	I-SO	I-SO
+又	I-SO	I-SO
+能	I-SO	I-SO
+怎	I-SO	I-SO
+样	E-SO	E-SO
+。	O	O
+
+凤	B-AR	B-AR
+凰	I-AR	I-AR
+传	I-AR	I-AR
+奇	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+好	O	O
+想	O	O
+你	O	O
+，	O	O
+死	O	O
+机	O	O
+了	O	O
+。	O	O
+
+白	B-SO	B-SO
+龙	I-SO	I-SO
+马	E-SO	E-SO
+。	O	O
+
+音	O	O
+乐	O	O
+。	O	O
+
+我	B-SO	O
+的	I-SO	O
+滑	I-SO	O
+板	I-SO	O
+鞋	E-SO	O
+。	O	O
+
+你	O	O
+讲	O	O
+一	O	O
+个	O	O
+开	O	O
+头	O	O
+的	O	O
+发	O	O
+给	O	O
+我	O	O
+点	O	O
+儿	O	O
+我	O	O
+等	O	O
+着	O	O
+看	O	O
+我	O	O
+手	O	O
+机	O	O
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+摇	B-GE	B-GE
+滚	E-GE	E-GE
+。	O	O
+
+是	O	O
+你	O	O
+写	O	O
+这	O	O
+个	O	O
+。	O	O
+
+降	B-AR	B-AR
+央	I-AR	I-AR
+卓	I-AR	I-AR
+玛	E-AR	E-AR
+。	O	O
+
+你	O	O
+的	O	O
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+是	O	O
+谁	O	O
+呀	O	O
+。	O	O
+
+时	O	O
+光	O	O
+，	O	O
+处	O	O
+女	O	O
+。	O	O
+
+美	O	B-SO
+丽	O	I-SO
+新	O	I-SO
+世	O	I-SO
+界	O	E-SO
+。	O	O
+
+唱	O	O
+两	B-SO	B-SO
+只	I-SO	I-SO
+老	I-SO	I-SO
+虎	E-SO	E-SO
+。	O	O
+
+甩	B-SO	B-SO
+葱	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+放	O	O
+一	O	O
+首	O	O
+欢	O	O
+快	O	O
+的	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+香	O	O
+水	O	O
+，	O	O
+你	O	O
+想	O	O
+干	O	O
+什	O	O
+么	O	O
+就	O	O
+干	O	O
+什	O	O
+么	O	O
+。	O	O
+
+你	O	O
+是	O	O
+什	O	O
+么	O	O
+有	O	O
+爸	O	O
+爸	O	O
+妈	O	O
+妈	O	O
+吗	O	O
+？	O	O
+
+小	B-SO	B-SO
+手	I-SO	I-SO
+拍	I-SO	I-SO
+拍	E-SO	E-SO
+。	O	O
+
+风	B-SO	B-SO
+吹	I-SO	I-SO
+草	I-SO	I-SO
+原	E-SO	E-SO
+。	O	O
+
+蓝	O	O
+调	O	O
+。	O	O
+
+r	O	O
+a	O	O
+d	O	O
+i	O	O
+o	O	O
+
+s	O	O
+h	O	O
+o	O	O
+w	O	O
+吗	O	O
+？	O	O
+
+因	O	O
+为	O	O
+这	O	O
+才	O	O
+是	O	O
+我	O	O
+真	O	O
+实	O	O
+的	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+大	B-SO	B-SO
+家	I-SO	I-SO
+一	I-SO	I-SO
+起	I-SO	I-SO
+喜	I-SO	I-SO
+羊	I-SO	I-SO
+羊	E-SO	E-SO
+。	O	O
+
+是	O	O
+不	O	O
+是	O	O
+你	O	O
+的	O	O
+弟	O	O
+弟	O	O
+呀	O	O
+。	O	O
+
+阳	B-SO	B-SO
+光	I-SO	I-SO
+总	I-SO	I-SO
+在	I-SO	I-SO
+风	I-SO	I-SO
+雨	I-SO	I-SO
+后	E-SO	E-SO
+。	O	O
+
+风	O	B-SO
+向	O	I-SO
+北	O	E-SO
+。	O	O
+
+从	O	O
+一	O	O
+数	O	O
+到	O	O
+十	O	O
+。	O	O
+
+你	O	O
+傻	O	O
+。	O	O
+
+你	O	O
+是	O	O
+哪	O	O
+一	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+冷	O	O
+不	O	O
+冷	O	O
+你	O	O
+冷	O	O
+不	O	O
+冷	O	O
+。	O	O
+
+走	B-SO	B-SO
+着	I-SO	I-SO
+走	I-SO	I-SO
+着	I-SO	I-SO
+就	I-SO	I-SO
+散	I-SO	I-SO
+了	E-SO	E-SO
+。	O	O
+
+等	B-SO	B-SO
+一	I-SO	I-SO
+分	I-SO	I-SO
+钟	E-SO	E-SO
+。	O	O
+
+独	B-SO	B-SO
+家	I-SO	I-SO
+记	I-SO	I-SO
+忆	E-SO	E-SO
+。	O	O
+
+远	B-SO	B-SO
+走	I-SO	I-SO
+高	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+唱	O	O
+我	B-SO	B-SO
+想	I-SO	I-SO
+你	E-SO	E-SO
+。	O	O
+
+请	O	O
+唱	O	O
+邓	B-AR	B-AR
+丽	I-AR	I-AR
+君	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+孙	B-AR	B-AR
+露	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+你	O	O
+我	O	O
+手	O	O
+机	O	O
+的	O	O
+我	O	O
+用	O	O
+了	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+七	O	B-SO
+只	O	I-SO
+葫	B-AR	I-SO
+芦	I-AR	I-SO
+娃	E-AR	E-SO
+的	O	O
+歌	O	O
+曲	O	O
+。	O	O
+
+超	O	O
+级	O	O
+h	O	O
+i	O	O
+g	O	O
+h	O	O
+天	O	O
+津	O	O
+为	O	O
+嘛	O	O
+，	O	O
+无	O	O
+缘	O	O
+真	O	O
+高	O	O
+呀	O	O
+。	O	O
+
+红	B-SO	B-SO
+颜	I-SO	I-SO
+为	I-SO	I-SO
+谁	I-SO	I-SO
+醉	E-SO	E-SO
+。	O	O
+
+中	B-SO	B-SO
+国	I-SO	I-SO
+少	I-SO	I-SO
+年	E-SO	E-SO
+。	O	O
+
+爱	B-SO	B-SO
+我	I-SO	I-SO
+你	I-SO	I-SO
+就	I-SO	I-SO
+抱	I-SO	I-SO
+抱	I-SO	I-SO
+我	E-SO	E-SO
+。	O	O
+
+许	B-SO	B-SO
+多	I-SO	I-SO
+年	I-SO	I-SO
+以	I-SO	I-SO
+后	E-SO	E-SO
+，	O	O
+舞	B-GE	O
+曲	E-GE	O
+。	O	O
+
+你	O	O
+。	O	O
+
+为	O	O
+什	O	O
+么	O	O
+呢	O	O
+？	O	O
+
+我	B-SO	B-SO
+们	I-SO	I-SO
+不	I-SO	I-SO
+一	I-SO	I-SO
+样	E-SO	E-SO
+，	O	O
+播	O	O
+放	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+9	B-SO	B-SO
+月	I-SO	I-SO
+9	I-SO	I-SO
+日	E-SO	E-SO
+。	O	O
+
+丑	B-AR	B-SO
+妃	E-AR	E-SO
+的	O	O
+歌	O	O
+
+唱	O	O
+歌	O	O
+。	O	O
+
+开	B-SO	O
+火	I-SO	O
+车	E-SO	O
+。	O	O
+
+他	O	O
+说	O	O
+已	O	O
+经	O	O
+收	O	O
+到	O	O
+，	O	O
+是	O	O
+我	O	O
+的	O	O
+还	O	O
+是	O	O
+女	O	O
+的	O	O
+。	O	O
+
+你	B-SO	O
+还	I-SO	O
+要	I-SO	O
+我	I-SO	O
+怎	I-SO	O
+样	E-SO	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+霍	B-AR	B-AR
+尊	E-AR	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+佛	O	O
+教	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+小	B-SO	B-SO
+跳	I-SO	I-SO
+蛙	E-SO	E-SO
+。	O	O
+
+情	B-SO	B-SO
+深	I-SO	I-SO
+深	I-SO	I-SO
+雨	I-SO	I-SO
+蒙	I-SO	I-SO
+蒙	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+不	B-SO	B-AR
+错	I-SO	E-AR
+的	I-SO	O
+相	I-SO	O
+机	I-SO	O
+呢	E-SO	O
+？	O	O
+
+护	B-SO	B-SO
+花	I-SO	I-SO
+使	I-SO	I-SO
+者	E-SO	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+外	B-SO	B-SO
+婆	I-SO	I-SO
+的	I-SO	I-SO
+澎	I-SO	I-SO
+湖	I-SO	I-SO
+湾	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+歌	O	O
+。	O	O
+
+一	O	O
+首	O	O
+潇	B-SO	B-SO
+洒	I-SO	I-SO
+走	I-SO	I-SO
+一	I-SO	I-SO
+回	E-SO	E-SO
+。	O	O
+
+最	B-SO	B-SO
+炫	I-SO	I-SO
+民	I-SO	I-SO
+族	I-SO	I-SO
+风	E-SO	E-SO
+。	O	O
+
+小	O	O
+b	O	O
+a	O	O
+b	O	O
+y	O	O
+怎	O	O
+么	O	O
+哭	O	O
+呀	O	O
+？	O	O
+
+唱	O	O
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+心	B-SO	B-SO
+雨	E-SO	E-SO
+。	O	O
+
+p	O	O
+l	O	O
+e	O	O
+a	O	O
+s	O	O
+e	O	O
+
+g	O	O
+o	O	O
+
+t	O	O
+h	O	O
+i	O	O
+s	O	O
+
+w	O	O
+a	O	O
+y	O	O
+。	O	O
+
+那	O	O
+给	O	O
+他	O	O
+饭	O	O
+好	O	O
+不	O	O
+好	O	O
+。	O	O
+
+还	O	O
+是	O	O
+我	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+又	B-SO	B-SO
+一	I-SO	I-SO
+夜	E-SO	E-SO
+。	O	O
+
+教	O	O
+我	O	O
+的	O	O
+儿	O	B-GE
+歌	O	E-GE
+，	O	O
+大	O	O
+家	O	O
+都	O	O
+没	O	O
+有	O	O
+变	O	O
+，	O	O
+有	O	O
+男	O	O
+朋	O	O
+友	O	O
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+吻	B-SO	B-SO
+别	E-SO	E-SO
+。	O	O
+
+拥	O	O
+有	O	O
+爱	B-SO	O
+的	I-SO	O
+供	I-SO	O
+养	E-SO	O
+吗	O	O
+？	O	O
+
+反	B-SO	O
+转	I-SO	O
+地	I-SO	O
+球	E-SO	O
+。	O	O
+
+你	O	O
+怎	O	O
+么	O	O
+知	O	O
+道	O	O
+呀	O	O
+呀	O	O
+？	O	O
+
+王	B-SO	B-SO
+者	I-SO	I-SO
+荣	I-SO	I-SO
+耀	I-SO	I-SO
+版	I-SO	I-SO
+逆	I-SO	I-SO
+战	E-SO	E-SO
+。	O	O
+
+L	O	O
+e	O	O
+o	O	O
+。	O	O
+
+七	B-SO	B-SO
+里	I-SO	I-SO
+香	E-SO	E-SO
+。	O	O
+
+杨	O	O
+蔓	O	O
+播	O	O
+放	O	O
+金	B-AR	B-AR
+志	I-AR	I-AR
+文	E-AR	E-AR
+的	O	O
+远	B-SO	B-SO
+走	I-SO	I-SO
+高	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+落	B-SO	B-SO
+雨	I-SO	I-SO
+的	I-SO	I-SO
+秋	E-SO	E-SO
+。	O	O
+
+唱	O	O
+支	O	O
+歌	O	O
+。	O	O
+
+讲	O	O
+一	O	O
+首	O	O
+圣	B-SO	B-SO
+诞	I-SO	I-SO
+老	I-SO	I-SO
+人	E-SO	I-SO
+歌	O	E-SO
+。	O	O
+
+小	B-SO	B-SO
+苹	I-SO	I-SO
+果	E-SO	E-SO
+。	O	O
+
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+放	O	O
+一	O	O
+首	O	O
+最	O	B-SO
+好	O	I-SO
+听	O	E-SO
+。	O	O
+
+谁	O	O
+说	O	O
+的	O	O
+，	O	O
+我	O	O
+不	O	O
+相	O	O
+信	O	O
+。	O	O
+
+放	O	O
+首	O	O
+。	O	O
+
+儿	B-GE	B-GE
+歌	E-GE	E-GE
+。	O	O
+
+讲	O	O
+话	O	O
+也	O	O
+不	O	O
+代	O	O
+表	O	O
+你	O	O
+有	O	O
+是	O	O
+的	O	O
+但	O	O
+是	O	O
+你	O	O
+肯	O	O
+定	O	O
+不	O	O
+能	O	O
+马	O	O
+上	O	O
+上	O	O
+网	O	O
+，	O	O
+如	O	B-SO
+果	O	I-SO
+你	O	I-SO
+有	O	I-SO
+有	O	I-SO
+影	O	I-SO
+响	O	I-SO
+事	O	I-SO
+故	O	I-SO
+了	O	E-SO
+。	O	O
+
+请	O	O
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+世	B-SO	B-SO
+上	I-SO	I-SO
+只	I-SO	I-SO
+有	I-SO	I-SO
+妈	I-SO	I-SO
+妈	I-SO	I-SO
+好	E-SO	E-SO
+。	O	O
+
+嘻	O	O
+哈	O	O
+。	O	O
+
+天	O	O
+气	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+张	B-AR	B-AR
+杰	E-AR	I-AR
+逆	B-SO	I-AR
+战	E-SO	E-AR
+的	O	O
+歌	O	O
+。	O	O
+
+唱	O	O
+字	B-SO	B-SO
+母	I-SO	I-SO
+歌	E-SO	E-SO
+。	O	O
+
+不	B-SO	B-SO
+一	I-SO	I-SO
+样	E-SO	E-SO
+的	O	O
+歌	O	O
+。	O	O
+
+我	O	O
+不	O	O
+想	O	O
+听	O	O
+歌	O	O
+呀	O	O
+不	O	O
+想	O	O
+呀	O	O
+。	O	O
+
+宝	O	O
+贝	O	O
+再	O	O
+见	O	O
+。	O	O
+
+抱	B-SO	O
+一	I-SO	O
+抱	E-SO	O
+。	O	O
+
+i	O	O
+
+d	O	I-SO
+o	O	I-SO
+n	O	I-SO
+'	O	I-SO
+t	O	I-SO
+
+c	O	I-SO
+a	O	I-SO
+r	O	I-SO
+e	O	E-SO
+。	O	O
+
+听	O	O
+音	O	O
+乐	O	O
+你	O	O
+可	O	O
+以	O	O
+可	O	O
+以	O	O
+但	O	O
+是	O	O
+说	O	O
+一	O	O
+下	O	O
+可	O	O
+能	O	O
+他	O	O
+就	O	O
+自	O	O
+己	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+你	B-SO	O
+终	I-SO	O
+生	I-SO	O
+的	I-SO	O
+歌	E-SO	O
+
+远	B-SO	B-SO
+走	I-SO	I-SO
+高	I-SO	I-SO
+飞	E-SO	E-SO
+。	O	O
+
+的	O	O
+音	O	O
+乐	O	O
+。	O	O
+
+我	O	O
+说	O	O
+的	O	O
+是	O	O
+你	O	O
+呀	O	O
+。	O	O
+
+你	O	O
+说	O	O
+我	O	O
+想	O	O
+听	O	O
+。	O	O
+
+播	O	O
+放	O	O
+激	B-SO	B-SO
+情	I-SO	I-SO
+燃	I-SO	I-SO
+烧	I-SO	I-SO
+的	I-SO	I-SO
+岁	I-SO	I-SO
+月	E-SO	E-SO
+。	O	O
+
+唱	O	O
+唐	B-SO	B-SO
+诗	I-SO	I-SO
+体	I-SO	I-SO
+操	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+萧	B-AR	B-AR
+敬	I-AR	I-AR
+腾	E-AR	E-AR
+的	O	O
+。	O	O
+
+放	O	O
+中	O	B-SO
+国	O	I-SO
+之	O	I-SO
+声	O	E-SO
+转	O	O
+播	O	O
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+。	O	O
+
+我	O	O
+要	O	O
+听	O	O
+消	B-SO	B-SO
+灾	I-SO	I-SO
+神	I-SO	I-SO
+咒	E-SO	E-SO
+。	O	O
+
+唱	O	O
+一	O	O
+首	O	O
+，	O	O
+飞	B-SO	O
+鸟	I-SO	O
+与	I-SO	O
+射	I-SO	O
+手	E-SO	O
+。	O	O
+
+你	O	O
+妈	O	O
+妈	O	O
+在	O	O
+哪	O	O
+里	O	O
+。	O	O
+
+读	O	O
+首	O	O
+王	B-AR	B-AR
+廷	I-AR	I-AR
+相	E-AR	E-AR
+的	O	O
+夏	B-SO	B-SO
+之	I-SO	I-SO
+旅	E-SO	E-SO
+。	O	O
+
+我	O	O
+要	O	O
+看	O	O
+大	O	B-SO
+头	O	I-SO
+儿	O	I-SO
+子	O	I-SO
+小	O	I-SO
+头	O	I-SO
+爸	O	I-SO
+爸	O	E-SO
+。	O	O
+
+放	O	O
+首	O	O
+歌	O	O
+。	O	O
+
+英	O	O
+文	O	O
+歌	O	O
+

@@ -1,0 +1,658 @@
+{
+    "deepdive" : {
+        "calibration" : {
+            "holdout_fraction" : 0.25
+        },
+        "db" : {
+            "default" : {
+                "dbname" : "player_club_dbdata",
+                "driver" : "org.postgresql.Driver",
+                "host" : "192.168.1.110",
+                "incremental_mode" : "ORIGINAL",
+                "password" : "",
+                "port" : "5432",
+                "url" : "jdbc:postgresql://192.168.1.110:5432/player_club_dbdata",
+                "user" : "postgres"
+            }
+        },
+        "extraction" : {
+            "extractors" : {
+                "ext_company_mention_by_map_company_mention" : {
+                    "dependencies" : [
+                        "ext_sentences_by_nlp_markup"
+                    ],
+                    "input" : " SELECT R0.doc_id AS \"sentences.R0.doc_id\", R0.sentence_index AS \"sentences.R0.sentence_index\", R0.tokens AS \"sentences.R0.tokens\", R0.ner_tags AS \"sentences.R0.ner_tags\"\nFROM sentences R0\n        \n          ",
+                    "input_batch_size" : "100000",
+                    "input_relations" : [
+                        "sentences"
+                    ],
+                    "output_relation" : "company_mention",
+                    "parallelism" : "1",
+                    "style" : "tsv_extractor",
+                    "udf" : "\"$DEEPDIVE_APP\"/udf/map_company_mention.py"
+                },
+                "ext_has_relation" : {
+                    "cmd" : "\n\n\t# TODO use temporary table\n\tdeepdive create table \"has_relation\"\n\tdeepdive sql 'INSERT INTO has_relation SELECT DISTINCT R0.column_0, R0.column_1, 0 AS id, \nCASE WHEN R0.column_2 > 0 THEN true\n     WHEN R0.column_2 < 0 THEN false\n     ELSE NULL\nEND AS label\n          FROM relation_label_resolved R0\n        \n          '\n\t# TODO rename temporary table to replace output_relation\n\t\n        ",
+                    "dependencies" : [
+                        "ext_relation_label_resolved"
+                    ],
+                    "input_relations" : [
+                        "relation_label_resolved"
+                    ],
+                    "output_relation" : "has_relation",
+                    "style" : "cmd_extractor"
+                },
+                "ext_relation_label" : {
+                    "cmd" : "\n\n\t# TODO use temporary table\n\tdeepdive create table \"relation_label\"\n\tdeepdive sql 'INSERT INTO relation_label SELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", 0 AS column_2, NULL AS column_3\nFROM supplier_candidate R0\n        \nUNION ALL\nSELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", 3 AS column_2, '\\''from_dbdata'\\'' AS column_3\nFROM supplier_candidate R0, supplier_dbdata R1\n        WHERE ((lower(R1.company_a_name) = lower(R0.p1_name) AND lower(R1.company_b_name) = lower(R0.p2_name)) OR (lower(R1.company_b_name) = lower(R0.p1_name) AND lower(R1.company_a_name) = lower(R0.p2_name)))\nUNION ALL\nSELECT R0.p1_id AS \"relation_label__0.R0.p1_id\", R0.p2_id AS \"relation_label__0.R0.p2_id\", R0.label AS \"relation_label__0.R0.label\", R0.rule_id AS \"relation_label__0.R0.rule_id\"\nFROM relation_label__0 R0\n        '\n\t# TODO rename temporary table to replace output_relation\n\t\n        ",
+                    "dependencies" : [
+                        "ext_supplier_candidate_by_map_supplier_candidate",
+                        "ext_relation_label__0_by_supervise"
+                    ],
+                    "input_relations" : [
+                        "supplier_candidate",
+                        "supplier_dbdata",
+                        "relation_label__0"
+                    ],
+                    "output_relation" : "relation_label",
+                    "style" : "cmd_extractor"
+                },
+                "ext_relation_label__0_by_supervise" : {
+                    "dependencies" : [
+                        "ext_supplier_candidate_by_map_supplier_candidate",
+                        "ext_company_mention_by_map_company_mention",
+                        "ext_sentences_by_nlp_markup"
+                    ],
+                    "input" : " SELECT R0.p1_id AS \"supplier_candidate.R0.p1_id\", R1.begin_index AS \"company_mention.R1.begin_index\", R1.end_index AS \"company_mention.R1.end_index\", R0.p2_id AS \"supplier_candidate.R0.p2_id\", R2.begin_index AS \"company_mention.R2.begin_index\", R2.end_index AS \"company_mention.R2.end_index\", R1.doc_id AS \"company_mention.R1.doc_id\", R1.sentence_index AS \"company_mention.R1.sentence_index\", R3.sentence_text AS \"sentences.R3.sentence_text\", R3.tokens AS \"sentences.R3.tokens\", R3.lemmas AS \"sentences.R3.lemmas\", R3.pos_tags AS \"sentences.R3.pos_tags\", R3.ner_tags AS \"sentences.R3.ner_tags\", R3.dep_types AS \"sentences.R3.dep_types\", R3.dep_tokens AS \"sentences.R3.dep_tokens\"\nFROM supplier_candidate R0, company_mention R1, company_mention R2, sentences R3\n        WHERE R1.mention_id = R0.p1_id  AND R2.mention_id = R0.p2_id  AND R3.doc_id = R1.doc_id  AND R3.sentence_index = R1.sentence_index \n          ",
+                    "input_batch_size" : "100000",
+                    "input_relations" : [
+                        "supplier_candidate",
+                        "company_mention",
+                        "sentences"
+                    ],
+                    "output_relation" : "relation_label__0",
+                    "parallelism" : "1",
+                    "style" : "tsv_extractor",
+                    "udf" : "\"$DEEPDIVE_APP\"/udf/supervise_relation.py"
+                },
+                "ext_relation_label_resolved" : {
+                    "cmd" : "\n\n\tdeepdive create view relation_label_resolved as 'SELECT R0.p1_id AS column_0, R0.p2_id AS column_1, SUM(R0.label) AS column_2\nFROM relation_label R0\n        \n        GROUP BY R0.p1_id, R0.p2_id'\n\t\n        ",
+                    "dependencies" : [
+                        "ext_relation_label"
+                    ],
+                    "input_relations" : [
+                        "relation_label"
+                    ],
+                    "output_relation" : "relation_label_resolved",
+                    "style" : "cmd_extractor"
+                },
+                "ext_sentences_by_nlp_markup" : {
+                    "input" : " SELECT R0.id AS \"infomation.R0.id\", R0.content AS \"infomation.R0.content\"\nFROM infomation R0\n        \n          ",
+                    "input_batch_size" : "100000",
+                    "input_relations" : [
+                        "infomation"
+                    ],
+                    "output_relation" : "sentences",
+                    "parallelism" : "1",
+                    "style" : "tsv_extractor",
+                    "udf" : "\"$DEEPDIVE_APP\"/udf/nlp_markup.sh"
+                },
+                "ext_supplier_candidate_by_map_supplier_candidate" : {
+                    "dependencies" : [
+                        "ext_company_mention_by_map_company_mention"
+                    ],
+                    "input" : " SELECT R0.mention_id AS \"company_mention.R0.mention_id\", R0.mention_text AS \"company_mention.R0.mention_text\", R1.mention_id AS \"company_mention.R1.mention_id\", R1.mention_text AS \"company_mention.R1.mention_text\"\nFROM company_mention R0, company_mention R1\n        WHERE R1.doc_id = R0.doc_id  AND R1.sentence_index = R0.sentence_index \n          ",
+                    "input_batch_size" : "100000",
+                    "input_relations" : [
+                        "company_mention"
+                    ],
+                    "output_relation" : "supplier_candidate",
+                    "parallelism" : "1",
+                    "style" : "tsv_extractor",
+                    "udf" : "\"$DEEPDIVE_APP\"/udf/map_supplier_candidate.py"
+                },
+                "ext_supplier_feature_by_extract_features" : {
+                    "dependencies" : [
+                        "ext_company_mention_by_map_company_mention",
+                        "ext_sentences_by_nlp_markup"
+                    ],
+                    "input" : " SELECT R0.mention_id AS \"company_mention.R0.mention_id\", R1.mention_id AS \"company_mention.R1.mention_id\", R0.begin_index AS \"company_mention.R0.begin_index\", R0.end_index AS \"company_mention.R0.end_index\", R1.begin_index AS \"company_mention.R1.begin_index\", R1.end_index AS \"company_mention.R1.end_index\", R0.doc_id AS \"company_mention.R0.doc_id\", R0.sentence_index AS \"company_mention.R0.sentence_index\", R2.tokens AS \"sentences.R2.tokens\", R2.lemmas AS \"sentences.R2.lemmas\", R2.pos_tags AS \"sentences.R2.pos_tags\", R2.ner_tags AS \"sentences.R2.ner_tags\", R2.dep_types AS \"sentences.R2.dep_types\", R2.dep_tokens AS \"sentences.R2.dep_tokens\"\nFROM company_mention R0, company_mention R1, sentences R2\n        WHERE R1.doc_id = R0.doc_id  AND R1.sentence_index = R0.sentence_index  AND R2.doc_id = R0.doc_id  AND R2.sentence_index = R0.sentence_index \n          ",
+                    "input_batch_size" : "100000",
+                    "input_relations" : [
+                        "company_mention",
+                        "sentences"
+                    ],
+                    "output_relation" : "supplier_feature",
+                    "parallelism" : "1",
+                    "style" : "tsv_extractor",
+                    "udf" : "\"$DEEPDIVE_APP\"/udf/extract_features.py"
+                }
+            }
+        },
+        "inference" : {
+            "factors" : {
+                "inf_imply_has_relation_has_relation" : {
+                    "dependencies" : [
+                        "ext_supplier_candidate_by_map_supplier_candidate"
+                    ],
+                    "function" : "Imply(has_relation.R0.label, has_relation.R1.label)",
+                    "input_query" : "\n          SELECT R0.id AS \"has_relation.R0.id\" , R1.id AS \"has_relation.R1.id\" \n          FROM has_relation R0, has_relation R1, supplier_candidate R2\n        WHERE R1.p1_id = R0.p2_id  AND R1.p2_id = R0.p1_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+                    "input_relations" : [
+                        "has_relation",
+                        "supplier_candidate"
+                    ],
+                    "weight" : "3.0"
+                },
+                "inf_istrue_has_relation" : {
+                    "dependencies" : [
+                        "ext_supplier_candidate_by_map_supplier_candidate",
+                        "ext_supplier_feature_by_extract_features"
+                    ],
+                    "function" : "Imply(has_relation.R0.label)",
+                    "input_query" : "\n          SELECT R0.id AS \"has_relation.R0.id\" , R2.feature AS \"dd_weight_column_0\" \n          FROM has_relation R0, supplier_candidate R1, supplier_feature R2\n        WHERE R1.p1_id = R0.p1_id  AND R1.p2_id = R0.p2_id  AND R2.p1_id = R0.p1_id  AND R2.p2_id = R0.p2_id ",
+                    "input_relations" : [
+                        "has_relation",
+                        "supplier_candidate",
+                        "supplier_feature"
+                    ],
+                    "weight" : "?(dd_weight_column_0)"
+                }
+            }
+        },
+        "pipeline" : {
+            "pipelines" : {
+                "endtoend" : [
+                    "ext_supplier_feature_by_extract_features",
+                    "ext_relation_label",
+                    "ext_relation_label_resolved",
+                    "ext_company_mention_by_map_company_mention",
+                    "ext_relation_label__0_by_supervise",
+                    "ext_has_relation",
+                    "ext_supplier_candidate_by_map_supplier_candidate",
+                    "ext_sentences_by_nlp_markup",
+                    "inf_istrue_has_relation",
+                    "inf_imply_has_relation_has_relation"
+                ],
+                "extraction" : [
+                    "ext_supplier_feature_by_extract_features",
+                    "ext_relation_label",
+                    "ext_relation_label_resolved",
+                    "ext_company_mention_by_map_company_mention",
+                    "ext_relation_label__0_by_supervise",
+                    "ext_has_relation",
+                    "ext_supplier_candidate_by_map_supplier_candidate",
+                    "ext_sentences_by_nlp_markup"
+                ],
+                "inference" : [
+                    "inf_istrue_has_relation",
+                    "inf_imply_has_relation_has_relation"
+                ]
+            },
+            "run" : ""
+        },
+        "sampler" : {
+            "sampler_args" : "-l 1000 -s 1 -i 1000 --alpha 0.01 --sample_evidence",
+            "sampler_cmd" : "sampler-dw"
+        },
+        "schema" : {
+            "relations" : {
+                "company_mention" : {
+                    "annotations" : [
+                        {
+                            "name" : "extraction"
+                        }
+                    ],
+                    "columns" : {
+                        "begin_index" : {
+                            "index" : 4,
+                            "type" : "int"
+                        },
+                        "doc_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "distributed_by"
+                                },
+                                {
+                                    "args" : {
+                                        "alias" : "appears_in",
+                                        "column" : "doc_id",
+                                        "relation" : "sentences"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 2,
+                            "type" : "text"
+                        },
+                        "end_index" : {
+                            "index" : 5,
+                            "type" : "int"
+                        },
+                        "mention_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                }
+                            ],
+                            "index" : 0,
+                            "type" : "text"
+                        },
+                        "mention_text" : {
+                            "annotations" : [
+                                {
+                                    "name" : "searchable"
+                                }
+                            ],
+                            "index" : 1,
+                            "type" : "text"
+                        },
+                        "sentence_index" : {
+                            "annotations" : [
+                                {
+                                    "args" : {
+                                        "alias" : "appears_in",
+                                        "column" : "doc_id",
+                                        "relation" : "sentences"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 3,
+                            "type" : "int"
+                        }
+                    }
+                },
+                "has_relation" : {
+                    "annotations" : [
+                        {
+                            "name" : "extraction"
+                        }
+                    ],
+                    "columns" : {
+                        "p1_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "args" : {
+                                        "alias" : "p1",
+                                        "column" : "mention_id",
+                                        "relation" : "company_mention"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 0,
+                            "type" : "text"
+                        },
+                        "p2_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "args" : {
+                                        "alias" : "p2",
+                                        "column" : "mention_id",
+                                        "relation" : "company_mention"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 1,
+                            "type" : "text"
+                        }
+                    },
+                    "variable_cardinality" : 2,
+                    "variable_type" : "boolean"
+                },
+                "infomation" : {
+                    "annotations" : [
+                        {
+                            "name" : "source"
+                        }
+                    ],
+                    "columns" : {
+                        "content" : {
+                            "annotations" : [
+                                {
+                                    "name" : "searchable"
+                                }
+                            ],
+                            "index" : 1,
+                            "type" : "text"
+                        },
+                        "id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "name" : "distributed_by"
+                                }
+                            ],
+                            "index" : 0,
+                            "type" : "text"
+                        }
+                    }
+                },
+                "relation_label" : {
+                    "annotations" : [
+                        {
+                            "name" : "extraction"
+                        }
+                    ],
+                    "columns" : {
+                        "label" : {
+                            "annotations" : [
+                                {
+                                    "name" : "navigable"
+                                }
+                            ],
+                            "index" : 2,
+                            "type" : "int"
+                        },
+                        "p1_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "args" : {
+                                        "alias" : "has_relation",
+                                        "column" : "p1_id",
+                                        "relation" : "has_relation"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 0,
+                            "type" : "text"
+                        },
+                        "p2_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "args" : {
+                                        "alias" : "has_relation",
+                                        "column" : "p2_id",
+                                        "relation" : "has_relation"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 1,
+                            "type" : "text"
+                        },
+                        "rule_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "navigable"
+                                }
+                            ],
+                            "index" : 3,
+                            "type" : "text"
+                        }
+                    }
+                },
+                "relation_label__0" : {
+                    "annotations" : [
+                        {
+                            "name" : "extraction"
+                        }
+                    ],
+                    "columns" : {
+                        "label" : {
+                            "annotations" : [
+                                {
+                                    "name" : "navigable"
+                                }
+                            ],
+                            "index" : 2,
+                            "type" : "int"
+                        },
+                        "p1_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "args" : {
+                                        "alias" : "has_relation",
+                                        "column" : "p1_id",
+                                        "relation" : "has_relation"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 0,
+                            "type" : "text"
+                        },
+                        "p2_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "args" : {
+                                        "alias" : "has_relation",
+                                        "column" : "p2_id",
+                                        "relation" : "has_relation"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 1,
+                            "type" : "text"
+                        },
+                        "rule_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "navigable"
+                                }
+                            ],
+                            "index" : 3,
+                            "type" : "text"
+                        }
+                    }
+                },
+                "relation_label_resolved" : {
+                    "columns" : {
+                        "column_0" : {
+                            "index" : 0,
+                            "type" : "UNKNOWN"
+                        },
+                        "column_1" : {
+                            "index" : 1,
+                            "type" : "UNKNOWN"
+                        },
+                        "column_2" : {
+                            "index" : 2,
+                            "type" : "UNKNOWN"
+                        }
+                    },
+                    "type" : "view"
+                },
+                "sentences" : {
+                    "annotations" : [
+                        {
+                            "name" : "source"
+                        }
+                    ],
+                    "columns" : {
+                        "dep_tokens" : {
+                            "index" : 9,
+                            "type" : "int[]"
+                        },
+                        "dep_types" : {
+                            "index" : 8,
+                            "type" : "text[]"
+                        },
+                        "doc_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "name" : "distributed_by"
+                                }
+                            ],
+                            "index" : 0,
+                            "type" : "text"
+                        },
+                        "doc_offsets" : {
+                            "index" : 7,
+                            "type" : "int[]"
+                        },
+                        "lemmas" : {
+                            "index" : 4,
+                            "type" : "text[]"
+                        },
+                        "ner_tags" : {
+                            "index" : 6,
+                            "type" : "text[]"
+                        },
+                        "pos_tags" : {
+                            "index" : 5,
+                            "type" : "text[]"
+                        },
+                        "sentence_index" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                }
+                            ],
+                            "index" : 1,
+                            "type" : "int"
+                        },
+                        "sentence_text" : {
+                            "annotations" : [
+                                {
+                                    "name" : "searchable"
+                                }
+                            ],
+                            "index" : 2,
+                            "type" : "text"
+                        },
+                        "tokens" : {
+                            "index" : 3,
+                            "type" : "text[]"
+                        }
+                    }
+                },
+                "supplier_candidate" : {
+                    "annotations" : [
+                        {
+                            "name" : "extraction"
+                        }
+                    ],
+                    "columns" : {
+                        "p1_id" : {
+                            "index" : 0,
+                            "type" : "text"
+                        },
+                        "p1_name" : {
+                            "index" : 1,
+                            "type" : "text"
+                        },
+                        "p2_id" : {
+                            "index" : 2,
+                            "type" : "text"
+                        },
+                        "p2_name" : {
+                            "index" : 3,
+                            "type" : "text"
+                        }
+                    }
+                },
+                "supplier_dbdata" : {
+                    "annotations" : [
+                        {
+                            "name" : "source"
+                        }
+                    ],
+                    "columns" : {
+                        "company_a_name" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                }
+                            ],
+                            "index" : 0,
+                            "type" : "text"
+                        },
+                        "company_b_name" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                }
+                            ],
+                            "index" : 1,
+                            "type" : "text"
+                        }
+                    }
+                },
+                "supplier_feature" : {
+                    "annotations" : [
+                        {
+                            "name" : "extraction"
+                        }
+                    ],
+                    "columns" : {
+                        "feature" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                }
+                            ],
+                            "index" : 2,
+                            "type" : "text"
+                        },
+                        "p1_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "args" : {
+                                        "alias" : "has_relation",
+                                        "column" : "p1_id",
+                                        "relation" : "has_relation"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 0,
+                            "type" : "text"
+                        },
+                        "p2_id" : {
+                            "annotations" : [
+                                {
+                                    "name" : "key"
+                                },
+                                {
+                                    "args" : {
+                                        "alias" : "has_relation",
+                                        "column" : "p2_id",
+                                        "relation" : "has_relation"
+                                    },
+                                    "name" : "references"
+                                }
+                            ],
+                            "index" : 1,
+                            "type" : "text"
+                        }
+                    }
+                }
+            },
+            "variables" : {
+                "has_relation" : {
+                    "label" : "Boolean"
+                }
+            }
+        }
+    }
+}
+

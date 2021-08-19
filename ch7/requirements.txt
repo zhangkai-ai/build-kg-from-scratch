@@ -1,0 +1,13 @@
+tornado
+requests
+loguru
+hnswlib
+elasticsearch
+jieba
+pyltp
+pyhanlp
+pandas
+fasttext
+sklearn
+gensim
+numpy

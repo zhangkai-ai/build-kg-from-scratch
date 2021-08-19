@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.good{
+				font-size: 10px;
+			}
+		</style>
+		<script src="d3.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<svg></svg>
+		<script type="text/javascript">
+			var width=500;
+			var height= 500;
+			var svg = d3.select("svg");
+				svg.attr("x",300)
+					.attr("y",300)
+					.attr("width",1000)
+					.attr("height",1000);
+      d3.json("d3_graph_data.json",function(error,root){
+        if(error){
+          return console.log(error);
+        }
+        console.log(root);
+      var force = d3.layout.force()
+      			.nodes(root.nodes)
+      			.links(root.edges)
+      			.size([1000,800])    
+				.linkDistance(140)
+      			.charge([-500]);
+	  force.start();
+	//   添加线段
+      var links = svg.selectAll("line")
+       					.data(root.edges)
+       					.enter()
+       					.append("line")
+       					.style("stroke","#000")
+						   .style("stroke-width",1);
+	//   添加节点颜色
+      var color = d3.scale.category10(); //构造一个有10种颜色的序数比例尺
+    //   添加节点
+      var nodes = svg.selectAll("circle")
+      					.data(root.nodes)
+      					.enter()
+      					.append("circle")
+      					.attr("r",20)
+      					.style("fill",function(d){
+      						return color(d.type);
+      					})
+      					.call(force.drag); //调用drag函数使节点能被拖动
+    //   添加节点描述信息
+      var texts = svg.selectAll("text")
+      					.data(root.nodes)
+      					.enter()
+      					.append("text")
+      					.attr("class","good")
+      					.attr("dx",25)
+      					.attr("dy",5)				  
+      					.text(function(d,i){
+      						return d.name;
+      					})
+      					.style("fill","black");
+    //   更新信息
+    force.on("tick", function(){
+		    // 更新连线坐标
+		    links.attr("x1",function(d){ return d.source.x; })
+		        .attr("y1",function(d){ return d.source.y; })
+		        .attr("x2",function(d){ return d.target.x; })
+		        .attr("y2",function(d){ return d.target.y; });
+		    // 更新节点坐标
+		    nodes.attr("cx",function(d){ return d.x; })
+		        .attr("cy",function(d){ return d.y; });
+		    // 更新描述信息坐标
+		    texts.attr("x", function(d){ return d.x; })
+		       .attr("y", function(d){ return d.y; });
+    });
+  })
+		</script>
+	</body>
+</html>

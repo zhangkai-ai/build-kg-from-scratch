@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zhangyunke/ontologies/2019/5/untitled-ontology-15#"
+     xml:base="http://www.semanticweb.org/zhangyunke/ontologies/2019/5/untitled-ontology-15"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:finance="http://www.semanticweb.org/admin/ontologies/2019/5/finance#"
+     xmlns:untitled-ontology-15="http://www.semanticweb.org/zhangyunke/ontologies/2019/5/untitled-ontology-15#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#上游 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#上游">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#下游 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#下游">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#总经理 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#总经理">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#人物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#法人 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#法人">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#人物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#注册地 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#注册地">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#地点"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#主营业务 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#主营业务">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#年龄 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#年龄">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#人物"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#性别 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#性别">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#人物"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#成立时间 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#成立时间">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#人物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#人物"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#其他有限责任公司 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#其他有限责任公司">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#有限责任公司"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#国有独资公司 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#国有独资公司">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#有限责任公司"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#地点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#地点"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#有限责任公司 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#有限责任公司">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#股份有限公司"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营企业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营企业">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营合伙企业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营合伙企业">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营有限责任公司 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营有限责任公司">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营独资企业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营独资企业">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营股份有限公司 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营股份有限公司">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#私营企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#股份有限公司 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#股份有限公司">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#企业"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#北京 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#北京">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#地点"/>
+        <finance:注册地 rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#小米科技有限责任公司"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#小米科技有限责任公司 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#小米科技有限责任公司">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#其他有限责任公司"/>
+        <finance:主营业务 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">技术开发，技术进出口，计算机等</finance:主营业务>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2019/5/finance#雷军 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2019/5/finance#雷军">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#人物"/>
+        <finance:总经理 rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#小米科技有限责任公司"/>
+        <finance:法人 rdf:resource="http://www.semanticweb.org/admin/ontologies/2019/5/finance#小米科技有限责任公司"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
