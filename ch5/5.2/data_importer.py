@@ -3,7 +3,7 @@
 import xlrd
 from kg_dao import kg_dao
 
-# 标准数据字段表
+# 标准数据字段表，需要根据实际使用的数据填写相应的路径
 ExcelFile = xlrd.open_workbook('path/to/data')
 
 # 构建节点字典
@@ -12,6 +12,7 @@ molecule_node_dict = {}
 person_node_dict = {}
 indication_node_dict = {}
 ip_node_dict = {}
+
 # 建立边关系，边关系建立时，出节点的优先级判定：molecule > company > person > ...
 molecule_rel_dict = {
     'indication': [],
@@ -28,6 +29,7 @@ person_rel_dict = {
 }
 
 
+# 定义和抽取公司结点信息
 def xlsx_process_company():
     sheet = ExcelFile.sheet_by_name('Company')
     for x in range(1, sheet.nrows):
@@ -38,7 +40,7 @@ def xlsx_process_company():
         company_size = sheet.cell(x, 4).value       # 公司规模,数值型
         company_address = sheet.cell(x, 5).value    # 公司地址,字符型
 
-        # 更新公司节点
+        # 更新公司结点
         if company_id not in company_node_dict:
             company_node_dict[company_id] = {}
         company_detail = company_node_dict[company_id]
@@ -50,16 +52,17 @@ def xlsx_process_company():
         company_detail['company_address'] = company_address
 
 
+# 定义和抽取分子结点信息
 def xlsx_process_molecule():
     sheet = ExcelFile.sheet_by_name('Molecule')
     for x in range(1, sheet.nrows):
         molecule_id = sheet.cell(x, 0).value        # 分子id,字符型
         molecule_name_eng = sheet.cell(x, 1).value  # 分子英文名,字符型
-        sequence = sheet.cell(x, 2).value
-        drug_type = sheet.cell(x, 3).value
-        cell_type = sheet.cell(x, 4).value
+        sequence = sheet.cell(x, 2).value           # 分子序列,字符型
+        drug_type = sheet.cell(x, 3).value          # 分子制药方式,字符型
+        cell_type = sheet.cell(x, 4).value          # 分子细胞种类,字符型
 
-        # 更新分子节点
+        # 更新分子结点
         if molecule_id not in molecule_node_dict:
             molecule_node_dict[molecule_id] = {}
         molecule_detail = molecule_node_dict[molecule_id]
@@ -70,14 +73,15 @@ def xlsx_process_molecule():
         molecule_detail['cell_type'] = cell_type
 
 
+# 定义和抽取人物结点信息
 def xlsx_process_person():
     sheet = ExcelFile.sheet_by_name('Person')
     for x in range(1, sheet.nrows):
         person_id = sheet.cell(x, 0).value      # 人物id,字符型
-        person_name = sheet.cell(x, 1).value    # 人物名,字符型
+        person_name = sheet.cell(x, 1).value    # 人物姓名,字符型
         person_age = sheet.cell(x, 2).value     # 人物年龄,字符型
 
-        # 更新人物节点
+        # 更新人物结点
         if person_id not in person_node_dict:
             person_node_dict[person_id] = {}
         person_detail = person_node_dict[person_id]
@@ -86,13 +90,14 @@ def xlsx_process_person():
         person_detail['person_age'] = person_age
 
 
+# 定义和抽取适应症结点信息
 def xlsx_process_indication():
     sheet = ExcelFile.sheet_by_name('Indication')
     for x in range(1, sheet.nrows):
         indication_id = sheet.cell(x, 0).value      # 适应症id,字符型
-        indication_name = sheet.cell(x, 1).value    # 适应症名字,字符型
+        indication_name = sheet.cell(x, 1).value    # 适应症名,字符型
 
-        # 更新适应症节点
+        # 更新适应症结点
         if indication_id not in indication_node_dict:
             indication_node_dict[indication_id] = {}
         indication_detail = indication_node_dict[indication_id]
@@ -100,13 +105,14 @@ def xlsx_process_indication():
         indication_detail['indication_name'] = indication_name
 
 
+# 定义和抽取专利结点信息
 def xlsx_process_ip():
     sheet = ExcelFile.sheet_by_name('IP')
     for x in range(1, sheet.nrows):
         ip_id = sheet.cell(x, 0).value      # 专利id,字符型
         ip_name = sheet.cell(x, 1).value    # 专利名,字符型
 
-        # 更新专利节点
+        # 更新专利结点
         if ip_id not in ip_node_dict:
             ip_node_dict[ip_id] = {}
         ip_detail = ip_node_dict[ip_id]
@@ -114,6 +120,7 @@ def xlsx_process_ip():
         ip_detail['ip_name'] = ip_name
 
 
+# 分子和适应症对应关系构建
 def xlsx_process_molecule_indication_mapping():
     sheet = ExcelFile.sheet_by_name('Molecule_Indication')
     for x in range(1, sheet.nrows):
@@ -128,6 +135,7 @@ def xlsx_process_molecule_indication_mapping():
         )
 
 
+# 分子和公司对应关系构建
 def xlsx_process_molecule_company_mapping():
     sheet = ExcelFile.sheet_by_name('Molecule_Company')
     for x in range(1, sheet.nrows):
@@ -141,6 +149,7 @@ def xlsx_process_molecule_company_mapping():
         )
 
 
+# 分子和人物对应关系构建
 def xlsx_process_molecule_person_mapping():
     sheet = ExcelFile.sheet_by_name('Molecule_Person')
     for x in range(1, sheet.nrows):
@@ -154,6 +163,7 @@ def xlsx_process_molecule_person_mapping():
         )
 
 
+# 分子和专利对应关系构建
 def xlsx_process_molecule_ip_mapping():
     sheet = ExcelFile.sheet_by_name('Molecule_Ip')
     for x in range(1, sheet.nrows):
@@ -167,6 +177,7 @@ def xlsx_process_molecule_ip_mapping():
         )
 
 
+# 公司和专利对应关系构建
 def xlsx_process_company_ip_mapping():
     sheet = ExcelFile.sheet_by_name('Company_Ip')
     for x in range(1, sheet.nrows):
@@ -180,6 +191,7 @@ def xlsx_process_company_ip_mapping():
         )
 
 
+# 公司和人物对应关系构建
 def xlsx_process_company_person_mapping():
     sheet = ExcelFile.sheet_by_name('Company_Person')
     for x in range(1, sheet.nrows):
@@ -193,6 +205,7 @@ def xlsx_process_company_person_mapping():
         )
 
 
+# 人物和专利对应关系构建
 def xlsx_process_person_ip_mapping():
     sheet = ExcelFile.sheet_by_name('Person_Ip')
     for x in range(1, sheet.nrows):
@@ -206,15 +219,19 @@ def xlsx_process_person_ip_mapping():
         )
 
 
+# 主执行代码入口
 def process():
+    # 重置kg图数据库
     kg_dao.reset()
 
+    # 执行上述定义的结点生成函数，构建结点字典
     xlsx_process_company()
     xlsx_process_molecule()
     xlsx_process_person()
     xlsx_process_indication()
     xlsx_process_ip()
 
+    # 执行关系生成函数，构建关系字典
     xlsx_process_molecule_indication_mapping()
     xlsx_process_molecule_company_mapping()
     xlsx_process_molecule_person_mapping()
@@ -223,27 +240,27 @@ def process():
     xlsx_process_company_person_mapping()
     xlsx_process_person_ip_mapping()
 
-    # 创建公司节点
+    # 创建公司结点
     for company_id in company_node_dict:
         company_detail = company_node_dict[company_id]
         company_neo4j_id = kg_dao.create_node(['Company'], company_detail)
         company_detail['id'] = company_neo4j_id
-    # 创建分子节点
+    # 创建分子结点
     for molecule_id in molecule_node_dict:
         molecule_detail = molecule_node_dict[molecule_id]
         molecule_neo4j_id = kg_dao.create_node(['Molecule'], molecule_detail)
         molecule_detail['id'] = molecule_neo4j_id
-    # 创建人物节点
+    # 创建人物结点
     for person_id in person_node_dict:
         person_detail = person_node_dict[person_id]
         person_neo4j_id = kg_dao.create_node(['Person'], person_detail)
         person_detail['id'] = person_neo4j_id
-    # 创建适应症节点
+    # 创建适应症结点
     for indication_ip in indication_node_dict:
         indication_detail = indication_node_dict[indication_ip]
         indication_neo4j_id = kg_dao.create_node(['Indication'], indication_detail)
         indication_detail['id'] = indication_neo4j_id
-    # 创建IP节点
+    # 创建IP结点
     for ip_id in ip_node_dict:
         ip_detail = ip_node_dict[ip_id]
         ip_neo4j_id = kg_dao.create_node(['IP'], ip_detail)

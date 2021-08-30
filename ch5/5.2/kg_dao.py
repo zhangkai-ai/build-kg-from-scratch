@@ -3,7 +3,6 @@
 import re
 import os
 from neo4j.v1 import GraphDatabase, basic_auth
-# from flask import current_app
 
 
 class KGDao:
@@ -31,7 +30,7 @@ class KGDao:
         '''
         get property_value of a neo4j node with node_id and property_name
         :param node_id: neo4j node ID
-        :param property_name:
+        :param property_name: neo4j node property name
         :return: property_value
         '''
         property_value = ''
@@ -46,7 +45,6 @@ class KGDao:
         '''
         get property_value of a neo4j node with node_id and property_name
         :param node_id: neo4j node ID
-        :param property_name:
         :return: property_value
         '''
         property_dict = {}
@@ -60,7 +58,7 @@ class KGDao:
     def create_node(self, label_list, property_map, is_merge=True):
         '''
         create a neo4j node with labels and properties
-        :param label_list:
+        :param label_list: neo4j node labels.
         :param property_map:
         :param is_merge: True->MERGE mode; False->CREATE mode
         :return: the newly created node ID
