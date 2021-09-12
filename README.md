@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 本书的勘误信息在《勘误.md》中。
 
-更多问题请联系作者朱晨光，邮箱[maromazk@gmail.com](mailto:maromazk@gmail.com).
+更多问题请联系作者：张凯，邮箱[maromazk@gmail.com](mailto:maromazk@gmail.com).
 
 
 
