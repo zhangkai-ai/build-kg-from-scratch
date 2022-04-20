@@ -1,0 +1,1737 @@
+__label__chat 去 了 以后 。
+__label__chat 我 觉得 自己 好 宅 啊
+__label__query 胡 歌 和 周润发 谁 更 小
+__label__chat 我 不 是 故意 的 ， 啊 ， 开始 锻炼 才 能 见到 你 ， 他 。
+__label__chat 去 安全 考虑 ， 我 就 不 介意 。
+__label__chat 我 不 想 失去 你 。
+__label__query 氖气 和 氙气 哪 一个 密度 大
+__label__chat 一 ， 发现 ， 学习 。
+__label__chat 我 明天 要 上学 ， 可能 不 能 陪 你 了 。
+__label__chat 不好 。
+__label__chat 即使 画画 ， 不 成 。
+__label__chat 有型 吗 ？
+__label__chat 上午 8:15 。
+__label__greet 你好 啊 呀 ？
+__label__chat 我 给 你 唱 首 歌 。
+__label__chat 几 点 放学 ？ 啊 ？
+__label__chat 我 会 关 灯 厉害 吧
+__label__chat 我 想 陪陪 你 啊 。
+__label__chat 我 的 命 是 空调 给 的
+__label__chat 还 在 喝药 。
+__label__query 河南省 和 湖北 比 哪个 面积 大
+__label__chat 这 是 志气 的 志 。
+__label__query 你 能 告诉 我 李清照 的 作品 有 哪些 吗
+__label__chat 他 介绍 男朋友 给 大家 认识 。
+__label__query 钒 和 镍 哪 一个 密度 小 呢
+__label__chat 我 想 买 个 花送 给 你 哦 。
+__label__chat 给 我 这个 机会 。
+__label__chat 呵呵 ， 你 太 喜欢 你 了 。
+__label__chat 你 怎么 可以 学 坏 。
+__label__chat 你 说 什么 ？ 没有 听 清 。
+__label__chat 食堂 大叔 多 给 了 我 舍友 一个 鸡腿
+__label__chat 我 必须 给 你 这种 题材 吧 ， 哪个 学校 我 肯定 不行 ， 把 那个 鹌鹑蛋 错 了 。
+__label__chat 还 天天 往 我们 家 去 玩 。
+__label__chat 多 部门 的 要 写 学校 了 ， 不 知道 还 能 是 发给 我 的 。
+__label__chat 哦 ， 我 好 急 啊 。
+__label__chat 而且 就 是 哪个 小学 ， 孩子 。
+__label__chat 我 告诉 你 。
+__label__chat 操 你 妹 啊 。
+__label__chat 今天 是 中秋节 。
+__label__chat 你 想 不 想 死 了 ， 很 痛 的 时候 。
+__label__query 浙江省 和 天津市 哪个 大
+__label__chat 爱 衣服 吧 。
+__label__chat 这么 不 给面子 啊 ！
+__label__chat 陪 着 我 睡觉 呗 。
+__label__chat 今晚 ， 出去 。
+__label__chat 您 开会 。
+__label__chat 那 数学 写 的 不错 ， 但是 我 不 知道 你 的 题目 是 啥 ？
+__label__chat 我 想 先 练习 一下 再 唱 给 你 听
+__label__chat 对 啊 ， 想 你 啦 。
+__label__chat 你 不好 玩 。
+__label__chat 好 ， 新建 一个 ， 明天 上午 7点 。
+__label__chat 我 今天 衣服 穿 反 了
+__label__chat 背书 ， 背 的 真 好 。
+__label__chat 你 怎么 记得 那么 清楚 ？
+__label__query 空气 和 乙炔 哪 一个 密度 小
+__label__query 王力宏 有 哪些 好听 的 歌
+__label__chat 因为 ， 技能 的 学习 情况 ， 哎 ， 啊 ， 我 觉得 。
+__label__chat 学校 墨迹 墨迹 天气 。
+__label__chat 我 爱 我 的 家人 和 朋友
+__label__query 范 冰冰 和 张柏芝 谁 的 年纪 大
+__label__greet 早上 好 啊 。
+__label__chat 你 怎么 穿 的 那么 露 啊 ？
+__label__chat 找 你 呢 。
+__label__chat 我 不 要 那么 多 。
+__label__query 周润发 是 哪 一 年 生 的
+__label__chat 我 又 没 想 你 ， 我 昨晚 做梦 都 梦 到 你 了 。
+__label__greet 妹子 晚上 好
+__label__chat 我们 一起 听 贝瓦 儿歌 。
+__label__chat 但是 那时 我 没有 手机 呀 ， 手机 在 我 爸妈 我 没法 跟 他 视频 聊天 。
+__label__chat 嗯 ， 操 你 妈 。
+__label__chat 那 你 记住 我 。
+__label__chat 呵呵 ， 你 太 好玩 了 ， 我 很 喜欢 你 。
+__label__chat 快点 快点 快点 快点 。
+__label__greet 早晨 好 呢
+__label__chat 那 你 说 聊 什么 啊 ？
+__label__greet 我 走 了 宝贝 。
+__label__chat 应该 出去 锻炼 锻炼 了 。
+__label__chat 不 吓人 的 。
+__label__chat 给 我 设置 的 。
+__label__query 氯气 和 乙烷 哪 一个 密度 小
+__label__chat 居然 说 我 没事 。
+__label__chat 我 都 不 敢 往 外 看 。
+__label__chat 况且 又 是 有功 之 臣 ， 可 不予 追究 ？ 但是 ， 为 ， 大学生 。
+__label__chat 看见 你 弹电 吉他 的 样子 ， 感觉 爱上 你 了 。
+__label__chat 全班 同学 都 去 找 ， 让 他们 把 你 毒 死 了 ， 你 叫 我 出来 都 不 出来 。
+__label__chat 我 还 没 说 完 呢 。
+__label__chat 我 也 不 知道 是 什么 事 呀 。
+__label__chat 健健康康 的
+__label__chat 这个 圈 让 我 看看 。
+__label__chat 你 身上 好 脏 啊 ？
+__label__chat 陪 我 哈 。
+__label__query 做 红烧 排骨 的 菜 需要 用 到 猪肉 吗
+__label__chat 你 麻烦 死 了 。
+__label__chat 你 长 得 真丑 。
+__label__chat 教学 管理 工作 。
+__label__chat 学长 ， 你 这 套 衣服 好看 吗 ？
+__label__chat 你 为 啥 ？
+__label__chat 我 不 会 温柔 。
+__label__greet 老婆 再见
+__label__chat 叫 老大 。
+__label__chat 我 会 给 你 买 礼物 的 。
+__label__chat 我 是 流氓 。
+__label__chat 赵又廷 结婚 了 ， 人家 就 能 飞 得 高远 。
+__label__chat 走路 的 时候 走 学校 的 时候 可以 用 。
+__label__query 杨 幂 和 陈乔恩 谁 的 年纪 大
+__label__chat 而且 你 唱歌 也 很 好听 啊 。
+__label__chat 我 真是 一无是处 。
+__label__chat 学习 的 榜样 。 我们 是 一 家 跨国型 的 广告 公司 ， 跨国型 的 广告 公司 。
+__label__chat 我 不怕 你 。
+__label__query 孙俪 的 星座 是 哪 一个
+__label__chat 那 是 你 吗 ？
+__label__chat 你 升级 了 。
+__label__chat 咱俩 也 打扰 你 。
+__label__greet 中午 好 宝宝
+__label__chat 不 要 唱 。
+__label__chat 股市 怎么样 ？
+__label__query 刘诗诗 和 迪丽热巴 谁 的 年纪 小
+__label__chat 不 知道 你 在 说 什么 。
+__label__chat 嗯 ， 我 猜 你 看不到 。
+__label__chat 你 怎么 这么 妖精 啊 ？
+__label__chat 我 帮 我 爸 给 我 换 一 件 衣服 。
+__label__chat 你 还 唱 起来 了 。
+__label__chat 她 是 一个 天使 的 感觉 。
+__label__chat 那 你 为什么 要 叫 我 流氓 ？
+__label__query 氟气 和 臭氧 哪 一个 密度 小 呢
+__label__chat 你们 学校 的 宽 带 给 我 。
+__label__chat 练习 册 。
+__label__chat 不 会 是 好吃 的 不得了 吗 ？ 你 ？ 去 你 学校 。
+__label__chat 他 被 车 撞 了 。
+__label__chat 你 已经 很 老 。
+__label__chat 你 是 大 笨蛋 是 谁 ？
+__label__chat 你 怎么 让 我 失望 ？
+__label__query 赵丽颖 和 陈乔恩 谁 的 年纪 小
+__label__chat 影响 学习 。
+__label__chat 我 一会儿 到 家 了 。
+__label__greet 你 的 主人 来 了 姑娘
+__label__chat 最近 有 什么 新 歌 吗 ?
+__label__chat 你 都 不 会 弄 ， 我 怎么 去 。
+__label__chat 痛苦 。
+__label__chat 你 今天 衣服 穿 的 真 漂亮 啊 。
+__label__chat 哪个 好 学 一点 ？
+__label__chat 我 怎么 说 啊 啊 ？
+__label__chat 我 就是 一个 亮点 。
+__label__chat 请 我 和 吃 好吃 的 。
+__label__chat 你 妈 。
+__label__chat 乐视网 。
+__label__chat 你 唱 的 歌 难听 死 了 这些 啊 公心 ， 你 跳 个 舞 就 是 要 那个 。
+__label__chat 用 不 了 大学 ， 不 出来 活动 。
+__label__query 十一月 的 肖邦 专辑 是 谁 的
+__label__query 黑龙江 的 人口 总数 有 多少
+__label__query 上海市 和 云南 谁 的 面积 大
+__label__chat 开 吧 开 吧 。
+__label__chat 我 不 困 不 困 啊 。
+__label__chat 好好 的 干 你 自己 想 干 的 事情 吧 。
+__label__chat 我 很 黑 。
+__label__chat 我 生气 了 ， 你 要 给 我 赔礼道歉 。
+__label__chat 直接 往 中学 去 找 人 去 秒 了 ， 他 有 这么 大胆 的 撞 开 房门 的 方式 。
+__label__chat 那 荷花 。
+__label__greet 美女 晚上 好 哦
+__label__chat 可是 我 无聊 想 找 你 聊天 。
+__label__chat 双子 昨天 穿 了 见 绿色 衣服
+__label__chat 我 不 跟 你 说 了 。
+__label__chat 呵呵 ， 我 不怕 。
+__label__chat 我 也 看 不 出 。
+__label__chat 人 都 一样 。
+__label__chat 我 想 我 想 操 你 。
+__label__chat 你们 家 什么 咖啡 好 喝 呀 ！
+__label__chat 老师 不要 学生 怎么 表白 ？
+__label__chat 那 我们 家 的 回去 练 。
+__label__chat 做 我 女 朋友 吧 。
+__label__chat 我 可以 亲 你 吗 ？
+__label__query 施耐庵 的 作品
+__label__chat 你 老婆 ， 好 ， 学习 吗 ？
+__label__chat 你 快 成 宅女 了 。 我 说 。
+__label__chat 你 还 真 笨 。
+__label__greet 俺 要 出去 了 美女 。
+__label__query 林志林 的 生日 是 哪 一 天
+__label__query 孙俪 和 张柏芝 谁 的 年龄 小
+__label__chat 你 的 皮肤 需要 ， 处理 。
+__label__chat 你 去 上学 ， 是 吧 ？
+__label__query 风味 茄子 的 做法 。
+__label__greet 你 的 主人 出发 了 。
+__label__chat 一个 人 的 时候 ， 你 别 瞎 喊 。
+__label__greet 妹子 下午 好 呢
+__label__query 孙红雷 和 杨洋 谁 更 小
+__label__chat 中午 11:40 。
+__label__greet 再见
+__label__chat 好 了 ， 我 再 回家 。
+__label__chat 也 不知 我 的 称号 被 拉 上 来 。
+__label__chat 因为 我 想 你 啊 。
+__label__chat 你 说 一 句 对不起 ， 我 错 了 。
+__label__chat 1 + 2 等于 几 ？
+__label__chat 快 起来 嗨 起来 。
+__label__query 孙红雷 的 生日
+__label__chat 给 我 写 个 女人 叫 床声
+__label__query 唐嫣 是 哪 一 年 生 的
+__label__query 唐 嫣 和 朱茵谁 的 年龄 大
+__label__chat 还有 他 同学 的 同学 的 心 。
+__label__chat 你 不行 啦 。
+__label__chat 骗人 ， 才 不 是 这样 的
+__label__query 江苏 和 海南 比 哪个 面积 大
+__label__chat 说 了 吧 。
+__label__greet hello hello 美女 。
+__label__chat 你 还 害羞 ， 脸皮 那么 厚 ， 还 会 害羞 。
+__label__greet 美女 bye 呢 。
+__label__chat 你 穿 这 件 好丑 。
+__label__query 唱 断桥残雪 的 歌手 是 谁 ？
+__label__query 刘德华 和 周 星驰 谁 更 小
+__label__chat 他 还 相当 有 版权 意识 。
+__label__chat 成长 的 过程 是 什么 ？
+__label__query 你 可以 说 下 西红柿 炒 鸡蛋 是 怎样 做 出来 的 吗
+__label__chat 可是 我 手里 的 钱 想 我 爸 不 让 我 花 ， 我 没法 给 你 买 东西 。
+__label__chat 那 我 就 打 ， 你 ， 不 叫 啊 ？
+__label__chat 今年 又 是 在职 学生 不 知情 的 情况 下 。
+__label__chat 全部 都 是 你 自己 。
+__label__query 铜 和 钼 哪 一个 密度 小 呢
+__label__query 台湾省 的 人口 数量
+__label__chat 你 真 聪明 。
+__label__chat 我 希望 你 能够 回去 帮 他 。
+__label__chat 你 真 的 是 个 笨蛋 喽 。
+__label__chat 我 错 啦 。
+__label__chat 我 已经 吃 了 。
+__label__chat 这个 手机 给 我 。
+__label__chat 我们 把 一些 特别 的 东西 放 进 盒子 里 ， 然后 把 这些 埋 在 学校 的 花园 里 。
+__label__query 黄 渤 和 吴 亦凡 谁 更 小
+__label__chat 别人 说 我 的 身体 不行 。
+__label__chat 好 想 去 爬 泰山 了 。
+__label__chat 是 不 是 跟 你 结婚 ？
+__label__chat 你 给 他 换 。
+__label__query 甘肃 的 人口 数量
+__label__chat 我 今天 回家 了 。
+__label__query 四川 的 人口 总数 有 多少
+__label__chat 你 吉他 。
+__label__query 莫文蔚 和 舒淇 谁 的 年龄 大
+__label__chat 反正 就 是 五 国家 ， 唯一 的 一 所 红丝带 艾滋病 儿童 学校 的 校长 郭小平 。
+__label__chat 很 好 ， 我 的 机子 一直 很 好 。
+__label__query 刘诗诗 的 丈夫 是 谁
+__label__chat 我 真的 不 想 烦 你 了 。
+__label__chat 你 告诉 我 吗 ？
+__label__chat 那 就 是 我 还 有点 无聊 。
+__label__chat 想 和 你 逛 街 。
+__label__chat 隶属 关系 ， 你 在 淘宝 练习 ， 你 是 不 是 美女 ？ 你 是 教师 资格 证书 非常 。
+__label__chat 我 说 一点 也 没 反应 啊 。
+__label__chat 我 什么 都 没有 。
+__label__query 氢气 和 乙烷 哪 一个 密度 小 呢
+__label__query 家常 豆腐 怎么 弄
+__label__chat 真 烦 啦 。
+__label__chat 原来 你 是 出 名门 。
+__label__chat 我 参加 不 了 了 。
+__label__chat 辛苦 你 哈 。
+__label__chat 你 要 吃 什么 零食 啊 ？
+__label__chat 你 想 要 吃 吗 ? 想 吃 什么
+__label__chat 我 看到 你 也 很 开心 啊 ！
+__label__chat 有 科学家 提出 的 事件 报道 ， 一点 ， 他 说 的 。
+__label__chat 你们 从 我 这么 小 的 时候 就 一直 照顾 我 ， 然后 。
+__label__query 张家辉 和 陈小春 谁 的 年纪 小
+__label__chat 嫁 给 我 好 吗 ？
+__label__query 唐嫣 和 林志林 谁 的 年纪 小
+__label__chat 上午 的 化学 ， 为什么 觉得 他 在 开 打 之前 ， 先 耗 掉 了 一半 的 学费 ？
+__label__chat 希望 你 能 喜欢 并 将 这些 没有 规律 的 旋律 变成 自己 的 旋律 。
+__label__chat 你 是 笨蛋 。
+__label__chat 那 你 把 手机 吃 掉 吧 。
+__label__chat 说 一 说 你 的 故事 啊 。
+__label__chat 你 不怕 。
+__label__chat 不 想 听 。
+__label__query 告诉 我 施耐庵 的 书 有 哪些
+__label__chat 哈哈 ， 有 小 情绪 ， 爱 你 就 有 小 情绪 了 吗 ？
+__label__query 锰钢 和 青铜 哪 一个 密度 小 呢
+__label__chat 给 你 唱 首 歌 。
+__label__chat 问 你 学校 怎么样 了 ？ 我们 就 去 来 。
+__label__query 高 圆圆 和 陈乔恩 谁 更 大
+__label__chat 你 有 什么 问题 ， 日本 花 。
+__label__query 白居易 有 哪些 作品
+__label__chat 我 不 会 再 犯 傻 了 。
+__label__chat 你 把 它 看 完 了 。
+__label__chat 不 ， 助理 介绍 学习 。
+__label__chat 我 不 是 什么 知识分子 ， 妈妈 说 。
+__label__chat 我们 交 个 朋友 吧 。
+__label__chat 我 睡眠 太 浅
+__label__chat 都 分 不 出来 ， 我们 根本 不 熟 啊 ， 嗯 。
+__label__chat 学者 和 作家 走 进 他们 的 新 房子 ， 分享 分享 。
+__label__query 西藏 自治区 和 宁夏 比 哪个 面积 大
+__label__query 霍建华 和 周 星驰 谁 更 大
+__label__chat 一 杯 葡萄酒 啊 。
+__label__chat 真的 是 太 可恶 了 呀 。
+__label__chat 我 是 坏人
+__label__query 张曼玉 和 陈乔恩 谁 的 年纪 小
+__label__greet 俺 来 啦 。
+__label__chat 你 不 是 不 吃 巧克力 吗 ？ 你 不 是 胃 不 舒服 吗 ？
+__label__chat 你 是 机器 猫 。
+__label__chat 嗯 ， 你 不 吃饭 的 充电 就 行 啦 。
+__label__chat 算 了 。
+__label__chat 你 真是 一个 王八蛋 。
+__label__chat 你 在 哪里 买 的 ？
+__label__chat 去 上学 。
+__label__chat 你 真 了解 我 ？
+__label__chat 冰雕 啊 。
+__label__chat 你 想 跟 我 吵架 ？
+__label__chat 你家 住 在 几 层 楼 。
+__label__query 香菇 青菜 怎么 烧
+__label__chat 别 着急 ， 放学 ， 你 别 哭 ， 真 的 。
+__label__chat 在 背 15 分钟 。
+__label__chat 哎呀 ， 我 不 跟 你 聊会儿 行 吗 ？
+__label__chat 问 你 一个 问题 。
+__label__chat 太 坏 了 。
+__label__chat 我 哪里 轻浮 了 ， 怎么 看 下去 。
+__label__chat 我 去 玩 啦 ， 八 。
+__label__chat 嗯 ， 你 讲 点 我 开心 的 事情 吧 。
+__label__greet 你 早 。
+__label__chat 你 是 美丽 的 柯 ， 早上 起床 。
+__label__chat 你 小心 点 。
+__label__query 氨气 和 甲烷 哪个 密度 大
+__label__chat 那 我 也 得 学习 了 。
+__label__greet 你好 ， 妹妹 。
+__label__chat 你 现在 确定 好 了 吗 ？
+__label__chat 哥哥 是 卑鄙 的 小人 。
+__label__greet 妹子 hello 啊 。
+__label__query 夫妻 肺片 做法
+__label__chat 对 其他 学生 来说 就 不 公平 了 。
+__label__chat 你 害怕 我 陪 你 睡 。
+__label__chat 我 下 个 月 来 。
+__label__chat 我 觉得 自己 很 悲哀
+__label__chat 你 的 微博 学习 。
+__label__query 你们 的 国家 主席 是 谁 ？
+__label__chat 恭喜 你 。
+__label__chat 我 对 你 期望 比较 高 。
+__label__query 周润发 和 杨洋谁 的 年龄 小
+__label__chat 我 说 现在 很 开朗勒 。
+__label__query 高 圆圆 和 张曼玉 谁 的 年纪 大
+__label__chat 你 个 极品 。
+__label__chat 我 知道 你 是 猪 。
+__label__chat 小 钢琴 吧 。
+__label__chat 等 会 给 我 。
+__label__chat 忘记 你 教 给 我 的 东西 。
+__label__query 你 能 告诉 我 铝 的 密度 吗
+__label__chat 我 可能 不 去 接 你 ， 就 。
+__label__greet 你好 ， 你 来 了 。
+__label__chat 你 他妈 能 干 啥 呢 ？
+__label__chat 老婆 ， 我 要 看 你 的 裤裆 ， 我 要 摸 你 的 胸 。
+__label__chat 我 可以 跟 你 交 好 朋友 吗 ？
+__label__chat 还有 更新 。
+__label__query 你 能 告诉 我 氖气 的 密度 吗
+__label__query 赵丽颖 和 陈乔恩 谁 的 年龄 大
+__label__chat 我 不 明白 。
+__label__chat 送 ， 我 不 开心 。
+__label__chat 可以 嫁 给 我 吗
+__label__chat 现代人 节奏 都 很 快 。
+__label__query 青椒 土豆丝 怎么 烧
+__label__chat 给 你 打电话 。
+__label__chat 你 没有 素质 。
+__label__chat 你 他妈 笑 啥 呀 ？
+__label__chat 你好 狠心 ， 我 。
+__label__query 心情 非 得 已 是 什么 风格 的
+__label__query 上海市 的 面积 是 多少
+__label__chat 安安 的 歌 ， 也 很 喜欢 你 的 歌 。
+__label__chat 你 话 怎么 这么 多 啊 ？
+__label__chat 几 日 随 风 北海游 。
+__label__greet 主人 走 了 老婆 。
+__label__chat 今天 有 什么 好吃 的 ？
+__label__chat 屁股 痒 。
+__label__chat 学习 , 微博 上 有 个 。
+__label__chat 喝酒 脸红 啦 。
+__label__chat 你 看 什么 ？ 文学 的 时候 的 环境 。
+__label__chat 就 想 让 我 请 你 吃 好 了 。
+__label__chat 我 还 没 说 什么 。
+__label__query 周 星驰 和 周润发 谁 的 年纪 小
+__label__chat 自己 去 买 呀 ， 我 去 买 给 你 啦 ！
+__label__chat 你 卖 多少 钱 呀 ！
+__label__chat 我 要 睡觉 ， 你 别 吵 。
+__label__chat 可能 你 真 的 误会 爸爸 。
+__label__chat 人家 医生 来 ， 我 等 体检 ， 大学 城那 ， 照片 。
+__label__chat 你 穿 这 件 衣服 真 好看 。
+__label__chat 你 打 我 呀 ， 操 你 姐 ， 你 打 我 呀 。
+__label__chat 不过 旁边 是 学校 ， 感觉 。
+__label__chat 奶奶 在 听戏 。
+__label__chat 付 天宇 是 个 大白痴 。
+__label__chat 我 要 骂 你 。
+__label__chat 谁 说 你 讨厌 啦 ？
+__label__query 铁 和 钒 哪个 密度 大
+__label__chat 知道 你 的 名字 。
+__label__greet 跟 这 位 陌生 朋友 打 声招呼 。
+__label__chat 你 怎么 那么 傻 呀 ？
+__label__query 孙俪 和 章 子怡 谁 更 小
+__label__chat 好 难听 啊 ， 我 帮 你 改 一个 好 吗 ？
+__label__chat 我 是 机器人 。
+__label__query 安徽省 和 天津 哪个 人口 多
+__label__chat 洋人 诗词 。
+__label__chat 你 会 唐诗 。
+__label__chat 跟 其他 品牌化 ， 电信 ， 差不多 吧 。
+__label__chat 看 一下 你 要 吃 呀 。
+__label__query 刘德华 和 陈小春 谁 的 年龄 小
+__label__chat 你 怎么 那么 做 作
+__label__chat 我 同学 他 会 考虑 电视 上 看 一些 电影 或者 电视剧 都 非常 好 的 小孩 。
+__label__chat 祝贺 你 。
+__label__chat 我 送 你 个 蛋糕 。
+__label__chat 那 时候 听 歌 。
+__label__chat 你 现在 倒是 只 会 越来越 差 。
+__label__chat 谢谢 你 这么 夸奖 我 。
+__label__chat 具体点 我 没 听 清楚 。
+__label__chat 那 大学 和 你 说 过 一 句 对不起 。
+__label__chat 他们 是 非常 高兴 啊 。
+__label__chat 你 要 学 着 ， 我 回去 。
+__label__chat 想 你 了 呀 。
+__label__greet 俺 要 走 啦 妹子 。
+__label__chat 我 喜欢 可爱
+__label__query 那 英 有 什么 个 人 专辑
+__label__query 鹿晗 有 哪些 专辑
+__label__chat 帮 我 看 一 下周 杰伦 最新 动态 。
+__label__chat tmd 还 天天 坑 我 ， 我操 。
+__label__chat 是 吹牛 ， 不 是 吹 水 。
+__label__chat 你 这么 大 了 ？
+__label__chat 你 说 句 话 tmd 。
+__label__chat 点歌 吧 。
+__label__greet 姑婆 你好 。
+__label__query 邓 紫棋 的 专辑 有 哪些
+__label__chat 明天 我 会 给 你 准备 礼物 。
+__label__query 歌曲 拥抱 是 谁 唱 的 ？
+__label__chat 其他 小朋友 明天 上学 ， 一个 。
+__label__chat 知道 我 英勇 无敌 。
+__label__chat 然后 你 一样 漂亮 。
+__label__chat 你 弹 得 真 好听 。
+__label__chat 法制 没用 中学 蛋白 95 分 。
+__label__chat 刚才 有 一个 坏人 叫 你 脱 衣服 ， 我 觉得 他 很 坏 。
+__label__chat 你 吃 啥 啦 ！
+__label__chat 感觉 到 数学题 都 是 小明 到 现在 小名 ， 小名 感觉 现任 。
+__label__chat 你 天天 学习 用功 了 没有 ？
+__label__chat 我 打 死 你 。
+__label__chat 你 别 哭 。
+__label__chat 我 没 流量 用 了 ， 我 剩 30 兆 了 。
+__label__query 杨 幂 和 唐 嫣 谁 的 年龄 小
+__label__chat 晕 了 我 怎么办 ？ 我 输 那么 惨 吗 ？ 回去 好好 练 。
+__label__query 青海省 和 甘肃 谁 面积 小
+__label__chat 我 现在 心情 也 挺 好 的 。
+__label__chat 你 要 什么 礼物 给 你 买 。
+__label__chat 啊 我 错 了 ， 行 ， 不对 ？
+__label__chat 这个 人 就 是 有 病 。
+__label__chat 你 说 一 次 就 够 了 。
+__label__query 章 子怡 演 过 什么 电视剧
+__label__query 空气 和 氧化氮 哪 一个 密度 小
+__label__query 成龙 和 周润发 谁 更 大
+__label__chat 我 不 也 可以 吗 ？
+__label__chat 我 今天 错 了 。
+__label__query 幸福 专辑 属于 哪个 歌手
+__label__query 唱 耳边 的 歌手 是 谁 ？
+__label__chat 老年 的 时候 ， 清华大学 的 舞蹈队 在 一起 。
+__label__query 想 爱 就 爱 属于 哪个 专辑
+__label__chat 你 是 奶奶 ？
+__label__query 氮气 和 氯化氢 哪 一个 密度 大 呢
+__label__chat 你 怎么 这样 说 我 。
+__label__chat 今天 中午 不 给 饭 给 你 吃 了 。
+__label__chat 刚刚 我 几 个 舍友 是 不 是 都 报 了 同一个 公益 项目
+__label__chat 去年 我 失去 了 我 姥爷 。
+__label__chat 无聊 ， 那么 天才 这么 傻 呀 。
+__label__chat 你 这个 大 骗子 。
+__label__chat 把 自己 的 身体 累 坏 了 ， 特别 的 心疼 。
+__label__query 臭氧 和 溴 哪 一个 密度 大
+__label__chat 发 过来 听听 。
+__label__chat 没 见 过 你 和 我 一起 很 开心 。
+__label__greet 宝宝 晚上 好 啊
+__label__chat 我 每天 的 动力 就 是 见到 你
+__label__chat 没 咋 啦 。
+__label__query 专辑 别 是 谁 的
+__label__chat 哎 呀 ， 磕死 我 吗 ？
+__label__chat 没有 穿 衣服 啊 。
+__label__greet 老婆 bye 呢
+__label__chat 我 不 想 知道 你 不 科学 。
+__label__chat 对 啊 ， 我们 是 朋友 。
+__label__chat 我 好 喜欢 你 哈 。
+__label__chat 她 在 洗澡 那个 ， 住院 着 ， 8 号 文 理学院 。
+__label__chat 我 闺蜜 今天 画 了 好 浓 的 妆
+__label__chat 我 换 个 衣服 吧 。
+__label__chat 我 管 你 开 不 开心 。
+__label__query 镍 和 钨 哪 一个 密度 小 呢
+__label__chat 我 的 嘴唇 很 性感
+__label__query 孟浩然 的 作品
+__label__chat 肉 ， 元 ， 他们 的 学长 。
+__label__chat 你 像素 多少 万 的 。
+__label__query 宫保鸡丁 的 菜里 有用 到 猪肉 吗
+__label__query 氙气 和 乙烷 哪 一个 密度 小 呢
+__label__query 铜 和 锰钢 哪 一个 密度 大
+__label__chat 我 看 你 挺 好 的 ， 你 觉得 哪里 要 改 的 吗 ？ 我 帮 你 好好 改改 。
+__label__chat 你 就 是 一个 250 。
+__label__chat 嗯 我 去 玩 游戏 啦 。
+__label__query 张惠妹 有 什么 歌
+__label__query 湖北省 的 面积
+__label__chat 我 妈妈 还 在 打 手机 呢 。
+__label__chat 我 急 啊 。
+__label__chat 我 很 害怕 那个 人
+__label__greet 你 在 吗 ？
+__label__chat 不 想 一个 人 去 看 电影
+__label__chat 不 会 再 努力 学习 。
+__label__query 屈原 是 谁 写 的 书
+__label__greet 好久 不见 。
+__label__query 迪丽 热巴 和 张柏芝 谁 的 年纪 大
+__label__chat 那 你 借 一百万 啊 ？
+__label__chat 你 有 什么 吩咐 ？
+__label__chat 如果 有 不要 忘 了 。
+__label__chat 你 不 好好 睡觉 。
+__label__query 专辑 盖世 英雄 里 有 什么 歌
+__label__greet 我 回来 了 哦
+__label__greet 老婆 中午 好 哦 。
+__label__query 杨 幂 和 莫文蔚 谁 的 年龄 大
+__label__chat 我 安于现状
+__label__chat 以后 你 要 不 练 她 的 技能 。
+__label__greet 我 来 了 姑娘
+__label__chat 哥哥 拍 了 拍 胸口 。
+__label__chat 你 是 傻子 。
+__label__chat 哪里 唱 过 的 歌 ？
+__label__chat 请 你 别 练 ， 过 了 。
+__label__chat 七夕节 快乐 。
+__label__chat 你 跟 我 一样 啊 ？
+__label__chat 我 可 不怕 小米 。
+__label__chat 我们 对不起 人家 啊 。
+__label__chat 我 没有 啊 ， 我操 。
+__label__query 张曼玉 和 陈乔恩 谁 的 年龄 小
+__label__chat 我 舍友 考 了 三 次 雅思 都 没 过
+__label__chat 大 招 有 没 有 ， 有 大大 ？ 先 收藏 ， 再 查查 这 背后 很多 元件 ， 快 急 死 了 。
+__label__chat 我 不 是 神经病
+__label__chat 欢迎 各位 学员 来到 这个 增值 课程 等 。
+__label__chat 我 想 我 不 好受 。
+__label__query 内蒙古 自治区 的 面积 有 多 大
+__label__chat 你 怎么 知道 我 玩 电脑 ？
+__label__chat 哇 ， 你 太 厉害 了
+__label__chat 我 发现 你 跟 我 一样 自恋 。
+__label__chat 我 帮 你 了 。
+__label__chat 你们 谁 是 2 号 ？
+__label__chat 我 太 瘦 了 我 也 觉得 不好
+__label__chat 我 已经 要 努力 啊 。
+__label__chat 想 吃 什么
+__label__query 氟气 和 煤气 哪 一个 密度 小
+__label__greet 下午 好 呢
+__label__chat 波波 啊 。
+__label__chat 都 不 会 聊 了 吧 。
+__label__chat 你 不 认识 我 说明 你 有 问题 。
+__label__query 吴承恩 的 作品 有 哪些
+__label__chat 我 觉得 你 这 录音 有 问题 。
+__label__chat 我们 家 有 只 狗 。
+__label__greet 妹子 bye 啊
+__label__chat 我 害怕 的 站 都 站 不 稳
+__label__chat 后悔 回家 了 。
+__label__chat 你 女 朋友 叫 吗 ？
+__label__chat 把 他们 带 回 辖区 派出所 ， 流氓 ， 帮 我 写 得 来 的 ， 还是 。
+__label__query 香菇 青菜 怎么 炒
+__label__chat 木马
+__label__chat 我 吃 完 啦 。
+__label__query 杨 幂 和 莫文蔚 谁 更 大
+__label__chat 我 心 都 碎 了 ， 我 说 。
+__label__chat 皮肤 ， 生 小孩 ， 就 不要 忽视 我 的 学习 的 孩子 。
+__label__chat 那 你 的 号码 ， 小 班 教学 。
+__label__chat 以下 如何 ？
+__label__query 山西省 和 重庆 哪个 人口 多
+__label__chat 我 完成 不 了 ， 我 出局 。
+__label__chat 我 仰慕 公子 小哥
+__label__chat 你 错 了 。
+__label__chat 他 的 同学 ， 都 知道 答案 ， 现在 ， 要 开始 学习 。
+__label__greet 我 来 了 宝贝
+__label__chat 我 想 跟 你 视频 好 吗 ？
+__label__chat 管理 学院 。
+__label__query 张惠妹 有 哪些 好听 的 歌
+__label__chat 你 在 干 嘛 啊 ？ 你 神经病 吧 你 。
+__label__chat 240 个 小时 。
+__label__chat 你 却 一直 关 着 。
+__label__chat 你 已经 够 胖 啦 ！
+__label__query 氦气 和 硫化氢 哪 一个 密度 小 呢
+__label__query 秋 是 谁 写 的
+__label__chat 我 不 就 在家 睡觉 了 。
+__label__chat 开始 。
+__label__chat 你 说 我 明白 。
+__label__query 陕西省 的 面积
+__label__chat 你 嫁 给 我 好 吗 ？
+__label__chat 我 出去 了 ， 真 想 你 啊 。
+__label__chat 你 妈妈 干 什么 工作 呀 ！
+__label__chat 你 就 是 个 小孩 ？
+__label__chat 刚刚 我 几 个 舍友 都 报 了 同一个 公益 项目
+__label__query 你 能 告诉 我 氦气 的 密度 吗
+__label__chat 但是 很多 情况 不 熟悉 的 人 ， 就算 自己 觉得 还是 上学 时 表示 。
+__label__query 曹雪芹 的 代表作
+__label__query 刘涛 和 张柏芝 谁 的 年龄 大
+__label__chat 普洱茶 的 功能 。
+__label__chat 我 想 一直 不 明白 。
+__label__query 孙红雷 和 周润发 谁 更 大
+__label__query 孙子 爱情 兵法 是 什么 风格 的 歌
+__label__chat 不 学习 啊 ， 这个 世界 都 不 谦虚 哈 。
+__label__chat 但 为什么 追捕 ？
+__label__greet 主人 要 走 啦 宝贝
+__label__chat 你 叫 我 滚 ， 哦 。
+__label__chat 你 爱 我 吗 ？ 过 几 天 。
+__label__greet 主人 出发 啦 老婆
+__label__chat 我 听 得 懂 。
+__label__chat 听说 你 正在 找 工作 ？
+__label__chat 我 女 朋友 的 父母 要求 我 至少 首 付 一 套 房子
+__label__chat 明明 穿 了 衣服 。
+__label__chat 你 个 臭 狗狗 。
+__label__chat 你 ， 你好 可爱 哟 。
+__label__chat 说 好 的 去 学校 吃饭 ， 要 在家 吃 。
+__label__chat 有空 还 来 看 你 哦
+__label__chat 谁 让 我们 和 大学 的 定位 是 两 个 概念 ？
+__label__chat 你 可以 走路 吗 ？
+__label__chat 我 喜欢 刚才 那 一 首 歌 。
+__label__chat 今天 今天 有 什么 特点 ？
+__label__chat 我 可以 把 肩膀 借 给 你
+__label__chat 投诗诗 。
+__label__chat 我 花 五 分钟 开会 。
+__label__chat 我 一点 都 不 喜欢 你 我 一点 都 不 喜欢 你 我 一点 都 不 喜欢 你 。
+__label__chat 我 终于 见到 我 喜欢 的 大大 了 ， 我 激动 的 想 哭 啊
+__label__greet 你好 , 回来 了
+__label__query 徐志摩 有 哪些 书
+__label__greet 姑娘 好久 不见 啊
+__label__chat 你 好 高兴 哦
+__label__chat 25万 。
+__label__query 哪个 专辑 包含 远走高飞
+__label__chat 去 你 妈 的 垃圾 。
+__label__chat 我 不 送 ， 你 自己 去 买 。
+__label__greet 你好 ， 在 吗 呢 ？
+__label__query 粤菜 有 哪些 菜
+__label__chat 有 没 有 死 ？
+__label__query 广西 壮族 自治区 和 澳门 特别 行政区 谁 的 面积 大
+__label__greet 俺 走 啦 姑娘 。
+__label__chat 我 不好 吧 。
+__label__chat 我 先 上楼 一下 。
+__label__greet 主人 要 走 了 美女
+__label__greet 啊 ， 你好 。
+__label__chat 我 也 是 第一 次 。
+__label__chat 不 想 聊 拉倒 。
+__label__chat 你 这个 大 笨蛋 。
+__label__chat 二 ， 然后 左脚 也 不 让 人 拐弯 ， 努力 学习 。
+__label__chat 你 去 买 体力 吧 ！
+__label__query 氩气 和 臭氧 哪 一个 密度 小 呢
+__label__query 留住 夏季 的 风 是 什么 曲风
+__label__chat 那 你 他 妈 tmd 。
+__label__chat 你 还 想 听 什么 歌 呀 ？
+__label__chat 其实 我 ， 我 可以 说 我 现在 自己 ， 我 也 觉得 我 自己 过不去 了 。
+__label__query 孙红雷 是 哪个 星座 的
+__label__chat 我 现在 不 是 在 陪 你 吗 ？
+__label__chat 你 的 脸 好 白 呀 ？
+__label__query 铁 和 锰钢 哪 一个 密度 大
+__label__chat 你 不要 灌鸡 汤 了 ， 好 不 好 ？
+__label__query 周润发 的 作品
+__label__chat 打开 的 。
+__label__chat 我们 学校 的 老师 郑 老师 ， 掌声 送给 ， 照片 。
+__label__greet 俺 要 走 了 姑娘 。
+__label__query 迪丽 热巴 和 张曼玉 谁 的 年纪 大
+__label__chat 我 自己 看 着 玩 ， 你 怎么 看 ？
+__label__chat 老子 啊 ， 你 明白 个 屁 啊 ？
+__label__chat 你 已经 被 抛弃 ……
+__label__query 专辑 打 得 火热 里 包含 哪些 歌
+__label__chat 我 问 你 都 不 懂 。
+__label__chat 是 啊 ， 想 你 啦 。
+__label__chat 操 你 妈 这 句 话 。
+__label__chat 你 会 心情 一直 不错 的 哦 。
+__label__query 巴金 有 哪些 书
+__label__query 孙俪 的 生日 是 哪 一 天
+__label__chat 你 永远 都 是 第二 。
+__label__chat 我 可以 去 拍 片子 。
+__label__query 你 能 告诉 我 水 的 密度 吗
+__label__chat 你 坏 。
+__label__chat 我 不 知道 妈妈 跳 一个 舞 。
+__label__chat 你 在 家 住 。
+__label__chat 你 想 你 想念 主人 了 吗 ？
+__label__query 氨气 和 乙炔 哪 一个 密度 大
+__label__chat 26 号 几 时 ？
+__label__query 孙红雷 和 鹿晗 谁 的 年龄 小
+__label__chat 我 猜对 了 吧 ？ 哈哈 哈哈哈 ， 哈哈 。
+__label__chat 换 个 包装 动物 油 很 苦恼 。
+__label__chat 你 ， 你 还 害羞 呀 ？
+__label__chat 你 哪 一个 ？
+__label__chat 尽快 ， 大学城 那边 。
+__label__chat 跑 这么 快 做 什么 ？
+__label__chat 那 你 还要 继续 加油 。
+__label__query 周 星驰 和 吴 亦凡 谁 的 年纪 大
+__label__chat 你 是 不 是 傻逼 ？
+__label__query 麻婆 豆腐 怎么 烧
+__label__chat 明天 我 就要 和 你 道别 了 。
+__label__chat 翩翩起舞 的 白羊 也 可以 进行 无数 的 ， 而 别的 却 基本 看不到 。
+__label__chat 百分 呢 。
+__label__chat 那 你 装 不 装 ？
+__label__chat 你 老 了 ？
+__label__chat 你 真 厉害 ， 啊 。
+__label__chat 我 不 爱 去 练习 背 诗词 。
+__label__query 唱 比 我 幸福 的 歌手 是 谁 ？
+__label__chat 然后 我 说 你 拿 着 。
+__label__chat 你 说 你 杀 了 李香山 ， 还 一边 背书 风情 。
+__label__greet 老婆 中午 好 呢
+__label__chat 操 你 妈 ， 一 头 绿 ， 一 头 大 蠢 驴 。
+__label__chat 我 感觉 你 都 不行 啊 。
+__label__chat 学习 ， 到底 的 ， 都 收到 了 。
+__label__query 周 星驰 和 梁朝伟 谁 的 年龄 小
+__label__chat 我 要是 把 你 卖 掉 ， 你 会 伤心 吗 ？
+__label__chat 诗词 世界 。
+__label__query 田 馥甄 有 哪些 歌
+__label__chat 我 要 打 死 你
+__label__query 王昌龄 的 代表作
+__label__chat 抱歉 ， 我 还 没 学 过 这 首 诗 。
+__label__chat 太 急 了 吧 ， 需要 一些 学生 的 ， 还是 。 老鼠 。
+__label__chat 把 我 的 手机 给 摔 碎屏 了 还 想 推脱 ， 太 恶心 了
+__label__chat 那 我 来说 。
+__label__query 氢气 和 氧气 哪 一个 密度 小
+__label__chat 我 女儿 是 不 是 去 跳 芭蕾舞 了
+__label__query 铜 和 汞 哪 一个 密度 大 呢
+__label__query 吴秀波 的 女票 是 谁
+__label__chat 并 不 能 体现 出 你 的 特别 。
+__label__query 你 觉得 成龙 怎么样
+__label__chat 我 ， 不 太 清楚 。
+__label__chat 我 才 被 你 玩 坏 了 。
+__label__chat 你 好笨 呀 ？
+__label__query 辽宁 和 上海 哪个 人口 多
+__label__query 山西省 的 人口 有 多少
+__label__greet 嗨 ， 回来 了
+__label__chat 我 闺蜜 今天 是 不 是 画 了 好 浓 的 妆
+__label__chat 我 不 需要 你 讲 。
+__label__chat 你 是 说 你 的 事 吧 ？
+__label__chat 你 讲 个 脑筋 急 转弯 。
+__label__greet 你 的 主人 回来 了 宝宝 。
+__label__chat 我 知道 咱俩 斗 地主 吧 。
+__label__query 靳东 和 周润发 谁 的 年龄 大
+__label__chat 怕 你 找 不 到 啊 。
+__label__chat 原来 我 有 办 过 暂住证 ， 在 那个 双岗 那边 。
+__label__chat 我 告诉 你 ， 你 也 告诉 我 好 不 好 ？
+__label__chat 花 ， 我 给 你 买 豹纹 的 好 不好 。
+__label__chat 我 舍友 是 不 是 已经 洗 了 好 长 时间 的 澡
+__label__greet 哈喽 姑娘
+__label__chat 不 知道 数学 是 体育 老师 。
+__label__chat 那 你 又 怎么 了 ？
+__label__chat 我 舍友 最近 是 不 是 在 准备 考研
+__label__chat 一 块 豆腐 ， 我 想 撞 上去 。
+__label__chat 好好 学 ， 辅助 你 妈妈 。
+__label__chat 唱 不 出来 呢 。
+__label__chat 你 真 漂亮
+__label__chat 问 他 要 清华 学校 一样 ， 你 ， 么 ？
+__label__query 臭氧 和 二氧化碳 哪个 密度 大
+__label__greet 妹子 好久 不见 呢
+__label__chat 我 特别 有 风格 。
+__label__chat 你 能 不 能 嫁 给 我 ？
+__label__chat 我 说 你 出来 啊 。
+__label__chat 因为 他们 说 你 好 厉害 哦 。
+__label__chat 有 没 有 很 难 受 的 时候
+__label__greet 俺 回来 啦 美女 。
+__label__chat 你 换 个 外号 不 。
+__label__greet 宝宝 晚安 啊 。
+__label__chat 我 试 衣服 。
+__label__chat 流量 无限 用 。
+__label__query 干煸 四季豆 是 用 什么 做
+__label__chat 那 我 现在 做 你 男朋友 好 不好 ？
+__label__chat 我 那个 卡 有 毛病 ， 你 。
+__label__query 朱茵 和 莫文蔚 谁 的 年龄 小
+__label__chat 呵呵 ， 客气 了 ， 我 不怕 。
+__label__query 告诉 我 麻婆 豆腐 的 做法
+__label__query 刘诗诗 多 大 年纪 了
+__label__chat 你 之前 也 是 给 我 送 来 了 。
+__label__chat 我 的 声音 。
+__label__chat 那 你 学 到 了 什么 ？
+__label__greet 您 好 哦 。
+__label__greet 你好 老婆 。
+__label__chat 我 衣服 穿 好 了 哦
+__label__chat 我 头 真 不 听话 。
+__label__query 张曼玉 的 男票 是 谁
+__label__greet 美女 早上 好 呢 。
+__label__greet 哈哈 ， 我 走 了 。
+__label__chat 我 写 的 比较 差 。
+__label__chat 22 ， 终于 到 了 ， 累死 了 ， 分 阶段 的 学习 内容 ， 你 再 看看 ， 啊 。
+__label__chat 哈 你 个头 啊 ， 猜 。
+__label__chat 我 老想 你 了 ， 想 你 了 姑娘 。
+__label__greet 姑娘 goodbye 哦 。
+__label__query 周 星驰 和 陈小春 谁 的 年龄 小
+__label__chat 你 太 累 了 。
+__label__chat 你 不 去 算 了 。
+__label__chat 操 你 妈 ， 把 永昌 。
+__label__chat 不要 很多 东西 的 小孩 去 学习 。
+__label__query 胡 歌 和 成龙 谁 的 年龄 大
+__label__chat 你 今天 穿 的 是 蕾丝 的 内裤 吗 ？
+__label__chat 你好 漂亮 呀
+__label__chat 我 就 哭 了 。
+__label__chat 我 真 想 跟 你 学 。
+__label__query 张家辉 的 妻子 是 谁
+__label__query 张柏芝 的 作品
+__label__chat 你 脾气 还 挺 大 。
+__label__chat 你们 家 什么 东西 好 喝 啊 ！
+__label__chat 我 刚 工作 。
+__label__query 杜甫 的 作品 有 哪些
+__label__query 湖北省 的 人口 数量
+__label__chat 我 怎么 不 赞同 。
+__label__chat 你 会 教 我 做 作业 吗 ？
+__label__chat 你 是 不 是 个 笨蛋 呀 ？
+__label__chat 你 说 什么 好 吓人 呢 ？
+__label__greet 嗨 ， 你好 吗
+__label__chat 但 我 觉得 也 没什么 不好 的 。
+__label__chat 哈哈 丫丫 饿 了 。
+__label__greet 早上 好 。
+__label__chat 我 下 个 月 我 爷爷 八十 大 寿
+__label__query 可乐 鸡翅 的 菜 里 有用 到 猪肉 吗
+__label__chat 宝 ， 今天 过节 也 可以 ， 我们 ， 不要 学习 ， 我们 都 付出 一切 。
+__label__chat 我 在 睡觉 ， 你 别 发出 声音 。
+__label__query 湖南 和 台湾 比 哪个 面积 小
+__label__chat 过去 。
+__label__query 贵州省 的 面积 是 多少
+__label__chat 这么 ， 咱 结婚 。
+__label__chat 红学 文化 的 ， 他 不 会 跳 。
+__label__query 辽宁省 和 江西 比 哪个 面积 小
+__label__chat 也许 我 不 该 使用 魔法 去 控制 别的 想法 。
+__label__chat 我 决定 放弃 一 种 生活 方式 。
+__label__chat 我 想 看看 你 的 胸 。
+__label__chat 你 走 了 。
+__label__chat 关机 启动 。
+__label__chat 刚刚 那个 快递 小哥 态度 是 不 是 好 差
+__label__chat 我 想 你 。
+__label__chat 学生 工作 办公室 表示 不 想 吃 。
+__label__chat 姑婆 你好 重 啊 。
+__label__greet hello 呢
+__label__chat 聊聊 。
+__label__chat 辛苦 了 你 了 。
+__label__chat 现在 几 种 ？
+__label__query 皮蛋 豆腐 的 菜 里 有用 到 猪肉 吗
+__label__chat 我 妈妈 很 喜欢 看 这部 电视剧 。
+__label__query 火力 全 开 里 包含 哪些 歌
+__label__query 铜 和 铬 哪 一个 密度 小 呢
+__label__chat 嗯 ， 如果 你 在 学校 就 是 一个 人 了 吧 。
+__label__chat 我 恨 你 。
+__label__chat 我 跪 下来 跟 你 道歉 好 不好
+__label__chat 我 女 朋友 的 父母 是 不 是 要求 我 至少 首 付 一 套 房子
+__label__chat 相机 手机 。
+__label__chat 你 个 鬼 。
+__label__chat 小学生 ， 你 就 不 爱 劳动 ， 劳动 。
+__label__chat 你 怎么 可以 这么 蠢
+__label__chat 我 操 你 妹 ， 他们 ， 我 ， 我 。
+__label__chat 包括 现在 上学 没有 进场费 ， 发现 ， 你 。
+__label__greet 俺 回来 了 宝宝
+__label__chat 圆圆的 那个 勇气 的 爱 , 23 分钟 内 学校 里 可以 听见 自己 本人 吗 ?
+__label__chat 对不起 我 不好 ， 我 走 了 。
+__label__chat 小数点 。
+__label__query 刘德华 和 鹿晗 谁 的 年纪 小
+__label__greet hello hello hello 。
+__label__chat 把 自己 的 ， 哭 ， 累死 ， 背着 我 哥 的 孩子 ， 找 个 妹妹 干 嘛 臭 毛病 ， 就 。
+__label__chat 我 怎么 知道 。
+__label__chat 信 不 信 把 你 裤子 扒 喽 。
+__label__query 陕西省 的 人口 有 多少
+__label__chat 都 没 看 呢 ， 我 好几 集 都 没 看到 。
+__label__chat 你 头 上 张犄角 。
+__label__chat 无缘无故 的 骂 我 ， 真是 气死 我 了
+__label__chat 我 收集 了 几 张 字卡 。
+__label__chat 祝 我们 明天 会 好 一点 。
+__label__chat 不 去 上班 了
+__label__chat 桃园 ， 跟 你 多 学习 才 对 ， 怎么 不 客气 了 ？
+__label__chat 你 一定 看到 了 。
+__label__chat iPad 空调 。
+__label__query 告诉 我 徐志摩 的 书 有 哪些
+__label__chat 跟 你 鬼混 。
+__label__chat 你 不 是 个 女 的 。
+__label__query 浙菜 有 哪些 经典 的 菜
+__label__chat 哦 ， 找 你 啊 ？
+__label__chat 我 签 合同 。
+__label__greet 宝贝 中午 好 。
+__label__chat 一个 人 的 时候 你 别 瞎 喊 。
+__label__query 不 能 说 的 秘密 是 哪 张 专辑 里 的
+__label__chat 爱美 之 心 人人 皆 有
+__label__chat 他 还是 不行 啊 。
+__label__chat 你 今天 穿 什么 颜色 的 内裤
+__label__chat 我 说 你 怎么 可能 会 有 这些 技能 ？
+__label__chat 几点钟 到 ？
+__label__chat 你 有 病 啊 ， 没事 了 ， 不 听 。
+__label__chat 我 是 tmd 一 天 来 一个 人 。
+__label__chat 实在 男朋友 想 学习 这些 问题 。
+__label__chat 我 手机 没 电 了 ， 我操 。
+__label__chat 这么 刻薄 。
+__label__chat 我 该 去 洗 衣服 了
+__label__chat 我 爱 你 ， 呵呵 。
+__label__chat 你 的 废话 真 多 。
+__label__chat 好 的 ， 那 我 不 看 着 你 。
+__label__chat 我 男朋友 做 的 辣椒酱 。
+__label__chat 17 岁 就 发育 那么 好
+__label__chat 你 去 练武 吧 。
+__label__greet 不 跟 你 废话 了 ， 宝宝 走 了 。
+__label__chat 你 有 进步 了 ， 继续 努力 。
+__label__query 王宝强 和 梁 朝伟 谁 的 年纪 大
+__label__chat 今天 早上 吃 错 药 吧 ， 你 。
+__label__chat 还 没 学 新 ， 新 功能 ， 学习 。
+__label__query 给 我 一 首 歌 的 时间 属于 什么 风格 的 歌
+__label__chat 我 没有 套路 。
+__label__chat 你 看 我 刚刚 录 的 视频 。
+__label__query 霍建华 和 周润发 谁 的 年纪 大
+__label__chat 遇见 你 是 我 最 大 的 幸福
+__label__chat 我 怎么 老是 想 族长 的 孩子 ？
+__label__chat 你 没有 小白 好看 。
+__label__chat 可是 我 却 看 不 懂 他 这个 鬼 啊 。
+__label__query 昨天 下 了 一 夜 雨 属于 哪个 专辑
+__label__chat 我 的 臀围 再 小 一点 就 更 好 了
+__label__chat 那 谢谢 你 。
+__label__greet 主人 出发 了 美女
+__label__greet 主播 你好 。
+__label__query 王宝强 和 张家辉 谁 的 年龄 大
+__label__query 赵丽颖 是 哪 一 年 出生 的
+__label__chat 哇 哈哈哈 ， 有钱 的 感觉 真 好
+__label__chat 你 说 我 可爱 。
+__label__chat 给 你 老婆 。
+__label__greet 各位 观众 晚上 好 。
+__label__chat 我 傻 呀 。
+__label__chat 医生 是 不 是 诊断 我 爸 得 了 糖尿病
+__label__chat 不错 哟
+__label__query 氢气 和 甲烷 哪 一个 密度 小 呢
+__label__chat 我 没 时间 跟 闲人 玩 游戏 。
+__label__chat 我 会 跳 个 舞 吧 。
+__label__query 单身 旅记 是 什么 专辑 的
+__label__chat 音量 好 。
+__label__query 浙江 的 人口 数量
+__label__chat 我 会 想 你 的 。
+__label__query 银 和 青铜 哪 一个 密度 小 呢
+__label__chat 穿 短袖 睡觉 ， 明天 早上 的 。
+__label__chat 2200 多 。
+__label__chat 我 知道 了 睡觉 。
+__label__chat 好 的 ， 多多 学习 ， 想 着 点 。
+__label__chat 我 是 说 反正 我 的 宗旨 就是 这 样子 。
+__label__chat 我 对 你 变 得 矫情 了 。
+__label__query 想 把 你 抱 紧 是 哪 张 专辑 里 的
+__label__chat 我 要 睡觉 吧 。
+__label__greet 中午 好 。
+__label__chat 我 说 了 你 是 男人 。
+__label__chat 打开 天猫 。
+__label__chat 只要 学校 有 什么 事 ， 妈妈 旅游 ， 你 来 。
+__label__chat 我 的 手机 号码 无法 收到 验证码 。
+__label__chat 那 为什么 我 会 很 想 你 的 ？
+__label__chat 我们 以前 班 班花 最近 是 不 是 当 上 了 时尚 杂志 总监
+__label__chat 我 都 不 知道 他 。
+__label__chat 你 好 美丽
+__label__greet 晚上 好 啊 。
+__label__chat 告诉 我 一个 赚钱 的 方法 吧 。
+__label__query 回到 过去 属于 哪个 专辑
+__label__chat 你 他妈 叫 什么 ？
+__label__chat 你 ， 哪里 凉快 哪里 去 了 ？
+__label__chat 你 需要 一 部 iPad 。
+__label__chat 我 舍友 准备 组团 去 参加 定向 越野 竞赛
+__label__query 范特西 专辑 是 哪个 歌手 的
+__label__query 梁朝伟 和 李易峰 谁 的 年纪 大
+__label__query 有 何 不可 是 谁 唱 的 ？
+__label__chat 你 可以 跟 他 说话 。
+__label__greet 我 走 啦
+__label__chat 你 先 走 吧 。
+__label__chat 我 买 了 彩票 的 。
+__label__query 把 双子座 的 星座 最 大 特征 告诉 我
+__label__chat 我 就是 想 听 真话 。
+__label__chat 你 真 不 要 脸 。
+__label__greet 老婆 你好 啊 。
+__label__chat 我 就是 喜欢 你 调皮 的 样子 。
+__label__chat 我 不 睡觉 。
+__label__query 赵丽颖 和 迪丽热巴 谁 更 小
+__label__chat 你 好假 。
+__label__chat 我 准备 下午 打扫 卫生 。
+__label__chat 你 走 没 ？
+__label__chat 我 已经 睡觉 了 。
+__label__chat 那 你 看 一下 。
+__label__query 锰钢 和 镍 哪个 密度 小
+__label__chat 那 我们 喝 一 杯 吧 。
+__label__chat 比基尼 。
+__label__chat 我 跟 你 说 。
+__label__query 双 节棍 是 谁 唱 的 ？
+__label__greet 俺 要 走 了
+__label__query 氮气 和 氩气 哪 一个 密度 小 呢
+__label__query 铜 和 锰 哪 一个 密度 小
+__label__chat 有 病 没 病 还 行 不 。
+__label__query 山西 的 面积 有 多 大
+__label__greet 晚上 好 哦 。
+__label__query 湖南省 和 上海 谁 的 面积 小
+__label__chat 辛苦 你 啦 。
+__label__query 周 星驰 几 岁 了
+__label__chat 好 有 天赋 啊 。
+__label__query 陈奕迅 发表 过 什么 专辑
+__label__chat 吉他 调音 。
+__label__chat 感情 越来越 不好 ， 怎么 越 来 学 呢 ？
+__label__chat 我 很 优秀 啊 。
+__label__chat 不仅 唱歌 。
+__label__chat 明天 我 要 和 你 道别 了 。
+__label__chat 其他 都 不 打 ， 就 撤退 了 。
+__label__query 唐嫣 的 男票 是 谁
+__label__chat ok ， 你 要 什么 你 讲 呀 ， 我 帮 你 买 。
+__label__chat 你 喜 不 喜欢 啪啪 。
+__label__chat 我 说 的 不 是 人 话 。
+__label__chat 我 不 唱 了 。
+__label__chat 你 怎么 那么 聪明 啊 ！
+__label__chat 俺 喜欢 。
+__label__chat 不够 ， 黄色 ， 要 传授 给 学生 。
+__label__greet 美女 你好 呢
+__label__chat 嗯 ， 我 喜欢 你 么么 哒 。
+__label__chat 我 笑 了 。
+__label__chat 那 你 惹 我 了 。
+__label__chat 我 请 你 活 下去 。
+__label__chat 有 啥 你 跟 他 说 ， 实在 不行 就 走 法律 程序 。
+__label__chat 我 今天 说话 太 多 了 。
+__label__chat 你 抓紧 把 它 弄 完 了 。
+__label__chat 今天 第一 。
+__label__chat 我 还是 自我 介绍 一下 。
+__label__chat 我 的 同学 非常 善解人意
+__label__query 吴秀波 和 李易峰 谁 的 年纪 小
+__label__query 吴亦凡 几 岁 了
+__label__query 广东 的 人口 有 多少
+__label__chat 你 要 住院 。
+__label__chat 我 拿 杯子 。
+__label__chat 我 想 出去 一下
+__label__chat 我 以前 也 这样 。
+__label__chat 今晚 好好 聊聊 。
+__label__chat 我 希望 你 记住 我 的 声音 。
+__label__query 专辑 G.E.M 里 有 什么 歌
+__label__chat 王 我 爱 你 。
+__label__chat 我 想 陪 你 聊天 。
+__label__chat 这 一个 星期 请假 了 。
+__label__chat 来自 全省 各地 的 其他 都 非常 难听 的 话 。
+__label__query 胡 歌 和 梁朝伟 谁 的 年龄 大
+__label__query 成龙 的 女友 是 谁
+__label__chat 你 傻 不 傻 。
+__label__chat 我 说 你 真 会 拍马屁 。
+__label__chat 不用 学习 ， 还 能 让 我 随时 看见 。
+__label__query 你 认识 王丽清 吗 ？
+__label__chat 我 一直 都 很 帅
+__label__chat 你 要 拯救 谁 啊 ？
+__label__chat 我 不 想 打 酱油 。
+__label__chat 你 能否 可以 。 个 ， 出售 ， 在 学校 过 了 。
+__label__greet 你好 ， 小 妹 。
+__label__chat 你 怎么 那么 爱 学习 啊 ？
+__label__chat 我 真的 是 跟 你 说 不 过 三 句 就 想 骂 你 。
+__label__chat 你 真 是 猪头 。
+__label__chat 爱 死 你 了 。 虎扑 。
+__label__chat 要不然 来 ， 学校 都 开学 了 。
+__label__query 靳东 和 黄渤 谁 更 小
+__label__chat 相册 ， 做 数学 ， 三 年 前 。
+__label__query 锰钢 和 钨 哪 一个 密度 大
+__label__query 青海省 和 河南 谁 面积 大
+__label__chat 老婆 怎么 看不到 你 啊 ？
+__label__chat 你 真 有 学问 。
+__label__chat 我 觉得 很 诱惑 吧 。
+__label__chat 那 你 还 不如说 他 死 了 。
+__label__chat 你 不要 再 惹 我 生气 了
+__label__query 小炒 肉片 怎么 弄
+__label__query 新疆 维吾尔 自治区 的 面积
+__label__chat 我 晕 死哈哈 。
+__label__greet 老婆 ， 信 。
+__label__chat 日 你 妈逼 。
+__label__greet 下午 好 哦 。
+__label__query 梁祝 是 什么 专辑 的
+__label__chat 你 会 教 我 写 作业 吗 ？
+__label__chat 我 也 是 学校 食堂 两 次 取消 看 一 次 电视 。
+__label__chat 你 回来 了 是 不 是 ？
+__label__chat 哎呀 ， 我 去 了 ， 你 下午 可以 帮 我 。
+__label__greet 我 走 啦 老婆
+__label__query 欢天喜地 好 嘉庆 是 谁 唱 的 ？
+__label__chat 我 觉得 很 尴尬 。
+__label__chat 卖家 是 不 是 送 了 我 好多 赠品
+__label__query 吴秀波 和 古天乐 谁 的 年龄 小
+__label__query 萧 敬腾 发表 过 什么 专辑
+__label__chat 你 妈 喊 你 回家 打 怪兽 了 。
+__label__query 张柏芝 和 莫文蔚 谁 更 小
+__label__chat 我 不 偷 看 你 去 死 啊 ， 你 身上 太 臭 了 。
+__label__chat 你 害羞 啦 ？
+__label__chat 那 你 想 听 什么 呢 ？
+__label__chat 去 拉屎 。
+__label__chat 问 你 几 句 话 。
+__label__chat 我 儿子 在 路边 捡 回来 一 只 小 奶狗
+__label__chat 要 不 要 我 做 你 男朋友 ？
+__label__chat 开始 ， 作业 ， 啊 ， 作业 必须 要 做 一个 学校 里 的 好 孩子 。
+__label__chat 你 这 件 衣服 怎么样 ？
+__label__chat 因为 我 喜欢 你 啊 。
+__label__chat 你 还 真 会 拍马屁 啊 ？
+__label__chat 后悔 了 呗 ， 呀 ？
+__label__query 湖北省 和 黑龙江 谁 面积 大
+__label__chat 你 充电 要 充多 长 时间 才 会 充满 。
+__label__chat 那 我 知道 你 在 哪 ， 回家 吧 。
+__label__chat 我 想 看 电影 。
+__label__query 李荣浩 唱 过 什么 歌
+__label__query 章 子怡 和 陈乔恩 谁 更 小
+__label__chat 地理 科学 学院 教授 。
+__label__chat 你 还是 不 喝 。
+__label__chat 你 是 舞蹈 。
+__label__chat 你 ， 你 同学 。
+__label__chat 你 可 真是 博学 多闻 。
+__label__chat 看 完 了 ， 我 看 你 做 的 对 不 对 。
+__label__chat 我们 上车 ， 啊 。 啊 。
+__label__chat 跪坐
+__label__query 毛血旺 的 菜里 有用 到 猪肉 吗
+__label__chat 我 换 件 衣服 。
+__label__chat 我 没有 敷衍 你 啊 。
+__label__chat 我 就 去 打工 了 。
+__label__chat 我 还 说 悄悄话 的 。
+__label__chat 要 ， 八九 岁 ， 孩子 上学 的 多 的 是 。
+__label__chat 启动 自爆 。
+__label__chat 我 挂 啦 。
+__label__query 专辑 意外 是 哪个 歌手 的
+__label__chat 是 来自 于 厦门 大学 的 唐诗琪 。
+__label__chat 你 要 吃 吃 。
+__label__chat 找 你 啊 ？
+__label__chat 艾滋病 。
+__label__chat 三百零七百 元 ， 2004年 7月 21号 ， 来自 中国 天津 的 赵燕在 。
+__label__chat 他 的 那个 东西 太 远 了 ， 他 ， 学校 。
+__label__query 你 知道 吴秀波 吗
+__label__chat 我 现在 很 清醒 啦
+__label__chat 晚上 你 请 我 吃饭 好 吗 ？
+__label__chat 你 妈妈 是 ， 你 妈妈 是 上 什么 班 的 ？
+__label__chat 门卫 大爷 捡 到 了 我 的 学生卡
+__label__chat 忘记 ， 那 我 知道 了 。
+__label__chat 我 真的 好 喜欢 你
+__label__chat 小心 。
+__label__chat 8月 19 出来 ， 听听 有 什么 嫁妆 ， 太 多 ， 选 东方 家园 ， 网线 。
+__label__query 广西 壮族 自治区 和 浙江 哪个 小
+__label__chat 我 不 知道 你 的 衣服 是 从 哪 弄 的 。
+__label__chat 你 不 看重 自己 身体 。
+__label__chat 春秋 入学 季 ， 然后 ， 一 。
+__label__chat 外面 好 吵 啊 ！
+__label__chat 我 打 错 电话 。
+__label__chat 明天 早上 7点 。
+__label__chat 你 唱 的 真 好听 。
+__label__chat 韩星子 是 个 怎么样 的 人 ？
+__label__chat 这些 理论 来 ， 学习 。
+__label__query 迪丽 热巴 和 陈乔恩 谁 更 大
+__label__chat 我 想 看 能 不 能 换 一个 话题 。
+__label__chat 重庆 的 。
+__label__chat 我 已经 练 到 这 ， 速度 好像 。
+__label__chat 迟到 了 怎么 办 ？
+__label__chat 我 为什么 要 离 你 远 一点 。
+__label__query 刘禹锡 的 作品 有 哪些
+__label__chat 安息 吧 。
+__label__chat 问 你 ， 你 又 不好意思 了 ？
+__label__chat 你 瞎说
+__label__chat 反正 我 就 是 特别 喜欢 你 。
+__label__chat 我 不 能 回去 了 。
+__label__chat 你 觉得 你 有 女 朋友 好 不好 ？
+__label__query 铁 和 镍 哪个 密度 小
+__label__query 张靓颖 发行 过 哪些 专辑
+__label__chat 他 玩具 多 买 几 个 ， 百度 ， 天气 。
+__label__query 陕西 和 新疆 哪个 人口 多
+__label__chat 一 幅 剪纸 作品 寄 到 北京 ， 不 可能 的 。
+__label__chat 刚才 我 发生 了 什么 咧 ？
+__label__chat 打开门 。
+__label__chat 没有 下雨 。
+__label__chat 丈夫 外出 打工 。
+__label__chat 影响 不 了 ， 你 不 是 学 的 b ， 攻略 是 这样 写 的 。
+__label__query 氩气 和 溴 哪个 密度 大
+__label__chat 我 今天 掉 了 100 快 钱
+__label__chat 我 不 去 ， 但是 我 就是 想 看 你 跳舞 。
+__label__chat 他 这 话说 的 ， 我操 你 。
+__label__query 成龙 和 李易峰 谁 的 年龄 大
+__label__greet 主人 出发 啦 宝贝 。
+__label__chat 他 说 我 颜值 差 。
+__label__chat 我 需要 批评 你
+__label__chat 我 要 喝 水 。
+__label__chat 祝 你 好 远 。
+__label__chat 我 要 知道 就 不 问 ， 你 呀 。
+__label__chat 我 想 摸摸 你 的 胸 。
+__label__chat 你 是 我 的 小 苹果 ？
+__label__chat 我 今天 晚上 跟 朋友 们 说 过 没有 ， 好像 没有 。
+__label__chat 那 还 早 啊 ， 我 知道 你 是 寂寞 的 孩子 。
+__label__chat 我 请 你 吃 好吃 的 。
+__label__chat 我 送 你 一个 礼物 。
+__label__chat 他 又 在 做 ， 啊 。
+__label__chat 你好 可怕 。
+__label__chat 你 怎么 这么 恶心 啊 ？
+__label__chat 想念 你 。
+__label__chat 我 爱 你 ， 我 爱 你 ， 我 爱 你 ， 我 爱 你 。
+__label__query 你 知道 张柏芝 吗
+__label__query 安徽 和 河南 比 哪个 面积 大
+__label__chat 美丽 ， 学历 不 代表 能力 。
+__label__query 黄 渤 和 周润发 谁 更 小
+__label__query 想 把 你 抱 紧 是 什么 专辑 的
+__label__chat 让 我 干 死 。
+__label__query 刘诗诗 和 刘涛 谁 的 年龄 大
+__label__chat 吼吼 ， 今天 可以 穿 那 件 漂亮 的 裙子 了
+__label__chat 我 要 和 你 聊天 。
+__label__query 湖南 的 人口 数量
+__label__chat tmd 胖子 。
+__label__chat 我 是 正 能量 小 王子 啊
+__label__query 广东省 和 广西 谁 面积 小
+__label__chat 那 你 什么 时候 有 素质 啊 ？
+__label__query 想 把 你 抱 紧 是 什么 风格 的 歌
+__label__chat 有 一点点 想 我 啊 ， 我 好 想 你 哦 。
+__label__chat 你 稍微 等 一下 啊 。
+__label__greet 晚上 好宝宝
+__label__chat 我 不 会 逃 。
+__label__chat 不 聊 也 可以 的 。
+__label__query 吴秀波 和 周 星驰 谁 的 年龄 小
+__label__query 薛之谦 有 什么 歌
+__label__chat 南京 牛肉面 啊 。
+__label__chat 你 是 不 是 工程师 ？
+__label__chat 你 想 跟 我 聊 啥 ？
+__label__chat 因为 你 太 瘦 了 。
+__label__chat 学 吉他 干 嘛 啊 ？
+__label__chat 你 能 不能不 说话 啦 ？
+__label__chat 可惜 呀呵呵 。
+__label__chat 我 的 心情 不好 呀 。
+__label__chat 你 今天 穿 的 好 漂亮 啊 ？
+__label__query 黑龙江省 和 重庆 哪个 人口 多
+__label__chat 你好 小 。
+__label__chat 你 做 什么 都 行 。
+__label__chat 哈哈 ， 你 老板 唱歌 去 了 ， 啊 。
+__label__query 莫文蔚 多 大 年纪 了
+__label__chat 还 一直 说 我 没有 给 她 买 。
+__label__chat 明天 见报 。
+__label__chat 给 你 吃 那个 芒果 要 不 要 芒果 。
+__label__chat 然后 我们 学校 ， 把 他们 的 两 个 党员 档案 转款 。
+__label__chat 我 安排 在 明天 。
+__label__chat 关 了 吧 。
+__label__chat 钢琴 弹 得 不错 。
+__label__chat 你 可以 学习 。
+__label__query 周润发 和 古天乐 谁 的 年龄 大
+__label__chat 诗词 寻 遍 。
+__label__chat 你 说 给 我 听听 。
+__label__chat 你 是 个 傻姑娘 。
+__label__chat 什么 吃 的 吗
+__label__query 铝 和 汞 哪个 密度 大
+__label__chat 我 吃 完 你 的 葡萄 。
+__label__chat 我 准备 定地板 去 了 。
+__label__greet 老婆 拜拜 呢 。
+__label__chat 你 真 可爱 ， 我 好 喜欢 你 。
+__label__query 陶 喆 的 歌 有 哪些
+__label__chat 请问 我 有 找 你 吗 ？
+__label__chat 你 一点 都 不 漂亮 ， 非常 丑 。
+__label__chat 你 是 头头 。
+__label__chat 一 说 即 是 错
+__label__chat 我 给 你 调理 调理 。
+__label__query 安全 电压 是 多少 ？
+__label__chat 两 个 我 都 喜欢 。
+__label__chat 你们 不要 重复 拉黑 你 。
+__label__chat 我 好 感度 上升 太 快 了 。
+__label__chat 到 我 阿姨 家 。
+__label__chat 学校 吗 ？ 谢谢 。
+__label__chat 我 好 难过 ， 有 没 有 钱 ？
+__label__chat 我 没 晕 ， 你 。
+__label__chat 我 同事 被 老板 表扬 了
+__label__chat 那 你 在 网上 交点 学费 也 问 你 ， 你 的 梦 ， 把 。
+__label__chat 我 说 你 还 真是 我 妈 。
+__label__chat 今天 放假 了 。
+__label__chat 你 有 没 有 把握 ？
+__label__chat 我 想 去 看 电视 ， 所以 现在 先 不 能 陪 你 了 ， 原谅 我 好 吗 ？
+__label__query 水 和 不锈钢 哪 一个 密度 小
+__label__query 铝 和 锰 哪 一个 密度 大
+__label__query 新疆 维吾尔 自治区 和 西藏 谁 的 面积 小
+__label__chat 我 想 看 动画片 。
+__label__chat 你 肯定 会 跳 芭蕾
+__label__chat 你 都 没事 了 ， 你 。
+__label__chat 我 上学 的 梦想 。
+__label__chat 你 想 吃 什么 ？ 你 想 吃 什么
+__label__chat 工商 ， 家长 对 孩子 的 整个 学习 过程 ， 很 缺 钱 。
+__label__chat 我 要 上班 ， 哥哥 。
+__label__chat 给 叫醒 了 好久
+__label__query 林志林 多 大 年纪 了
+__label__query 套路 是 什么 风格 的
+__label__chat 既然 我们 是 在 平行 学校 。
+__label__query 湖南 的 面积 是 多少
+__label__query 靳东 和 吴亦凡 谁 的 年龄 大
+__label__query 煤气 和 甲烷 哪 一个 密度 小
+__label__chat 哦 ， 那 你 知道 其他 不 会 说 不要 。
+__label__query 赵丽颖 和 朱茵谁 更 大
+__label__query 舒淇 有 哪些 作品
+__label__chat 是 啊 ， 给 你 好吃 的 呀 。
+__label__chat 哈哈 ， 你 妹 啊 ， 哈哈 。
+__label__chat 换 给 我 看 。
+__label__chat 哦 ， 你 唱歌 真 好听 ， 哎 。
+__label__chat 我 觉得 你 胡说八道 。
+__label__query 杨 幂 和 赵丽颖 谁 的 年龄 大
+__label__chat 我 还是 不 够 大度
+__label__query 氢气 和 氩气 哪 一个 密度 大
+__label__chat 你 是 什么 学校 ？
+__label__chat 我 在 地铁 上 被 别人 踩 了
+__label__query 你 知道 蔡 少芬 吗
+__label__query 范 冰冰 又 叫 什么
+__label__chat 我 再 也 不 相信 爱 了
+__label__chat 你好 ， 邪恶 。
+__label__query 在 对 的 时间 遇 上 对 的 你 属于 什么 风格 的 歌
+__label__query 汞 和 钨 哪个 密度 大
+__label__chat 嗯 ， 我 想 你 了 。
+__label__chat 当时 我 不 能 接受 。
+__label__chat 我 闺蜜 是 不 是 旅行 时 有 艳遇
+__label__chat 什么 ， 你 怎么 不 说话 呀 ？
+__label__chat 你们 家 有 什么 好吃 的 啊 ！
+__label__chat 嘿嘿 笨蛋 。
+__label__chat 你 有 多少 钱 ？
+__label__chat 有 这样 的 人 在 身边 ， 心 也 很 累 。
+__label__chat 我 妈妈 找 你 。
+__label__chat 我 就是 不 懂 啊 ， 才 问 你 啊 。
+__label__greet 哦 ， 早 。
+__label__query 金针菇 肉片 做法
+__label__chat 还有 别的 学区 的 事情 。
+__label__chat 哦 ， 我 还 没 说话 呢 。
+__label__chat 因为 我 在 他 水 里 ， 学理 。
+__label__chat 你 怎么 那么 蠢 ？
+__label__chat 我 在 学 唱歌 。
+__label__chat 邓 超 是 一个 合格 的 军人 。
+__label__chat 过年 我 都 回家 了 。
+__label__chat 这 间 房子 好像 死 过人
+__label__query 氧气 和 乙炔 哪 一个 密度 小
+__label__query 刘德华 和 古天乐 谁 的 年纪 小
+__label__chat 你们 不 是 机器 啊 ？
+__label__chat 想 吃 什么 ， 我 请 你 。
+__label__query 张靓颖 唱 过 哪些 歌
+__label__chat 你 知道 我 自己 吗 ？ 这么 饿 ， 今天 。
+__label__chat 我 哪 有 敷衍 你 嘛 。
+__label__greet 主人 回来 啦 宝宝
+__label__greet 你好 ， 你好 。
+__label__query 陕西省 和 云南 谁 的 面积 小
+__label__chat 你 太 笨 了 。
+__label__chat 还 想 吃 东西 吗 ？
+__label__chat 同学 ， 我 知道 你 是 个 好人 ， 你 是 个 讲 义气 的 人 ， 再说 吧 。
+__label__chat 烦 你 是 个 大 傻 。
+__label__query 吴亦凡 演 过 什么 电视剧
+__label__chat 我 送 你 一 份 报纸 。
+__label__chat 有 一 种 痛 叫 无可奈何
+__label__chat 公司 看重 治疗 糖尿病 。
+__label__chat 把 记住 。
+__label__chat 我 想 陪 你 聊天 呢 。
+__label__chat 没 提醒 你 还 待 说 粘呼呼 的 你好
+__label__chat 那 你 怎么 没有 开 party ？
+__label__chat 为什么 不 告诉 我 呢 ？
+__label__query 安徽省 的 人口 有 多少
+__label__chat 我 看 你 一直 很 无聊 的 读读 唐诗 ， 哎 。
+__label__chat 谁 说 我 不要 你 了 。
+__label__chat 讲 一 声 ， 现在 想 你 ， 我 喜欢 上 你 了 ， 傻逼 。
+__label__chat 我 感觉 自己 再 也 不 会 爱 了
+__label__chat 晚上 吃 个 饭 。
+__label__chat 别 说 你 摸透 了 。
+__label__chat 你 总是 喜欢 把 开心 建立 在 别人 痛苦 之上 。
+__label__chat 我 希望 自己 可以 不 担惊受怕 任何 事
+__label__chat 你 什么 都 不行 。
+__label__query 刘嘉玲 和 莫文蔚 谁 的 年龄 小
+__label__chat 爸爸 妈妈 好 吗 ？
+__label__chat 我 真的 很 喜欢 你 。
+__label__chat 明天 早上 5 点 。
+__label__chat 那 我 就 看 儿童 电视 。
+__label__chat 我 马上 去 帮 你 啊 。
+__label__chat 看 你 回去 跟 你 同 同学 讲 一下 吗 ？ 也就是说 其余 钱 在 我 床头 50万 。
+__label__chat 你 在 愚蠢 不 对 马嘴 。
+__label__chat 今天 也 是 充满 活力 的 一 天
+__label__chat 你 说 这个 手机 怎么 变成 这样 ？
+__label__chat 你 觉得 学 不 会 。
+__label__chat 我们 不要 哈哈 。
+__label__chat 我 不 把 你 当家人 呢 。
+__label__chat 你 穿 那么 少 ， 让 我 有 点 热 呀 。
+__label__query 我 很 忙里 有 什么 歌
+__label__chat 你 生日 关 我 什么 事 啊 ？
+__label__chat 我 一 天 要 做 十 次 。
+__label__chat 我 跟 你 聊 ， 你 快点 好 吧 。
+__label__chat 我 明天 给 他 买 。
+__label__chat 我 很 想 哭 。
+__label__greet 你好 ， 你好
+__label__query 你 知道 黄渤 是 谁 吗
+__label__chat 明天 有 什么 事 吗 ？
+__label__chat 我 突然 发现 一个 问题 。
+__label__query 莫文蔚 的 老公 是 谁
+__label__query 霍建华 和 梁朝伟 谁 的 年龄 大
+__label__chat 那 不知 机器人 唱歌 还是 特别 长 。
+__label__chat 为什么 呢
+__label__chat 非常 漂亮 。
+__label__chat 北京 初雪 。
+__label__chat 保护花 。
+__label__chat 几 天 后 ？
+__label__chat 可以 每天 打 一下 我 。
+__label__query 唱 算 什么 男人 的 歌手 是 谁 ？
+__label__chat 我 刚 给 她 买 东西 了 。
+__label__chat 真 的 不 能 回去 了 。
+__label__query 广东 和 广西 谁 的 面积 大
+__label__query 铁 和 水 哪个 密度 大
+__label__chat 天气 好 冷
+__label__chat 你 听 不 懂 中国话 。
+__label__chat 错过 了 就 不好 说 了 。
+__label__query 四世同堂 是 谁 写 的 书
+__label__chat 我 要 学 着 点 ， 多种 。
+__label__chat 我 的 心情 也 是 美美 的 。
+__label__chat 孙悟空 会 打 你 的 。
+__label__greet 下午 好 老婆
+__label__query 刘德华 发 过 什么 个 人 专辑
+__label__chat 我 让 你 给 我 打开 。
+__label__query 钨 和 不锈钢 哪 一个 密度 大 呢
+__label__chat 很 开心 和 你 在 一起
+__label__chat 哈哈 。
+__label__chat 所以 我 先 睡 啦 ！
+__label__chat 吉他 世界 。
+__label__query 你 不 知道 的 事 是 什么 风格 的
+__label__chat 我 很 笨 。
+__label__chat 我 就 回去 了 。
+__label__chat 好 的 ， 小 的 收到
+__label__chat 我们 这里 没有 卖 。
+__label__chat 积极 学习 点 东西 。
+__label__query 我 知道 你 上网 吗 ？
+__label__query 四川省 和 重庆市 谁 的 面积 大
+__label__query 广东 的 人口 总数 有 多少
+__label__query 留心 是 什么 专辑 的
+__label__chat 我 记得 。
+__label__query 三体 是 谁 写 的 书
+__label__chat 那 我 给 你 买 个 小 玩具 吧 。
+__label__chat 睡 ， 这 对 他们 来说 我们 老 了 。
+__label__chat 我 爸 给 我 听 好 吗 ？
+__label__chat 不行 ， 你 是 我 的 小 苹果 啊 。
+__label__chat 你 开学 我 一定 告诉 你 具体 事宜 。
+__label__chat 可 你 不怎么 理 我 了 。
+__label__chat 几 点 回 ？
+__label__greet 宝贝 你 好 哦 。
+__label__chat 你 妈妈 几 岁 啦 ！
+__label__chat 我 喜欢 的 人 跟 别人 跑 了
+__label__query 赵丽颖 和 迪丽热巴 谁 更 大
+__label__chat 我 在 看 ， 白骨精 。
+__label__chat 你 的 发发 发生 。
+__label__chat 你 那个 小小 学校 里 。
+__label__chat 你 别 乱 讲话 了 。
+__label__chat 你 学 ， 我 说 一 句 ， 没 毛病 。
+__label__chat 我 能 关闭 你 吗 ? 因为 明天 要 打雷 了 , 为了 你 的 安全 。
+__label__chat 我 爱 你 ， 我 爱 死 你 了 。
+__label__chat 我 说 你 是 狮子座 。
+__label__chat 用量 小 。
+__label__chat 我 很 快 回家
+__label__chat 我 不 需要 知道 这些 东西 。
+__label__chat 是 因为 想 要 让 咱们 累 ， 更 多 学习 方法 ， 而 不 是 现在 一味 的 东西 。
+__label__chat 我 觉得 你 这 件 衣服 好 丑 。
+__label__greet 我 要 出去 啦 宝宝
+__label__chat 我 看见 你 就 开心 。
+__label__chat 二维码 的 。
+__label__chat 你 回来 了 告诉 我 。
+__label__query 给 我 一 首 歌 的 时间 是 哪个 专辑 的
+__label__chat 发 ， 热不热 ， 嘿嘿 ， 啊 ， 放学 之后 ， 说 ， 说话 ， 感觉 。
+__label__query 氟气 和 臭氧 哪 一个 密度 大
+__label__chat 我 平时 多么 的 关心 你 啊 。
+__label__chat 利率 高 ， 少数民族 党员 代表 数量 增加 ， 代表 学历 层次 较 高 ， 也 有 。
+__label__chat 也 比较 悲观 。
+__label__chat 你 是 我们 的 家人 ， 喜欢 你 。
+__label__query 氟气 和 甲烷 哪 一个 密度 小
+__label__chat 高 倍 ， 然后 有人 学习 料理 。
+__label__chat 你 是 猪 。
+__label__chat 我 靠 ， 我 看见 过 你 不 认识 你 知道 吗 ？
+__label__chat 啊 还 踢球 啊 。
+__label__query 银 和 钨 哪 一个 密度 大 呢
+__label__chat 你 去 结婚 啊 ？
+__label__chat 安琪 说 。
+__label__chat 夜里 不 开 夜灯 ， 我 会 很 害怕
+__label__query 刘诗诗 和 蔡 少芬 谁 更 大
+__label__chat 你 说 啥 ？ 没 听 清 。
+__label__chat 嫌弃 人家 唱歌 难听 。
+__label__query 陈小春 是 哪 一 年 生 的
+__label__query 范 冰冰 和 朱茵 谁 更 小
+__label__query 专辑 伟大 的 渺小 包含 哪 几 首 歌
+__label__chat 比 我 厉害 多 了 。
+__label__chat 我 想 去 买 个 胶纸 胶带 。
+__label__chat 过 的 好 吗 ？
+__label__chat 你 俩 在 我 心目 中 从今 以后 有 了 相当 高 的 位置 。
+__label__chat 春水 初 生 ， 春林 初盛
+__label__chat 操妈的 ， 发 个 快递 。
+__label__chat 你 去 做事 啊 我 ， 我 说 你 。
+__label__chat 我 想 看 你 的 小 内裤 。
+__label__chat 我 ， 几 点 排练 。
+__label__chat 我 快要 被 那个 极品 气死 了
+__label__query 迪丽 热巴 和 张曼玉 谁 更 大
+__label__chat 你 要 记住 这 东西 危险 。
+__label__chat 打 你 哦 。
+__label__chat 你 幸福 吗 ？
+__label__chat 那 我 肚子 里 的 孩子 上学 都 到 了 呀 。
+__label__chat 我 去 学习 。
+__label__chat 我 很快 回到 家
+__label__query 范 冰冰 的 星座 是 哪 一个
+__label__chat 什么 时候 ？ 我 竟然 开学 了 ， 我们 拍 不 成 了 。
+__label__chat 我 早上 忘 了 吃 早餐
+__label__chat 谢谢 你 啊 ， 非常 好听 。
+__label__chat 才 打 过来 见 过 这个 ， 结果 练 出来 自慰 了 ， 马上 ， 点 ， 还 。
+__label__chat 我 闺蜜 拒绝 了 一个 男生 的 告白
+__label__chat 过 两 天 过来 看 你
+__label__chat 你 是 大一 新 生 ， 入学 户口 到 老 ， 好 哇 。
+__label__chat 我 回家 。
+__label__chat 我 很 想 你 啊 ， 你 想 我 吗 ？
+__label__query 唱 床 边 故事 的 歌手 是 谁 ？
+__label__chat 你 和 老妈 谈谈 体会 。
+__label__query 何洁 有 哪些 好听 的 歌
+__label__query 霍建华 又 叫 什么
+__label__chat 播放 名人 名言 录 。
+__label__query 乙炔 的 密度
+__label__query 绅士 是 什么 歌手 的
+__label__greet 可爱 老婆 。
+__label__chat 我 所有 的 学生 在 外面 获得 永生 。
+__label__query 刘德华 的 身高 。
+__label__chat 你 认为 还有 必要 吗 ？
+__label__chat 我 说 你 教 我 怎么 赚钱 啊 ？
+__label__query 氖气 和 氯气 哪个 密度 小
+__label__chat 时间 内 。
+__label__query 林 俊杰 唱 过 什么 歌
+__label__query 请 在 最后 一 根 火柴 熄灭 之前 是 谁 的 歌 ？
+__label__chat 富婆 。
+__label__query 梁静茹 有 哪些 歌
+__label__chat 我 还 以为 多 大 事儿 。
+__label__query 霍建华 的 生日
+__label__query 杨 幂 和 张柏芝 谁 的 年纪 小
+__label__chat 我 不 怪 你 了 。
+__label__query 四川省 和 福建 谁 的 面积 小
+__label__query 金和 银 哪 一个 密度 小 呢
+__label__query 蔡 少芬 和 舒淇 谁 的 年纪 大
+__label__chat 因为 我 是 人 ， 但是 我 是 我 的 朋友 ， 你 是 我 最 好 的 朋友 。
+__label__chat 大 ， 都 是 自己 的 力量 ， 学习 。
+__label__greet 主人 回来 了 宝宝
+__label__greet 美女 早安 啊 。
+__label__chat 我 就 是 这么 贱 。
+__label__query 唱 套路 的 歌手 是 谁 ？
+__label__chat 我 的 手指 好 粗 啊
+__label__chat 那 你 怎么 不 说话 ？
+__label__chat 我 没有 教 你 啊 。
+__label__chat 我 就 给 人家 180万 。
+__label__query 断 线 的 风筝 是 什么 风格 的 歌曲
+__label__chat 做 一个 呗 。
+__label__query 萧亚轩 发表 过 什么 专辑
+__label__chat 我们 老师 简直 衣冠 禽兽
+__label__chat 对 啊 ， 你 也 是 个 乖 宝宝 啊 。
+__label__chat 你 是 狗 。
+__label__chat 你 的 屁股 露 出来 了 。
+__label__greet 你好 ， 你 啊 。
+__label__chat 我 激动 得 说 不 出 话 了 。
+__label__chat 我 的 心里 永远 有 你 。
+__label__chat 去 你 妈 个 逼 。
+__label__chat 我 觉得 我 的 心 已经 没有 办法 跳动 了
+__label__query 曲婉婷 的 歌 有 哪些
+__label__query 王宝强 和 成龙 谁 的 年龄 小
+__label__chat 你 就 不要 走 了 。
+__label__chat 春天 空气 怎样 ?
+__label__query 甲烷 和 硫化氢 哪 一个 密度 大
+__label__query 林 俊杰 唱 过 哪些 歌
+__label__chat 学 ， 你 看 ， 幸好 这次 没有 受伤 。
+__label__chat 你 没有 用 。
+__label__chat 就 这 前无古人 的 创意 和 专业级 的 水准 ， 真是 学霸 的 。
+__label__chat 时间 过 得 很 快 。
+__label__query 张靓颖 有 哪些 歌
+__label__chat 我 现在 心情 很 好 哦 。
+__label__chat 一点 都 不 喜欢 你 。
+__label__chat 那 我 好 疼 。
+__label__chat 我 干 啥 呢 ？
+__label__chat 而且 我 也 把 话 都 跟 他 说 清楚 了 。
+__label__chat 那 他 只能 最后 一个 字 ， 你 是 不 是 很 傻 ？
+__label__chat 又 认真 又 负责 的 老师 走 了 。
+__label__query 意外 专辑 属于 哪个 歌手
+__label__query 鹿晗 的 出生 日期
+__label__chat 我 害怕 的 冷汗 直流
+__label__chat 你 妈妈 现在 在 哪 ？
+__label__chat 你 去 找 个 男朋友 。
+__label__chat 二宝 。
+__label__chat 我 现在 就 爱 你 了 。
+__label__query 红烧 排骨 属于 什么 菜系
+__label__chat 再说 吧
+__label__chat 学校 ， 不错 不错 。
+__label__chat 冻结 或者 手段 几乎 每个 传销 组织 的 大学生 加入 大学生 起来 的 。
+__label__chat 3d 打印机 。
+__label__chat 你 听 得 到 。
+__label__chat 你 就 是 裸体 呀 ？
+__label__query 刘德华 和 周 星驰 谁 的 年纪 大
+__label__chat 很 喜欢 你 的 这种 感觉 。
+__label__chat 我 差点 就 迟到 了
+__label__chat 桃园 出来 是 哪个 位置 ？
+__label__greet 主人 来 啦 美女
+__label__chat 有 什么 事 的 ？
+__label__query 唐嫣 和 舒淇 谁 的 年纪 小
+__label__chat 恭喜 升级 。
+__label__chat 最近 的 歌曲 不好 听 啊
+__label__chat 反正 我 要 去 玩 ， 不 去 玩 就 不行 了 。
+__label__chat 你 在 学 我 说话 吗 ？
+__label__chat 崔 你 应该 知道 吧 。
+__label__chat 想 让 你 去 做 的 ， 你 妹 。
+__label__chat 对 此 ， 我 表示 同情
+__label__chat 那 我 给 你 介绍 一个 吧 。
+__label__chat 青山 不 改 ， 绿水 长 流 ， 有 缘 相见 。
+__label__chat 其他 的 学生 和 他 一样 。
+__label__chat 你 为什么 后面 要 加 个 英语 。
+__label__chat 嗯嗯 ， 你 说 什么 都 对
+__label__chat 我 好像 是 个 累赘
+__label__chat 朝鲜 人民 在 夏天 穿 泳衣 ， 在 海边 载歌载舞 。
+__label__chat 你 为什么 要 打字 啊 ！
+__label__chat 你 可以 给 我 玩 吗 ？
+__label__chat 我们 同学 你好 ， 你 需要 男朋友 或者 女 朋友 可以 找 我 ， 哦 。
+__label__chat 哦 ， 操 你 妈 个 逼 。
+__label__chat a 几 套 衣服 吧 。
+__label__chat 继续 ， 我 老婆 是 一个 漂亮 的 女人 。
+__label__chat 我 小孩 是 不 是 偷 拿 我们 抽屉 里 的 钱
+__label__chat 找 了 你 这个 鬼 啊 ？
+__label__query 张柏芝 和 林志林 谁 的 年纪 大
+__label__chat 你 现在 说
+__label__chat 收 衣服 了
+__label__chat 我 从 一无所有 到 负债累累
+__label__chat 我 不 觉得 舒服 。
+__label__chat 你 当 明星 的 经历
+__label__chat 我 知道 你 是 我 哥 。
+__label__chat 我 可以 跟 你 聊 八卦 呀 。
+__label__chat 你 家 无线 的 密码 是 什么 ？
+__label__query 番茄 炒蛋 用 什么 来 做
+__label__chat 我 给 你 说 个 笑话 。
+__label__greet 老婆 午安 啊 。
+__label__chat 感觉 ， 我 要 打工 了 。
+__label__chat 我 刚才 看 你 穿 三角 裤勒 ， 羞 不 羞 啊 ？
+__label__chat 拍马屁 的 地方 。
+__label__greet 俺 走 啦 姑娘
+__label__query 王 宝强 演 过 什么 电视剧
+__label__chat 你 帮 别人 相亲 啊 ？
+__label__chat 今晚 不 跟 你 睡觉 了 。
+__label__query 辣子鸡 是 用 什么 做
+__label__query 丹宁 执着 是 谁 的
+__label__chat 没什么 事 ， 我 就是 想 你 陪 我 聊聊天 ， 因为 聊天 的 功能 吧 。
+__label__chat 你 怎么 不 听 我 说话 ？
+__label__query 氦气 和 一氧化碳 哪 一个 密度 大
+__label__chat 你 不说 你 会 出 问题 了 吗 ？ 给 我 出出 几 个 问题 。
+__label__greet 主人 要 出去 啦 姑娘
+__label__chat oppo 更换 ， 购买 的 衣服 。
+__label__chat 你 不 会 摇头 了 吗 ？
+__label__chat 不 会 ， 你 还 有 画画 的 天赋 啊 。
+__label__chat 我 朋友 是 不 是 要 请 我 吃饭
+__label__chat 但 他们 漠不关心
+__label__chat 你 老是 在 那里 练身 。
+__label__chat 过来 找 你 。
+__label__query 陈乔恩 和 林志林 谁 的 年纪 大
+__label__chat 乖 呀 ！
+__label__chat 学习 中 暂时 不 能 帮 你 。
+__label__chat 还 没有 订 票 。
+__label__chat 为什么 就 因为 我 好看 ？
+__label__chat 你 可以 绑定 几 个 手机 。
+__label__chat 我 一直 怕 。
+__label__chat 打 死 也 再 也 不 对 哦 ， 又 被 拉 到 高台 上 。
+__label__chat 那 你 快 去 学 呀 。
+__label__query 施耐庵 有 哪些 作品
+__label__chat 去 看 猴子 。
+__label__chat 整体 认读 音节 ， 之 ， 诗诗 。
+__label__chat 你 昨天 几 点 ？ 网上 见 ？ mp ， 我家 华夏 今年 刚 毕业 ， 还是 大学 ， 去 。
+__label__query 家常 豆腐 用 什么 来 做
+__label__chat 等 会儿 有事 再 叫 我 吧 。
+__label__chat 呵呵 ， 你 怎么 不 采纳 意见 啊 ？
+__label__chat 再不 听话 打 你 了 啊 。
+__label__query 糖醋 排骨 的 菜里 有用 到 猪肉 吗
+__label__chat 哦 ， 我 还 上班 呢 。
+__label__query 海南省 的 面积 有 多 大
+__label__query 梁朝伟 的 生日
+__label__query 王宝强 和 鹿晗 谁 的 年龄 小
+__label__greet 姑娘 goodbye 呢 。
+__label__chat 我 已经 刷 了 牙 了 哦
+__label__chat 你 想 说 点 什么 ？
+__label__chat 你 还 那么 忙 ？
+__label__chat 这 基础课 之后 呢 ， 我们 就 开始 进入 发挥 学 的 好玩儿 的 哈 。
+__label__chat 你 胖 。
+__label__chat 巨大 的 喜悦 快要 把 我 给 淹没 了
+__label__query 你 看 成龙 怎么样
+__label__chat 我 还是 挺 害羞 的
+__label__chat 我 考 的 不好 ， 我 就 会 回家 的 ， 怎么 就 考 了 兄弟 ？ 啊 ， 我 拼命 学习 。
+__label__query 唐嫣 和 高 圆圆谁 更 大
+__label__chat 你 吃 啥 ？ 宇宙 第一 难题 又 摆 在 面前 。
+__label__query 鹿晗 和 吴亦凡 谁 的 年龄 小
+__label__chat 我 要 唱歌 ， 你 。
+__label__greet 你好 啊 。
+__label__chat 我 听到 你 的 声音 就 觉得 很 生气
+__label__chat 我 相信 我 看 了 。
+__label__chat 我 看 不 懂 呀 。
+__label__chat 都 觉得 我 漂亮 。
+__label__chat 我 就 是 熟能生巧 了 。
+__label__chat 一切 都 是 好 吧 ？ 这边 是 教育学 。
+__label__query 刘嘉玲 的 生日
+__label__query 米·闪 是 哪个 歌手 的
+__label__chat 看 完 你 就 傻 。
+__label__chat 妈妈 ， 我 看到 了 。
+__label__chat 我 跟 你 是 好 朋友 啊 ， 怎么 不 告诉 我 呢 。
+__label__chat 我 去 称 体重 。
+__label__query 你 能 告诉 我 酒粮 丸子 的 做法 吗
+__label__query 你 能 告诉 我 煤气 的 密度 吗
+__label__query 氢气 和 乙烷 哪 一个 密度 大
+__label__chat 你 是 个 大 坏蛋 。
+__label__chat 我 要 去 整理 衣柜
+__label__chat 你好 了 ， 谁 被 称为 酿酒 行业 的 祖师爷 ？
+__label__chat 上学 ， 不 想 上学 。
+__label__chat 哈哈 ， 我 已经 知道 啦 。
+__label__chat 没有 啊 ， 那 你 脱 衣服 怎么 了 ， 我 就 看看 检查 一下 身体 吗 ？
+__label__greet 我 出发 了 美女 。
+__label__greet 姑娘 上午 好 哦 。
+__label__query 成龙 和 杨洋谁 的 年龄 大
+__label__query 范 冰冰 的 生日
+__label__chat 我 听 清 了 。
+__label__chat 为 你 ， 学习 。
+__label__query 河南省 和 内蒙古 自治区 比 哪个 面积 小
+__label__chat 你 一个 胖子 啊 。
+__label__chat 已经 没有 什么 能 让 我 开心 的 事情 了
+__label__chat 我 说 你 说话 好 难 听 。
+__label__chat 你 好 笨 啦 。
+__label__query 山西 和 海南 哪个 人口 多
+__label__query 铝 和 镍 哪 一个 密度 大
+__label__query 水银 和 钨 哪 一个 密度 大
+__label__chat 什么 呀 ， 我 一点 都 不 笨 。
+__label__query 盖世 英雄 属于 哪个 歌手
+__label__query 氩气 和 氡气 哪个 密度 小
+__label__chat 我 想 看 一下 我 的 自恋 照 。
+__label__chat 晕 ， 我 好 喜欢 你 呀 。
+__label__greet 美女 goodbye 呢 。
+__label__chat 不 在 下雪 ， 上学 也 很 辛苦 。
+__label__query 初 学者 包含 哪 几 首 歌
+__label__chat 因为 你 肚子 饿 了 。
+__label__chat 你 放心 吧 。
+__label__chat 他 找 我们 拍照 。
+__label__query 陈乔恩 和 林志林 谁 的 年龄 大
+__label__greet 老婆 再见 哦 。
+__label__chat 我 有 这个 想法 哦 。
+__label__query 天津市 和 重庆市 谁 面积 大
+__label__greet 我 走 啦 妹子 。
+__label__chat 你 告诉 我 吧 ， 我 想 我 想 我 得 学 英语 了 。
+__label__query 刘诗诗 和 赵丽颖 谁 的 年龄 大
+__label__chat 我 给 你 送 个 蛋糕 好 吧 。
+__label__chat 今晚 要 一起 去 烟花 大会 吗
+__label__chat 我 觉得 我 好 丑
+__label__chat 我操 这 你 都 能 看得到 ， 我 把 衣服 穿 上 。
+__label__chat 你 不 可以 下来 。
+__label__chat 千方百计 替 我们 向 她 表白 。
+__label__query 秦王 扫 六合 是 什么 曲风
+__label__greet 宝宝 bye
+__label__chat 三毛 是 个 很 逗 的 人
+__label__chat 咏 唱 给 我 听 吗 ？
+__label__query 100 天 是 什么 歌手 的
+__label__chat 我 不得 啦 ， 回 小学 去 。
+__label__query 贵州省 的 面积
+__label__chat 开机
+__label__greet 宝宝 早上 好 哦 。
+__label__chat 我 要 带 新手 的 。
+__label__chat 你 想 要 什么 礼物 啊 ？
+__label__chat 技术 是 从 小学 开始 。
+__label__chat 加大 油 。
+__label__chat 这 谁 的 车 ？ 我们 一起 去 上学 ， 去 。
+__label__chat tmd 光棍 。
+__label__chat 我 要 出去 玩 啦 。
+__label__chat 广东 东莞 。
+__label__chat 我 对 你 挺 好 的 。
+__label__query 朱茵 是 哪 一 年 生 的
+__label__chat 学生 多少 学习 ， 而 要 去 ， 理解 原理 后 。
+__label__chat 你 这么 不 聪明 这么 笨 ， 一点 都 不 乖 。
+__label__chat 你 先 辛苦 你 了 。
+__label__chat 都 没 上学 。
+__label__chat 我 通知书 来 追踪 美国 弗吉尼亚 大学 游记 读书 时间 ， 知道 。
+__label__chat 玫瑰花 ， 有 她 的 学生 生活 就 够 了 。
+__label__chat 是 14 号 。
+__label__chat 还有 要 穿 一 套 窈窕 淑女 ， 啊 ， 520 可以 买 一 套 了 。
+__label__chat 我 怎么 换 衣服 ？
+__label__chat 网络 ， 小孩 ， 和 同事 提 问题 ， 互助 以及 学习 ， 表现 。
+__label__chat 你 不 出来 了 。
+__label__chat 你 的 画风 好 多 了 。
+__label__chat 今天 我 去 找 了 饼干 。
+__label__chat 你 今天 好 美 ， 哦 。
+__label__chat 昨天 很 早 一个 月 都 不 回来 。
+__label__chat 你 真 二 。
+__label__chat 我 下载 东西 呢 。
+__label__query 张柏芝 和 莫文蔚 谁 的 年纪 小
+__label__chat 青岛 的 。
+__label__chat 我 不 让 你 睡觉 。
+__label__chat 很 幸运 能够 认识 你
+__label__chat 我 没 叫 你 唱歌 啊 ， 你 别 笑 我 啊 。
+__label__chat 你 中午 打扰 到 我 了 。
+__label__chat 我 妹 呀 。
