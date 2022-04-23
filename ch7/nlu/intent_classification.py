@@ -76,9 +76,9 @@ def dataset_split(data_file):
     test_data = train_data_format(X_test, y_test)
     dev_data = train_data_format(X_dev, y_dev)
     # 写入文件
-    write_list_into_file(train_data, 'train_data.txt')
-    write_list_into_file(test_data, 'test_data.txt')
-    write_list_into_file(dev_data, 'dev_data.txt')
+    write_list_into_file(train_data, '../data/train_data.txt')
+    write_list_into_file(test_data, '../data/test_data.txt')
+    write_list_into_file(dev_data, '../data/dev_data.txt')
 
 
 def fasttext_train(train_data, test_data, model_path, **kwargs):
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     kwargs = {'lr': 0.4, 'epoch': 10, 'wordNgrams': 4, 'dim': 300, 'minCount': 10, 'minn': 1, 'maxn': 3,
               'bucket': 500000, 'loss': 'softmax'}
     # 训练模型
-    # fasttext_train('train_data.txt', 'dev_data.txt', 'model', **kwargs)
+    fasttext_train('../data/train_data.txt', '../data/dev_data.txt', 'model', **kwargs)
     # 测试模型
     # test('test_data.txt', 'model.bin')
     sent = ['你好 ， 你 在 干什么','姚明 身高 是 多少']
