@@ -6,7 +6,10 @@
 
 import difflib
 from fuzzywuzzy import fuzz
+from nlu.seg.ltp_util import LTPHander, LTP_PATH
 
+# 创建一个ltp工具类的对象，任务类型传参为词性标注postag
+ltp = LTPHander(LTP_PATH, task_type='postag')
 
 # 方法1
 def similarity(sent1, sent2):
@@ -81,24 +84,30 @@ def get_weight(sent):
 
 
 if __name__ == '__main__':
-    # ltp = LTPHander(ltp_path) # 可以利用ltp进行词性标注，然后给每个字加上词性的权重
-    # print(ltp.pos_tag(s1))
-    # match_list = ['我 喜欢 你', '我真的喜欢你', '我讨厌你、', '@我是喜欢你的', '我喜欢你','我喜@欢你']
-
     s1 = '我喜欢你'
     s2 = '我不喜欢你'
     s3 = '我喜欢你呀'
-    # 下面为了测试方便，随手写的权重表，后面实际应用时，我们可以两种思路来写
+
+    '''
+    1、基于公共子串计算的相似度方法，每个字的权重相同，有两种写法
+    '''
+    print(similarity(s1, s2))
+    print(fuzz_similarity(s1, s2))
+
+    '''
+    2、加权的文本相似度匹配方法
+    # 下面为了测试方便，指定一组权重值列表，读者在实际应用时，可以从两种思路出发设置权重：
     # （1）准备一个停用词表，默认把停用词表中的词权重放低一点
     # （2）根据ltp的词性标注结果，按照词性赋值权重，这部分我已经实现了，参考get_weight()函数
+    '''
     w_l1 = [0.5, 1.0, 1.0, 0.5]
     w_l2 = [0.5, 2.0, 1.0, 1.0, 0.5]
     w_l3 = [0.5, 1.0, 1.0, 0.5, 0.2]
 
-    # print('<', s1, ',', s2, '> sim:')
-    # print(weighted_match_similarity(s1, s2, w1=w_l1, w2=w_l2))
-    # print('<', s1, ',', s3, '> sim:')
-    # print(weighted_match_similarity(s1, s3, w1=w_l1, w2=w_l3))
-    print(similarity(s1, s2))
-    print(fuzz_similarity(s1, s2))
+    print('<', s1, ',', s2, '> sim:', end='')
+    print(weighted_match_similarity(s1, s2, w1=w_l1, w2=w_l2))
+    print('<', s1, ',', s3, '> sim:', end='')
+    print(weighted_match_similarity(s1, s3, w1=w_l1, w2=w_l3))
+
+
 
