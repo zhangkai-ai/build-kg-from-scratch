@@ -25,9 +25,6 @@ import numpy as np
 from gensim.models import FastText
 from nlu.seg.ltp_util import ltp_seg_handler
 from gensim.models.keyedvectors import KeyedVectors
-from sklearn.metrics.pairwise import cosine_similarity
-from numpy import add, dot
-from gensim import matutils
 
 # 读者需要修改为自己存放词向量文件的路径，否则会报错！！！
 PATH = '/Users/winnie/software_package/'
