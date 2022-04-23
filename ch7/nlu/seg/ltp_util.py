@@ -7,7 +7,6 @@ ltp分词、NER、依存句法分析
 # https://pan.baidu.com/share/link?shareid=1988562907&uk=2738088569&errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#list/path=%2Fltp-models
 """
 
-
 import os
 from pyltp import Segmentor
 from pyltp import CustomizedSegmentor
@@ -16,6 +15,8 @@ from pyltp import NamedEntityRecognizer
 from pyltp import Parser
 from pyltp import SementicRoleLabeller
 
+# 请下载任意一个版本的LTP模型，修改下方LTP_PATH的值再使用，否则路径会报错！！（百度网盘的下载链接在第7行）
+LTP_PATH = '/Users/winnie/software_package/ltp_data_v3.4.0/'
 
 class LTPHander():
 
@@ -171,35 +172,30 @@ class LTPHander():
 
 
 
-ltp_path = '/Users/winnie/software_package/ltp_data_v3.4.0/'
-# new ltp model
-# ltp_path = '/home/data/ltp_model'
 
+ltp_seg_handler = LTPHander(LTP_PATH, task_type='seg')
 
-ltp_seg_handler = LTPHander(ltp_path, task_type='seg')
-# ltp_tag_handler = LTPHander(ltp_path, task_type='postag')
-# ltp_parser_handler = LTPHander(ltp_path, task_type='parser')
 
 if __name__ == '__main__':
     # sent = '告白气球是周杰伦的歌吗？'
-    sent = '中国工商银行在北京的总部地址' # '中国工商银行在北京的总部地址'
+    sent = '中国工商银行在北京的总部地址'
     noun_candidate_set = set()
     # 默认分词模型
-    ltp = LTPHander(ltp_path, task_type='seg')
+    ltp = LTPHander(LTP_PATH, task_type='seg')
     print(ltp.segment(sent))
     # 加载用户自定义词表分词方法
-    ltp = LTPHander(ltp_path, task_type='seg', seg_dict='pyltp_user_dict.txt')
+    ltp = LTPHander(LTP_PATH, task_type='seg', seg_dict='pyltp_user_dict.txt')
     print(ltp.segment(sent))
     # 词性标注
-    ltp = LTPHander(ltp_path, task_type='postag')
+    ltp = LTPHander(LTP_PATH, task_type='postag')
     print(ltp.pos_tag(sent))
     # NER
-    ltp = LTPHander(ltp_path, task_type='ner')
+    ltp = LTPHander(LTP_PATH, task_type='ner')
     print(ltp.ner(sent))
     # 依存分析
-    ltp = LTPHander(ltp_path, task_type='parser')
+    ltp = LTPHander(LTP_PATH, task_type='parser')
     print(ltp.parser(sent))
     # 语义角色标注
-    ltp = LTPHander(ltp_path, task_type='semantic')
+    ltp = LTPHander(LTP_PATH, task_type='semantic')
     print(ltp.semantic_labeller(sent))
 
