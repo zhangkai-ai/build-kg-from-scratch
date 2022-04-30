@@ -6,7 +6,8 @@ from elasticsearch import Elasticsearch
 class ESUtil:
     def __init__(self, host, port):
         # 创建es数据库连接对象
-        self.es = Elasticsearch(host=host, port=port, timeout=5, retry_on_timeout=False)
+        # self.es = Elasticsearch(host=host, port=port, timeout=5, retry_on_timeout=False)  # deprecated in 8.x es-client
+        self.es = Elasticsearch(f"http://{host}:{port}", timeout=5, retry_on_timeout=False)
 
     def query(self, text, index, confidence=0):
         """
