@@ -11,7 +11,7 @@ from ch7.util.trie_match import TrieTree
 
 MODEL_DIR = "model.bin"  # 分类模型路径
 KG_TREE = TrieTree()  # 字典树
-KG_TREE.load("entity.marisa")  # 加载字典树数据
+KG_TREE.load("entity.marisa")  # 加载字典树数据，沿用ch6中的数据，所在目录ch6/6.3/kgqa/data/trie
 
 
 def classify_topic(sent):
